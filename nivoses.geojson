@@ -1,0 +1,132 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "SOUMC",
+        "name": "Soumcouy",
+        "url7j": "",
+        "urlSeason": "",
+        "precise": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7204198837280273,
+          42.96191090993824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "LARDI",
+        "name": "Lac d'Ardiden",
+        "url7j": "",
+        "urlSeason": "",
+        "precise": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.06709814071655273,
+          42.84238254034457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CANIG",
+        "name": "Canigou",
+        "precise": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.464156150817871,
+          42.53423571717195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PUIGN",
+        "name": "Puigmal",
+        "url7j": "",
+        "precise": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.078390121459961,
+          42.380960297934124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AIGTE",
+        "name": "Aiguillettes",
+        "url7j": "",
+        "urlSeason": "",
+        "precise": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1775407791137695,
+          42.740614252914376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maupas",
+        "precise": 0,
+        "id": "MAUPA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5498850345611572,
+          42.714511463602115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "HOSPI",
+        "name": "L'Hospitalet",
+        "precise": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8144822120666502,
+          42.57831867292656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Port d'Aula",
+        "id": "PAULA",
+        "precise": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.116957664489746,
+          42.76884837480683
+        ]
+      }
+    }
+  ]
+}

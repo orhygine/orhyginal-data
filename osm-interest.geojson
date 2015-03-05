@@ -1,0 +1,288 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Château de Versailles",
+        "tags": "tourism"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1215415000915527,
+          48.80444682943051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Roland-Garros",
+        "tags": "sport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2479218244552612,
+          48.847289429011795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mont Saint-Michel",
+        "tags": "tourism"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5114033222198486,
+          48.63604957211024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mauléon-Licharre",
+        "zoom": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8912873268127441,
+          43.22056426832493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Capbreton",
+        "tags": "tourism",
+        "zoom": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4371705055236816,
+          43.65351250327059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gran Valira",
+        "tags": "sport, ski resort"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6579055786132812,
+          42.56749444255636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Circuit de Nogaro",
+        "tags": "sport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.041069984436035156,
+          43.771233270660666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Iholdy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1803436279296875,
+          43.280642100841824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Pierre-d'Irube"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4441227912902832,
+          43.4551152074808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Rhune",
+        "tags": "mountain, tourism",
+        "zoom": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6357827186584473,
+          43.309198906830524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Pierre-Saint-Martin",
+        "tags": "ski resort, sport",
+        "zoom": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7443666458129883,
+          42.97539034938206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pic du Midi de Bigorre",
+        "tags": "tourism, mountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1418513059616089,
+          42.93665158157233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vallée des Gaves",
+        "tags": "landcover",
+        "zoom": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0817108154296875,
+          42.99058552185121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Golf de la Ramée",
+        "tags": "sport, osmfr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3614463806152344,
+          43.572991406588784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aéroport de Blagnac",
+        "tags": "transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3657593727111814,
+          43.62964550701085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stadium de Toulouse",
+        "tags": "sport, osmfr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4340457320213318,
+          43.5832955903158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stade Ernest Valon",
+        "tags": "sport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4155733585357664,
+          43.62184047993863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lac de Saint-Férréol",
+        "tags": "tourism"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0253467559814453,
+          43.436872478631415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Naufrage Luno",
+        "tags": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5295672416687012,
+          43.525475711534874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mondarrain",
+        "tags": "mountain, tourism",
+        "zoom": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4320850372314453,
+          43.30307012393622
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "year": 1977,
+        "comment": "Construction du central téléphonique"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.893712043762207,
+          43.2195674207568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "year": 1983,
+        "comment": "Nouvelle maison"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8940312266349792,
+          43.22023980600361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "year": 1977,
+        "comment": "Construction du Jai-Alai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8777984976768494,
+          43.22492284174693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "year": 1977,
+        "comment": "Construction du lotissement Mendi Alde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8797860145568848,
+          43.23243136604215
+        ]
+      }
+    }
+  ]
+}

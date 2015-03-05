@@ -1,0 +1,277 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3863779,
+          42.8932772
+        ]
+      },
+      "properties": {
+        "name": "Artouse",
+        "site": "piste",
+        "type": "site",
+        "id": "relation/4631885",
+        "slug": "artouste"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8110509,
+          42.6870959
+        ]
+      },
+      "properties": {
+        "name": "Ax-Bonascre",
+        "site": "piste",
+        "type": "site",
+        "id": "relation/2927215",
+        "slug": "ax"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1654188,
+          42.8827925
+        ]
+      },
+      "properties": {
+        "name": "Cauterets Cirque du Lys",
+        "site": "piste",
+        "type": "site",
+        "id": "relation/2883644",
+        "slug": "cauterets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0324257,
+          42.5248126
+        ]
+      },
+      "properties": {
+        "name": "Font-Romeu",
+        "site": "piste",
+        "type": "site",
+        "id": "relation/2946754",
+        "slug": "font-romeu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0389854,
+          42.724513
+        ]
+      },
+      "properties": {
+        "name": "Gavarnie-Gèdre",
+        "site": "piste",
+        "type": "site",
+        "id": "relation/2878966",
+        "slug": "gavarnie-gedre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3361719,
+          42.9447942
+        ]
+      },
+      "properties": {
+        "name": "Gourette",
+        "site": "piste",
+        "type": "site",
+        "id": "relation/4631854",
+        "slug": "gourette"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1266959,
+          42.9101844
+        ]
+      },
+      "properties": {
+        "name": "Grand Tourmalet",
+        "site": "piste",
+        "type": "site",
+        "id": "relation/2927196",
+        "slug": "tourmalet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7389686,
+          42.9730479
+        ]
+      },
+      "properties": {
+        "name": "La Pierre Saint-Martin",
+        "site": "piste",
+        "type": "site",
+        "id": "relation/4626858",
+        "slug": "pierre-st-martin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.771407,
+          42.9050894
+        ]
+      },
+      "properties": {
+        "name": "Le Mourtis",
+        "site": "piste",
+        "type": "site",
+        "id": "relation/2924625",
+        "slug": "mourtis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0515658,
+          42.5705663
+        ]
+      },
+      "properties": {
+        "name": "Les Angles",
+        "site": "piste",
+        "type": "site",
+        "id": "relation/2946722",
+        "slug": "les-angles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0701461,
+          42.885626
+        ]
+      },
+      "properties": {
+        "name": "Luz-Ardiden",
+        "site": "piste",
+        "type": "site",
+        "id": "relation/2877789",
+        "slug": "luz-ardiden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.459951,
+          42.7787257
+        ]
+      },
+      "properties": {
+        "name": "Peyragudes",
+        "site": "piste",
+        "type": "site",
+        "id": "relation/2881648",
+        "slug": "peyragudes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1628475,
+          42.7764631
+        ]
+      },
+      "properties": {
+        "name": "Piau-Engaly",
+        "site": "piste",
+        "type": "site",
+        "id": "relation/2926634",
+        "slug": "piau"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.2627428,
+          42.8309325
+        ]
+      },
+      "properties": {
+        "name": "Saint-Lary",
+        "site": "piste",
+        "type": "site",
+        "id": "relation/2926613",
+        "slug": "saint-lary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5661881,
+          42.7731253
+        ]
+      },
+      "properties": {
+        "name": "Superbagnères",
+        "site": "piste",
+        "type": "site",
+        "id": "relation/2924626",
+        "slug": "luchon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.383114,
+          42.7830053
+        ]
+      },
+      "properties": {
+        "name": "Val-Louron",
+        "site": "piste",
+        "type": "site",
+        "id": "relation/2926602",
+        "slug": "val-louron"
+      }
+    }
+  ]
+}
