@@ -245,6 +245,12 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"Latest OSM Changeset Discussions",
+			"url":"http://resultmaps.neis-one.org/osm-discussions",
+			"urlType":"hash",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"Wikimapia",
 			"url":"http://wikimapia.org/",
 			"urlType":"wikimapia",
