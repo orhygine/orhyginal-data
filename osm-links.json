@@ -235,13 +235,13 @@ var links = {
 		{
 			"label":"Newest OSM Contrib.",
 			"url":"http://resultmaps.neis-one.org/newestosm.php",
-			"urlType":"default",
+			"urlType":"hash3",
 			"category":"OpenStreetMap"
 		},
 		{
 			"label":"New contributors feed",
 			"url":"http://resultmaps.neis-one.org/newestosmcreatefeed",
-			"urlType":"default",
+			"urlType":"hash3",
 			"category":"OpenStreetMap"
 		},
 		{
