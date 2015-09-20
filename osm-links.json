@@ -25,6 +25,12 @@ var links = {
 			"category":"Photo"
 		},
 		{
+			"label":"Geoportail IGN",
+			"url":"http://www.geoportail.gouv.fr/accueil?&l=GEOGRAPHICALGRIDSYSTEMS.PLANIGN::GEOPORTAIL:OGC:WMTS%281%29&permalink=yes",
+			"urlType":"geoportail",
+			"category":"Others"
+		},
+		{
 			"label":"Google Maps",
 			"url":"https://www.google.com/maps/",
 			"urlType":"googlemaps",
