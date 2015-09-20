@@ -271,6 +271,12 @@ var links = {
 			"category":"Others"
 		},
 		{
+			"label":"OSRM",
+			"url":"http://map.project-osrm.org/?hl=fr",
+			"urlType":"loc",
+			"category":"Transport"
+		},
+		{
 			"label":"Flightradar24",
 			"url":"http://www.flightradar24.com/",
 			"urlType":"hash2",
