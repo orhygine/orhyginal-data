@@ -165,12 +165,6 @@ var links = {
 			"category":"Outdoor-Ski"
 		},
 		{
-			"label":"Pistes nordiques",
-			"url":"http://www.pistes-nordiques.org/",
-			"urlType":"default",
-			"category":"Outdoor-Ski"
-		},
-		{
 			"label":"SkiTrack",
 			"url":"http://www.skitrack.fr/",
 			"urlType":"default",
