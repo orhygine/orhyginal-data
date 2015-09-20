@@ -241,13 +241,13 @@ var links = {
 		{
 			"label":"New contributors feed",
 			"url":"http://resultmaps.neis-one.org/newestosmcreatefeed",
-			"urlType":"hash3",
+			"urlType":"default",
 			"category":"OpenStreetMap"
 		},
 		{
 			"label":"Latest OSM Changeset Discussions",
 			"url":"http://resultmaps.neis-one.org/osm-discussions",
-			"urlType":"hash",
+			"urlType":"hash3",
 			"category":"OpenStreetMap"
 		},
 		{
