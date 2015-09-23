@@ -251,7 +251,7 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
-			"label":"Latest OSM Changeset Discussions",
+			"label":"OSM Changeset Discuss.",
 			"url":"http://resultmaps.neis-one.org/osm-discussions",
 			"urlType":"hash3",
 			"category":"OpenStreetMap"
