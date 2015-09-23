@@ -144,7 +144,7 @@ var links = {
 			"label":"OpenRouteService",
 			"url":"http://openrouteservice.org/",
 			"urlType":"default",
-			"category":"OpenStreetMap"
+			"category":"Routing"
 		},
 		{
 			"label":"Openstreetbrowser",
@@ -274,7 +274,7 @@ var links = {
 			"label":"OSRM",
 			"url":"http://map.project-osrm.org/?hl=fr",
 			"urlType":"loc",
-			"category":"Transport"
+			"category":"Routing"
 		},
 		{
 			"label":"Flightradar24",
