@@ -49,6 +49,13 @@ var links = {
 			"category":"Others"
 		},
 		{
+			"label":"Wikipedia",
+			"url":"https://tools.wmflabs.org/wiwosm/osm-on-ol/kml-on-ol.php",
+			"urlType":"default",
+			"params":"lang=fr&uselang=fr&layers=B000000FTFTF",
+			"category":"Others"
+		},
+		{
 			"label":"FlashEarth",
 			"url":"http://www.flashearth.com/",
 			"urlType":"default_z",
