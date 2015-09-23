@@ -13,6 +13,18 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"OSRM",
+			"url":"http://map.project-osrm.org/?hl=fr",
+			"urlType":"loc",
+			"category":"Routing"
+		},
+		{
+			"label":"OpenRouteService",
+			"url":"http://openrouteservice.org/",
+			"urlType":"default",
+			"category":"Routing"
+		},
+		{
 			"label":"Flickr",
 			"url":"https://www.flickr.com/map/",
 			"urlType":"flickr",
@@ -141,12 +153,6 @@ var links = {
 			"category":"OpenStreetMap"
 		},*/
 		{
-			"label":"OpenRouteService",
-			"url":"http://openrouteservice.org/",
-			"urlType":"default",
-			"category":"Routing"
-		},
-		{
 			"label":"Openstreetbrowser",
 			"url":"http://www.openstreetbrowser.org/",
 			"urlType":"default",
@@ -269,12 +275,6 @@ var links = {
 			"urlType":"default",
 			"params":"&fmt=gearth",
 			"category":"Others"
-		},
-		{
-			"label":"OSRM",
-			"url":"http://map.project-osrm.org/?hl=fr",
-			"urlType":"loc",
-			"category":"Routing"
 		},
 		{
 			"label":"Flightradar24",
