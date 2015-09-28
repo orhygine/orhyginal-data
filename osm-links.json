@@ -351,10 +351,10 @@ var links = {
 			"url":"http://zverik.osm.rambler.ru/whodidit/",
 			"urlType":"default"
 		},
-		{
+/*		{
 			"label":"OpenstreetBugs",
 			"url":"http://openstreetbugs.appspot.com/",
 			"urlType":"default"
-		},
+		},*/
 	]
 }
