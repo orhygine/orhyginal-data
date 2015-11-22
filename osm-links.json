@@ -2,359 +2,290 @@ var links = {
 	"link":[
 		{
 			"label":"Openstreetmap.org",
-			"url":"http://www.openstreetmap.org/",
-			"urlType":"hash",
+			"url":"http://www.openstreetmap.org/#map={z}/{lat}/{lon}",
 			"category":"OpenStreetMap"
 		},
 		{
 			"label":"Historique (osm.org)",
-			"url":"http://www.openstreetmap.org//browse/changesets",
-			"urlType":"hash",
+			"url":"http://www.openstreetmap.org//browse/changesets/#map={z}/{lat}/{lon}",
 			"category":"OpenStreetMap"
 		},
 		{
 			"label":"OSRM",
-			"url":"http://map.project-osrm.org/?hl=fr",
-			"urlType":"loc",
+			"url":"http://map.project-osrm.org/?z={z}&center={lat}%2C{lon}&loc=&loc=&hl=en&ly=&alt=&df=&srv=",
 			"category":"Routing"
 		},
 		{
 			"label":"OpenRouteService",
-			"url":"http://openrouteservice.org/",
-			"urlType":"default",
+			"url":"http://www.openrouteservice.org/?pos={lon},{lat}&zoom={z}",
 			"category":"Routing"
 		},
 		{
+			"label":"MeteoBlue",
+			"url":"https://www.meteoblue.com/en/weather/forecast/week/{lat}N{lon}E",
+			"category":"Meteo"
+		},
+		{
+			"label":"Windyty",
+			"url":"https://www.windyty.com/?{lat},{lon},{z}",
+			"category":"Meteo"
+		},
+		{
+			"label":"suncalc.net",
+			"url":"http://suncalc.net/#/{lat},{lon},{z}",
+			"category":"Ephemeride"
+		},
+		{
+			"label":"suncalc.org",
+			"url":"http://www.suncalc.org/#/{lat},{lon},{z}/{date}/{time}/1",
+			"category":"Ephemeride"
+		},
+		{
+			"label":"mooncalc.org",
+			"url":"http://www.mooncalc.org/#/{lat},{lon},{z}/{date}/{time}/1",
+			"category":"Ephemeride"
+		},
+		{
 			"label":"Flickr",
-			"url":"https://www.flickr.com/map/",
-			"urlType":"flickr",
+			"url":"https://www.flickr.com/map/?fLat={lat}&fLon={lon}&zl={z}",
 			"category":"Photo"
 		},
 		{
 			"label":"Panoramio",
-			"url":"http://www.panoramio.com/map/",
-			"urlType":"panoramio",
+			"url":"http://www.panoramio.com/map/#lt={lat}&ln={lon}&z={-z}",
 			"category":"Photo"
 		},
 		{
 			"label":"Geoportail IGN",
-			"url":"http://www.geoportail.gouv.fr/accueil?&l=GEOGRAPHICALGRIDSYSTEMS.PLANIGN::GEOPORTAIL:OGC:WMTS%281%29&permalink=yes",
-			"urlType":"geoportail",
+			"url":"http://www.geoportail.gouv.fr/accueil?&l=GEOGRAPHICALGRIDSYSTEMS.PLANIGN::GEOPORTAIL:OGC:WMTS%281%29&permalink=yes&c={lon},{lat}&z={res}",
+			"category":"Others"
+		},
+		{
+			"label":"Geoportail IGN (tablette)",
+			"url":"http://tab.geoportail.fr/?c={lon},{lat}&z={z}&l0=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25TOUR:WMTS(1)&permalink=yes",
 			"category":"Others"
 		},
 		{
 			"label":"Google Maps",
-			"url":"https://www.google.com/maps/",
-			"urlType":"googlemaps",
+			"url":"https://www.google.com/maps/@{lat},{lon},{z}z",
 			"category":"Others"
 		},
 		{
 			"label":"Wikipedia",
-			"url":"https://tools.wmflabs.org/wiwosm/osm-on-ol/kml-on-ol.php",
-			"urlType":"default",
-			"params":"lang=fr&uselang=fr&layers=B000000FTFTF",
+			"url":"https://tools.wmflabs.org/wiwosm/osm-on-ol/kml-on-ol.php?lat={lat}&lon={lon}&zoom={z}&lang=fr&uselang=fr",
 			"category":"Others"
 		},
 		{
 			"label":"FlashEarth",
-			"url":"http://www.flashearth.com/",
-			"urlType":"default_z",
+			"url":"http://www.flashearth.com/?lat={lat}&lon={lon}&z={z}",
 			"category":"Others"
 		},
 		{
 			"label":"Geocaching",
-			"url":"http://www.geocaching.com/map/default.aspx",
-			"urlType":"gc",
-			"category":"Games"
-		},
-		{
-			"label":"Opencaching",
-			"url":"http://www.opencaching.com/fr/#find",
-			"urlType":"bbox",
+			"url":"https://www.geocaching.com/map/default.aspx?lat={lat}&lng={lon}&z={z}",
 			"category":"Games"
 		},
 		{
 			"label":"Confluence",
-			"url":"http://www.confluence.org/confluence.php",
-			"urlType":"default",
+			"url":"http://www.confluence.org/confluence.php?lat={lat}&lon={lon}&zoom={z}",
 			"category":"Games"
 		},
 		{
 			"label":"Waymarking",
-			"url":"http://www.waymarking.com/wm/search.aspx",
-			"urlType":"default",
+			"url":"http://www.waymarking.com/wm/search.aspx?lat={lat}&lon={lon}&zoom={z}",
 			"category":"Games"
 		},
 		{
 			"label":"OpenGeoFiction",
-			"url":"http://www.opengeofiction.net/",
-			"urlType":"hash",
+			"url":"http://www.opengeofiction.net/#map={z}/{lat}/{lon}",
 			"category":"Games"
 		},
 		{
 			"label":"VTTrack",
-			"url":"http://www.vttrack.fr/",
-			"urlType":"default",
+			"url":"http://www.vttrack.fr/?lat={lat}&lon={lon}&zoom={z}",
 			"category":"Outdoor"
 		},
 		{
 			"label":"Wikiloc",
-			"url":"http://fr.wikiloc.com/wikiloc/map.do",
-			"urlType":"wikiloc",
+			"url":"http://fr.wikiloc.com/wikiloc/map.do#lt={lat}&ln={lon}&z={z}",
 			"category":"Outdoor"
 		},
 		{
 			"label":"Refuges.info",
-			"url":"http://maps.refuges.info/",
-			"urlType":"default",
+			"url":"http://maps.refuges.info/?lat={lat}&lon={lon}&zoom={z}",
 			"category":"Outdoor"
 		},
 		{
 			"label":"Waymarkedtrails",
-			"url":"http://hiking.waymarkedtrails.org/fr/",
-			"urlType":"default",
+			"url":"http://hiking.waymarkedtrails.org/fr/?lat={lat}&lon={lon}&zoom={z}",
 			"category":"Outdoor"
 		},
 		{
 			"label":"OpenTopoMap",
-			"url":"http://opentopomap.org/",
-			"urlType":"hash",
+			"url":"http://opentopomap.org/#map={z}/{lat}/{lon}",
 			"category":"Outdoor"
 		},
 		{
 			"label":"Meteox Rain Radar",
-			"url":"http://meteox.fr/meteox-maps.aspx",
-			"urlType":"default_z",
-			"maxZoom":"10",
-			"params":"a=1",
+			"url":"http://meteox.fr/meteox-maps.aspx?lat={lat}&lon={lon}&z={z<11}&a=1",
 			"category":"Others"
 		},
 		{
-			"label":"OSMInterest",
-			"url":"http://178.32.101.237/osminterest/",
-			"urlType":"default",
-			"category":"OpenStreetMap"
-		},
-		{
 			"label":"OpenLinkMap",
-			"url":"http://www.openlinkmap.org/",
-			"urlType":"default",
+			"url":"http://www.openlinkmap.org?lat={lat}&lon={lon}&zoom={z}",
 			"category":"OpenStreetMap"
 		},
 		{
 			"label":"OpenFireMap",
-			"url":"http://openfiremap.org/",
-			"urlType":"default",
+			"url":"http://openfiremap.org?lat={lat}&lon={lon}&zoom={z}",
 			"category":"Others"
 		},
 		{
 			"label":"Open Signal",
-			"url":"http://opensignal.com/index.php",
-			"urlType":"open_signal",
+			"url":"http://opensignal.com/index.php?lat={lat}&lng={lon}&initZoom={z}",
 			"category":"Others"
 		},
-/*		{
-			"label":"Map of last changes",
-			"url":"http://matt.dev.openstreetmap.org/owl_viewer/weeklymap",
-			"urlType":"default",
-			"category":"OpenStreetMap"
-		},*/
 		{
 			"label":"Openstreetbrowser",
-			"url":"http://www.openstreetbrowser.org/",
-			"urlType":"default",
+			"url":"http://www.openstreetbrowser.org?lat={lat}&lon={lon}&zoom={z}",
 			"category":"OpenStreetMap"
 		},
 		{
 			"label":"OpenSnowMap",
-			"url":"http://www.opensnowmap.org/",
-			"urlType":"default",
-			"category":"Outdoor-Ski"
-		},
-		{
-			"label":"OpenPisteMap",
-			"url":"http://openpistemap.org/",
-			"urlType":"default",
+			"url":"http://www.opensnowmap.org?lat={lat}&lon={lon}&zoom={z}",
 			"category":"Outdoor-Ski"
 		},
 		{
 			"label":"SkiTrack",
-			"url":"http://www.skitrack.fr/",
-			"urlType":"default",
+			"url":"http://www.skitrack.fr?lat={lat}&lon={lon}&zoom={z}",
 			"category":"Outdoor-Ski"
 		},
 		{
 			"label":"Camp2camp",
-			"url":"http://www.camptocamp.org/map",
-			"urlType":"c2c",
+			"url":"http://www.camptocamp.org/map?map_y={y}&map_x={x}&map_zoom={z}&baselayer_ref=osm",
 			"category":"Outdoor"
 		},
-/*		{
-			"label":"OpenOrienteeringMap",
-			"url":"http://oobrien.com/oom/global.php",
-			"urlType":"default",
-			"category":"Outdoor"
-		},*/
 		{
 			"label":"HikeBikeMap",
-			"url":"http://www.hikebikemap.de/",
-			"urlType":"default",
+		/* FIXME not working */
+			"url":"http://hikebikemap.org/?lat={lat}&lon={x}&zoom={z}&layer=HikeBikeMap",
 			"category":"Outdoor"
 		},
 		{
 			"label":"geojson.io",
-			"url":"http://geojson.io/",
-			"urlType":"hash",
+			"url":"http://geojson.io/#map={z}/{lat}/{lon}",
 			"category":"Tools"
 		},
 		{
 			"label":"XAPI viewer",
-			"url":"http://osm.dumoulin63.net/xapiviewer/",
-			"urlType":"default",
+			"url":"http://osm.dumoulin63.net/xapiviewer?lat={lat}&lon={lon}&zoom={z}",
 			"category":"Tools"
 		},
 		{
 			"label":"Overpass-turbo",
-			"url":"http://overpass-turbo.eu/",
-			"urlType":"default",
+			"url":"http://overpass-turbo.eu?lat={lat}&lon={lon}&zoom={z}",
 			"category":"Tools"
 		},
 		{
 			"label":"Map Compare",
-			"url":"http://mc.bbbike.org/mc/",
-			"urlType":"default",
+			"url":"http://mc.bbbike.org/mc?lat={lat}&lon={lon}&zoom={z}",
 			"category":"Tools"
 		},
 		{
 			"label":"OSM GPS Points",
-			"url":"http://resultmaps.neis-one.org/osmgps.html",
-			"urlType":"default",
-			"maxZoom":"8",
+			"url":"http://resultmaps.neis-one.org/osmgps.html?lat={lat}&lon={lon}&zoom={z<9}",
 			"category":"OpenStreetMap"
 		},
 		{
 			"label":"Your OSM heat map",
-			"url":"http://yosmhm.neis-one.org/",
-			"urlType":"input_user",
-			"maxZoom":"13",
+			"url":"http://yosmhm.neis-one.org/?zoom={z<14}&lat={lat}&lon={lon}&layers=B000TTF&u={user}",
 			"category":"OpenStreetMap"
 		},
 		{
 			"label":"Who's around me",
-			"url":"http://resultmaps.neis-one.org/oooc",
-			"urlType":"default",
-			"category":"OpenStreetMap"
-		},
-		{
-			"label":"Newest OSM Contrib.",
-			"url":"http://resultmaps.neis-one.org/newestosm.php",
-			"urlType":"hash3",
+			"url":"http://resultmaps.neis-one.org/oooc?lat={lat}&lon={lon}&zoom={z}",
 			"category":"OpenStreetMap"
 		},
 		{
 			"label":"New contributors feed",
-			"url":"http://resultmaps.neis-one.org/newestosmcreatefeed",
-			"urlType":"default",
+			"url":"http://resultmaps.neis-one.org/newestosmcreatefeed?lat={lat}&lon={lon}&zoom={z}",
 			"category":"OpenStreetMap"
 		},
 		{
 			"label":"Changeset Discuss.",
-			"url":"http://resultmaps.neis-one.org/osm-discussions",
-			"urlType":"hash3",
+			"url":"http://resultmaps.neis-one.org/osm-discussions#{z}/{lat}/{lon}",
 			"category":"OpenStreetMap"
 		},
 		{
 			"label":"Wikimapia",
-			"url":"http://wikimapia.org/",
-			"urlType":"wikimapia",
-			"params":"&lang=fr&m=b",
+			"url":"http://wikimapia.org/#lat={lat}&lon={lon}&z={z}&lang=fr&m=b",
 			"category":"Others"
 		},
 		{
 			"label":"Geody",
-			"url":"http://www.geody.com/geolook.php",
-			"urlType":"default",
+			"url":"http://www.geody.com/geolook.php?lat={lat}&lon={lon}&z={z}",
 			"category":"Others"
 		},
 		{
 			"label":"Geody KML",
-			"url":"http://www.geody.com/geovex.php",
-			"urlType":"default",
-			"params":"&fmt=gearth",
+			"url":"http://www.geody.com/geovex.php?lat={lat}&lon={lon}&z={z}&fmt=gearth",
 			"category":"Others"
 		},
 		{
 			"label":"Flightradar24",
-			"url":"http://www.flightradar24.com/",
-			"urlType":"hash2",
+			"url":"https://www.flightradar24.com/{lat},{lon}/{z}",
 			"category":"Transport"
 		},
 		{
 			"label":"Ship watch",
-			"url":"http://www.geody.com/shipswatch.php",
-			"urlType":"default",
-			"category":"Transport"
-		},
-		{
-			"label":"OSM Tchoutchou",
-			"url":"http://raildar.fr/",
-			"urlType":"gc_zoom",
+			"url":"http://www.geody.com/shipswatch.php?lat={lat}&lon={lon}&z={z}",
 			"category":"Transport"
 		},
 		{
 			"label":"Heaven Above",
-			"url":"http://www.heavens-above.com/allsats.aspx",
-			"urlType":"gc",
+			"url":"http://www.heavens-above.com/allsats.aspx?lat={lat}&lng={lon}&z={z}",
 			"category":"Others"
 		},
+		{
+			"label":"OpenOrienteeringMap",
+			"url":"http://oomap.co.uk/global.php?lat={lat}&lon={lon}&zoom={z}",
+			"category":"Games"
+		}
 	],
 	"edit":[
 		{
 			"label":"Edit with Id",
-			"url":"http://www.openstreetmap.org/edit?editor=id",
-			"urlType":"hash"
+			"url":"http://www.openstreetmap.org/edit?editor=id#map={z}/{lat}/{lon}"
 		},
 		{
 			"label":"Edit with Potlatch",
-			"url":"http://www.openstreetmap.org/edit?editor=potlatch2",
-			"urlType":"hash"
+			"url":"http://www.openstreetmap.org/edit?editor=potlatch2#map={z}/{lat}/{lon}"
 		},
 		{
 			"label":"Load in JOSM",
-			"url":"http://127.0.0.1:8111/load_and_zoom",
-			"urlType":"josm"
+			"url":"http://127.0.0.1:8111/load_and_zoom?left={xmin}&right={xmax}&top={ymax}&bottom={ymin}"
 		},
 		{
 			"label":"Amenity editor",
-			"url":"http://ae.osmsurround.org/ae/index",
-			"urlType":"default"
-		},
+			"url":"http://ae.osmsurround.org/ae/index?lat={lat}&lon={lon}&zoom={z}"
+		}
 	],
 	"check":[
 		{
 			"label":"Osmose",
-			"url":"http://osmose.openstreetmap.fr/map/cgi-bin/index.py",
-			"urlType":"default"
+			"url":"http://osmose.openstreetmap.fr/map/cgi-bin/index.py?lat={lat}&lon={lon}&zoom={z}"
 		},
 		{
 			"label":"OSMInspector",
-			"url":"http://tools.geofabrik.de/osmi/",
-			"urlType":"default"
+			"url":"http://tools.geofabrik.de/osmi/?lat={lat}&lon={lon}&zoom={z}"
 		},
 		{
 			"label":"Keepright",
-			"url":"http://keepright.ipax.at/report_map.php",
-			"urlType":"default"
+			"url":"http://keepright.ipax.at/report_map.php?lat={lat}&lon={lon}&zoom={z}"
 		},
 		{
 			"label":"WhoDitIt",
-			"url":"http://zverik.osm.rambler.ru/whodidit/",
-			"urlType":"default"
-		},
-/*		{
-			"label":"OpenstreetBugs",
-			"url":"http://openstreetbugs.appspot.com/",
-			"urlType":"default"
-		},*/
+			"url":"http://zverik.osm.rambler.ru/whodidit/?lat={lat}&lon={lon}&zoom={z}"
+		}
 	]
 }
