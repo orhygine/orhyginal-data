@@ -76,6 +76,11 @@ var links = {
 			"category":"Others"
 		},
 		{
+			"label":"Google Maps Compass",
+			"url":"http://googlecompass.com/full-screen-map.htm?lat={lat}&lng={lon}&zol={z}&pn=0",
+			"category":"Others"
+		},
+		{
 			"label":"F4map",
 			"url":"http://demo.f4map.com/#lat={lat}&lon={lon}&zoom={z}",
 			"category":"Others"
@@ -113,6 +118,11 @@ var links = {
 		{
 			"label":"VTTrack",
 			"url":"http://www.vttrack.fr/?lat={lat}&lon={lon}&zoom={z}",
+			"category":"Outdoor"
+		},
+		{
+			"label":"BikeMaps",
+			"url":"https://bikemaps.org/@{lat},{lon},{z}z",
 			"category":"Outdoor"
 		},
 		{
@@ -156,9 +166,19 @@ var links = {
 			"category":"Others"
 		},
 		{
+			"label":"Wheelmap",
+			"url":"http://wheelmap.org/fr/map#/?lat={lat}&lon={lon}&zoom={z}",
+			"category":"Others"
+		},
+		{
 			"label":"Open Signal",
 			"url":"http://opensignal.com/index.php?lat={lat}&lng={lon}&initZoom={z}",
-			"category":"Others"
+			"category":"Communications"
+		},
+		{
+			"label":"OpenCellId",
+			"url":"http://opencellid.org/#action=filters.GPSPositions&zoom={z}&lat={lat}&lon={lon}",
+			"category":"Communications"
 		},
 		{
 			"label":"Openstreetbrowser",
@@ -239,6 +259,16 @@ var links = {
 		{
 			"label":"Changeset Discuss.",
 			"url":"http://resultmaps.neis-one.org/osm-discussions#{z}/{lat}/{lon}",
+			"category":"OpenStreetMap"
+		},
+		{
+			"label":"10 years of OSM",
+			"url":"https://www.mapbox.com/ten-years-openstreetmap/#{lon}/{lat}/{z}",
+			"category":"OpenStreetMap"
+		},
+		{
+			"label":"Best Of OSM",
+			"url":"http://bestofosm.org/?zoom={z}&lat={lat}&lon={lon}",
 			"category":"OpenStreetMap"
 		},
 		{
