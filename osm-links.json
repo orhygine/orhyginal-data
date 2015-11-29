@@ -187,6 +187,16 @@ var links = {
 			"category":"Outdoor"
 		},
 		{
+			"label":"Tempo Pyrénées",
+			"url":"http://tempo.agglo-pau.fr/chimere/?zoom={z}&lat={y}&lon={x}&layers=BTT&checked_categories=2_4_1_3_5&display_submited=false",
+			"category":"History"
+		},
+		{
+			"label":"Historic Place",
+			"url":"http://gk.historic.place/historische_objekte/translate/fr/index-fr.html?zoom={z}&lat={lat}&lon={lon}",
+			"category":"History"
+		},
+		{
 			"label":"geojson.io",
 			"url":"http://geojson.io/#map={z}/{lat}/{lon}",
 			"category":"Tools"
