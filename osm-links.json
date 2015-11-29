@@ -76,6 +76,11 @@ var links = {
 			"category":"Others"
 		},
 		{
+			"label":"F4map",
+			"url":"http://demo.f4map.com/#lat={lat}&lon={lon}&zoom={z}",
+			"category":"Others"
+		},
+		{
 			"label":"Wikipedia",
 			"url":"https://tools.wmflabs.org/wiwosm/osm-on-ol/kml-on-ol.php?lat={lat}&lon={lon}&zoom={z}&lang=fr&uselang=fr",
 			"category":"Others"
