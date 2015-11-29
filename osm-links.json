@@ -46,6 +46,11 @@ var links = {
 			"category":"Ephemeride"
 		},
 		{
+			"label":"Tweets",
+			"url":"https://twitter.com/search?q=geocode:{lat},{lon},1mi",
+			"category":"Social"
+		},		
+		{
 			"label":"Flickr",
 			"url":"https://www.flickr.com/map/?fLat={lat}&fLon={lon}&zl={z}",
 			"category":"Photo"
