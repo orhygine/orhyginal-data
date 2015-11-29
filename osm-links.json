@@ -111,6 +111,11 @@ var links = {
 			"category":"Outdoor"
 		},
 		{
+			"label":"Peakfinder",
+			"url":"http://www.peakfinder.org/fr/?lat={lat}&lng={lon}",
+			"category":"Outdoor"
+		},
+		{
 			"label":"Wikiloc",
 			"url":"http://fr.wikiloc.com/wikiloc/map.do#lt={lat}&ln={lon}&z={z}",
 			"category":"Outdoor"
