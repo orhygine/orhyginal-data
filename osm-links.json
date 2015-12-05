@@ -96,6 +96,11 @@ var links = {
 			"category":"Services"
 		},
 		{
+			"label":"Lookr Webcams Map",
+			"url":"",
+			"category":"Services"
+		},
+		{
 			"label":"Stamen",
 			"url":"http://maps.stamen.com/#watercolor/{z}/{lat}/{lon}",
 			"category":"Services"
@@ -177,7 +182,7 @@ var links = {
 		},
 		{
 			"label":"4Umaps",
-			"url":"http://www.4umaps.eu/map.htm?zoom={z}&lat={lat}&lon={lon}&layers=B",
+			"url":"http://www.4umaps.eu/map.htm?zoom={z<16}&lat={lat}&lon={lon}&layers=B",
 			"category":"Outdoor"
 		},
 		{
@@ -457,6 +462,7 @@ var links = {
 			"category":"Services"
 		},
 		{
+			"label":"Antarctica Map",
 			"url":"http://polar.openstreetmap.de/#zoom={z}&lat={lat}&lon={lon}&layers=BT",
 			"category":"Services"
 		},
