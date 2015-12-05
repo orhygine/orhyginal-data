@@ -8,17 +8,27 @@ var links = {
 		{
 			"label":"Historique (osm.org)",
 			"url":"http://www.openstreetmap.org//browse/changesets/#map={z}/{lat}/{lon}",
-			"category":"OpenStreetMap"
+			"category":"OpenStreetMap contributing"
 		},
 		{
-			"label":"OSRM",
-			"url":"http://map.project-osrm.org/?z={z}&center={lat}%2C{lon}&loc=&loc=&hl=en&ly=&alt=&df=&srv=",
-			"category":"Routing"
+			"label":"Activités pour les enfants",
+			"url":"http://umap.openstreetmap.fr/fr/map/activites-pour-les-enfants_5848#{z}/{lat}/{lon}",
+			"category":"uMaps"
 		},
 		{
-			"label":"OpenRouteService",
-			"url":"http://www.openrouteservice.org/?pos={lon},{lat}&zoom={z}",
-			"category":"Routing"
+			"label":"Stations de ski des Pyrénées",
+			"url":"http://umap.openstreetmap.fr/fr/map/stations-de-ski-des-pyrenees_30564#{z}/{lat}/{lon}",
+			"category":"uMaps"
+		},
+		{
+			"label":"Sites archéologiques",
+			"url":"http://umap.openstreetmap.fr/fr/map/sites-archeologiques_22883#{z}/{lat}/{lon}",
+			"category":"uMaps"
+		},
+		{
+			"label":"Pelote Basque",
+			"url":"http://umap.openstreetmap.fr/fr/map/pelote-basque_24035#{z}/{lat}/{lon}",
+			"category":"uMaps"
 		},
 		{
 			"label":"MeteoBlue",
@@ -31,17 +41,17 @@ var links = {
 			"category":"Meteo"
 		},
 		{
-			"label":"suncalc.net",
-			"url":"http://suncalc.net/#/{lat},{lon},{z}",
-			"category":"Ephemeride"
-		},
-		{
-			"label":"suncalc.org",
+			"label":"Suncalc (org)",
 			"url":"http://www.suncalc.org/#/{lat},{lon},{z}/{date}/{time}/1",
 			"category":"Ephemeride"
 		},
 		{
-			"label":"mooncalc.org",
+			"label":"Suncalc (net)",
+			"url":"http://suncalc.net/#/{lat},{lon},{z}",
+			"category":"Ephemeride"
+		},
+		{
+			"label":"Mooncalc",
 			"url":"http://www.mooncalc.org/#/{lat},{lon},{z}/{date}/{time}/1",
 			"category":"Ephemeride"
 		},
@@ -49,51 +59,61 @@ var links = {
 			"label":"Tweets",
 			"url":"https://twitter.com/search?q=geocode:{lat},{lon},1mi",
 			"category":"Social"
-		},		
+		},
 		{
 			"label":"Flickr",
 			"url":"https://www.flickr.com/map/?fLat={lat}&fLon={lon}&zl={z}",
-			"category":"Photo"
+			"category":"Photo services"
 		},
 		{
 			"label":"Panoramio",
 			"url":"http://www.panoramio.com/map/#lt={lat}&ln={lon}&z={-z}",
-			"category":"Photo"
+			"category":"Photo services"
 		},
 		{
 			"label":"Geoportail IGN",
 			"url":"http://www.geoportail.gouv.fr/accueil?&l=GEOGRAPHICALGRIDSYSTEMS.PLANIGN::GEOPORTAIL:OGC:WMTS%281%29&permalink=yes&c={lon},{lat}&z={res}",
-			"category":"Others"
+			"category":"Services"
 		},
 		{
 			"label":"Geoportail IGN (tablette)",
 			"url":"http://tab.geoportail.fr/?c={lon},{lat}&z={z}&l0=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25TOUR:WMTS(1)&permalink=yes",
-			"category":"Others"
+			"category":"Services"
 		},
 		{
 			"label":"Google Maps",
 			"url":"https://www.google.com/maps/@{lat},{lon},{z}z",
-			"category":"Others"
+			"category":"Services"
 		},
 		{
 			"label":"Google Maps Compass",
 			"url":"http://googlecompass.com/full-screen-map.htm?lat={lat}&lng={lon}&zol={z}&pn=0",
-			"category":"Others"
+			"category":"Services"
 		},
 		{
 			"label":"F4map",
 			"url":"http://demo.f4map.com/#lat={lat}&lon={lon}&zoom={z}",
-			"category":"Others"
+			"category":"OpenStreetMap"
 		},
 		{
 			"label":"Wikipedia",
 			"url":"https://tools.wmflabs.org/wiwosm/osm-on-ol/kml-on-ol.php?lat={lat}&lon={lon}&zoom={z}&lang=fr&uselang=fr",
-			"category":"Others"
+			"category":"Encyclopedia"
+		},
+		{
+			"label":"Wikimedia commons",
+			"url":"https://tools.wmflabs.org/wiwosm/osm-on-ol/commons-on-osm.php?zoom={z}&lat={lat}&lon={lon}",
+			"category":"Encyclopedia"
+		},
+		{
+			"label":"Wikimedia commons in Google Earth",
+			"url":"https://tools.wmflabs.org/geocommons/earth.kml?latdegdec={lat}&londegdec={lon}&scale=10000&commons=1",
+			"category":"Encyclopedia"
 		},
 		{
 			"label":"FlashEarth",
 			"url":"http://www.flashearth.com/?lat={lat}&lon={lon}&z={z}",
-			"category":"Others"
+			"category":"Services"
 		},
 		{
 			"label":"Geocaching",
@@ -153,7 +173,7 @@ var links = {
 		{
 			"label":"Meteox Rain Radar",
 			"url":"http://meteox.fr/meteox-maps.aspx?lat={lat}&lon={lon}&z={z<11}&a=1",
-			"category":"Others"
+			"category":"Meteo"
 		},
 		{
 			"label":"OpenLinkMap",
@@ -163,12 +183,22 @@ var links = {
 		{
 			"label":"OpenFireMap",
 			"url":"http://openfiremap.org?lat={lat}&lon={lon}&zoom={z}",
-			"category":"Others"
+			"category":"OpenStreetMap"
 		},
 		{
 			"label":"Wheelmap",
 			"url":"http://wheelmap.org/fr/map#/?lat={lat}&lon={lon}&zoom={z}",
-			"category":"Others"
+			"category":"OpenStreetMap"
+		},
+		{
+			"label":"OpenSnowMap",
+			"url":"http://www.opensnowmap.org?lat={lat}&lon={lon}&zoom={z}",
+			"category":"Outdoor-Ski"
+		},
+		{
+			"label":"SkiTrack",
+			"url":"http://www.skitrack.fr?lat={lat}&lon={lon}&zoom={z}",
+			"category":"Outdoor-Ski"
 		},
 		{
 			"label":"Open Signal",
@@ -184,16 +214,6 @@ var links = {
 			"label":"Openstreetbrowser",
 			"url":"http://www.openstreetbrowser.org?lat={lat}&lon={lon}&zoom={z}",
 			"category":"OpenStreetMap"
-		},
-		{
-			"label":"OpenSnowMap",
-			"url":"http://www.opensnowmap.org?lat={lat}&lon={lon}&zoom={z}",
-			"category":"Outdoor-Ski"
-		},
-		{
-			"label":"SkiTrack",
-			"url":"http://www.skitrack.fr?lat={lat}&lon={lon}&zoom={z}",
-			"category":"Outdoor-Ski"
 		},
 		{
 			"label":"Camp2camp",
@@ -239,27 +259,27 @@ var links = {
 		{
 			"label":"OSM GPS Points",
 			"url":"http://resultmaps.neis-one.org/osmgps.html?lat={lat}&lon={lon}&zoom={z<9}",
-			"category":"OpenStreetMap"
+			"category":"OpenStreetMap contributing"
 		},
 		{
 			"label":"Your OSM heat map",
 			"url":"http://yosmhm.neis-one.org/?zoom={z<14}&lat={lat}&lon={lon}&layers=B000TTF&u={user}",
-			"category":"OpenStreetMap"
+			"category":"OpenStreetMap contributing"
 		},
 		{
 			"label":"Who's around me",
 			"url":"http://resultmaps.neis-one.org/oooc?lat={lat}&lon={lon}&zoom={z}",
-			"category":"OpenStreetMap"
+			"category":"OpenStreetMap contributing"
 		},
 		{
 			"label":"New contributors feed",
 			"url":"http://resultmaps.neis-one.org/newestosmcreatefeed?lat={lat}&lon={lon}&zoom={z}",
-			"category":"OpenStreetMap"
+			"category":"OpenStreetMap contributing"
 		},
 		{
-			"label":"Changeset Discuss.",
+			"label":"Changeset Discussions",
 			"url":"http://resultmaps.neis-one.org/osm-discussions#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap"
+			"category":"OpenStreetMap contributing"
 		},
 		{
 			"label":"10 years of OSM",
@@ -274,17 +294,27 @@ var links = {
 		{
 			"label":"Wikimapia",
 			"url":"http://wikimapia.org/#lat={lat}&lon={lon}&z={z}&lang=fr&m=b",
-			"category":"Others"
+			"category":"Encyclopedia"
 		},
 		{
 			"label":"Geody",
 			"url":"http://www.geody.com/geolook.php?lat={lat}&lon={lon}&z={z}",
-			"category":"Others"
+			"category":"Services"
 		},
 		{
 			"label":"Geody KML",
 			"url":"http://www.geody.com/geovex.php?lat={lat}&lon={lon}&z={z}&fmt=gearth",
-			"category":"Others"
+			"category":"Services"
+		},
+		{
+			"label":"OSRM",
+			"url":"http://map.project-osrm.org/?z={z}&center={lat}%2C{lon}&loc=&loc=&hl=en&ly=&alt=&df=&srv=",
+			"category":"Routing"
+		},
+		{
+			"label":"OpenRouteService",
+			"url":"http://www.openrouteservice.org/?pos={lon},{lat}&zoom={z}",
+			"category":"Routing"
 		},
 		{
 			"label":"Flightradar24",
@@ -299,7 +329,7 @@ var links = {
 		{
 			"label":"Heaven Above",
 			"url":"http://www.heavens-above.com/allsats.aspx?lat={lat}&lng={lon}&z={z}",
-			"category":"Others"
+			"category":"Transport"
 		},
 		{
 			"label":"OpenOrienteeringMap",
