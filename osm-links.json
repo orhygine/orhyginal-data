@@ -13,22 +13,22 @@ var links = {
 		{
 			"label":"Activités pour les enfants",
 			"url":"http://umap.openstreetmap.fr/fr/map/activites-pour-les-enfants_5848#{z}/{lat}/{lon}",
-			"category":"uMaps"
+			"category":"uMap maps"
 		},
 		{
 			"label":"Stations de ski des Pyrénées",
 			"url":"http://umap.openstreetmap.fr/fr/map/stations-de-ski-des-pyrenees_30564#{z}/{lat}/{lon}",
-			"category":"uMaps"
+			"category":"uMap maps"
 		},
 		{
 			"label":"Sites archéologiques",
 			"url":"http://umap.openstreetmap.fr/fr/map/sites-archeologiques_22883#{z}/{lat}/{lon}",
-			"category":"uMaps"
+			"category":"uMap maps"
 		},
 		{
 			"label":"Pelote Basque",
 			"url":"http://umap.openstreetmap.fr/fr/map/pelote-basque_24035#{z}/{lat}/{lon}",
-			"category":"uMaps"
+			"category":"uMap maps"
 		},
 		{
 			"label":"MeteoBlue",
@@ -38,6 +38,16 @@ var links = {
 		{
 			"label":"Windyty",
 			"url":"https://www.windyty.com/?{lat},{lon},{z}",
+			"category":"Meteo"
+		},
+		{
+			"label":"OpenSeaMap Weather",
+			"url":"http://map.openseamap.org/weather.php?zoom={z<8}&lat={lat}&lon={lon}&layers=BTFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+			"category":"Meteo"
+		},
+		{
+			"label":"OpenWeatherMap",
+			"url":"http://openweathermap.org/maps?zoom={z}&lat={lat}&lon={lon}&layers=B0FTTFFT",
 			"category":"Meteo"
 		},
 		{
@@ -54,6 +64,11 @@ var links = {
 			"label":"Tweets",
 			"url":"https://twitter.com/search?q=geocode:{lat},{lon},1mi",
 			"category":"Social"
+		},
+		{
+			"label":"OpenStreetView",
+			"url":"http://openstreetview.org/?lat={lat}&lon={lon}&zoom={z}",
+			"category":"Photo services"
 		},
 		{
 			"label":"Flickr",
@@ -81,8 +96,13 @@ var links = {
 			"category":"Services"
 		},
 		{
-			"label":"Google Maps Compass",
-			"url":"http://googlecompass.com/full-screen-map.htm?lat={lat}&lng={lon}&zol={z}&pn=0",
+			"label":"Stamen",
+			"url":"http://maps.stamen.com/#watercolor/{z}/{lat}/{lon}",
+			"category":"Services"
+		},
+		{
+			"label":"Mappy",
+			"url":"http://fr.mappy.com/#/5/M2/THome/N151.12061,6.11309,{lon},{lat}/Z{z-5}/",
 			"category":"Services"
 		},
 		{
@@ -113,6 +133,11 @@ var links = {
 		{
 			"label":"Geocaching",
 			"url":"https://www.geocaching.com/map/default.aspx?lat={lat}&lng={lon}&z={z}",
+			"category":"Games"
+		},
+		{
+			"label":"Geocaching (list)",
+			"url":"http://www.geocaching.com/seek/nearest.aspx?origin_lat={lat}&origin_long={lon}&dist=20&submit3=Search",
 			"category":"Games"
 		},
 		{
@@ -151,6 +176,11 @@ var links = {
 			"category":"Outdoor"
 		},
 		{
+			"label":"4Umaps",
+			"url":"http://www.4umaps.eu/map.htm?zoom={z}&lat={lat}&lon={lon}&layers=B",
+			"category":"Outdoor"
+		},
+		{
 			"label":"Refuges.info",
 			"url":"http://maps.refuges.info/?lat={lat}&lon={lon}&zoom={z}",
 			"category":"Outdoor"
@@ -171,6 +201,11 @@ var links = {
 			"category":"Meteo"
 		},
 		{
+			"label":"OpenSeaMap",
+			"url":"http://map.openseamap.org/?zoom={z}&lat={lat}&lon={lon}&layers=BFTFFFTFFTF0FFFFFFFF",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"OpenLinkMap",
 			"url":"http://www.openlinkmap.org?lat={lat}&lon={lon}&zoom={z}",
 			"category":"OpenStreetMap"
@@ -178,6 +213,16 @@ var links = {
 		{
 			"label":"OpenFireMap",
 			"url":"http://openfiremap.org?lat={lat}&lon={lon}&zoom={z}",
+			"category":"OpenStreetMap"
+		},
+		{
+			"label":"Geofabrik Map",
+			"url":"http://tools.geofabrik.de/map/#{z}/{lat}/{lon}&type=Geofabrik_Standard",
+			"category":"OpenStreetMap"
+		},
+		{
+			"label":"OSM WMS",
+			"url":"http://osm-wms.de/index.html?zoom={z<14}&lat={lat}&lon={lon}&layers=B000TFT",
 			"category":"OpenStreetMap"
 		},
 		{
@@ -194,6 +239,11 @@ var links = {
 			"label":"SkiTrack",
 			"url":"http://www.skitrack.fr?lat={lat}&lon={lon}&zoom={z}",
 			"category":"Outdoor-Ski"
+		},
+		{
+			"label":"XC Trails",
+			"url":"http://www.xctrails.org/map.html?type=xc&zoom={z}&lat={lat}&lon={lon}&layers=B00000TFFTTTTTTTFTTTFTT",
+			"category":"Outdoor"
 		},
 		{
 			"label":"Open Signal",
@@ -237,6 +287,11 @@ var links = {
 			"category":"Tools"
 		},
 		{
+			"label":"Google Maps Compass",
+			"url":"http://googlecompass.com/full-screen-map.htm?lat={lat}&lng={lon}&zol={z}&pn=0",
+			"category":"Tools"
+		},
+		{
 			"label":"XAPI viewer",
 			"url":"http://osm.dumoulin63.net/xapiviewer?lat={lat}&lon={lon}&zoom={z}",
 			"category":"Tools"
@@ -249,6 +304,16 @@ var links = {
 		{
 			"label":"Map Compare",
 			"url":"http://mc.bbbike.org/mc?lat={lat}&lon={lon}&zoom={z}",
+			"category":"Tools"
+		},
+		{
+			"label":"Sauter",
+			"url":"http://sautter.com/map/?zoom={z}&lat={lat}&lon={lon}&layers=B000TFFFFTTF",
+			"category":"Tools"
+		},
+		{
+			"label":"Distance calculator",
+			"url":"http://map.meurisse.org/?lon={lon}&lat={lat}&zoom={z}",
 			"category":"Tools"
 		},
 		{
@@ -277,6 +342,46 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
+			"label":"ITO Recent Edits (90 days)",
+			"url":"http://product.itoworld.com/map/129?lon={lon}&lat={lat}&zoom={z}",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"ITO Speed Limits",
+			"url":"http://product.itoworld.com/map/35?lon={lon}&lat={lat}&zoom={z}",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"ITO Path types",
+			"url":"http://product.itoworld.com/map/120?lon={lon}&lat={lat}&zoom={z}",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"ITO Heritage",
+			"url":"http://product.itoworld.com/map/88?lon={lon}&lat={lat}&zoom={z}",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"ITO Agriculture",
+			"url":"http://product.itoworld.com/map/133?lon={lon}&lat={lat}&zoom={z}",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"Field Papers",
+			"url":"http://fieldpapers.org/compose/select?lat={lat}&lon={lon}&zoom={z}",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"Walking Papers",
+			"url":"http://www.walking-papers.org/?lat={lat}&lon={lon}&zoom={z}#make",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"MapCraft",
+			"url":"http://mapcraft.nanodesu.ru/map?zoom={z}&lat={y}&lon={x}&layers=BT",
+			"category":"OpenStreetMap contributing"
+		},
+		{
 			"label":"10 years of OSM",
 			"url":"https://www.mapbox.com/ten-years-openstreetmap/#{lon}/{lat}/{z}",
 			"category":"OpenStreetMap"
@@ -287,9 +392,44 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"OpenMapSurfer",
+			"url":"http://korona.geog.uni-heidelberg.de/?zoom={z}&lat={lat}&lon={lon}&layers=B00000FFFF",
+			"category":"OpenStreetMap"
+		},
+		{
+			"label":"OpenPoiMap",
+			"url":"http://openpoimap.org/?map=amenity&zoom={z}&lat={lat}&lon={lon}&layers=B00FFFFFFFFT",
+			"category":"OpenStreetMap"
+		},
+		{
+			"label":"OpenWhateverMap",
+			"url":"http://www.openwhatevermap.org/?zoom={z}&lat={lat}&lon={lon}&layers=B",
+			"category":"OpenStreetMap"
+		},
+		{
+			"label":"Nuclear Generators",
+			"url":"http://www.leretourdelautruche.com/map/nuke/?zoom={z}&lat={lat}&lon={lon}&layers=B0TT",
+			"category":"OpenStreetMap"
+		},
+		{
+			"label":"Cameras",
+			"url":"http://www.leretourdelautruche.com/map/cctv/cctv.html?zoom={z}&lat={lat}&lon={lon}&layers=B00T",
+			"category":"OpenStreetMap"
+		},
+		{
+			"label":"OpenLevelUp",
+			"url":"http://github.pavie.info/openlevelup/?lat={lat}&lon={lon}&z={z}&t=0",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"Wikimapia",
 			"url":"http://wikimapia.org/#lat={lat}&lon={lon}&z={z}&lang=fr&m=b",
 			"category":"Encyclopedia"
+		},
+		{
+			"label":"GeoHack",
+			"url":"http://tools.wmflabs.org/geohack/geohack.php?language=fr&params={lat}_N_{lon}_E",
+			"category":"Services"
 		},
 		{
 			"label":"Geody",
@@ -299,6 +439,25 @@ var links = {
 		{
 			"label":"Geody KML",
 			"url":"http://www.geody.com/geovex.php?lat={lat}&lon={lon}&z={z}&fmt=gearth",
+			"category":"Services"
+		},
+		{
+			"label":"Geonames",
+			"url":"http://www.geonames.org/maps/google_{lat}_{lon}.html",
+			"category":"Services"
+		},
+		{
+			"label":"Maps for free",
+			"url":"http://maps-for-free.com/?val={lat},{lon},{z}",
+			"category":"Services"
+		},
+		{
+			"label":"Hitchwiki",
+			"url":"http://hitchwiki.org/maps/?zoom={z}&lat={lat}&lon={lon}",
+			"category":"Services"
+		},
+		{
+			"url":"http://polar.openstreetmap.de/#zoom={z}&lat={lat}&lon={lon}&layers=BT",
 			"category":"Services"
 		},
 		{
@@ -319,6 +478,16 @@ var links = {
 		{
 			"label":"Ship watch",
 			"url":"http://www.geody.com/shipswatch.php?lat={lat}&lon={lon}&z={z}",
+			"category":"Transport"
+		},
+		{
+			"label":"Marine Traffic",
+			"url":"http://www.marinetraffic.com/fr/ais/home/centerx:{lon}/centery:{lat}/zoom:{z}",
+			"category":"Transport"
+		},
+		{
+			"label":"Navigable Waterways",
+			"url":"http://maps.grade.de/?zoom={z}&lat={lat}&lon={lon}&layers=B0FTTTTFFFFFFFFTT",
 			"category":"Transport"
 		},
 		{
@@ -348,8 +517,11 @@ var links = {
 		{
 			"label":"Amenity editor",
 			"url":"http://ae.osmsurround.org/ae/index?lat={lat}&lon={lon}&zoom={z}"
-		}
-	],
+		},
+		{
+			"label":"OsmHydrant",
+			"url":"https://www.osmhydrant.org/fr/#zoom={z}&lat={lat}&lon={lon}"
+		}	],
 	"check":[
 		{
 			"label":"Osmose",
