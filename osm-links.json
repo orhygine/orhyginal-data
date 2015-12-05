@@ -41,13 +41,8 @@ var links = {
 			"category":"Meteo"
 		},
 		{
-			"label":"Suncalc (org)",
+			"label":"Suncalc",
 			"url":"http://www.suncalc.org/#/{lat},{lon},{z}/{date}/{time}/1",
-			"category":"Ephemeride"
-		},
-		{
-			"label":"Suncalc (net)",
-			"url":"http://suncalc.net/#/{lat},{lon},{z}",
 			"category":"Ephemeride"
 		},
 		{
@@ -137,7 +132,7 @@ var links = {
 		},
 		{
 			"label":"VTTrack",
-			"url":"http://www.vttrack.fr/?lat={lat}&lon={lon}&zoom={z}",
+			"url":"http://www.vttrack.fr/?lat={lat}&lon={lon}&zoom={z}&layers=OpenStreetMap|UtagawaVTT|LaTrace|",
 			"category":"Outdoor"
 		},
 		{
@@ -233,7 +228,7 @@ var links = {
 		},
 		{
 			"label":"Historic Place",
-			"url":"http://gk.historic.place/historische_objekte/translate/fr/index-fr.html?zoom={z}&lat={lat}&lon={lon}",
+			"url":"http://gk.historic.place/historische_objekte/translate/fr/index-fr.html?zoom={z}&lat={lat}&lon={lon}&detail=3",
 			"category":"History"
 		},
 		{
@@ -263,7 +258,7 @@ var links = {
 		},
 		{
 			"label":"Your OSM heat map",
-			"url":"http://yosmhm.neis-one.org/?zoom={z<14}&lat={lat}&lon={lon}&layers=B000TTF&u={user}",
+			"url":"http://yosmhm.neis-one.org/?zoom={z<14}&lat={lat}&lon={lon}&layers=B000TTF",
 			"category":"OpenStreetMap contributing"
 		},
 		{
