@@ -187,6 +187,11 @@ var links = {
 		},
 		{
 			"label":"Refuges.info",
+			"url":"http://www.refuges.info/nav#lat={lat}&lon={lon}&zoom={z}",
+			"category":"Outdoor"
+		},
+		{
+			"label":"Refuges.info (carte seule)",
 			"url":"http://maps.refuges.info/?lat={lat}&lon={lon}&zoom={z}",
 			"category":"Outdoor"
 		},
