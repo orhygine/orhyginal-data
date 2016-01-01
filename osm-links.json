@@ -142,7 +142,12 @@ var links = {
 		},
 		{
 			"label":"Geocaching (list)",
-			"url":"http://www.geocaching.com/seek/nearest.aspx?origin_lat={lat}&origin_long={lon}&dist=20&submit3=Search",
+			"url":"http://www.geocaching.com/seek/nearest.aspx?lat={lat}&lng={lon}",
+			"category":"Games"
+		},
+		{
+			"label":"Geocaching (list - filter out finds)",
+			"url":"http://www.geocaching.com/seek/nearest.aspx?lat={lat}&lng={lon}&f=1",
 			"category":"Games"
 		},
 		{
