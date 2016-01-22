@@ -96,6 +96,11 @@ var links = {
 			"category":"Services"
 		},
 		{
+			"label":"Bing Maps",
+			"url":"http://www.bing.com/mapspreview?cp={lat}~{lon}&lvl={z}&style=h",
+			"category":"Services"
+		},
+		{
 			"label":"Lookr Webcams Map",
 			"url":"",
 			"category":"Services"
