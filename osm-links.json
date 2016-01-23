@@ -442,6 +442,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"OpenBeerMap",
+			"url":"https://openbeermap.github.io/#{z}/{lat}/{lon}",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"Wikimapia",
 			"url":"http://wikimapia.org/#lat={lat}&lon={lon}&z={z}&lang=fr&m=b",
 			"category":"Encyclopedia"
