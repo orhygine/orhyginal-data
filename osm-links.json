@@ -141,6 +141,11 @@ var links = {
 			"category":"Encyclopedia"
 		},
 		{
+			"label":"Wikivoyage",
+			"url":"https://tools.wmflabs.org/wikivoyage/w/poimap2.php?lat=51.504872&lon=-0.07857&zoom=10&layer=M&lang=fr",
+			"category":"Encyclopedia"
+		},
+		{
 			"label":"FlashEarth",
 			"url":"http://www.flashearth.com/?lat={lat}&lon={lon}&z={z}",
 			"category":"Services"
