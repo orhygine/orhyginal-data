@@ -1,6 +1,11 @@
 var links = {
 	"link":[
 		{
+			"label":"geo:",
+			"url":"geo:{lat},{lon}",
+			"category":"Share"
+		},
+		{
 			"label":"Openstreetmap.org",
 			"url":"http://www.openstreetmap.org/#map={z}/{lat}/{lon}",
 			"category":"OpenStreetMap"
