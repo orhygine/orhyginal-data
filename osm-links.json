@@ -142,7 +142,7 @@ var links = {
 		},
 		{
 			"label":"Wikivoyage",
-			"url":"https://tools.wmflabs.org/wikivoyage/w/poimap2.php?lat=51.504872&lon=-0.07857&zoom=10&layer=M&lang=fr",
+			"url":"https://tools.wmflabs.org/wikivoyage/w/poimap2.php?lat={lat}&lon={lon}&zoom={z}&layer=M&lang=fr",
 			"category":"Encyclopedia"
 		},
 		{
