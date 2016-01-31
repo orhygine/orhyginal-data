@@ -71,6 +71,11 @@ var links = {
 			"category":"Social"
 		},
 		{
+			"label":"Mapillary",
+			"url":"http://www.mapillary.com/map/search/{lat}/{lon}/{z}",
+			"category":"Photo services"
+		},
+		{
 			"label":"OpenStreetView",
 			"url":"http://openstreetview.org/?lat={lat}&lon={lon}&zoom={z}",
 			"category":"Photo services"
