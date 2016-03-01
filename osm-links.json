@@ -111,11 +111,6 @@ var links = {
 			"category":"Services"
 		},
 		{
-			"label":"Lookr Webcams Map",
-			"url":"",
-			"category":"Services"
-		},
-		{
 			"label":"Stamen",
 			"url":"http://maps.stamen.com/#watercolor/{z}/{lat}/{lon}",
 			"category":"Services"
