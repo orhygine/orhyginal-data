@@ -367,6 +367,11 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
+			"label":"OSM suspicious",
+			"url":"http://resultmaps.neis-one.org/osm-suspicious#{z}}/{lat}/{lon}",
+			"category":"OpenStreetMap contributing"
+		},
+		{
 			"label":"Changeset Discussions",
 			"url":"http://resultmaps.neis-one.org/osm-discussions#{z}/{lat}/{lon}",
 			"category":"OpenStreetMap contributing"
