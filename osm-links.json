@@ -101,6 +101,11 @@ var links = {
 			"category":"Services"
 		},
 		{
+			"label":"Geoportail Luxembourg",
+			"url":"http://map.geoportal.lu/theme/main?version=3&zoom={z}&X={x}&Y={y}&lang=fr&layers&opacities&bgLayer=basemap_2015_global",
+			"category":"Services"
+		},
+		{
 			"label":"Google Maps",
 			"url":"https://www.google.com/maps/@{lat},{lon},{z}z",
 			"category":"Services"
