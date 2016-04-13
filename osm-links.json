@@ -342,6 +342,11 @@ var links = {
 			"category":"Tools"
 		},
 		{
+			"label":"bbbike extracts",
+			"url":"http://extract.bbbike.org/?lang=fr&sw_lng={xmin}&sw_lat={ymin}&ne_lng={xmax}&ne_lat={ymax}&format=osm.pbf&oi=1&layers=0B000T",
+			"category":"Tools"
+		},
+		{
 			"label":"Google Maps Compass",
 			"url":"http://googlecompass.com/full-screen-map.htm?lat={lat}&lng={lon}&zol={z}&pn=0",
 			"category":"Tools"
@@ -479,6 +484,11 @@ var links = {
 		{
 			"label":"OpenLevelUp",
 			"url":"http://github.pavie.info/openlevelup/?lat={lat}&lon={lon}&z={z}&t=0",
+			"category":"OpenStreetMap"
+		},
+		{
+			"label":"OpenStationMap",
+			"url":"http://www.openstationmap.org/#{z}/{lat}/{lon}",
 			"category":"OpenStreetMap"
 		},
 		{
