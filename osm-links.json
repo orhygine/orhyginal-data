@@ -237,7 +237,7 @@ var links = {
 		},
 		{
 			"label":"Refuges et cabanes des Pyrénées",
-			"url":"http://www.pyrenees-refuges.com/#{z}/{x}/{y}",
+			"url":"http://www.pyrenees-refuges.com/#{z}/{lat}/{lon}",
 			"category":"Outdoor"
 		},		{
 			"label":"Waymarkedtrails",
