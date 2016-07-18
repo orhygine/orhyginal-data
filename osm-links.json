@@ -11,7 +11,7 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
-			"label":"Historique (osm.org)",
+			"label":"Historique (osm.reorg)",
 			"url":"http://www.openstreetmap.org//browse/changesets/#map={z}/{lat}/{lon}",
 			"category":"OpenStreetMap contributing"
 		},
@@ -236,6 +236,10 @@ var links = {
 			"category":"Outdoor"
 		},
 		{
+			"label":"Refuges et cabanes des Pyrénées",
+			"url":"http://www.pyrenees-refuges.com/#{z}/{x}/{y}",
+			"category":"Outdoor"
+		},		{
 			"label":"Waymarkedtrails",
 			"url":"http://hiking.waymarkedtrails.org/fr/?lat={lat}&lon={lon}&zoom={z}",
 			"category":"Outdoor"
