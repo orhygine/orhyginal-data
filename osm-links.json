@@ -11,7 +11,7 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
-			"label":"Historique (osm.reorg)",
+			"label":"Historique (osm.org)",
 			"url":"http://www.openstreetmap.org//browse/changesets/#map={z}/{lat}/{lon}",
 			"category":"OpenStreetMap contributing"
 		},
