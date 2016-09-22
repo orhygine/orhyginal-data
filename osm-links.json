@@ -97,14 +97,10 @@ var links = {
 		},
 		{
 			"label":"Geoportail IGN",
-			"url":"http://www.geoportail.gouv.fr/accueil?&l=GEOGRAPHICALGRIDSYSTEMS.PLANIGN::GEOPORTAIL:OGC:WMTS%281%29&permalink=yes&c={lon},{lat}&z={res}",
+			"url":"https://www.geoportail.gouv.fr/carte?c={lon},{lat}&z={z}&l0=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN-EXPRESS.STANDARD::GEOPORTAIL:OGC:WMTS(1)&permalink=yes",
 			"category":"Services"
 		},
-		{
-			"label":"Geoportail IGN (tablette)",
-			"url":"http://tab.geoportail.fr/?c={lon},{lat}&z={z}&l0=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25TOUR:WMTS(1)&permalink=yes",
-			"category":"Services"
-		},
+
 		{
 			"label":"IGN - Visionneuse",
 			"url":"http://mavisionneuse.ign.fr/visio.html?lon={lon}&lat={lat}&zoom={z}&num=2&mt0=ign-scexclassic&mt1=ign-scexstandard",
