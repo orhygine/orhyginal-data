@@ -46,6 +46,16 @@ var links = {
 			"category":"Meteo"
 		},
 		{
+			"label":"Windfinder",
+			"url":"https://fr.windfinder.com/weather-maps/forecast/#{z}/{lat}/{lon}",
+			"category":"Meteo"
+		},
+		{
+			"label":"Wisuki",
+			"url":"http://fr.wisuki.com/?lat={lat}&lon={lon}&zoom={z}&mode=terrain#sa-0",
+			"category":"Outdoor"
+		},
+		{
 			"label":"Windyty",
 			"url":"https://www.windyty.com/?{lat},{lon},{z}",
 			"category":"Meteo"
