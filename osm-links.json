@@ -100,7 +100,11 @@ var links = {
 			"url":"https://www.geoportail.gouv.fr/carte?c={lon},{lat}&z={z}&l0=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN-EXPRESS.STANDARD::GEOPORTAIL:OGC:WMTS(1)&permalink=yes",
 			"category":"Services"
 		},
-
+		{
+			"label":"Geoportail Catalogne",
+			"url":"http://www.icc.cat/vissir3/embedded.html?zoom={z-9}&lon={xUTM31}&lat={yUTM31}",
+			"category":"Services"
+		},
 		{
 			"label":"IGN - Visionneuse",
 			"url":"http://mavisionneuse.ign.fr/visio.html?lon={lon}&lat={lat}&zoom={z}&num=2&mt0=ign-scexclassic&mt1=ign-scexstandard",
