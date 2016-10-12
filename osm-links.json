@@ -325,11 +325,6 @@ var links = {
 			"category":"Communications"
 		},
 		{
-			"label":"Openstreetbrowser",
-			"url":"http://www.openstreetbrowser.org?lat={lat}&lon={lon}&zoom={z}",
-			"category":"OpenStreetMap"
-		},
-		{
 			"label":"Camp2camp",
 			"url":"http://www.camptocamp.org/map?map_y={y}&map_x={x}&map_zoom={z}&baselayer_ref=osm",
 			"category":"Outdoor"
