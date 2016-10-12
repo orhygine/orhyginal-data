@@ -136,6 +136,11 @@ var links = {
 			"category":"Services"
 		},
 		{
+			"label":"Mapquest",
+			"url":"https://www.mapquest.com/embed?center={lat},{lon}&zoom={z}&maptype=map",
+			"category":"Services"
+		},
+		{
 			"label":"Bing Maps",
 			"url":"http://www.bing.com/mapspreview?cp={lat}~{lon}&lvl={z}&style=h",
 			"category":"Services"
