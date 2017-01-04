@@ -512,7 +512,7 @@ var links = {
 		},
 		{
 			"label":"OSMLanduse",
-			"url":"http://osmlanduse.org/#{z}/{lat}/{lon}/0/",
+			"url":"http://osmlanduse.org/#{z}/{lon}/{lat}/0/",
 			"category":"OpenStreetMap"
 		},
 		{
