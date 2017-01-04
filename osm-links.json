@@ -511,6 +511,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"OSMLanduse",
+			"url":"http://osmlanduse.org/#{z}/{lat}/{lon}/0/",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"Wikimapia",
 			"url":"http://wikimapia.org/#lat={lat}&lon={lon}&z={z}&lang=fr&m=b",
 			"category":"Encyclopedia"
