@@ -610,7 +610,7 @@ var links = {
 			"url":"http://127.0.0.1:8111/load_and_zoom?left={xmin}&right={xmax}&top={ymax}&bottom={ymin}"
 		},
 		{
-			"label":"Imporve OSM",
+			"label":"Improve OSM",
 			"url":"http://improveosm.org/#background=Bing&map={z}/{lat}/{lon}"
 		},
 		{
