@@ -91,13 +91,8 @@ var links = {
 			"category":"Photo services"
 		},
 		{
-			"label":"OpenStreetView",
-			"url":"http://openstreetcam.org/map/@{lat},{lon},{z}z",
-			"category":"Photo services"
-		},
-		{
 			"label":"OpenStreetCam",
-			"url":"http://openstreetview.org/?lat={lat}&lon={lon}&zoom={z}",
+			"url":"http://openstreetcam.org/map/@{lat},{lon},{z}z",
 			"category":"Photo services"
 		},
 		{
