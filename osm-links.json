@@ -108,27 +108,27 @@ var links = {
 		{
 			"label":"Geoportail IGN",
 			"url":"https://www.geoportail.gouv.fr/carte?c={lon},{lat}&z={z}&l0=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN-EXPRESS.STANDARD::GEOPORTAIL:OGC:WMTS(1)&permalink=yes",
-			"category":"Services"
+			"category":"Geoportail"
 		},
 		{
 			"label":"Geoportail Catalogne",
 			"url":"http://www.icc.cat/vissir3/embedded.html?zoom={z-9}&lon={xUTM31}&lat={yUTM31}",
-			"category":"Services"
+			"category":"Geoportail"
 		},
 		{
 			"label":"IGN - Visionneuse",
 			"url":"http://mavisionneuse.ign.fr/visio.html?lon={lon}&lat={lat}&zoom={z}&num=2&mt0=ign-scexclassic&mt1=ign-scexstandard",
-			"category":"Services"
+			"category":"Geoportail"
 		},
 		{
 			"label":"IGN - Remonter le temps",
 			"url":"https://remonterletemps.ign.fr/map/basic?x={lon}&y={lat}&z={z}&layer1=GEOGRAPHICALGRIDSYSTEMS.MAPS&layer2=GEOGRAPHICALGRIDSYSTEMS.CASSINI&mode=hSlider",
-			"category":"Services"
+			"category":"Geoportail"
 		},
 		{
 			"label":"Geoportail Luxembourg",
 			"url":"http://map.geoportal.lu/theme/main?version=3&zoom={z}&X={x}&Y={y}&lang=fr&layers&opacities&bgLayer=basemap_2015_global",
-			"category":"Services"
+			"category":"Geoportail"
 		},
 		{
 			"label":"Google Maps",
