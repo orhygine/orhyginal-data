@@ -466,6 +466,10 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"OSM Then And Now",
+			"url":"http://mvexel.github.io/thenandnow/#{z}/{lat}/{lon}",
+			"category":"OpenStreetMap"
+		},		{
 			"label":"Best Of OSM",
 			"url":"http://bestofosm.org/?zoom={z}&lat={lat}&lon={lon}",
 			"category":"OpenStreetMap"
