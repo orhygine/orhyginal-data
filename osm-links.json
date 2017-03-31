@@ -23,7 +23,7 @@ var links = {
 		{
 			"label":"Fullscreen map (tile regen tool)",
 			"url":"https://www.sammyshp.de/fsmap/#{z}/{lat}/{lon}",
-			"category":"Tools"
+			"category":"OpenStreetMap contributing"
 		},
 		{
 			"label":"Node density",
