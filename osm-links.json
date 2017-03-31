@@ -366,6 +366,11 @@ var links = {
 			"category":"Tools"
 		},
 		{
+			"label":"Fullscreen map",
+			"url":"https://www.sammyshp.de/fsmap/#{z}/{lat}/{lon}",
+			"category":"Tools"
+		},
+		{
 			"label":"bbbike extracts",
 			"url":"http://extract.bbbike.org/?lang=fr&sw_lng={xmin}&sw_lat={ymin}&ne_lng={xmax}&ne_lat={ymax}&format=osm.pbf&oi=1&layers=0B000T",
 			"category":"Tools"
