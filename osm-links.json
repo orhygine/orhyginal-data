@@ -21,6 +21,11 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
+			"label":"Fullscreen map (tile regen tool)",
+			"url":"https://www.sammyshp.de/fsmap/#{z}/{lat}/{lon}",
+			"category":"Tools"
+		},
+		{
 			"label":"Node density",
 			"url":"http://tyrasd.github.io/osm-node-density/#{z}/{lat}/{lon}/latest,places",
 			"category":"OpenStreetMap contributing"
@@ -363,11 +368,6 @@ var links = {
 		{
 			"label":"geojson.io",
 			"url":"http://geojson.io/#map={z}/{lat}/{lon}",
-			"category":"Tools"
-		},
-		{
-			"label":"Fullscreen map",
-			"url":"https://www.sammyshp.de/fsmap/#{z}/{lat}/{lon}",
 			"category":"Tools"
 		},
 		{
