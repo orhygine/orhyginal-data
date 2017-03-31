@@ -580,6 +580,11 @@ var links = {
 			"category":"Routing"
 		},
 		{
+			"label":"Kuriger (motorcyle)",
+			"url":"https://kurviger.de/en?point={lat}%2C{lon}",
+			"category":"Routing"
+		},
+		{
 			"label":"Flightradar24",
 			"url":"https://www.flightradar24.com/{lat},{lon}/{z}",
 			"category":"Transport"
