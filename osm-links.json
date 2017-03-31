@@ -381,6 +381,11 @@ var links = {
 			"category":"Tools"
 		},
 		{
+			"label":"Mapas (compare)",
+			"url":"http://javier.jimenezshaw.com/mapas/mapas.html?z={z}&c={lat},{lon}",
+			"category":"Tools"
+		},
+		{
 			"label":"Sauter",
 			"url":"http://sautter.com/map/?zoom={z}&lat={lat}&lon={lon}&layers=B000TFFFFTTF",
 			"category":"Tools"
