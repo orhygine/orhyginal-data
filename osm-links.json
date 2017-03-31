@@ -580,7 +580,7 @@ var links = {
 			"category":"Routing"
 		},
 		{
-			"label":"Kuriger (motorcyle)",
+			"label":"Kurviger (motorcyle)",
 			"url":"https://kurviger.de/en?point={lat}%2C{lon}",
 			"category":"Routing"
 		},
