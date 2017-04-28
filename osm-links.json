@@ -575,6 +575,11 @@ var links = {
 			"category":"Services"
 		},
 		{
+			"label":"Falling Fruit",
+			"url":"https://fallingfruit.org/?z={z}&y={lat}&x={lon}&m=false",
+			"category":"Services"
+		},
+		{
 			"label":"Antarctica Map",
 			"url":"http://polar.openstreetmap.de/#zoom={z}&lat={lat}&lon={lon}&layers=BT",
 			"category":"Services"
