@@ -412,7 +412,7 @@ var links = {
 		},
 		{
 			"label":"Tile calculator",
-			"url":"http://tools.geofabrik.de/calc/#{z}/{lat}/{lon}&type=Mapnik",
+			"url":"http://tools.geofabrik.de/calc/#type=geofabrik_standard&bbox={xmin},{ymin},{xmax},{ymax}",
 			"category":"Tools"
 		},
 		{
