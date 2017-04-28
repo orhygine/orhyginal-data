@@ -315,16 +315,6 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
-			"label":"OpenSnowMap",
-			"url":"http://www.opensnowmap.org?lat={lat}&lon={lon}&zoom={z}",
-			"category":"Outdoor-Ski"
-		},
-		{
-			"label":"SkiTrack",
-			"url":"http://www.skitrack.fr?lat={lat}&lon={lon}&zoom={z}",
-			"category":"Outdoor-Ski"
-		},
-		{
 			"label":"XC Trails",
 			"url":"http://www.xctrails.org/map.html?type=xc&zoom={z}&lat={lat}&lon={lon}&layers=B00000TFFTTTTTTTFTTTFTT",
 			"category":"Outdoor"
@@ -349,6 +339,16 @@ var links = {
 		/* FIXME not working */
 			"url":"http://hikebikemap.org/?lat={lat}&lon={x}&zoom={z}&layer=HikeBikeMap",
 			"category":"Outdoor"
+		},
+		{
+			"label":"OpenSnowMap",
+			"url":"http://www.opensnowmap.org?lat={lat}&lon={lon}&zoom={z}",
+			"category":"Outdoor-Ski"
+		},
+		{
+			"label":"SkiTrack",
+			"url":"http://www.skitrack.fr?lat={lat}&lon={lon}&zoom={z}",
+			"category":"Outdoor-Ski"
 		},
 		{
 			"label":"Tempo Pyrénées",
