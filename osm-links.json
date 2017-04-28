@@ -540,6 +540,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"GeoFabrik map",
+			"url":"http://tools.geofabrik.de/map/#{z}/{lon}/{lat}&type=Geofabrik_Standard",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"Wikimapia",
 			"url":"http://wikimapia.org/#lat={lat}&lon={lon}&z={z}&lang=fr&m=b",
 			"category":"Encyclopedia"
