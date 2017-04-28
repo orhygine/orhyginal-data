@@ -659,7 +659,12 @@ var links = {
 		{
 			"label":"OsmHydrant",
 			"url":"https://www.osmhydrant.org/fr/#zoom={z}&lat={lat}&lon={lon}"
-		}	],
+		},
+		{
+			"label":"MapContrib - bornes à incendie",
+			"url":"https://www.mapcontrib.xyz/t/s8c2d9-Les_bornes_a_incendie#position/{z}/{lat}/{lon}"
+		}
+	],
 	"check":[
 		{
 			"label":"Osmose",
