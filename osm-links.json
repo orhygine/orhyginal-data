@@ -596,7 +596,7 @@ var links = {
 		},
 		{
 			"label":"LiveMap24",
-			"url":"	https://www.livemap24.com/?lat={lat}&lon={lon}&zoom={z}",
+			"url":"https://www.livemap24.com/?lat={lat}&lon={lon}&zoom={z}",
 			"category":"Transport"
 		},
 		{
