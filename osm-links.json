@@ -595,6 +595,11 @@ var links = {
 			"category":"Routing"
 		},
 		{
+			"label":"LiveMap24",
+			"url":"	https://www.livemap24.com/?lat={lat}&lon={lon}&zoom={z}",
+			"category":"Transport"
+		},
+		{
 			"label":"Flightradar24",
 			"url":"https://www.flightradar24.com/{lat},{lon}/{z}",
 			"category":"Transport"
