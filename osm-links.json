@@ -411,6 +411,11 @@ var links = {
 			"category":"Tools"
 		},
 		{
+			"label":"Tile calculator",
+			"url":"http://tools.geofabrik.de/calc/#{z}/{lat}/{lon}&type=Mapnik",
+			"category":"Tools"
+		},
+		{
 			"label":"OSM GPS Points",
 			"url":"http://resultmaps.neis-one.org/osmgps.html?lat={lat}&lon={lon}&zoom={z<9}",
 			"category":"OpenStreetMap contributing"
