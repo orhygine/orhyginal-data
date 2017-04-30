@@ -71,8 +71,8 @@ var links = {
 			"category":"Outdoor"
 		},
 		{
-			"label":"Windyty",
-			"url":"https://www.windyty.com/?{lat},{lon},{z}",
+			"label":"Windy",
+			"url":"https://www.windy.com/?{lat},{lon},{z}",
 			"category":"Meteo"
 		},
 		{
