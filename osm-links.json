@@ -615,6 +615,11 @@ var links = {
 			"category":"Transport"
 		},
 		{
+			"label":"OSM Tchoutchou",
+			"url":"http://www.raildar.fr/#lat={lat}&lng={lon}&zoom={z}",
+			"category":"Transport"
+		},
+		{
 			"label":"Ship watch",
 			"url":"http://www.geody.com/shipswatch.php?lat={lat}&lon={lon}&z={z}",
 			"category":"Transport"
