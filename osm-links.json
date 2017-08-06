@@ -116,11 +116,6 @@ var links = {
 			"category":"Photo services"
 		},
 		{
-			"label":"Panoramio",
-			"url":"http://www.panoramio.com/map/#lt={lat}&ln={lon}&z={-z}",
-			"category":"Photo services"
-		},
-		{
 			"label":"Geoportail IGN",
 			"url":"https://www.geoportail.gouv.fr/carte?c={lon},{lat}&z={z}&l0=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN-EXPRESS.STANDARD::GEOPORTAIL:OGC:WMTS(1)&permalink=yes",
 			"category":"Geoportails"
