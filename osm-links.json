@@ -197,7 +197,7 @@ var links = {
 		},
 		{
 			"label":"Geocaching",
-			"url":"https://www.geocaching.com/map/default.aspx?lat={lat}&lng={lon}&z={z}",
+			"url":"https://www.geocaching.com/map/default.aspx?ll={lat},{lon}&z={z}",
 			"category":"Games"
 		},
 		{
