@@ -646,7 +646,7 @@ var links = {
 	],
 	"edit":[
 		{
-			"label":"Edit with Id",
+			"label":"Edit with iD editor",
 			"url":"http://www.openstreetmap.org/edit?editor=id#map={z}/{lat}/{lon}"
 		},
 		/*{
