@@ -649,10 +649,10 @@ var links = {
 			"label":"Edit with Id",
 			"url":"http://www.openstreetmap.org/edit?editor=id#map={z}/{lat}/{lon}"
 		},
-		{
+		/*{
 			"label":"Edit with Potlatch",
 			"url":"http://www.openstreetmap.org/edit?editor=potlatch2#map={z}/{lat}/{lon}"
-		},
+		},*/
 		{
 			"label":"Load in JOSM",
 			"url":"http://127.0.0.1:8111/load_and_zoom?left={xmin}&right={xmax}&top={ymax}&bottom={ymin}"
