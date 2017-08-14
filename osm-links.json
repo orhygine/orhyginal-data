@@ -1,11 +1,6 @@
 var links = {
 	"link":[
 		{
-			"label":"geo:",
-			"url":"geo:{lat},{lon}",
-			"category":"Share"
-		},
-		{
 			"label":"Openstreetmap.org",
 			"url":"http://www.openstreetmap.org/#map={z}/{lat}/{lon}",
 			"category":"OpenStreetMap"
@@ -56,9 +51,22 @@ var links = {
 			"category":"uMap"
 		},
 		{
+			"label":"Windy",
+			"url":"https://www.windy.com/?{lat},{lon},{z}",
+			"category":"Meteo",
+			"favorite":true
+		},
+		{
 			"label":"MeteoBlue",
 			"url":"https://www.meteoblue.com/en/weather/forecast/week/{lat}N{lon}E",
-			"category":"Meteo"
+			"category":"Meteo",
+			"favorite":true
+		},
+		{
+			"label":"Meteox Rain Radar",
+			"url":"http://meteox.fr/meteox-maps.aspx?lat={lat}&lon={lon}&z={z<11}&a=1",
+			"category":"Meteo",
+			"favorite":true
 		},
 		{
 			"label":"Windfinder",
@@ -69,11 +77,6 @@ var links = {
 			"label":"Wisuki",
 			"url":"http://fr.wisuki.com/?lat={lat}&lon={lon}&zoom={z}&mode=terrain#sa-0",
 			"category":"Outdoor"
-		},
-		{
-			"label":"Windy",
-			"url":"https://www.windy.com/?{lat},{lon},{z}",
-			"category":"Meteo"
 		},
 		{
 			"label":"OpenSeaMap Weather",
@@ -88,12 +91,14 @@ var links = {
 		{
 			"label":"Suncalc",
 			"url":"http://www.suncalc.org/#/{lat},{lon},{z}/{date}/{time}/1",
-			"category":"Ephemeride"
+			"category":"Ephemeride",
+			"favorite":true
 		},
 		{
 			"label":"Mooncalc",
 			"url":"http://www.mooncalc.org/#/{lat},{lon},{z}/{date}/{time}/1",
-			"category":"Ephemeride"
+			"category":"Ephemeride",
+			"favorite":true
 		},
 		{
 			"label":"Tweets",
@@ -118,7 +123,8 @@ var links = {
 		{
 			"label":"Geoportail IGN",
 			"url":"https://www.geoportail.gouv.fr/carte?c={lon},{lat}&z={z}&l0=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN-EXPRESS.STANDARD::GEOPORTAIL:OGC:WMTS(1)&permalink=yes",
-			"category":"Geoportails"
+			"category":"Geoportails",
+			"favorite":true
 		},
 		{
 			"label":"Geoportail Catalogne",
@@ -198,7 +204,8 @@ var links = {
 		{
 			"label":"Geocaching",
 			"url":"https://www.geocaching.com/map/default.aspx?ll={lat},{lon}&z={z}",
-			"category":"Games"
+			"category":"Games",
+			"favorite":true
 		},
 		{
 			"label":"Geocaching (list)",
@@ -273,11 +280,6 @@ var links = {
 			"label":"OpenTopoMap",
 			"url":"http://opentopomap.org/#map={z}/{lat}/{lon}",
 			"category":"Outdoor"
-		},
-		{
-			"label":"Meteox Rain Radar",
-			"url":"http://meteox.fr/meteox-maps.aspx?lat={lat}&lon={lon}&z={z<11}&a=1",
-			"category":"Meteo"
 		},
 		{
 			"label":"OpenSeaMap",
@@ -587,12 +589,14 @@ var links = {
 		{
 			"label":"OSRM",
 			"url":"http://map.project-osrm.org/?z={z}&center={lat}%2C{lon}&loc=&loc=&hl=en&ly=&alt=&df=&srv=",
-			"category":"Routing"
+			"category":"Routing",
+			"favorite":true
 		},
 		{
 			"label":"OpenRouteService",
 			"url":"http://www.openrouteservice.org/?pos={lon},{lat}&zoom={z}",
-			"category":"Routing"
+			"category":"Routing",
+			"favorite":true
 		},
 		{
 			"label":"Kurviger (motorcyle)",
