@@ -383,6 +383,11 @@ var links = {
 			"category":"History"
 		},
 		{
+			"label":"Vici",
+			"url":"http://vici.org/selectview.php?center={lat},{lon}&zoom={z}",
+			"category":"History"
+		},
+		{
 			"label":"geojson.io",
 			"url":"http://geojson.io/#map={z}/{lat}/{lon}",
 			"category":"Tools"
