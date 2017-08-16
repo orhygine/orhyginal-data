@@ -207,6 +207,11 @@ var links = {
 			"category":"Encyclopedia"
 		},
 		{
+			"label":"WikiShootMe!",
+			"url":"https://tools.wmflabs.org/wikishootme/#lat={lat}&lng={lon}&zoom={z}",
+			"category":"Encyclopedia"
+		},
+		{
 			"label":"FlashEarth",
 			"url":"http://www.flashearth.com/?lat={lat}&lon={lon}&z={z}",
 			"category":"Services"
