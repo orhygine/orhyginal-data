@@ -547,6 +547,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"Carte des routes",
+			"url":"http://itineraires.de.bus.free.fr/carte-des-routes-europeennes-2016/index.html?7,{lon},{lat}#",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"Wikimapia",
 			"url":"http://wikimapia.org/#lat={lat}&lon={lon}&z={z}&lang=fr&m=b",
 			"category":"Encyclopedia"
