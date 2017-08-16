@@ -552,6 +552,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"OpenFuelMap",
+			"url":"http://openfuelmap.net/#{z}/{lat}/{lon}",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"Wikimapia",
 			"url":"http://wikimapia.org/#lat={lat}&lon={lon}&z={z}&lang=fr&m=b",
 			"category":"Encyclopedia"
