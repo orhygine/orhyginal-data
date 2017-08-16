@@ -209,7 +209,8 @@ var links = {
 		{
 			"label":"Geopedia",
 			"url":"https://www.geopedia.de/?lat={lat}&lon={lon}&z={z}",
-			"category":"Encyclopedia"
+			"category":"Encyclopedia",
+			"favorite":true
 		},
 		{
 			"label":"WikiShootMe!",
@@ -375,7 +376,8 @@ var links = {
 		{
 			"label":"Historic Place",
 			"url":"http://gk.historic.place/historische_objekte/translate/fr/index-fr.html?zoom={z}&lat={lat}&lon={lon}&detail=3",
-			"category":"History"
+			"category":"History",
+			"favorite":true
 		},
 		{
 			"label":"OpenHistoricalMap",
