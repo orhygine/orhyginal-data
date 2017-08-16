@@ -368,6 +368,11 @@ var links = {
 			"category":"History"
 		},
 		{
+			"label":"OldMapsOnline",
+			"url":"http://www.oldmapsonline.org/en/France#bbox={xmin},{ymin},{xmax},{ymax}",
+			"category":"History"
+		},
+		{
 			"label":"geojson.io",
 			"url":"http://geojson.io/#map={z}/{lat}/{lon}",
 			"category":"Tools"
