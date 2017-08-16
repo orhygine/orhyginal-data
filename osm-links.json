@@ -599,6 +599,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"Wikimedia tile server",
+			"url":"https://maps.wikimedia.org/#{z}/{lat}/{lon}",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"Wikimapia",
 			"url":"http://wikimapia.org/#lat={lat}&lon={lon}&z={z}&lang=fr&m=b",
 			"category":"Encyclopedia"
