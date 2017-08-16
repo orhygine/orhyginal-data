@@ -152,7 +152,7 @@ var links = {
 			"category":"Services"
 		},
 		{
-			"label":"Mapquest*",
+			"label":"Mapquest",
 			"url":"https://www.mapquest.com/?center={lat},{lon}&zoom={z}&maptype=map",
 			"category":"Services"
 		},
