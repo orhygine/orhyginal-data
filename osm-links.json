@@ -562,6 +562,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"OpenStreetMap.bzh",
+			"url":"http://tile.openstreetmap.bzh/?lat={lat}&lon={lon}&zoom={z}&layers=M",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"Wikimapia",
 			"url":"http://wikimapia.org/#lat={lat}&lon={lon}&z={z}&lang=fr&m=b",
 			"category":"Encyclopedia"
