@@ -202,6 +202,11 @@ var links = {
 			"category":"Encyclopedia"
 		},
 		{
+			"label":"Geopedia",
+			"url":"https://www.geopedia.de/?lat={lat}&lon={lon}&z={z}",
+			"category":"Encyclopedia"
+		},
+		{
 			"label":"FlashEarth",
 			"url":"http://www.flashearth.com/?lat={lat}&lon={lon}&z={z}",
 			"category":"Services"
