@@ -507,6 +507,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"OpenStreetBrowser*",
+			"url":"https://openstreetbrowser.org/#",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"OpenWhateverMap",
 			"url":"http://www.openwhatevermap.org/?zoom={z}&lat={lat}&lon={lon}&layers=B",
 			"category":"OpenStreetMap"
