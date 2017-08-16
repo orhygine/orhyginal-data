@@ -182,6 +182,11 @@ var links = {
 			"category":"Encyclopedia"
 		},
 		{
+			"label":"Wikipedia 2",
+			"url":"http://ausleuchtung.ch/geo_wiki/?lat={lat}&lng={lon}&zm={z}&lang=en&ds=wiki&rd=10",
+			"category":"Encyclopedia"
+		},
+		{
 			"label":"Wikimedia commons",
 			"url":"https://tools.wmflabs.org/wiwosm/osm-on-ol/commons-on-osm.php?zoom={z}&lat={lat}&lon={lon}",
 			"category":"Encyclopedia"
