@@ -378,6 +378,11 @@ var links = {
 			"category":"History"
 		},
 		{
+			"label":"Peipleo",
+			"url":"http://pelagios.org/peripleo/map#at={lat},{lon},{z}",
+			"category":"History"
+		},
+		{
 			"label":"geojson.io",
 			"url":"http://geojson.io/#map={z}/{lat}/{lon}",
 			"category":"Tools"
