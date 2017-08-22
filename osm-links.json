@@ -208,7 +208,7 @@ var links = {
 		},
 		{
 			"label":"Geopedia",
-			"url":"https://www.geopedia.de/?lat={lat}&lon={lon}&z={z}",
+			"url":"https://www.geopedia.de/?lat={lat}&lon={lon}&z={z}&l=fr",
 			"category":"Encyclopedia",
 			"favorite":true
 		},
