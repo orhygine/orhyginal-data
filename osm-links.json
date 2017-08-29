@@ -15,6 +15,12 @@ var links = {
 			"url":"http://tile.openstreetmap.fr/~cquest/leaflet/bano.html#{z}/{lat}/{lon}",
 			"category":"OpenStreetMap contributing"
 		},
+
+		{
+			"label":"BD-Ortho dates de prise de vue",
+			"url":"http://umap.openstreetmap.fr/fr/map/date-heure-des-prises-de-vues-aeriennes-de-la-bd-o_160764#{z}/{lat}/{lon}",
+			"category":"OpenStreetMap contributing"
+		},
 		{
 			"label":"Fullscreen map (tile regen tool)",
 			"url":"https://www.sammyshp.de/fsmap/#{z}/{lat}/{lon}",
