@@ -576,7 +576,12 @@ var links = {
 		},
 		{
 			"label":"OpenLevelUp",
-			"url":"http://github.pavie.info/openlevelup/?lat={lat}&lon={lon}&z={z}&t=0",
+			"url":"https://openlevelup.net/?l=0#{z}/{lat}/{lon}",
+			"category":"OpenStreetMap"
+		},
+		{
+			"label":"OpenLevelUp - Old",
+			"url":"https://openlevelup.net/old/?lat={lat}&lon={lon}&z={z}&t=0",
 			"category":"OpenStreetMap"
 		},
 		{
