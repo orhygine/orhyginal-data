@@ -112,6 +112,11 @@ var links = {
 			"category":"Social"
 		},
 		{
+			"label":"Pic4Carto",
+			"url":"http://projets.pavie.info/pic4carto/index.html?#{z}/{lat}/{lon}",
+			"category":"Photo services"
+		},
+		{
 			"label":"Mapillary",
 			"url":"http://www.mapillary.com/map/search/{lat}/{lon}/{z}",
 			"category":"Photo services"
