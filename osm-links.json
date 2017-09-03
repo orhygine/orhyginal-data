@@ -153,6 +153,16 @@ var links = {
 			"category":"Geoportails"
 		},
 		{
+			"label":"Photo aériennes de l'IGN",
+			"url":"http://umap.openstreetmap.fr/fr/map/photos-aeriennes-anciennes-de-lign-via-openeventda_87467#{z}/{lat}/{lon}",
+			"category":"Geoportails"
+		},
+		{
+			"label":"Mides - Cartes anciennes",
+			"url":"http://www.mides.fr/geocaching/fullmapcassi/index.php?zoom={z}&lat={lat}&lon={lon}&layers=0000000BTTTTFT",
+			"category":"Geoportails"
+		},
+		{
 			"label":"Geoportail Luxembourg",
 			"url":"http://map.geoportal.lu/theme/main?version=3&zoom={z}&X={x}&Y={y}&lang=fr&layers&opacities&bgLayer=basemap_2015_global",
 			"category":"Geoportails"
@@ -257,6 +267,11 @@ var links = {
 		{
 			"label":"Geocaching (list - filter out finds)",
 			"url":"http://www.geocaching.com/seek/nearest.aspx?lat={lat}&lng={lon}&f=1",
+			"category":"Games"
+		},
+		{
+			"label":"Geocaches récentes*",
+			"url":"http://www.mides.fr/geocaching/fullmapder/",
 			"category":"Games"
 		},
 		{
@@ -501,6 +516,16 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
+			"label":"Who Did It",
+			"url":"http://zverik.osm.rambler.ru/whodidit/?zoom={z}&lat={lat}&lon={lon}&layers=BTT",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"Change viewer",
+			"url":"http://overpass-api.de/achavi/?zoom={z}&lat={lat}&lon={lon}&layers=B0TFTTT",
+			"category":"OpenStreetMap contributing"
+		},
+		{
 			"label":"ITO Recent Edits (90 days)",
 			"url":"http://product.itoworld.com/map/129?lon={lon}&lat={lat}&zoom={z}",
 			"category":"OpenStreetMap contributing"
@@ -615,6 +640,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"Carte des radars",
+			"url":"http://www.leretourdelautruche.com/map/radar_fr.html?zoom={z}&amp=&lat={lat}&lon={lon}&layers=B0000000T",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"OSMLanduse",
 			"url":"http://osmlanduse.org/#{z}/{lon}/{lat}/0/",
 			"category":"OpenStreetMap"
@@ -693,6 +723,12 @@ var links = {
 		{
 			"label":"OpenRouteService",
 			"url":"http://www.openrouteservice.org/?pos={lon},{lat}&zoom={z}",
+			"category":"Routing",
+			"favorite":true
+		},
+		{
+			"label":"Brouter",
+			"url":"http://brouter.de/brouter-web/#zoom={z}&lat={lat}&lon={lon}&layer=OpenStreetMap",
 			"category":"Routing",
 			"favorite":true
 		},
