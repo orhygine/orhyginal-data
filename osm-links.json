@@ -886,5 +886,15 @@ var links = {
 			"label":"WhoDitIt",
 			"url":"http://zverik.osm.rambler.ru/whodidit/?lat={lat}&lon={lon}&zoom={z}"
 		}
+	],
+	"reference":[
+		{
+			"label":"Map Features Wiki",
+			"url":"http://wiki.openstreetmap.org/wiki/FR:%C3%89l%C3%A9ments_cartographiques"
+		},
+		{
+			"label":"Tag Info",
+			"url":"https://taginfo.openstreetmap.org/"
+		}
 	]
 }
