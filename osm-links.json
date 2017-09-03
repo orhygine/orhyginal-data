@@ -536,6 +536,16 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
+			"label":"OsmHydrant",
+			"url":"https://www.osmhydrant.org/fr/#zoom={z}&lat={lat}&lon={lon}",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"MapContrib - bornes à incendie",
+			"url":"https://www.mapcontrib.xyz/t/s8c2d9-Les_bornes_a_incendie#position/{z}/{lat}/{lon}",
+			"category":"OpenStreetMap contributing"
+		},
+		{
 			"label":"10 years of OSM",
 			"url":"https://www.mapbox.com/ten-years-openstreetmap/#{lon}/{lat}/{z}",
 			"category":"OpenStreetMap"
@@ -752,14 +762,6 @@ var links = {
 		{
 			"label":"Amenity editor",
 			"url":"http://ae.osmsurround.org/ae/index?lat={lat}&lon={lon}&zoom={z}"
-		},
-		{
-			"label":"OsmHydrant",
-			"url":"https://www.osmhydrant.org/fr/#zoom={z}&lat={lat}&lon={lon}"
-		},
-		{
-			"label":"MapContrib - bornes à incendie",
-			"url":"https://www.mapcontrib.xyz/t/s8c2d9-Les_bornes_a_incendie#position/{z}/{lat}/{lon}"
 		}
 	],
 	"check":[
