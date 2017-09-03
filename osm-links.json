@@ -687,6 +687,11 @@ var links = {
 			"category":"Routing"
 		},
 		{
+			"label":"Waze",
+			"url":"https://www.waze.com/fr/livemap/?zoom={z}&lat={lat}&lon={lon}",
+			"category":"Transport"
+		},
+		{
 			"label":"LiveMap24",
 			"url":"https://www.livemap24.com/?lat={lat}&lon={lon}&zoom={z}",
 			"category":"Transport"
