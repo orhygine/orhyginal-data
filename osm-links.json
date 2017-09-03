@@ -881,10 +881,6 @@ var links = {
 		{
 			"label":"Keepright",
 			"url":"http://keepright.ipax.at/report_map.php?lat={lat}&lon={lon}&zoom={z}"
-		},
-		{
-			"label":"WhoDitIt",
-			"url":"http://zverik.osm.rambler.ru/whodidit/?lat={lat}&lon={lon}&zoom={z}"
 		}
 	],
 	"reference":[
