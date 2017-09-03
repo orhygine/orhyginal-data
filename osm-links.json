@@ -384,24 +384,13 @@ var links = {
 			"category":"Outdoor"
 		},
 		{
-			"label":"Open Signal",
-			"url":"http://opensignal.com/index.php?lat={lat}&lng={lon}&initZoom={z}",
-			"category":"Communications"
-		},
-		{
-			"label":"OpenCellId",
-			"url":"http://opencellid.org/#action=filters.GPSPositions&zoom={z}&lat={lat}&lon={lon}",
-			"category":"Communications"
-		},
-		{
 			"label":"Camp2camp",
 			"url":"http://www.camptocamp.org/map?map_y={y}&map_x={x}&map_zoom={z}&baselayer_ref=osm",
 			"category":"Outdoor"
 		},
 		{
-			"label":"HikeBikeMap",
-		/* FIXME not working */
-			"url":"http://hikebikemap.org/?lat={lat}&lon={x}&zoom={z}&layer=HikeBikeMap",
+			"label":"HikeBikeMap*",
+			"url":"http://hikebikemap.org/",
 			"category":"Outdoor"
 		},
 		{
@@ -413,6 +402,16 @@ var links = {
 			"label":"SkiTrack",
 			"url":"http://www.skitrack.fr?lat={lat}&lon={lon}&zoom={z}",
 			"category":"Outdoor-Ski"
+		},
+		{
+			"label":"Open Signal",
+			"url":"http://opensignal.com/index.php?lat={lat}&lng={lon}&initZoom={z}",
+			"category":"Communications"
+		},
+		{
+			"label":"OpenCellId",
+			"url":"http://opencellid.org/#action=filters.GPSPositions&zoom={z}&lat={lat}&lon={lon}",
+			"category":"Communications"
 		},
 		{
 			"label":"Tempo Pyrénées",
