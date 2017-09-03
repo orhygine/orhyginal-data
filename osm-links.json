@@ -434,6 +434,11 @@ var links = {
 			"category":"Communications"
 		},
 		{
+			"label":"Zones Wifi",
+			"url":"http://pierzen.dev.openstreetmap.org/zoneswifi/#{z}/{lat}/{lon}",
+			"category":"Communications"
+		},
+		{
 			"label":"Tempo Pyrénées",
 			"url":"http://tempo.agglo-pau.fr/chimere/?zoom={z}&lat={y}&lon={x}&layers=BTT&checked_categories=2_4_1_3_5&display_submited=false",
 			"category":"History"
@@ -654,6 +659,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"OSM POI Viewer*",
+			"url":"http://www.lenz-online.de/cgi-bin/osmpoi/osmpoi.pl",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"OpenStreetBrowser*",
 			"url":"https://openstreetbrowser.org/#",
 			"category":"OpenStreetMap"
@@ -691,6 +701,11 @@ var links = {
 		{
 			"label":"OpenBeerMap",
 			"url":"https://openbeermap.github.io/#{z}/{lat}/{lon}",
+			"category":"OpenStreetMap"
+		},
+		{
+			"label":"OpenAdvertMap",
+			"url":"http://projets.pavie.info/openadvertmap/#{z}/{lat}/{lon}",
 			"category":"OpenStreetMap"
 		},
 		{
