@@ -428,6 +428,7 @@ var links = {
 			"url":"https://carte-fh.lafibre.info/",
 			"category":"Communications"
 		},
+		{
 			"label":"Projet Crozon*",
 			"url":"https://carte-fh.lafibre.info/index_crozon.php",
 			"category":"Communications"
