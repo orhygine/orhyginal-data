@@ -11,6 +11,11 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
+			"label":"OSM Stats",
+			"url":"http://osmstats.neis-one.org/",
+			"category":"OpenStreetMap contributing"
+		},
+		{
 			"label":"BANO",
 			"url":"http://tile.openstreetmap.fr/~cquest/leaflet/bano.html#{z}/{lat}/{lon}",
 			"category":"OpenStreetMap contributing"
@@ -419,6 +424,15 @@ var links = {
 			"category":"Communications"
 		},
 		{
+			"label":"Faisceaux Hertziens*",
+			"url":"https://carte-fh.lafibre.info/",
+			"category":"Communications"
+		},
+			"label":"Projet Crozon*",
+			"url":"https://carte-fh.lafibre.info/index_crozon.php",
+			"category":"Communications"
+		},
+		{
 			"label":"Tempo Pyrénées",
 			"url":"http://tempo.agglo-pau.fr/chimere/?zoom={z}&lat={y}&lon={x}&layers=BTT&checked_categories=2_4_1_3_5&display_submited=false",
 			"category":"History"
@@ -535,8 +549,18 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
+			"label":"OSM QA Feeds*",
+			"url":"https://tyrasd.github.io/osm-qa-feeds/",
+			"category":"OpenStreetMap contributing"
+		},
+		{
 			"label":"Change viewer",
 			"url":"http://overpass-api.de/achavi/?zoom={z}&lat={lat}&lon={lon}&layers=B0TFTTT",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"Last Week on OSM",
+			"url":"http://tyrasd.github.io/latest-changes/#{z}/{lat}/{lon}",
 			"category":"OpenStreetMap contributing"
 		},
 		{
@@ -590,8 +614,23 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
+			"label":"MapRoulette*",
+			"url":"http://maproulette.org/",
+			"category":"OpenStreetMap contributing"
+		},
+		{
 			"label":"10 years of OSM",
 			"url":"https://www.mapbox.com/ten-years-openstreetmap/#{lon}/{lat}/{z}",
+			"category":"OpenStreetMap"
+		},
+		{
+			"label":"OSM Live*",
+			"url":"http://live.openstreetmap.fr/",
+			"category":"OpenStreetMap"
+		},
+		{
+			"label":"Show me the way*",
+			"url":"http://osmlab.github.io/show-me-the-way/",
 			"category":"OpenStreetMap"
 		},
 		{
@@ -726,6 +765,11 @@ var links = {
 		{
 			"label":"Antarctica Map",
 			"url":"http://polar.openstreetmap.de/#zoom={z}&lat={lat}&lon={lon}&layers=BT",
+			"category":"Services"
+		},
+		{
+			"label":"Protected Planet*",
+			"url":"https://www.protectedplanet.net/",
 			"category":"Services"
 		},
 		{
