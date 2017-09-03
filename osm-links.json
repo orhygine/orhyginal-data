@@ -315,6 +315,11 @@ var links = {
 			"category":"Outdoor"
 		},
 		{
+			"label":"Toposcope Maker*",
+			"url":"http://toposcope.freemap.sk/",
+			"category":"Outdoor"
+		},
+		{
 			"label":"Wikiloc",
 			"url":"http://fr.wikiloc.com/wikiloc/map.do#lt={lat}&ln={lon}&z={z}",
 			"category":"Outdoor"
