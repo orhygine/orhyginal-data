@@ -208,6 +208,11 @@ var links = {
 			"category":"Encyclopedia"
 		},
 		{
+			"label":"OpenInfraMap",
+			"url":"https://openinframap.org/#lat={lat}&lng={lon}&z={z}",
+			"category":"Encyclopedia"
+		},
+		{
 			"label":"Wikimedia commons in Google Earth",
 			"url":"https://tools.wmflabs.org/geocommons/earth.kml?latdegdec={lat}&londegdec={lon}&scale=10000&commons=1",
 			"category":"Encyclopedia"
