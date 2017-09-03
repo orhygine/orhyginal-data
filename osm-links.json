@@ -229,6 +229,11 @@ var links = {
 			"category":"Encyclopedia"
 		},
 		{
+			"label":"Geolocator",
+			"url":"http://tools.freeside.sk/geolocator/geolocator.html?ll={lat},{lon}",
+			"category":"Encyclopedia"
+		},
+		{
 			"label":"FlashEarth",
 			"url":"http://www.flashearth.com/?lat={lat}&lon={lon}&z={z}",
 			"category":"Services"
