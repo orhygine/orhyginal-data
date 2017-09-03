@@ -891,6 +891,10 @@ var links = {
 		{
 			"label":"Tag Info",
 			"url":"https://taginfo.openstreetmap.org/"
+		},
+		{
+			"label":"YoHours",
+			"url":"http://projets.pavie.info/yohours/"
 		}
 	]
 }
