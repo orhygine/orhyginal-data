@@ -95,6 +95,11 @@ var links = {
 			"category":"Meteo"
 		},
 		{
+			"label":"WunderMap",
+			"url":"https://www.wunderground.com/wundermap?lat={lat}&lon={lon}&zoom={z}&type=terrain&units=metric",
+			"category":"Meteo"
+		},
+		{
 			"label":"Suncalc",
 			"url":"http://www.suncalc.org/#/{lat},{lon},{z}/{date}/{time}/1",
 			"category":"Ephemeride",
@@ -755,6 +760,10 @@ var links = {
 		{
 			"label":"Flightradar24",
 			"url":"https://www.flightradar24.com/{lat},{lon}/{z}",
+			"category":"Transport"
+		},
+			"label":"Radar Box",
+			"url":"https://www.radarbox24.com/@{lat},{lon},z{z}",
 			"category":"Transport"
 		},
 		{
