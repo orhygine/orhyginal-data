@@ -203,6 +203,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"OSM Buildings",
+			"url":"http://osmbuildings.org//?lat={lat}&lon={lon}&zoom={z}&tilt=30&rotation=0",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"Wikipedia",
 			"url":"https://tools.wmflabs.org/wiwosm/osm-on-ol/kml-on-ol.php?lat={lat}&lon={lon}&zoom={z}&lang=fr&uselang=fr",
 			"category":"Encyclopedia"
