@@ -230,7 +230,7 @@ var links = {
 		},
 		{
 			"label":"Geolocator",
-			"url":"http://tools.freeside.sk/geolocator/geolocator.html?ll={lat},{lon}",
+			"url":"http://tools.freeside.sk/geolocator/geolocator.html?ll={lat},{lon}&t=osm",
 			"category":"Encyclopedia"
 		},
 		{
