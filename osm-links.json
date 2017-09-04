@@ -233,6 +233,11 @@ var links = {
 			"category":"Encyclopedia"
 		},
 		{
+			"label":"Wiki loves monuments",
+			"url":"http://tools.wmflabs.org/wlm-maps/#{z}/{lat}/{lon}",
+			"category":"Encyclopedia"
+		},
+		{
 			"label":"OpenInfraMap",
 			"url":"https://openinframap.org/#lat={lat}&lng={lon}&z={z}",
 			"category":"Encyclopedia"
