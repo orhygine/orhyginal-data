@@ -11,7 +11,12 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
-			"label":"OSM Stats",
+			"label":"OSM stats report*",
+			"url":"https://www.openstreetmap.org/stats/data_stats.html",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"Neis OSM Stats",
 			"url":"http://osmstats.neis-one.org/",
 			"category":"OpenStreetMap contributing"
 		},
@@ -480,11 +485,6 @@ var links = {
 			"category":"Tools"
 		},
 		{
-			"label":"bbbike extracts",
-			"url":"http://extract.bbbike.org/?lang=fr&sw_lng={xmin}&sw_lat={ymin}&ne_lng={xmax}&ne_lat={ymax}&format=osm.pbf&oi=1&layers=0B000T",
-			"category":"Tools"
-		},
-		{
 			"label":"Google Maps Compass",
 			"url":"http://googlecompass.com/full-screen-map.htm?lat={lat}&lng={lon}&zol={z}&pn=0",
 			"category":"Tools"
@@ -628,6 +628,41 @@ var links = {
 			"label":"MapRoulette*",
 			"url":"http://maproulette.org/",
 			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"Planet OSM*",
+			"url":"https://planet.osm.org/",
+			"category":"OpenStreetMap download"
+		},
+		{
+			"label":"Garmin by OpenTopoMap*",
+			"url":"http://garmin.opentopomap.org",
+			"category":"OpenStreetMap download"
+		},
+		{
+			"label":"Garmin osm.nl*",
+			"url":"http://garmin.openstreetmap.nl/",
+			"category":"OpenStreetMap download"
+		},
+		{
+			"label":"Garmin osm.fr*",
+			"url":"http://garmin.openstreetmap.fr/",
+			"category":"OpenStreetMap download"
+		},
+		{
+			"label":"Geofabrik download*",
+			"url":"http://download.geofabrik.de/",
+			"category":"OpenStreetMap download"
+		},
+		{
+			"label":"bbbike extracts",
+			"url":"http://extract.bbbike.org/?lang=fr&sw_lng={xmin}&sw_lat={ymin}&ne_lng={xmax}&ne_lat={ymax}&format=osm.pbf&oi=1&layers=0B000T",
+			"category":"OpenStreetMap download"
+		},
+		{
+			"label":"Garmin alternativaslibres*",
+			"url":"http://alternativaslibres.org/fr/",
+			"category":"OpenStreetMap download"
 		},
 		{
 			"label":"10 years of OSM",
