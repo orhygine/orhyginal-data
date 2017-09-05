@@ -769,7 +769,7 @@ var links = {
 			"category":"Services"
 		},
 		{
-			"label":"Maps for free",
+			"label":"Relief Map",
 			"url":"http://maps-for-free.com/?val={lat},{lon},{z}",
 			"category":"Services"
 		},
