@@ -898,7 +898,7 @@ var links = {
 		},
 		{
 			"label":"OpenOrienteeringMap",
-			"url":"http://oomap.co.uk/global.php?lat={lat}&lon={lon}&zoom={z}",
+			"url":"http://oomap.co.uk/global/#/new/oterrain_global/{z}/{lon}/{lat}/",
 			"category":"Games"
 		}
 	],
