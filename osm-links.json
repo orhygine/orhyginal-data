@@ -16,7 +16,6 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
-			"label":"Neis OSM Stats",
 			"url":"http://osmstats.neis-one.org/",
 			"category":"OpenStreetMap contributing"
 		},
@@ -652,6 +651,11 @@ var links = {
 		{
 			"label":"Geofabrik download*",
 			"url":"http://download.geofabrik.de/",
+			"category":"OpenStreetMap download"
+		},
+		{
+			"label":"Metro Extracts*",
+			"url":"https://mapzen.com/data/metro-extracts/",
 			"category":"OpenStreetMap download"
 		},
 		{
