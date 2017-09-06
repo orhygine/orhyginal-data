@@ -213,6 +213,11 @@ var links = {
 			"category":"Services"
 		},
 		{
+			"label":"Here",
+			"url":"https://wego.here.com/?map={lat},{lon},{z},normal",
+			"category":"Services"
+		},
+		{
 			"label":"F4map",
 			"url":"http://demo.f4map.com/#lat={lat}&lon={lon}&zoom={z}",
 			"category":"OpenStreetMap"
