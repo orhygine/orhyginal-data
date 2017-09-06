@@ -16,6 +16,7 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
+			"label":"Neis OSM Stats",
 			"url":"http://osmstats.neis-one.org/",
 			"category":"OpenStreetMap contributing"
 		},
