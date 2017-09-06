@@ -853,8 +853,12 @@ var links = {
 		{
 			"label":"Brouter",
 			"url":"http://brouter.de/brouter-web/#zoom={z}&lat={lat}&lon={lon}&layer=OpenStreetMap",
-			"category":"Routing",
-			"favorite":true
+			"category":"Routing"
+		},
+		{
+			"label":"Bike Citizens*",
+			"url":"https://map.bikecitizens.net",
+			"category":"Routing"
 		},
 		{
 			"label":"Kurviger (motorcyle)",
