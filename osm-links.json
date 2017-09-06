@@ -779,6 +779,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"Bexhill-OSM",
+			"url":"http://bexhill-osm.org.uk/#{z}/{lat}/{lon}",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"Wikimapia",
 			"url":"http://wikimapia.org/#lat={lat}&lon={lon}&z={z}&lang=fr&m=b",
 			"category":"Encyclopedia"
