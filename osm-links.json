@@ -759,6 +759,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"OpenStationMap 2",
+			"url":"https://openstationmap.org/html.html#{z}/{lat}/{lon}",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"OpenBeerMap",
 			"url":"https://openbeermap.github.io/#{z}/{lat}/{lon}",
 			"category":"OpenStreetMap"
