@@ -541,7 +541,7 @@ var links = {
 		},
 		{
 			"label":"Who's around me",
-			"url":"http://resultmaps.neis-one.org/oooc?lat={lat}&lon={lon}&zoom={z}",
+			"url":"http://resultmaps.neis-one.org/oooc?lat={lat}&lon={lon}&zoom={z<19}",
 			"category":"OpenStreetMap contributing"
 		},
 		{
