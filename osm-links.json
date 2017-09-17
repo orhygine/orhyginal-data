@@ -575,6 +575,11 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
+			"label":"OSM Tasking Manager*",
+			"url":"http://tasks.hotosm.org/",
+			"category":"OpenStreetMap contributing"
+		},
+		{
 			"label":"OSMCha*",
 			"url":"https://osmcha.mapbox.com",
 			"category":"OpenStreetMap contributing"
