@@ -577,7 +577,8 @@ var links = {
 		{
 			"label":"OSM Tasking Manager*",
 			"url":"http://tasks.hotosm.org/",
-			"category":"OpenStreetMap contributing"
+			"category":"OpenStreetMap contributing",
+			"favorite":true
 		},
 		{
 			"label":"OSMCha*",
@@ -687,6 +688,16 @@ var links = {
 		{
 			"label":"Garmin alternativaslibres*",
 			"url":"http://alternativaslibres.org/fr/",
+			"category":"OpenStreetMap download"
+		},
+		{
+			"label":"HOT Export tool*",
+			"url":"https://export.hotosm.org/fr/v3/exports",
+			"category":"OpenStreetMap download"
+		},
+		{
+			"label":"HOT Export tool (old)*",
+			"url":"http://old-export.hotosm.org/fr/exports/",
 			"category":"OpenStreetMap download"
 		},
 		{
