@@ -996,6 +996,10 @@ var links = {
 		{
 			"label":"Keepright",
 			"url":"http://keepright.ipax.at/report_map.php?lat={lat}&lon={lon}&zoom={z}"
+		},
+		{
+			"label":"CheckAutopista2",
+			"url":"http://k1wiosm.github.io/checkautopista2/?lat={lat}&lon={lon}&z={z}"
 		}
 	],
 	"reference":[
