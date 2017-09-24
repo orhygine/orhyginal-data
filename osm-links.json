@@ -730,6 +730,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"OSM India i18n map",
+			"url":"http://openstreetmap.in/demo/#{z}/{lat}/{lon}",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"OpenPoiMap",
 			"url":"http://openpoimap.org/?map=amenity&zoom={z}&lat={lat}&lon={lon}&layers=B00FFFFFFFFT",
 			"category":"OpenStreetMap"
