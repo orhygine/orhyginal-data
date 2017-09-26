@@ -465,6 +465,10 @@ var links = {
 			"favorite":true
 		},
 		{
+			"label":"HistOSM",
+			"url":"http://histosm.org/#{z}/{lon}/{lat}/0/",
+			"category":"History"
+		},		{
 			"label":"OpenHistoricalMap",
 			"url":"http://www.openhistoricalmap.org/#map={z}/{lat}/{lon}&layers=H",
 			"category":"History"
