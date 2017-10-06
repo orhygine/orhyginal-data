@@ -22,12 +22,12 @@ var links = {
 		},
 		{
 			"label":"BANO",
-			"url":"https://resultmaps.neis-one.org/unmapped#{z}/{lat}/{lon}",
+			"url":"http://tile.openstreetmap.fr/~cquest/leaflet/bano.html#{z}/{lat}/{lon}",
 			"category":"OpenStreetMap contributing"
 		},
 		{
-			"label":"unmapped places",
-			"url":"http://tile.openstreetmap.fr/~cquest/leaflet/bano.html#{z}/{lat}/{lon}",
+			"label":"Unmapped places",
+			"url":"https://resultmaps.neis-one.org/unmapped#{z}/{lat}/{lon}",
 			"category":"OpenStreetMap contributing"
 		},
 		{
