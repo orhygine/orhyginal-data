@@ -22,10 +22,14 @@ var links = {
 		},
 		{
 			"label":"BANO",
+			"url":"https://resultmaps.neis-one.org/unmapped#{z}/{lat}/{lon}",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"unmapped places",
 			"url":"http://tile.openstreetmap.fr/~cquest/leaflet/bano.html#{z}/{lat}/{lon}",
 			"category":"OpenStreetMap contributing"
 		},
-
 		{
 			"label":"BD-Ortho dates de prise de vue",
 			"url":"http://umap.openstreetmap.fr/fr/map/date-heure-des-prises-de-vues-aeriennes-de-la-bd-o_160764#{z}/{lat}/{lon}",
@@ -571,6 +575,11 @@ var links = {
 		{
 			"label":"Who Did It",
 			"url":"http://zverik.osm.rambler.ru/whodidit/?zoom={z}&lat={lat}&lon={lon}&layers=BTT",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"Who Did It (fork)",
+			"url":"http://simon04.dev.openstreetmap.org/whodidit/?zoom={z}&lat={lat}&lon={lon}&layers=BTT",
 			"category":"OpenStreetMap contributing"
 		},
 		{
