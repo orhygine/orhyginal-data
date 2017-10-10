@@ -284,7 +284,7 @@ var links = {
 		},
 		{
 			"label":"Wikidata-OSM Distance Visualizer",
-			"url":"https://osmlab.github.io/wikidata-osm/#{z}/{x}/{y}",
+			"url":"https://osmlab.github.io/wikidata-osm/#{z}/{lon}/{lat}",
 			"category":"Encyclopedia"
 		},
 		{
