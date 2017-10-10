@@ -279,12 +279,12 @@ var links = {
 		},
 		{
 			"label":"Geolocator",
-			"url":"https://osmlab.github.io/wikidata-osm/#{z}/{x}/{y}",
+			"url":"http://tools.freeside.sk/geolocator/geolocator.html?ll={lat},{lon}&t=osm",
 			"category":"Encyclopedia"
 		},
 		{
 			"label":"Wikidata-OSM Distance Visualizer",
-			"url":"http://tools.freeside.sk/geolocator/geolocator.html?ll={lat},{lon}&t=osm",
+			"url":"https://osmlab.github.io/wikidata-osm/#{z}/{x}/{y}",
 			"category":"Encyclopedia"
 		},
 		{
