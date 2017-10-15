@@ -6,6 +6,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"Openstreetmap.org (+data)",
+			"url":"http://www.openstreetmap.org/#map={z}/{lat}/{lon}&layers=D",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"Historique (osm.org)",
 			"url":"http://www.openstreetmap.org//browse/changesets/#map={z}/{lat}/{lon}",
 			"category":"OpenStreetMap contributing"
