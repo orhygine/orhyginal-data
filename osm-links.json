@@ -16,6 +16,11 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
+			"label":"OSM Visual History*",
+			"url":"https://aleung.github.io/osm-visual-history/",
+			"category":"OpenStreetMap contributing"
+		},
+		{
 			"label":"OSM stats report*",
 			"url":"https://www.openstreetmap.org/stats/data_stats.html",
 			"category":"OpenStreetMap contributing"
