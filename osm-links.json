@@ -345,7 +345,7 @@ var links = {
 		},
 		{
 			"label":"Strava",
-			"url":"https://labs.strava.com/heatmap/#{z}/{lat}/{lon}/hot/all",
+			"url":"https://labs.strava.com/heatmap/#{z}/{lon}/{lat}/hot/all",
 			"category":"Outdoor"
 		},
 		{
