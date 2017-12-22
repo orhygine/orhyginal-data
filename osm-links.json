@@ -923,6 +923,11 @@ var links = {
 			"category":"Services"
 		},
 		{
+			"label":"Pollution lumineuse*",
+			"url":"https://avex-asso.org/dossiers/pl/europe-2016/google-map-fausse-couleur/index.html",
+			"category":"Services"
+		},
+		{
 			"label":"OSRM",
 			"url":"http://map.project-osrm.org/?z={z}&center={lat}%2C{lon}&loc=&loc=&hl=en&ly=&alt=&df=&srv=",
 			"category":"Routing",
