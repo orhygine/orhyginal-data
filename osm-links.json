@@ -344,6 +344,11 @@ var links = {
 			"category":"Outdoor"
 		},
 		{
+			"label":"Strava",
+			"url":"https://labs.strava.com/heatmap/#{z}/{lat}/{lon}/hot/all",
+			"category":"Outdoor"
+		},
+		{
 			"label":"BikeMaps",
 			"url":"https://bikemaps.org/@{lat},{lon},{z}z",
 			"category":"Outdoor"
