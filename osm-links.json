@@ -93,8 +93,13 @@ var links = {
 			"favorite":true
 		},
 		{
-			"label":"Meteox Rain Radar",
+			"label":"Meteox Rain Radar (static)",
 			"url":"http://meteox.fr/meteox-maps.aspx?lat={lat}&lon={lon}&z={z<11}&a=1",
+			"category":"Meteo"
+		},
+		{
+			"label":"Meteox Rain Radar (gmap)",
+			"url":"http://www.meteox.com/gmap.aspx?soort=loop3uur&zoom={z<11}&lat={lat}&lon={lon}",
 			"category":"Meteo",
 			"favorite":true
 		},
