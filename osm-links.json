@@ -625,7 +625,7 @@ var links = {
 		},
 		{
 			"label":"OSMCha",
-			"url":"https://osmcha.mapbox.com/?filters={%22in_bbox%22%3A[{%22label%22%3A%22{xmin}%2C{ymin}%2C{xmax}%2C{ymax}%22%2C%22value%22%3A%221.2082%2C43.4285%2C1.6402%2C43.7414%22}]}",
+			"url":"https://osmcha.mapbox.com/?filters={%22in_bbox%22%3A[{%22label%22%3A%22{xmin}%2C{ymin}%2C{xmax}%2C{ymax}%22%2C%22value%22%3A%22{xmin}%2C{ymin}%2C{xmax}%2C{ymax}%22}]}",
 			"category":"OpenStreetMap contributing"
 		},
 		{
