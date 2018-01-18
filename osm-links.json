@@ -34,7 +34,7 @@ var links = {
 			"label":"BANO",
 			"url":"http://tile.openstreetmap.fr/~cquest/leaflet/bano.html#{z}/{lat}/{lon}",
 			"category":"OpenStreetMap contributing"
-		},/
+		},
 		{
 			"label":"Unmapped places",
 			"url":"https://resultmaps.neis-one.org/unmapped#{z}/{lat}/{lon}",
