@@ -794,7 +794,7 @@ var links = {
 		},
 		{
 			"label":"OpenWhateverMap",
-			"url":"http://www.openwhatevermap.org/?zoom={z}&lat={lat}&lon={lon}&layers=B",
+			"url":"http://www.openwhatevermap.xyz/#{z}/{lat}/{lon}",
 			"category":"OpenStreetMap"
 		},
 		{
