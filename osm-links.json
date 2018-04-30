@@ -995,6 +995,11 @@ var links = {
 			"category":"Transport"
 		},
 		{
+			"label":"V-Traffic*",
+			"url":"http://www.v-traffic.com/?addr=Toulouse&amp;pois=8",
+			"category":"Transport"
+		},
+		{
 			"label":"LiveMap24",
 			"url":"https://www.livemap24.com/?lat={lat}&lon={lon}&zoom={z}",
 			"category":"Transport"
