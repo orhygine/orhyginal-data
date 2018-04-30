@@ -578,6 +578,11 @@ var links = {
 			"category":"Tools"
 		},
 		{
+			"label":"Wicket (WKT writer)*",
+			"url":"https://arthur-e.github.io/Wicket/sandbox-gmaps3.html",
+			"category":"Tools"
+		},
+		{
 			"label":"OSM GPS Points",
 			"url":"http://resultmaps.neis-one.org/osmgps.html?lat={lat}&lon={lon}&zoom={z<9}",
 			"category":"OpenStreetMap contributing"
