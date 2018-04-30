@@ -573,6 +573,11 @@ var links = {
 			"category":"Tools"
 		},
 		{
+			"label":"MGRS grid*",
+			"url":"https://mappingsupport.com/p/gmap4.php?tilt=off&mgrs=14S_PG_3430_8382&z=5&t=t1",
+			"category":"Tools"
+		},
+		{
 			"label":"OSM GPS Points",
 			"url":"http://resultmaps.neis-one.org/osmgps.html?lat={lat}&lon={lon}&zoom={z<9}",
 			"category":"OpenStreetMap contributing"
