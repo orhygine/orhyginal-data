@@ -818,6 +818,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"WhatIsWhere*",
+			"url":"https://www.whatiswhere.com/",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"OpenStreetBrowser",
 			"url":"https://openstreetbrowser.org/#map={z}/{lat}/{lon}",
 			"category":"OpenStreetMap"
