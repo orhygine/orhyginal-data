@@ -978,6 +978,11 @@ var links = {
 			"category":"Services"
 		},
 		{
+			"label":"OpenAerialMap",
+			"url":"https://map.openaerialmap.org/#/{lon},{lat},{z}",
+			"category":"Services"
+		},
+		{
 			"label":"OSRM",
 			"url":"http://map.project-osrm.org/?z={z}&center={lat}%2C{lon}&loc=&loc=&hl=en&ly=&alt=&df=&srv=",
 			"category":"Routing",
