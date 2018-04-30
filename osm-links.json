@@ -21,7 +21,7 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
-			"label":"Is OSM up to date",
+			"label":"Is OSM up to date?",
 			"url":"https://is-osm-uptodate.frafra.eu/#{z}/{lat}/{lon}",
 			"category":"OpenStreetMap contributing"
 		},
