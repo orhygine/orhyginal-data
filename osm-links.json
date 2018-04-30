@@ -568,6 +568,11 @@ var links = {
 			"category":"Tools"
 		},
 		{
+			"label":"Bbox finder",
+			"url":"http://bboxfinder.com/#{ymin},{xmin},{ymax},{xmax}",
+			"category":"Tools"
+		},
+		{
 			"label":"OSM GPS Points",
 			"url":"http://resultmaps.neis-one.org/osmgps.html?lat={lat}&lon={lon}&zoom={z<9}",
 			"category":"OpenStreetMap contributing"
