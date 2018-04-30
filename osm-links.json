@@ -1005,6 +1005,11 @@ var links = {
 			"category":"Routing"
 		},
 		{
+			"label":"Railway Routing",
+			"url":"https://signal.eu.org/osm/#{z}/{lat}/{lon}",
+			"category":"Routing"
+		},
+		{
 			"label":"Waze",
 			"url":"https://www.waze.com/fr/livemap/?zoom={z}&lat={lat}&lon={lon}",
 			"category":"Transport"
