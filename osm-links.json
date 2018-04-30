@@ -222,6 +222,11 @@ var links = {
 			"category":"Services"
 		},
 		{
+			"label":"TravelTime Maps",
+			"url":"https://app.traveltimeplatform.com/#/search/0_lat={lat}&0_lng={lon}",
+			"category":"Services"
+		},
+		{
 			"label":"Bing Maps",
 			"url":"http://www.bing.com/mapspreview?cp={lat}~{lon}&lvl={z}&style=h",
 			"category":"Services"
