@@ -898,6 +898,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"Omniscale OSM Hosting",
+			"url":"https://maps.omniscale.com/en/demo#map={z}/{lat}/{lon}/3857/B",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"Wikimapia",
 			"url":"http://wikimapia.org/#lat={lat}&lon={lon}&z={z}&lang=fr&m=b",
 			"category":"Encyclopedia"
