@@ -543,6 +543,11 @@ var links = {
 			"category":"Tools"
 		},
 		{
+			"label":"geojson.net",
+			"url":"http://geojson.net/#map={z}/{lat}/{lon}",
+			"category":"Tools"
+		},
+		{
 			"label":"Google Maps Compass",
 			"url":"http://googlecompass.com/full-screen-map.htm?lat={lat}&lng={lon}&zol={z}&pn=0",
 			"category":"Tools"
