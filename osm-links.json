@@ -638,6 +638,11 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
+			"label":"Meet Your Mapper*",
+			"url":"https://mym.rtijn.org/",
+			"category":"OpenStreetMap contributing"
+		},
+		{
 			"label":"Who Did It",
 			"url":"http://zverik.osm.rambler.ru/whodidit/?zoom={z}&lat={lat}&lon={lon}&layers=BTT",
 			"category":"OpenStreetMap contributing"
