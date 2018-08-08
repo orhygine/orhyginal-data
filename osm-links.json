@@ -943,6 +943,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"Medical by OpenStreetMap",
+			"url":"http://www.tappenbeck.net/osm/maps/deu/index.php?id=1029&zoom={zoom}&lat={lat}&lon={lon}&layers=BFTTT&lang=de",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"Wikimapia",
 			"url":"http://wikimapia.org/#lat={lat}&lon={lon}&z={z}&lang=fr&m=b",
 			"category":"Encyclopedia"
