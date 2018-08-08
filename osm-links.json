@@ -146,6 +146,11 @@ var links = {
 			"favorite":true
 		},
 		{
+			"label":"Under the sun*",
+			"url":"http://projects.truth-and-beauty.net/under-the-sun/",
+			"category":"Ephemeride"
+		},
+		{
 			"label":"Tweets",
 			"url":"https://twitter.com/search?q=geocode:{lat},{lon},1mi",
 			"category":"Social"
