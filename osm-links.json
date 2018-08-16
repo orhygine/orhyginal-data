@@ -134,6 +134,16 @@ var links = {
 			"category":"Meteo"
 		},
 		{
+			"label":"Blitzortung.org*",
+			"url":"http://fr.blitzortung.org/live_dynamic_maps2.php?map=13",
+			"category":"Meteo"
+		},
+		{
+			"label":"LightningMaps.org",
+			"url":"http://www.lightningmaps.org/?lang=fr#m=oss;t=3;s=0;o=0;b=;ts=0;y={lat};x={lon};z={z};d=2;dl=2;dc=0;",
+			"category":"Meteo"
+		},
+		{
 			"label":"Suncalc",
 			"url":"http://www.suncalc.org/#/{lat},{lon},{z}/{date}/{time}/1",
 			"category":"Ephemeride",
@@ -855,6 +865,11 @@ var links = {
 		{
 			"label":"Cameras",
 			"url":"http://www.leretourdelautruche.com/map/cctv/cctv.html?zoom={z}&lat={lat}&lon={lon}&layers=B00T",
+			"category":"OpenStreetMap"
+		},
+		{
+			"label":"Under surveillance*",
+			"url":"https://kamba4.crux.uberspace.de/",
 			"category":"OpenStreetMap"
 		},
 		{
