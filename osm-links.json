@@ -869,7 +869,7 @@ var links = {
 		},
 		{
 			"label":"Under surveillance*",
-			"url":"https://kamba4.crux.uberspace.de/",
+			"url":"https://kamba4.crux.uberspace.de/?lat={lat}&lon={lon}&zoom={z}",
 			"category":"OpenStreetMap"
 		},
 		{
