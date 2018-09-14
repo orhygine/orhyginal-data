@@ -729,6 +729,11 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
+			"label":"Inkatlas*",
+			"url":"https://inkatlas.com/create/",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"MapCraft",
 			"url":"http://mapcraft.nanodesu.ru/map?zoom={z}&lat={y}&lon={x}&layers=BT",
 			"category":"OpenStreetMap contributing"
