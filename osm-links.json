@@ -237,6 +237,11 @@ var links = {
 			"category":"Services"
 		},
 		{
+			"label":"Occupation du sol 2017 (CESBIO)*",
+			"url":"http://osr-cesbio.ups-tlse.fr/~oso/ui-ol/S2_2017/layer.html",
+			"category":"Services"
+		},
+		{
 			"label":"TravelTime Maps",
 			"url":"https://app.traveltimeplatform.com/#/search/0_lat={lat}&0_lng={lon}",
 			"category":"Services"
