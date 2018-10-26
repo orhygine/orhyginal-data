@@ -187,7 +187,7 @@ var links = {
 		},
 		{
 			"label":"Geoportail IGN",
-			"url":"https://www.geoportail.gouv.fr/carte?c={lon},{lat}&z={z}&l0=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN-EXPRESS.STANDARD::GEOPORTAIL:OGC:WMTS(1)&permalink=yes",
+			"url":"https://www.geoportail.gouv.fr/carte?c={lon},{lat}&z={z}&l0=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25TOUR.CV::GEOPORTAIL:OGC:WMTS(1)&permalink=yes",
 			"category":"Geoportails",
 			"favorite":true
 		},
