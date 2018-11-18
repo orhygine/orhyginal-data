@@ -1038,6 +1038,11 @@ var links = {
 			"category":"Services"
 		},
 		{
+			"label":"LandGIS",
+			"url":"https://landgis.opengeohub.org/#/?center={lat},{lon}&zoom={z}",
+			"category":"Services"
+		},		
+		{
 			"label":"OSRM",
 			"url":"http://map.project-osrm.org/?z={z}&center={lat}%2C{lon}&loc=&loc=&hl=en&ly=&alt=&df=&srv=",
 			"category":"Routing",
