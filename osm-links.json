@@ -287,6 +287,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"MapOSMatic*",
+			"url":"https://maposmatic.osm-baustelle.de/",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"MapCat",
 			"url":"https://www.mapcat.com/directions/car#map={z}/{lat}/{lon}",
 			"category":"OpenStreetMap"
