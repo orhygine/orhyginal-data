@@ -21,6 +21,16 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
+			"label":"OSM History* (pewu)",
+			"url":"https://pewu.github.io/osm-history",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"OSM History* (osmhv)",
+			"url":"http://osmhv.openstreetmap.de",
+			"category":"OpenStreetMap contributing"
+		},
+		{
 			"label":"Is OSM up to date?",
 			"url":"https://is-osm-uptodate.frafra.eu/#{z}/{lat}/{lon}",
 			"category":"OpenStreetMap contributing"
