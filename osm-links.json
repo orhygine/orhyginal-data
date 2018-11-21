@@ -61,6 +61,11 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
+			"label":"Parking lane viewer",
+			"url":"https://zlant.github.io/parking-lanes/#{z}/{lat}/{lon}",
+			"category":"OpenStreetMap contributing"
+		},
+		{
 			"label":"Les 3000 des Pyrénées",
 			"url":"http://umap.openstreetmap.fr/fr/map/les-3000-des-pyrenees_76885#{z}/{lat}/{lon}",
 			"category":"uMap"
