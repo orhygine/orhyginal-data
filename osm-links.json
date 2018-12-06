@@ -815,11 +815,6 @@ var links = {
 			"category":"OpenStreetMap download"
 		},
 		{
-			"label":"Metro Extracts*",
-			"url":"https://mapzen.com/data/metro-extracts/",
-			"category":"OpenStreetMap download"
-		},
-		{
 			"label":"bbbike extracts",
 			"url":"http://extract.bbbike.org/?lang=fr&sw_lng={xmin}&sw_lat={ymin}&ne_lng={xmax}&ne_lat={ymax}&format=osm.pbf&oi=1&layers=0B000T",
 			"category":"OpenStreetMap download"
