@@ -237,6 +237,12 @@ var links = {
 			"category":"Geoportails"
 		},
 		{
+			"label":"Qwant Maps",
+			"url":"https://www.qwant.com/maps/#map={z}/{lat}/{lon}",
+			"category":"Services",
+			"favorite":true
+		},
+		{
 			"label":"Google Maps",
 			"url":"https://www.google.com/maps/@{lat},{lon},{z}z",
 			"category":"Services"
