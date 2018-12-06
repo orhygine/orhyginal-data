@@ -770,6 +770,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"BigMap2 (export as image)",
+			"url":"http://bigmap.osmz.ru/index.html#map={z}/{lat}/{lon}",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"MapCraft",
 			"url":"http://mapcraft.nanodesu.ru/map?zoom={z}&lat={y}&lon={x}&layers=BT",
 			"category":"OpenStreetMap contributing"
@@ -792,6 +797,11 @@ var links = {
 		{
 			"label":"Planet OSM*",
 			"url":"https://planet.osm.org/",
+			"category":"OpenStreetMap download"
+		},
+		{
+			"label":"OSM.fr extracts*",
+			"url":"http://download.openstreetmap.fr/extracts/europe/",
 			"category":"OpenStreetMap download"
 		},
 		{
