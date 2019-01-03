@@ -544,6 +544,11 @@ var links = {
 			"category":"Communications"
 		},
 		{
+			"label":"Carte des déploiements fibre",
+			"url":"https://cartefibre.arcep.fr/index.html?lng={lon}&lat={lat}&zoom={z}",
+			"category":"Communications"
+		},
+		{
 			"label":"Faisceaux Hertziens*",
 			"url":"https://carte-fh.lafibre.info/",
 			"category":"Communications"
@@ -1081,11 +1086,6 @@ var links = {
 		{
 			"label":"LandGIS",
 			"url":"https://landgis.opengeohub.org/#/?center={lat},{lon}&zoom={z}",
-			"category":"Services"
-		},
-		{
-			"label":"Carte des déploiements fibre",
-			"url":"https://cartefibre.arcep.fr/index.html?lng={lon}&lat={lat}&zoom={z}",
 			"category":"Services"
 		},
 		{
