@@ -1141,6 +1141,11 @@ var links = {
 			"category":"Transport"
 		},
 		{
+			"label":"Open Transport Map",
+			"url":"http://app.hslayers.org/open_transport_map/map.html?hs_x={x}&hs_y={y}&hs_z={z}",
+			"category":"Transport"
+		},
+		{
 			"label":"OSM Tchoutchou",
 			"url":"http://www.raildar.fr/#lat={lat}&lng={lon}&zoom={z}",
 			"category":"Transport"
