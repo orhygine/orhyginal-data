@@ -6,9 +6,14 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
-			"label":"Openstreetmap.org (+data)",
+			"label":"Openstreet/map.org (+data)",
 			"url":"http://www.openstreetmap.org/#map={z}/{lat}/{lon}&layers=D",
 			"category":"OpenStreetMap"
+		},
+		{
+			"label":"Figuregrounder*",
+			"url":"http://hanshack.com/figuregrounder/",
+			"category":"Art with OpenStreetMap"
 		},
 		{
 			"label":"Historique (osm.org)",
