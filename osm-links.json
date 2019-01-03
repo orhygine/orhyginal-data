@@ -619,6 +619,11 @@ var links = {
 			"category":"Tools"
 		},
 		{
+			"label":"magOSM",
+			"url":"https://magosm.magellium.com/portail/#/carte?z={z}&lon={lon}&lat={lat}",
+			"category":"Tools"
+		},
+		{
 			"label":"Map Compare",
 			"url":"http://mc.bbbike.org/mc?lat={lat}&lon={lon}&zoom={z}",
 			"category":"Tools"
