@@ -369,6 +369,11 @@ var links = {
 			"category":"Encyclopedia"
 		},
 		{
+			"label":"Locator-tool*",
+			"url":"https://tools.wmflabs.org/locator-tool/#/",
+			"category":"Encyclopedia"
+		},
+		{
 			"label":"Geolocator",
 			"url":"http://tools.freeside.sk/geolocator/geolocator.html?ll={lat},{lon}&t=osm",
 			"category":"Encyclopedia"
