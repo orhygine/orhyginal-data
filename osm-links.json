@@ -659,6 +659,21 @@ var links = {
 			"category":"Tools"
 		},
 		{
+			"label":"Spatial Reference*",
+			"url":"http://spatialreference.org/",
+			"category":"Tools"
+		},
+		{
+			"label":"epsg.io*",
+			"url":"http://epsg.io/",
+			"category":"Tools"
+		},
+		{
+			"label":"epsg.io map",
+			"url":"http://epsg.io/map#srs=3857&x={x}&y={y}&z={z}&layer=streets",
+			"category":"Tools"
+		},
+		{
 			"label":"Bbox finder",
 			"url":"http://bboxfinder.com/#{ymin},{xmin},{ymax},{xmax}",
 			"category":"Tools"
