@@ -634,7 +634,12 @@ var links = {
 			"category":"Tools"
 		},
 		{
-			"label":"ohsome*",
+			"label":"ohsome history explorer*",
+			"url":"https://ohsome.org/apps/osm-history-explorer/",
+			"category":"Tools"
+		},
+		{
+			"label":"ohsome dashboard*",
 			"url":"https://ohsome.org/apps/dashboard/",
 			"category":"Tools"
 		},
