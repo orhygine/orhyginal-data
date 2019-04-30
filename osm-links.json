@@ -159,6 +159,11 @@ var links = {
 			"category":"Meteo"
 		},
 		{
+			"label":"Blitzortung.org (new)",
+			"url":"http://map.blitzortung.org/#{z}/{lat}/{lon}",
+			"category":"Meteo"
+		},
+		{
 			"label":"Blitzortung.org*",
 			"url":"http://fr.blitzortung.org/live_dynamic_maps2.php?map=13",
 			"category":"Meteo"
