@@ -825,6 +825,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"BigMap* (export as image)",
+			"url":"http://openstreetmap.gryph.de/bigmap.html",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"BigMap2 (export as image)",
 			"url":"http://bigmap.osmz.ru/index.html#map={z}/{lat}/{lon}",
 			"category":"OpenStreetMap"
