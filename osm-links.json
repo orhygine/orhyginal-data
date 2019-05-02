@@ -1231,6 +1231,11 @@ var links = {
 			"category":"Transport"
 		},
 		{
+			"label":"2 pieds 2 roues*",
+			"url":"https://velomax.2p2r.org/websig/lizmap/www/index.php/view/map/?repository=velomax&project=velomax",
+			"category":"Transport"
+		},
+		{
 			"label":"OpenOrienteeringMap",
 			"url":"http://oomap.co.uk/global/#/new/oterrain_global/{z}/{lon}/{lat}/",
 			"category":"Games"
