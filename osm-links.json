@@ -614,6 +614,11 @@ var links = {
 			"category":"History"
 		},
 		{
+			"label":"Dossier des châteaux de la Suisse",
+			"url":"https://castle-map.infs.ch/#{lat},{lon},{z}z",
+			"category":"History"
+		},
+		{
 			"label":"geojson.io",
 			"url":"http://geojson.io/#map={z}/{lat}/{lon}",
 			"category":"Tools"
