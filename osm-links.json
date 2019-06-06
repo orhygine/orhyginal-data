@@ -1216,6 +1216,11 @@ var links = {
 			"category":"Transport"
 		},
 		{
+			"label":"OpenRailayMap",
+			"url":"https://www.openrailwaymap.org/?lat={lat}&lon={lon}&zoom={z}",
+			"category":"Transport"
+		},
+		{
 			"label":"Ship watch",
 			"url":"http://www.geody.com/shipswatch.php?lat={lat}&lon={lon}&z={z}",
 			"category":"Transport"
