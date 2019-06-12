@@ -1251,11 +1251,6 @@ var links = {
 			"category":"Transport"
 		},
 		{
-			"label":"OSM Truck QA Map*",
-			"url":"http://maxheight.bplaced.net/overpass/map.html",
-			"category":"Transport"
-		},
-		{
 			"label":"OpenOrienteeringMap",
 			"url":"http://oomap.co.uk/global/#/new/oterrain_global/{z}/{lon}/{lat}/",
 			"category":"Games"
@@ -1303,6 +1298,10 @@ var links = {
 		{
 			"label":"CheckAutopista2",
 			"url":"http://k1wiosm.github.io/checkautopista2/?lat={lat}&lon={lon}&z={z}"
+		},
+        {
+			"label":"OSM Truck QA Map*",
+			"url":"http://maxheight.bplaced.net/overpass/map.html"
 		}
 	],
 	"reference":[
