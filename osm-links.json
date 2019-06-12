@@ -81,6 +81,11 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
+			"label":"uMap des uMaps",
+			"url":"http://umap.openstreetmap.fr/en/map/showcase_4783#{z}/{lat}/{lon}",
+			"category":"uMap"
+		},
+		{
 			"label":"Les 3000 des Pyrénées",
 			"url":"http://umap.openstreetmap.fr/fr/map/les-3000-des-pyrenees_76885#{z}/{lat}/{lon}",
 			"category":"uMap"
@@ -1243,6 +1248,11 @@ var links = {
 		{
 			"label":"2 pieds 2 roues*",
 			"url":"https://velomax.2p2r.org/websig/lizmap/www/index.php/view/map/?repository=velomax&project=velomax",
+			"category":"Transport"
+		},
+		{
+			"label":"OSM Truck QA Map*",
+			"url":"http://maxheight.bplaced.net/overpass/map.html",
 			"category":"Transport"
 		},
 		{
