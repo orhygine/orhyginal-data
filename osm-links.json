@@ -36,6 +36,11 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
+			"label":"ArcheOSM",
+			"url":"http://osm13.openstreetmap.fr/~cquest/leaflet/archeosm.html#{z}/{lat}/{lon}",
+			"category":"OpenStreetMap contributing"
+		},
+		{
 			"label":"Is OSM up to date?",
 			"url":"https://is-osm-uptodate.frafra.eu/#{z}/{lat}/{lon}",
 			"category":"OpenStreetMap contributing"
@@ -254,6 +259,11 @@ var links = {
 		{
 			"label":"Geoportail Luxembourg",
 			"url":"http://map.geoportal.lu/theme/main?version=3&zoom={z}&X={x}&Y={y}&lang=fr&layers&opacities&bgLayer=basemap_2015_global",
+			"category":"Geoportails"
+		},
+		{
+			"label":"Geoportail Occitanie*",
+			"url":"http://occitanie.geocameroun.cm/map",
 			"category":"Geoportails"
 		},
 		{
@@ -1086,6 +1096,16 @@ var links = {
 		{
 			"label":"Medical by OpenStreetMap",
 			"url":"http://www.tappenbeck.net/osm/maps/deu/index.php?id=1029&zoom={zoom}&lat={lat}&lon={lon}&layers=BFTTT&lang=de",
+			"category":"OpenStreetMap"
+		},
+		{
+			"label":"OpenStreetMap 4D",
+			"url":"http://osm13.openstreetmap.fr/~cquest/leaflet/4d.html#{z}/{lat}/{lon}",
+			"category":"OpenStreetMap"
+		},
+		{
+			"label":"OpenStreetMap by cquest",
+			"url":"http://osm13.openstreetmap.fr/~cquest/leaflet/l.html#{z}/{lon}/{lat}",
 			"category":"OpenStreetMap"
 		},
 		{
