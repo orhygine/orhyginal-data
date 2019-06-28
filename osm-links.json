@@ -1196,6 +1196,26 @@ var links = {
 			"category":"Transport"
 		},
 		{
+			"label":"InfoTraffic*",
+			"url":"https://www.infotrafic.com/home",
+			"category":"Transport"
+		},
+		{
+			"label":"Bison Futé*",
+			"url":"https://www.bison-fute.gouv.fr/maintenant.html",
+			"category":"Transport"
+		},
+		{
+			"label":"Vinci Autoroutes*",
+			"url":"https://www.vinci-autoroutes.com/fr/autoroutes-temps-reel",
+			"category":"Transport"
+		},
+		{
+			"label":"Autoroutes.fr*",
+			"url":"https://www.autoroutes.fr/fr/trafic-en-temps-reel.htm",
+			"category":"Transport"
+		},
+		{
 			"label":"Traze",
 			"url":"https://traze.app/@{lat},{lon},{z}",
 			"category":"Transport"
