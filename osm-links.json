@@ -920,6 +920,11 @@ var links = {
 			"category":"OpenStreetMap download"
 		},
 		{
+			"label":"OpenAndroMaps*",
+			"url":"https://www.openandromaps.org/en",
+			"category":"OpenStreetMap download"
+		},
+		{
 			"label":"HOT Export tool*",
 			"url":"https://export.hotosm.org/fr/v3/exports",
 			"category":"OpenStreetMap download"
@@ -976,6 +981,11 @@ var links = {
 		{
 			"label":"WhatIsWhere*",
 			"url":"https://www.whatiswhere.com/",
+			"category":"OpenStreetMap"
+		},
+		{
+			"label":"Nouelles Ici*",
+			"url":"http://nouvellesici.com/",
 			"category":"OpenStreetMap"
 		},
 		{
