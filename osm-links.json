@@ -232,8 +232,23 @@ var links = {
 			"favorite":true
 		},
 		{
+			"label":"Geoportail Espagne*",
+			"url":"http://www.idee.es/visualizador/",
+			"category":"Geoportails"
+		},
+		{
 			"label":"Geoportail Pays Basque*",
 			"url":"https://www.geo.euskadi.eus/s69-bisorea/es/x72aGeoeuskadiWAR/index.jsp",
+			"category":"Geoportails"
+		},
+		{
+			"label":"Geoportail Navarre*",
+			"url":"https://idena.navarra.es/navegar/",
+			"category":"Geoportails"
+		},
+		{
+			"label":"Geoportail Aragon*",
+			"url":"https://idearagon.aragon.es/visor/",
 			"category":"Geoportails"
 		},
 		{
