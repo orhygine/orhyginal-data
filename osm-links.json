@@ -559,6 +559,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"AccessMap",
+			"url":"https://www.accessmap.io/?lon={lon}&lat={lat}&z={z}",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"XC Trails",
 			"url":"http://www.xctrails.org/map.html?type=xc&zoom={z}&lat={lat}&lon={lon}&layers=B00000TFFTTTTTTTFTTTFTT",
 			"category":"Outdoor"
