@@ -116,6 +116,12 @@ var links = {
 			"category":"uMap"
 		},
 		{
+			"label":"MeteoBlue",
+			"url":"https://www.meteoblue.com/en/weather/forecast/week/{lat}N{lon}E",
+			"category":"Meteo",
+			"favorite":true
+		},
+		{
 			"label":"Windy",
 			"url":"https://www.windy.com/?{lat},{lon},{z}",
 			"category":"Meteo",
@@ -125,12 +131,6 @@ var links = {
 			"label":"Météo parapente",
 			"url":"https://meteo-parapente.com/#/{lat},{lon},{z}",
 			"category":"Meteo"
-		},
-		{
-			"label":"MeteoBlue",
-			"url":"https://www.meteoblue.com/en/weather/forecast/week/{lat}N{lon}E",
-			"category":"Meteo",
-			"favorite":true
 		},
 		{
 			"label":"Meteox Rain Radar (static)",
