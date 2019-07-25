@@ -584,6 +584,11 @@ var links = {
 			"category":"Outdoor"
 		},
 		{
+			"label":"GPSies",
+			"url":"https://www.gpsies.com/home.do;jsessionid=FBD8ED116444F119B5417CDA8555F3FF.fe2#{z}_{lat}_{lon}_hikebike",
+			"category":"Outdoor"
+		},
+		{
 			"label":"OpenSnowMap",
 			"url":"http://www.opensnowmap.org?lat={lat}&lon={lon}&zoom={z}",
 			"category":"Outdoor-Ski"
