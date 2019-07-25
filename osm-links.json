@@ -574,6 +574,11 @@ var links = {
 			"category":"Outdoor"
 		},
 		{
+			"label":"Cycle Travel",
+			"url":"https://cycle.travel/map?lat={lat}&lon={lon}&zoom={z}",
+			"category":"Outdoor"
+		},
+		{
 			"label":"Climbing Away*",
 			"url":"https://climbingaway.fr/fr/sites-escalade/carte-du-monde-des-sites-d-escalade",
 			"category":"Outdoor"
