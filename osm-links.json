@@ -1039,6 +1039,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"Open Brewery Map",
+			"url":"https://brewmap.openstreetmap.de/index.html.en#{z}/{lat}/{lon}/0/0/f",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"OpenAdvertMap",
 			"url":"http://projets.pavie.info/openadvertmap/#{z}/{lat}/{lon}",
 			"category":"OpenStreetMap"
