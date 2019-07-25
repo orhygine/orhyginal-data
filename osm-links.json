@@ -589,6 +589,11 @@ var links = {
 			"category":"Outdoor"
 		},
 		{
+			"label":"AllTrails*",
+			"url":"https://www.alltrails.com/fr/explore",
+			"category":"Outdoor"
+		},
+		{
 			"label":"OpenSnowMap",
 			"url":"http://www.opensnowmap.org?lat={lat}&lon={lon}&zoom={z}",
 			"category":"Outdoor-Ski"
