@@ -1306,6 +1306,11 @@ var links = {
 			"category":"Transport"
 		},
 		{
+			"label":"Moovit*",
+			"url":"https://moovitapp.com/",
+			"category":"Transport"
+		},
+		{
 			"label":"Flightradar24",
 			"url":"https://www.flightradar24.com/{lat},{lon}/{z}",
 			"category":"Transport"
