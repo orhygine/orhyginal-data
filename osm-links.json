@@ -559,8 +559,8 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
-			"label":"AccessMap",
-			"url":"https://www.accessmap.io/?lon={lon}&lat={lat}&z={z}",
+			"label":"AccessMap*",
+			"url":"https://www.accessmap.io/",
 			"category":"OpenStreetMap"
 		},
 		{
