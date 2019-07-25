@@ -589,6 +589,11 @@ var links = {
 			"category":"Outdoor"
 		},
 		{
+			"label":"WTracks*",
+			"url":"https://opoto.github.io/wtracks/",
+			"category":"Outdoor"
+		},
+		{
 			"label":"AllTrails*",
 			"url":"https://www.alltrails.com/fr/explore",
 			"category":"Outdoor"
