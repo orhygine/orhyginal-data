@@ -999,6 +999,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"flOSM",
+			"url":"http://www.flosm.de/en/poimap.html?lat={lat}&lon={lon}",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"OSM POI Viewer*",
 			"url":"http://www.lenz-online.de/cgi-bin/osmpoi/osmpoi.pl",
 			"category":"OpenStreetMap"
