@@ -232,6 +232,11 @@ var links = {
 			"favorite":true
 		},
 		{
+			"label":"Geoportail Pays Basque*",
+			"url":"https://www.geo.euskadi.eus/s69-bisorea/es/x72aGeoeuskadiWAR/index.jsp",
+			"category":"Geoportails"
+		},
+		{
 			"label":"Geoportail Catalogne",
 			"url":"http://www.icc.cat/vissir3/embedded.html?zoom={z-9}&lon={xUTM31}&lat={yUTM31}",
 			"category":"Geoportails"
