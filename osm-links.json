@@ -554,6 +554,11 @@ var links = {
 			"category":"Outdoor"
 		},
 		{
+			"label":"Climbing Away*",
+			"url":"https://climbingaway.fr/fr/sites-escalade/carte-du-monde-des-sites-d-escalade",
+			"category":"Outdoor"
+		},
+		{
 			"label":"OpenSnowMap",
 			"url":"http://www.opensnowmap.org?lat={lat}&lon={lon}&zoom={z}",
 			"category":"Outdoor-Ski"
