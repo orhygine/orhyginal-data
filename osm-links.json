@@ -186,14 +186,12 @@ var links = {
 		{
 			"label":"Suncalc",
 			"url":"http://www.suncalc.org/#/{lat},{lon},{z}/{date}/{time}/1",
-			"category":"Ephemeride",
-			"favorite":true
+			"category":"Ephemeride"
 		},
 		{
 			"label":"Mooncalc",
 			"url":"http://www.mooncalc.org/#/{lat},{lon},{z}/{date}/{time}/1",
-			"category":"Ephemeride",
-			"favorite":true
+			"category":"Ephemeride"
 		},
 		{
 			"label":"Under the sun*",
@@ -1038,7 +1036,7 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
-			"label":"Nouelles Ici*",
+			"label":"Nouvelles Ici*",
 			"url":"http://nouvellesici.com/",
 			"category":"OpenStreetMap"
 		},
