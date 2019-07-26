@@ -1025,7 +1025,7 @@ var links = {
 		},
 		{
 			"label":"flOSM",
-			"url":"http://www.flosm.de/en/poimap.html?lat={lat}&lon={lon}",
+			"url":"http://www.flosm.de/en/poimap.html?lat={lat}&lon={lon}&r={res}",
 			"category":"OpenStreetMap"
 		},
 		{
