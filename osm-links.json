@@ -1252,8 +1252,7 @@ var links = {
 		{
 			"label":"OpenRouteService",
 			"url":"http://www.openrouteservice.org/?pos={lon},{lat}&zoom={z}",
-			"category":"Routing",
-			"favorite":true
+			"category":"Routing"
 		},
 		{
 			"label":"Brouter",
