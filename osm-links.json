@@ -289,8 +289,7 @@ var links = {
 		{
 			"label":"Qwant Maps",
 			"url":"https://www.qwant.com/maps/#map={z}/{lat}/{lon}",
-			"category":"Services",
-			"favorite":true
+			"category":"Services"
 		},
 		{
 			"label":"Google Maps",
@@ -1246,8 +1245,7 @@ var links = {
 		{
 			"label":"OSRM",
 			"url":"http://map.project-osrm.org/?z={z}&center={lat}%2C{lon}&loc=&loc=&hl=en&ly=&alt=&df=&srv=",
-			"category":"Routing",
-			"favorite":true
+			"category":"Routing"
 		},
 		{
 			"label":"OpenRouteService",
