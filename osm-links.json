@@ -386,7 +386,7 @@ var links = {
 		},
 		{
 			"label":"OpenInfraMap",
-			"url":"https://openinframap.org/#lat={lat}&lng={lon}&z={z}",
+			"url":"https://openinframap.org/#{z}/{lat}/{lon}",
 			"category":"Encyclopedia"
 		},
 		{
