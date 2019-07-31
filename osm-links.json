@@ -1246,6 +1246,11 @@ var links = {
 			"category":"Services"
 		},
 		{
+			"label":"Antipodes",
+			"url":"https://www.datadaptive.com/ant/?lat={lat}&lng={lon}",
+			"category":"Services"
+		},
+		{
 			"label":"OSRM",
 			"url":"http://map.project-osrm.org/?z={z}&center={lat}%2C{lon}&loc=&loc=&hl=en&ly=&alt=&df=&srv=",
 			"category":"Routing"
