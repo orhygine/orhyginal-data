@@ -857,31 +857,6 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
-			"label":"ITO Recent Edits (90 days)",
-			"url":"http://product.itoworld.com/map/129?lon={lon}&lat={lat}&zoom={z}",
-			"category":"OpenStreetMap contributing"
-		},
-		{
-			"label":"ITO Speed Limits",
-			"url":"http://product.itoworld.com/map/35?lon={lon}&lat={lat}&zoom={z}",
-			"category":"OpenStreetMap contributing"
-		},
-		{
-			"label":"ITO Path types",
-			"url":"http://product.itoworld.com/map/120?lon={lon}&lat={lat}&zoom={z}",
-			"category":"OpenStreetMap contributing"
-		},
-		{
-			"label":"ITO Heritage",
-			"url":"http://product.itoworld.com/map/88?lon={lon}&lat={lat}&zoom={z}",
-			"category":"OpenStreetMap contributing"
-		},
-		{
-			"label":"ITO Agriculture",
-			"url":"http://product.itoworld.com/map/133?lon={lon}&lat={lat}&zoom={z}",
-			"category":"OpenStreetMap contributing"
-		},
-		{
 			"label":"Field Papers",
 			"url":"http://fieldpapers.org/compose/select?lat={lat}&lon={lon}&zoom={z}",
 			"category":"OpenStreetMap contributing"
