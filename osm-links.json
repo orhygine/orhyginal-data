@@ -122,6 +122,11 @@ var links = {
 			"favorite":true
 		},
 		{
+			"label":"MeteoBlue Map",
+			"url":"https://www.meteoblue.com/en/weather-maps/{lat}N{lon}E162_Europe%2FParis?variable=precipitation3h_cloudcover_pressure&level=surface&lines=none&mapcenter={lon}N{lat}&zoom={z}",
+			"category":"Meteo"
+		},
+		{
 			"label":"Windy",
 			"url":"https://www.windy.com/?{lat},{lon},{z}",
 			"category":"Meteo",
@@ -1288,6 +1293,11 @@ var links = {
 		{
 			"label":"Traze",
 			"url":"https://traze.app/@{lat},{lon},{z}",
+			"category":"Transport"
+		},
+		{
+			"label":"Plan Tisseo*",
+			"url":"https://www.tisseo.fr/plan-interactif/#",
 			"category":"Transport"
 		},
 		{
