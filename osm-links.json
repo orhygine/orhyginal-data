@@ -11,6 +11,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"CyclOSM",
+			"url":"https://www.cyclosm.org/#map={z}/{lat}/{lon}/cyclosm",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"Figuregrounder*",
 			"url":"http://hanshack.com/figuregrounder/",
 			"category":"Art with OpenStreetMap"
