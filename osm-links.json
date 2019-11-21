@@ -194,6 +194,11 @@ var links = {
 			"category":"Meteo"
 		},
 		{
+			"label":"Keraunos.org*",
+			"url":"http://www.keraunos.org/",
+			"category":"Meteo"
+		},
+		{
 			"label":"Suncalc",
 			"url":"http://www.suncalc.org/#/{lat},{lon},{z}/{date}/{time}/1",
 			"category":"Ephemeride"
@@ -1288,6 +1293,11 @@ var links = {
 		{
 			"label":"Vinci Autoroutes*",
 			"url":"https://www.vinci-autoroutes.com/fr/autoroutes-temps-reel",
+			"category":"Transport"
+		},
+		{
+			"label":"Prix des carburants*",
+			"url":"https://www.prix-carburants.gouv.fr/",
 			"category":"Transport"
 		},
 		{
