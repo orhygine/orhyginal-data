@@ -1221,6 +1221,11 @@ var links = {
 			"category":"Services"
 		},
 		{
+			"label":"FixMyStreet",
+			"url":"https://www.fixmystreet.fr/around?lon={lon}&lat={lat}",
+			"category":"Services"
+		},
+		{
 			"label":"Antarctica Map",
 			"url":"http://polar.openstreetmap.de/#zoom={z}&lat={lat}&lon={lon}&layers=BT",
 			"category":"Services"
