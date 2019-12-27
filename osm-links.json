@@ -1181,6 +1181,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"Cassini GL",
+			"url":"https://makinacorpus.github.io/cassini-gl-style/#{z}/{lon}/{lat}",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"Wikimapia",
 			"url":"http://wikimapia.org/#lat={lat}&lon={lon}&z={z}&lang=fr&m=b",
 			"category":"Encyclopedia"
