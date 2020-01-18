@@ -61,6 +61,11 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
+			"label":"Tile OSM Fr",
+			"url":"http://tile.openstreetmap.fr/?zoom={z}&lat={lat}&lon={lon}",
+			"category":"OpenStreetMap contributing"
+		},
+		{
 			"label":"BANO",
 			"url":"http://tile.openstreetmap.fr/~cquest/leaflet/bano.html#{z}/{lat}/{lon}",
 			"category":"OpenStreetMap contributing"
