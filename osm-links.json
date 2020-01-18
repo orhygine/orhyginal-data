@@ -1429,6 +1429,10 @@ var links = {
 			"url":"http://osmose.openstreetmap.fr/map/cgi-bin/index.py?lat={lat}&lon={lon}&zoom={z}"
 		},
 		{
+			"label":"FANTOIR*",
+			"url":"https://dev.cadastre.openstreetmap.fr/fantoir"
+		},
+		{
 			"label":"OSMInspector",
 			"url":"http://tools.geofabrik.de/osmi/?lat={lat}&lon={lon}&zoom={z}"
 		},
