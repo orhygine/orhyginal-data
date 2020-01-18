@@ -1148,7 +1148,12 @@ var links = {
 		{
 			"label":"Nominatim reverse geocoder",
 			"url":"http://nominatim.openstreetmap.org/reverse.php?format=html&lat={lat}&lon={lon}&zoom={z}",
-			"category":"OpenStreetMap"
+			"category":"OpenStreetMap Geocoding"
+		},
+		{
+			"label":"BANO + Solr*",
+			"url":"https://www.ideeslibres.org/Bano",
+			"category":"OpenStreetMap Geocoding"
 		},
 		{
 			"label":"OpenTripMap",
@@ -1444,6 +1449,10 @@ var links = {
 		{
 			"label":"FANTOIR - Voies récentes*",
 			"url":"http://cadastre.openstreetmap.fr/fantoir/voies_recentes_manquantes.html"
+		},
+		{
+			"label":"GeoCheck*",
+			"url":"https://www.ideeslibres.org/GeoCheck/"
 		},
 		{
 			"label":"OSMInspector",
