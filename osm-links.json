@@ -1434,8 +1434,16 @@ var links = {
 			"url":"http://osmose.openstreetmap.fr/map/cgi-bin/index.py?lat={lat}&lon={lon}&zoom={z}"
 		},
 		{
-			"label":"FANTOIR*",
+			"label":"FANTOIR - Outil de rapprochement*",
 			"url":"https://dev.cadastre.openstreetmap.fr/fantoir"
+		},
+		{
+			"label":"FANTOIR - Stats Département*",
+			"url":"http://cadastre.openstreetmap.fr/fantoir/stats_dept.html"
+		},
+		{
+			"label":"FANTOIR - Voies récentes*",
+			"url":"http://cadastre.openstreetmap.fr/fantoir/voies_recentes_manquantes.html"
 		},
 		{
 			"label":"OSMInspector",
