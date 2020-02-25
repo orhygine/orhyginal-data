@@ -21,6 +21,11 @@ var links = {
 			"category":"Art with OpenStreetMap"
 		},
 		{
+			"label":"City roads*",
+			"url":"https://anvaka.github.io/city-roads/",
+			"category":"Art with OpenStreetMap"
+		},
+		{
 			"label":"Historique (osm.org)",
 			"url":"http://www.openstreetmap.org//browse/changesets/#map={z}/{lat}/{lon}",
 			"category":"OpenStreetMap contributing"
