@@ -1192,7 +1192,7 @@ var links = {
 		},
 		{
 			"label":"OpenStreetMap by cquest",
-			"url":"http://osm13.openstreetmap.fr/~cquest/leaflet/l.html#{z}/{lon}/{lat}",
+			"url":"http://osm13.openstreetmap.fr/~cquest/leaflet/l.html#{z}/{lat}/{lon}",
 			"category":"OpenStreetMap"
 		},
 		{
