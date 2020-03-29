@@ -1,6 +1,18 @@
 var links = {
 	"link":[
 		{
+			"label":"unkm",
+			"url":"https://www.unkm.fr/#{lat},{lon}",
+			"category":"Covid19",
+            "favorite":true
+		},
+		{
+			"label":"caresteouvert",
+			"url":"https://www.caresteouvert.fr/@{lat},{lon},{z}",
+			"category":"Covid19",
+            "favorite":true
+		},
+		{
 			"label":"Openstreetmap.org",
 			"url":"http://www.openstreetmap.org/#map={z}/{lat}/{lon}",
 			"category":"OpenStreetMap"
@@ -172,18 +184,6 @@ var links = {
 			"label":"Windfinder",
 			"url":"https://fr.windfinder.com/weather-maps/forecast/#{z}/{lat}/{lon}",
 			"category":"Meteo"
-		},
-		{
-			"label":"unkm",
-			"url":"https://www.unkm.fr/#{lat},{lon}",
-			"category":"Covid19",
-            "favorite":true
-		},
-		{
-			"label":"caresteouvert",
-			"url":"https://www.caresteouvert.fr/@{lat},{lon},{z}",
-			"category":"Covid19",
-            "favorite":true
 		},
 		{
 			"label":"Wisuki",
