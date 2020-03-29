@@ -176,7 +176,13 @@ var links = {
 		{
 			"label":"unkm",
 			"url":"https://www.unkm.fr/#{lat},{lon}",
-			"category":"Outdoor",
+			"category":"Covid19",
+            "favorite":true
+		},
+		{
+			"label":"caresteouvert",
+			"url":"https://www.caresteouvert.fr/@{lat},{lon},{z}",
+			"category":"Covid19",
             "favorite":true
 		},
 		{
