@@ -599,7 +599,7 @@ var links = {
 			"category":"Outdoor"
 		},
 		{
-			"label":"Toposcope Maker*",
+			"label":"PeakVisor",
 			"url":"http://peakvisor.com/panorama.html?lat={lat}&lng={lon}",
 			"category":"Outdoor"
 		},
