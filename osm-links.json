@@ -58,6 +58,16 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
+			"label":"Latest OpenStreetMap Edits per Tile",
+			"url":"https://resultmaps.neis-one.org/osm-change-tiles#{zoom}/{lat}/{lon}",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"Changeset by Comparison Visualization*",
+			"url":"https://resultmaps.neis-one.org/osm-change-viz?",
+			"category":"OpenStreetMap contributing"
+		},
+		{
 			"label":"Your OSM heat map",
 			"url":"https://yosmhm.neis-one.org/?zoom={z<14}&lat={lat}&lon={lon}&layers=B000TTF",
 			"category":"OpenStreetMap contributing"
