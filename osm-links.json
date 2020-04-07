@@ -591,17 +591,17 @@ var links = {
 		{
 			"label":"Peakfinder",
 			"url":"http://www.peakfinder.org/fr/?lat={lat}&lng={lon}&alt=3000",
-			"category":"Outdoor"
+			"category":"Outdoor - Panorama"
 		},
 		{
 			"label":"Toposcope Maker*",
 			"url":"http://toposcope.freemap.sk/",
-			"category":"Outdoor"
+			"category":"Outdoor - Panorama"
 		},
 		{
 			"label":"PeakVisor",
 			"url":"http://peakvisor.com/panorama.html?lat={lat}&lng={lon}",
-			"category":"Outdoor"
+			"category":"Outdoor - Panorama"
 		},
 		{
 			"label":"Wikiloc",
@@ -715,12 +715,12 @@ var links = {
 		{
 			"label":"OpenSnowMap",
 			"url":"http://www.opensnowmap.org?lat={lat}&lon={lon}&zoom={z}",
-			"category":"Outdoor-Ski"
+			"category":"Outdoor - Ski"
 		},
 		{
 			"label":"SkiTrack",
 			"url":"http://www.skitrack.fr?lat={lat}&lon={lon}&zoom={z}",
-			"category":"Outdoor-Ski"
+			"category":"Outdoor - Ski"
 		},
 		{
 			"label":"Open Signal",
