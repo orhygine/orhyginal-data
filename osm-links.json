@@ -58,6 +58,56 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
+			"label":"Your OSM heat map",
+			"url":"https://yosmhm.neis-one.org/?zoom={z<14}&lat={lat}&lon={lon}&layers=B000TTF",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"OSM suspicious",
+			"url":"https://resultmaps.neis-one.org/osm-suspicious#{z}/{lat}/{lon}",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"OSM suspicious (review requested changesets)",
+			"url":"https://resultmaps.neis-one.org/osm-suspicious?country=140&hours=96&mappingdays=-1&groupby=c&tsearch=review_requested%3Dyes&anyobj=t&comp=%3E&value=10&action=d&obj=n#{z}/{lat}/{lon}",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"Changeset Discussions",
+			"url":"https://resultmaps.neis-one.org/osm-discussions#{z}/{lat}/{lon}",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"Who's around me",
+			"url":"https://resultmaps.neis-one.org/oooc?lat={lat}&lon={lon}&zoom={z<19}",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"New contributors feed",
+			"url":"https://resultmaps.neis-one.org/newestosmcreatefeed?lat={lat}&lon={lon}&zoom={z}",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"Unmapped places",
+			"url":"https://resultmaps.neis-one.org/unmapped#{z}/{lat}/{lon}",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"OSM GPS Points",
+			"url":"https://resultmaps.neis-one.org/osmgps.html?lat={lat}&lon={lon}&zoom={z<9}",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"Neis OSM Stats",
+			"url":"https://osmstats.neis-one.org/",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"Meet Your Mapper*",
+			"url":"https://mym.rtijn.org/",
+			"category":"OpenStreetMap contributing"
+		},
+		{
 			"label":"ArcheOSM",
 			"url":"http://osm13.openstreetmap.fr/~cquest/leaflet/archeosm.html#{z}/{lat}/{lon}",
 			"category":"OpenStreetMap contributing"
@@ -73,11 +123,6 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
-			"label":"Neis OSM Stats",
-			"url":"http://osmstats.neis-one.org/",
-			"category":"OpenStreetMap contributing"
-		},
-		{
 			"label":"Tile OSM Fr",
 			"url":"http://tile.openstreetmap.fr/?zoom={z}&lat={lat}&lon={lon}",
 			"category":"OpenStreetMap contributing"
@@ -85,11 +130,6 @@ var links = {
 		{
 			"label":"BANO",
 			"url":"http://tile.openstreetmap.fr/~cquest/leaflet/bano.html#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap contributing"
-		},
-		{
-			"label":"Unmapped places",
-			"url":"https://resultmaps.neis-one.org/unmapped#{z}/{lat}/{lon}",
 			"category":"OpenStreetMap contributing"
 		},
 		{
@@ -826,46 +866,6 @@ var links = {
 			"label":"Wicket (WKT writer)*",
 			"url":"https://arthur-e.github.io/Wicket/sandbox-gmaps3.html",
 			"category":"Tools"
-		},
-		{
-			"label":"OSM GPS Points",
-			"url":"http://resultmaps.neis-one.org/osmgps.html?lat={lat}&lon={lon}&zoom={z<9}",
-			"category":"OpenStreetMap contributing"
-		},
-		{
-			"label":"Your OSM heat map",
-			"url":"http://yosmhm.neis-one.org/?zoom={z<14}&lat={lat}&lon={lon}&layers=B000TTF",
-			"category":"OpenStreetMap contributing"
-		},
-		{
-			"label":"Who's around me",
-			"url":"http://resultmaps.neis-one.org/oooc?lat={lat}&lon={lon}&zoom={z<19}",
-			"category":"OpenStreetMap contributing"
-		},
-		{
-			"label":"New contributors feed",
-			"url":"http://resultmaps.neis-one.org/newestosmcreatefeed?lat={lat}&lon={lon}&zoom={z}",
-			"category":"OpenStreetMap contributing"
-		},
-		{
-			"label":"OSM suspicious",
-			"url":"http://resultmaps.neis-one.org/osm-suspicious#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap contributing"
-		},
-		{
-			"label":"OSM suspicious (review requested changesets)",
-			"url":"https://resultmaps.neis-one.org/osm-suspicious?country=140&hours=96&mappingdays=-1&groupby=c&tsearch=review_requested%3Dyes&anyobj=t&comp=%3E&value=10&action=d&obj=n#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap contributing"
-		},
-		{
-			"label":"Changeset Discussions",
-			"url":"http://resultmaps.neis-one.org/osm-discussions#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap contributing"
-		},
-		{
-			"label":"Meet Your Mapper*",
-			"url":"https://mym.rtijn.org/",
-			"category":"OpenStreetMap contributing"
 		},
 		{
 			"label":"Who Did It",
