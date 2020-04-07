@@ -286,6 +286,11 @@ var links = {
 			"category":"Ephemeride"
 		},
 		{
+			"label":"SolarTopo*",
+			"url":"http://solartopo.com/orbite-solaire.htm",
+			"category":"Ephemeride"
+		},
+		{
 			"label":"Under the sun*",
 			"url":"http://projects.truth-and-beauty.net/under-the-sun/",
 			"category":"Ephemeride"
