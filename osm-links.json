@@ -590,12 +590,17 @@ var links = {
 		},
 		{
 			"label":"Peakfinder",
-			"url":"http://www.peakfinder.org/fr/?lat={lat}&lng={lon}",
+			"url":"http://www.peakfinder.org/fr/?lat={lat}&lng={lon}&alt=3000",
 			"category":"Outdoor"
 		},
 		{
 			"label":"Toposcope Maker*",
 			"url":"http://toposcope.freemap.sk/",
+			"category":"Outdoor"
+		},
+		{
+			"label":"Toposcope Maker*",
+			"url":"http://peakvisor.com/panorama.html?lat={lat}&lng={lon}",
 			"category":"Outdoor"
 		},
 		{
