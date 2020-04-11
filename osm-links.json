@@ -59,7 +59,7 @@ var links = {
 		},
 		{
 			"label":"Latest OpenStreetMap Edits per Tile",
-			"url":"https://resultmaps.neis-one.org/osm-change-tiles#{zoom}/{lat}/{lon}",
+			"url":"https://resultmaps.neis-one.org/osm-change-tiles#{z}/{lat}/{lon}",
 			"category":"OpenStreetMap contributing"
 		},
 		{
