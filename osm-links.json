@@ -1435,7 +1435,12 @@ var links = {
 		{
 			"label":"Heaven Above",
 			"url":"http://www.heavens-above.com/allsats.aspx?lat={lat}&lng={lon}&z={z}",
-			"category":"Transport"
+			"category":"Space"
+		},
+		{
+			"label":"Sat map*",
+			"url":"https://satmap.space/",
+			"category":"Space"
 		},
 		{
 			"label":"2 pieds 2 roues*",
