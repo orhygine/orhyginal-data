@@ -13,6 +13,18 @@ var links = {
             "favorite":true
 		},
 		{
+			"label":"Zone authorisée",
+			"url":"http://dev.osm162.openstreetmap.fr/zone_autorisee.html#x={lon}&y={lat}",
+			"category":"Covid19",
+            "favorite":true
+		},
+		{
+			"label":"100km|Mon territoire*",
+			"url":"https://100km.monterritoire.fr/",
+			"category":"Covid19",
+            "favorite":true
+		},
+		{
 			"label":"Openstreetmap.org",
 			"url":"http://www.openstreetmap.org/#map={z}/{lat}/{lon}",
 			"category":"OpenStreetMap"
@@ -311,8 +323,18 @@ var links = {
 			"category":"Photo services"
 		},
 		{
+			"label":"Measure height with Mapillary*",
+			"url":"https://tankaru.github.io/Measure-Height-with-Mapillary/",
+			"category":"Photo services"
+		},
+		{
 			"label":"OpenStreetCam",
 			"url":"http://openstreetcam.org/map/@{lat},{lon},{z}z",
+			"category":"Photo services"
+		},
+		{
+			"label":"Street-level OSM data viewer",
+			"url":"https://tankaru.github.io/Street-level-POI-Viewer/viewer.html#{z}/{lat}/{lon}",
 			"category":"Photo services"
 		},
 		{
@@ -825,6 +847,16 @@ var links = {
 		{
 			"label":"ohsome dashboard*",
 			"url":"https://ohsome.org/apps/dashboard/",
+			"category":"Tools"
+		},
+		{
+			"label":"magOSM*",
+			"url":"https://magosm.magellium.com/portail/#/carte",
+			"category":"Tools"
+		},
+		{
+			"label":"magOSM changements*",
+			"url":"https://magosm.magellium.com/portail/#/changements",
 			"category":"Tools"
 		},
 		{
