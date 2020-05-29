@@ -3,26 +3,22 @@ var links = {
 		{
 			"label":"unkm",
 			"url":"https://www.unkm.fr/#{lat},{lon}",
-			"category":"Covid19",
-            "favorite":true
+			"category":"Covid19"
 		},
 		{
 			"label":"caresteouvert",
 			"url":"https://www.caresteouvert.fr/@{lat},{lon},{z}",
-			"category":"Covid19",
-            "favorite":true
+			"category":"Covid19"
 		},
 		{
 			"label":"Zone authorisée",
 			"url":"http://dev.osm162.openstreetmap.fr/zone_autorisee.html#x={lon}&y={lat}",
-			"category":"Covid19",
-            "favorite":true
+			"category":"Covid19"
 		},
 		{
 			"label":"100km|Mon territoire*",
 			"url":"https://100km.monterritoire.fr/",
-			"category":"Covid19",
-            "favorite":true
+			"category":"Covid19"
 		},
 		{
 			"label":"Openstreetmap.org",
