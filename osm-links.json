@@ -1012,6 +1012,11 @@ var links = {
 			"category":"OpenStreetMap download"
 		},
 		{
+			"label":"Frikart*",
+			"url":"http://www.frikart.no/garmin/velgkart.html",
+			"category":"OpenStreetMap download"
+		},
+		{
 			"label":"Garmin osm.nl*",
 			"url":"http://garmin.openstreetmap.nl/",
 			"category":"OpenStreetMap download"
