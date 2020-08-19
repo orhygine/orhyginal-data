@@ -36,6 +36,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"OSMBoundaries*",
+			"url":"https://osm-boundaries.com/Map",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"Figuregrounder*",
 			"url":"http://hanshack.com/figuregrounder/",
 			"category":"Art with OpenStreetMap"
