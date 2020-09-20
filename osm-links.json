@@ -36,6 +36,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"OSM DATA*",
+			"url":"http://demo.openstreetmap.fr/map",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"Cyclofix*",
 			"url":"https://cyclofix.osm.be/map/",
 			"category":"OpenStreetMap"
