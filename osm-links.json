@@ -1,6 +1,21 @@
 var links = {
 	"link":[
 		{
+			"label":"Openstreetmap.org",
+			"url":"http://www.openstreetmap.org/#map={z}/{lat}/{lon}",
+			"category":"OpenStreetMap"
+		},
+		{
+			"label":"Openstreet/map.org (+data)",
+			"url":"http://www.openstreetmap.org/#map={z}/{lat}/{lon}&layers=D",
+			"category":"OpenStreetMap"
+		},
+		{
+			"label":"CyclOSM",
+			"url":"https://www.cyclosm.org/#map={z}/{lat}/{lon}/cyclosm",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"unkm",
 			"url":"https://www.unkm.fr/#{lat},{lon}",
 			"category":"Covid19"
@@ -19,21 +34,6 @@ var links = {
 			"label":"100km|Mon territoire*",
 			"url":"https://100km.monterritoire.fr/",
 			"category":"Covid19"
-		},
-		{
-			"label":"Openstreetmap.org",
-			"url":"http://www.openstreetmap.org/#map={z}/{lat}/{lon}",
-			"category":"OpenStreetMap"
-		},
-		{
-			"label":"Openstreet/map.org (+data)",
-			"url":"http://www.openstreetmap.org/#map={z}/{lat}/{lon}&layers=D",
-			"category":"OpenStreetMap"
-		},
-		{
-			"label":"CyclOSM",
-			"url":"https://www.cyclosm.org/#map={z}/{lat}/{lon}/cyclosm",
-			"category":"OpenStreetMap"
 		},
 		{
 			"label":"OSM DATA*",
