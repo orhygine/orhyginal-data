@@ -46,6 +46,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"Water map*",
+			"url":"https://water-map.org/",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"OSMBoundaries*",
 			"url":"https://osm-boundaries.com/Map",
 			"category":"OpenStreetMap"
