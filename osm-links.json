@@ -151,6 +151,11 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
+			"label":"Cadastre Damsy",
+			"url":"https://cadastre.damsy.net/#{z}/{lat}/{lon}",
+			"category":"OpenStreetMap contributing"
+		},
+		{
 			"label":"Is OSM up to date?",
 			"url":"https://is-osm-uptodate.frafra.eu/#{z}/{lat}/{lon}",
 			"category":"OpenStreetMap contributing"
