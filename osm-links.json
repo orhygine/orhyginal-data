@@ -546,6 +546,11 @@ var links = {
 			"favorite":true
 		},
 		{
+			"label":"wikimap",
+			"url":"https://wikimap.wiki/?base=map&lat={y}&lon={x}&showAll=true&wiki=frwiki&zoom={z}",
+			"category":"Encyclopedia"
+		},
+		{
 			"label":"WikiShootMe!",
 			"url":"https://tools.wmflabs.org/wikishootme/#lat={lat}&lng={lon}&zoom={z}",
 			"category":"Encyclopedia"
