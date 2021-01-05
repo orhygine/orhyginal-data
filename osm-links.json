@@ -546,7 +546,7 @@ var links = {
 			"favorite":true
 		},
 		{
-			"label":"wikimap",
+			"label":"Wikimap",
 			"url":"https://wikimap.wiki/?base=map&lat={y}&lon={x}&showAll=true&wiki=frwiki&zoom={z}",
 			"category":"Encyclopedia"
 		},
