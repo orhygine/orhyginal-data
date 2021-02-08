@@ -642,6 +642,11 @@ var links = {
 			"category":"Outdoor - Panorama"
 		},
 		{
+			"label":"Tables d'orientation Pyrénées",
+			"url":"https://www.tables-orientation-pyrenees.fr/@{lat},{lon},{z}z",
+			"category":"Outdoor - Panorama"
+		},
+		{
 			"label":"PeakVisor",
 			"url":"http://peakvisor.com/panorama.html?lat={lat}&lng={lon}",
 			"category":"Outdoor - Panorama"
