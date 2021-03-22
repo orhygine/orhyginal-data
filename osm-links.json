@@ -41,6 +41,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"GéoDataMine*",
+			"url":"https://geodatamine.fr",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"Cyclofix*",
 			"url":"https://cyclofix.osm.be/map/",
 			"category":"OpenStreetMap"
