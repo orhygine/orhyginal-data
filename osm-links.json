@@ -1107,6 +1107,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"OSM in realtime*",
+			"url":"https://osm-in-realtime.jwestman.net/",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"OSM Then And Now",
 			"url":"http://mvexel.github.io/thenandnow/#{z}/{lat}/{lon}",
 			"category":"OpenStreetMap"
