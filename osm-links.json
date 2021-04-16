@@ -1487,6 +1487,11 @@ var links = {
 			"category":"Transport"
 		},
 		{
+			"label":"Carte de balises en ligne",
+			"url":"http://beacons.schmirler.de/fr/world.html#map={z}/{lat}/{lon}&layers=OS6&details=18",
+			"category":"Transport"
+		},
+		{
 			"label":"Marine Traffic",
 			"url":"http://www.marinetraffic.com/fr/ais/home/centerx:{lon}/centery:{lat}/zoom:{z}",
 			"category":"Transport"
