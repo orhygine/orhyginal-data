@@ -505,6 +505,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"indoor=",
+			"url":"https://indoorequal.org/#map={z}/{lat}/{lon}",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"OSM Buildings",
 			"url":"http://osmbuildings.org//?lat={lat}&lon={lon}&zoom={z}&tilt=30&rotation=0",
 			"category":"OpenStreetMap"
