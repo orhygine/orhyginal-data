@@ -511,7 +511,7 @@ var links = {
 		},
 		{
 			"label":"OSM Buildings",
-			"url":"http://osmbuildings.org//?lat={lat}&lon={lon}&zoom={z}&tilt=30&rotation=0",
+			"url":"http://osmbuildings.org/?lat={lat}&lon={lon}&zoom={z}&tilt=30&rotation=0",
 			"category":"OpenStreetMap"
 		},
 		{
