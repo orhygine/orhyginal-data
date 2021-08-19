@@ -309,6 +309,12 @@ var links = {
 			"category":"Meteo"
 		},
 		{
+			"label":"maree.info*",
+			"url":"http://maree.info/meteo",
+			"category":"Meteo",
+			"favorite":true
+		},
+		{
 			"label":"Suncalc",
 			"url":"http://www.suncalc.org/#/{lat},{lon},{z}/{date}/{time}/1",
 			"category":"Ephemeride"
