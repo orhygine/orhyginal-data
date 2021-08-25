@@ -1312,6 +1312,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"FacilMap",
+			"url":"https://facilmap.org/#{z}/{lon}/{lat}/Mpnk",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"Wikimapia",
 			"url":"http://wikimapia.org/#lat={lat}&lon={lon}&z={z}&lang=fr&m=b",
 			"category":"Encyclopedia"
