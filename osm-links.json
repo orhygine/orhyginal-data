@@ -41,6 +41,11 @@ var links = {
 			"category":"OpenStreetMap"
 		},
 		{
+			"label":"GeOSM*",
+			"url":"https://geo.sm/",
+			"category":"OpenStreetMap"
+		},
+		{
 			"label":"GéoDataMine*",
 			"url":"https://geodatamine.fr",
 			"category":"OpenStreetMap"
@@ -103,6 +108,11 @@ var links = {
 		{
 			"label":"Your OSM heat map",
 			"url":"https://yosmhm.neis-one.org/?zoom={z<14}&lat={lat}&lon={lon}&layers=B000TTF",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"Who's that - OSM user names database*",
+			"url":"http://whosthat.osmz.ru/",
 			"category":"OpenStreetMap contributing"
 		},
 		{
@@ -199,6 +209,11 @@ var links = {
 			"label":"Parking lane viewer (zlant)",
 			"url":"https://zlant.github.io/parking-lanes/#{z}/{lat}/{lon}",
 			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"OpenParkingMap",
+			"url":"https://openparkingmap.com/#{z}/{lat}/{lon}",
+			"category":"OpenStreetMap"
 		},
 		{
 			"label":"Bus lane viewer (zlant)",
