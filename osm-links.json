@@ -446,11 +446,6 @@ var links = {
 			"category":"Geoportails"
 		},
 		{
-			"label":"Israel Hiking Map",
-			"url":"https://israelhiking.osm.org.il/map/{z}/{lon}/{lat}",
-			"category":"Geoportails"
-		},
-		{
 			"label":"Qwant Maps",
 			"url":"https://www.qwant.com/maps/#map={z}/{lat}/{lon}",
 			"category":"Services"
