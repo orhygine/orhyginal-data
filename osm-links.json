@@ -447,7 +447,7 @@ var links = {
 		},
 		{
 			"label":"Israel Hiking Map",
-			"url":"https://israelhiking.osm.org.il/map/{z}}/{lon}/{lat}",
+			"url":"https://israelhiking.osm.org.il/map/{z}/{lon}/{lat}",
 			"category":"Geoportails"
 		},
 		{
