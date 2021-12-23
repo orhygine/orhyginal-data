@@ -923,7 +923,7 @@ var links = {
 		},
 		{
 			"label":"Multimap(a)s",
-			"url":"https://javier.jimenezshaw.com/mapas/?c={lat},{lon}&z={z}&f=osm&b=bng&v=3&e=0.5&o=100&ed=0&m=&ga=0",
+			"url":"https://javier.jimenezshaw.com/mapas/?c={lat},{lon}&z={z}&f=osm&b=bng-sat&v=3&e=0.5&o=100&ed=0&m=&ga=0",
 			"category":"Tools"
 		},
 		{
