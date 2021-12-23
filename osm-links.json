@@ -922,6 +922,11 @@ var links = {
 			"category":"Tools"
 		},
 		{
+			"label":"Multimap(a)s",
+			"url":"https://javier.jimenezshaw.com/mapas/?c={lat},{lon}&z={z}&f=osm&b=bng&v=3&e=0.5&o=100&ed=0&m=&ga=0",
+			"category":"Tools"
+		},
+		{
 			"label":"Mapas (compare)",
 			"url":"http://javier.jimenezshaw.com/mapas/mapas.html?z={z}&c={lat},{lon}",
 			"category":"Tools"
