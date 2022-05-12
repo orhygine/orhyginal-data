@@ -71,6 +71,11 @@ var links = {
 			"category":"Art with OpenStreetMap"
 		},
 		{
+			"label":"Pretty Map*",
+			"url":"https://share.streamlit.io/chrieke/prettymapp/main/streamlit-prettymapp/app.py",
+			"category":"Art with OpenStreetMap"
+		},
+		{
 			"label":"City roads*",
 			"url":"https://anvaka.github.io/city-roads/",
 			"category":"Art with OpenStreetMap"
@@ -108,6 +113,11 @@ var links = {
 		{
 			"label":"Your OSM heat map",
 			"url":"https://yosmhm.neis-one.org/?zoom={z<14}&lat={lat}&lon={lon}&layers=B000TTF",
+			"category":"OpenStreetMap contributing"
+		},
+		{
+			"label":"OSM Community Index*",
+			"url":"https://openstreetmap.community/",
 			"category":"OpenStreetMap contributing"
 		},
 		{
@@ -294,6 +304,11 @@ var links = {
 			"category":"Outdoor"
 		},
 		{
+			"label":"GoSurf*",
+			"url":"https://gosurf.fr/map",
+			"category":"Outdoor"
+		},
+		{
 			"label":"OpenSeaMap Weather",
 			"url":"http://map.openseamap.org/weather.php?zoom={z<8}&lat={lat}&lon={lon}&layers=BTFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
 			"category":"Meteo"
@@ -347,6 +362,11 @@ var links = {
 		{
 			"label":"Under the sun*",
 			"url":"http://projects.truth-and-beauty.net/under-the-sun/",
+			"category":"Ephemeride"
+		},
+		{
+			"label":"JVeuxDuSoleil",
+			"url":"https://jveuxdusoleil.fr/#{z}/{lat}/{lon}",
 			"category":"Ephemeride"
 		},
 		{
@@ -458,6 +478,11 @@ var links = {
 		{
 			"label":"Google Maps",
 			"url":"https://www.google.com/maps/@{lat},{lon},{z}z",
+			"category":"Services"
+		},
+		{
+			"label":"The True Size Of*",
+			"url":"https://www.thetruesize.com/",
 			"category":"Services"
 		},
 		{
@@ -996,6 +1021,11 @@ var links = {
 			"url":"http://tasks.hotosm.org/",
 			"category":"OpenStreetMap contributing",
 			"favorite":true
+		},
+		{
+			"label":"Disaster Ninja",
+			"url":"https://disaster.ninja/active/?map={z}/{lon}/{lat}",
+			"category":"OpenStreetMap contributing",
 		},
 		{
 			"label":"OSMCha",
@@ -1595,6 +1625,10 @@ var links = {
 		{
 			"label":"Osmose",
 			"url":"http://osmose.openstreetmap.fr/map/cgi-bin/index.py?lat={lat}&lon={lon}&zoom={z}"
+		},
+		{
+			"label":"OSM Note Viewer*",
+			"url":"https://antonkhorev.github.io/osm-note-viewer/"
 		},
 		{
 			"label":"FANTOIR - Outil de rapprochement*",
