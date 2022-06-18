@@ -1624,7 +1624,7 @@ var links = {
 	"check":[
 		{
 			"label":"Osmose",
-			"url":"http://osmose.openstreetmap.fr/map/cgi-bin/index.py?lat={lat}&lon={lon}&zoom={z}"
+			"url":"http://osmose.openstreetmap.fr/fr/map/#zoom={z}&lat={lat}&lon={lon}"
 		},
 		{
 			"label":"OSM Note Viewer*",
