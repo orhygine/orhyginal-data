@@ -1474,6 +1474,11 @@ var links = {
 			"category":"Routing"
 		},
 		{
+			"label":"Calimoto*",
+			"url":"https://calimoto.com/fr/itineraires-moto",
+			"category":"Routing"
+		},
+		{
 			"label":"Railway Routing",
 			"url":"https://signal.eu.org/osm/#{z}/{lat}/{lon}",
 			"category":"Routing"
