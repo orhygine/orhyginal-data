@@ -1479,6 +1479,11 @@ var links = {
 			"category":"Routing"
 		},
 		{
+			"label":"Roadcurvature",
+			"url":"https://roadcurvature.com/map/#map={z}/{lon}/{lat}",
+			"category":"Routing"
+		},
+		{
 			"label":"Railway Routing",
 			"url":"https://signal.eu.org/osm/#{z}/{lat}/{lon}",
 			"category":"Routing"
