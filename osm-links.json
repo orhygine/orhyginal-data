@@ -116,6 +116,11 @@ var links = {
 			"category":"OpenStreetMap contributing"
 		},
 		{
+			"label":"Notes heatmap",
+			"url":"https://notes-heatmap.openstreetmap.fr/?pos={lat},{lon},{z}",
+			"category":"OpenStreetMap contributing"
+		},
+		{
 			"label":"OSM Community Index*",
 			"url":"https://openstreetmap.community/",
 			"category":"OpenStreetMap contributing"
@@ -1639,6 +1644,10 @@ var links = {
 		{
 			"label":"OSM Note Viewer*",
 			"url":"https://antonkhorev.github.io/osm-note-viewer/"
+		},
+		{
+			"label":"Notes review",
+			"url":"https://ent8r.github.io/NotesReview/?view=map&map={z}%2F{lat}%2F{lon}"
 		},
 		{
 			"label":"FANTOIR - Outil de rapprochement*",
