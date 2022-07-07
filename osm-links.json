@@ -962,11 +962,6 @@ var links = {
 			"category":"Tools"
 		},
 		{
-			"label":"Sauter",
-			"url":"http://sautter.com/map/?zoom={z}&lat={lat}&lon={lon}&layers=B000TFFFFTTF",
-			"category":"Tools"
-		},
-		{
 			"label":"Distance calculator",
 			"url":"http://map.meurisse.org/?lon={lon}&lat={lat}&zoom={z}",
 			"category":"Tools"
