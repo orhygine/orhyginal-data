@@ -997,6 +997,11 @@ var links = {
 			"category":"Tools"
 		},
 		{
+			"label":"FlipCoords",
+			"url":"https://flipcoords.com/#{lat},{lon}",
+			"category":"Tools"
+		},
+		{
 			"label":"MGRS grid*",
 			"url":"https://mappingsupport.com/p/gmap4.php?usng=14S_QG_0044_8474&z=5&t=h",
 			"category":"Tools"
