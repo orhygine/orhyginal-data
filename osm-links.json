@@ -586,6 +586,11 @@ var links = {
 			"category":"Encyclopedia"
 		},
 		{
+			"label":"Visit Sights*",
+			"url":"https://visitsights.com/",
+			"category":"Encyclopedia"
+		},
+		{
 			"label":"OpenInfraMap",
 			"url":"https://openinframap.org/#{z}/{lat}/{lon}",
 			"category":"Encyclopedia"
