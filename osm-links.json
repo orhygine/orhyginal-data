@@ -1637,6 +1637,10 @@ var links = {
 			"url":"http://ae.osmsurround.org/ae/index?lat={lat}&lon={lon}&zoom={z}"
 		},
 		{
+			"label":"BANCO",
+			"url":"https://commerces.openstreetmap.fr/projects/2022-01_shop/map#map={z}/{lat}/{lon}"
+		},
+		{
 			"label":"Level0*",
 			"url":"http://level0.osmz.ru/index.php"
 		}
