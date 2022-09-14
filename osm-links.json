@@ -1452,6 +1452,11 @@ var links = {
 			"category":"Services"
 		},
 		{
+			"label":"EFFIS - Fires map*",
+			"url":"https://effis.jrc.ec.europa.eu/apps/effis_current_situation/",
+			"category":"Services"
+		},
+		{
 			"label":"OSRM",
 			"url":"http://map.project-osrm.org/?z={z}&center={lat}%2C{lon}&loc=&loc=&hl=en&ly=&alt=&df=&srv=",
 			"category":"Routing"
@@ -1637,8 +1642,16 @@ var links = {
 			"url":"http://ae.osmsurround.org/ae/index?lat={lat}&lon={lon}&zoom={z}"
 		},
 		{
+			"label":"Nominatim QA",
+			"url":"https://nominatim.org/qa/#map={z}/{lat}/{lon}"
+		},
+		{
 			"label":"BANCO",
 			"url":"https://commerces.openstreetmap.fr/projects/2022-01_shop/map#map={z}/{lat}/{lon}"
+		},
+		{
+			"label":"Pifometre",
+			"url":"https://bano.openstreetmap.fr/pifometre/"
 		},
 		{
 			"label":"Level0*",
