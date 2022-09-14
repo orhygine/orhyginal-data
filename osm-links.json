@@ -1642,18 +1642,6 @@ var links = {
 			"url":"http://ae.osmsurround.org/ae/index?lat={lat}&lon={lon}&zoom={z}"
 		},
 		{
-			"label":"Nominatim QA",
-			"url":"https://nominatim.org/qa/#map={z}/{lat}/{lon}"
-		},
-		{
-			"label":"BANCO",
-			"url":"https://commerces.openstreetmap.fr/projects/2022-01_shop/map#map={z}/{lat}/{lon}"
-		},
-		{
-			"label":"Pifometre",
-			"url":"https://bano.openstreetmap.fr/pifometre/"
-		},
-		{
 			"label":"Level0*",
 			"url":"http://level0.osmz.ru/index.php"
 		}
@@ -1670,6 +1658,18 @@ var links = {
 		{
 			"label":"Notes review",
 			"url":"https://ent8r.github.io/NotesReview/?view=map&map={z}%2F{lat}%2F{lon}"
+		},
+		{
+			"label":"Nominatim QA",
+			"url":"https://nominatim.org/qa/#map={z}/{lat}/{lon}"
+		},
+		{
+			"label":"BANCO",
+			"url":"https://commerces.openstreetmap.fr/projects/2022-01_shop/map#map={z}/{lat}/{lon}"
+		},
+		{
+			"label":"Pifometre",
+			"url":"https://bano.openstreetmap.fr/pifometre/"
 		},
 		{
 			"label":"FANTOIR - Outil de rapprochement*",
