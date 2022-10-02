@@ -16,6 +16,12 @@ var links = {
 			"category": "OpenStreetMap"
 		},
 		{
+			"label": "Administrative boundaries",
+			"url": "https://www.flosm.de/en/adminmap.html?lat={lat}&lon={lon}&r=740000.00&st=0&sw=admina,adminc,admine",
+			"category": "OpenStreetMap",
+			"favorite": true
+		},
+		{
 			"label": "unkm",
 			"url": "https://www.unkm.fr/#{lat},{lon}",
 			"category": "Covid19"
@@ -118,6 +124,11 @@ var links = {
 		{
 			"label": "Notes heatmap",
 			"url": "https://notes-heatmap.openstreetmap.fr/?pos={lat},{lon},{z}",
+			"category": "OpenStreetMap contributing"
+		},
+		{
+			"label": "OSM Streak*",
+			"url": "http://streak.osmz.ru/",
 			"category": "OpenStreetMap contributing"
 		},
 		{
@@ -471,6 +482,11 @@ var links = {
 			"category": "Geoportails"
 		},
 		{
+			"label": "seignanx.com",
+			"url": "https://carte.seignanx.com/#map={z}/{lat}/{lon}",
+			"category": "Geoportails"
+		},
+		{
 			"label": "Qwant Maps",
 			"url": "https://www.qwant.com/maps/#map={z}/{lat}/{lon}",
 			"category": "Services"
@@ -608,6 +624,12 @@ var links = {
 		{
 			"label": "Geopedia",
 			"url": "https://www.geopedia.de/?lat={lat}&lon={lon}&z={z}&l=fr",
+			"category": "Encyclopedia",
+			"favorite": true
+		},
+		{
+			"label": "Mapcarta*",
+			"url": "https://mapcarta.com",
 			"category": "Encyclopedia",
 			"favorite": true
 		},
@@ -763,7 +785,7 @@ var links = {
 			"category": "OpenStreetMap"
 		},
 		{
-			"label": "OpenFireMap",
+			"label": "OpenFireMap (Swiss only)",
 			"url": "http://openfiremap.org?lat={lat}&lon={lon}&zoom={z}",
 			"category": "OpenStreetMap"
 		},
@@ -1280,6 +1302,11 @@ var links = {
 			"category": "OpenStreetMap"
 		},
 		{
+			"label": "Veggy map",
+			"url": "https://veggiekarte.de/?lang=fr#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
+		},
+		{
 			"label": "Open Brewery Map",
 			"url": "https://brewmap.openstreetmap.de/index.html.en#{z}/{lat}/{lon}/0/0/f",
 			"category": "OpenStreetMap"
@@ -1478,6 +1505,12 @@ var links = {
 		{
 			"label": "How far did I run*",
 			"url": "https://onthegomap.com/#/create",
+			"category": "Routing",
+			"favorite": true
+		},
+		{
+			"label": "gpx.studio*",
+			"url": "https://gpx.studio/",
 			"category": "Routing",
 			"favorite": true
 		},
