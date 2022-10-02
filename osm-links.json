@@ -1,1725 +1,1728 @@
 var links = {
-	"link":[
+	"link": [
 		{
-			"label":"Openstreetmap.org",
-			"url":"http://www.openstreetmap.org/#map={z}/{lat}/{lon}",
-			"category":"OpenStreetMap"
+			"label": "Openstreetmap.org",
+			"url": "http://www.openstreetmap.org/#map={z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"Openstreet/map.org (+data)",
-			"url":"http://www.openstreetmap.org/#map={z}/{lat}/{lon}&layers=D",
-			"category":"OpenStreetMap"
+			"label": "Openstreet/map.org (+data)",
+			"url": "http://www.openstreetmap.org/#map={z}/{lat}/{lon}&layers=D",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"CyclOSM",
-			"url":"https://www.cyclosm.org/#map={z}/{lat}/{lon}/cyclosm",
-			"category":"OpenStreetMap"
+			"label": "CyclOSM",
+			"url": "https://www.cyclosm.org/#map={z}/{lat}/{lon}/cyclosm",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"unkm",
-			"url":"https://www.unkm.fr/#{lat},{lon}",
-			"category":"Covid19"
+			"label": "unkm",
+			"url": "https://www.unkm.fr/#{lat},{lon}",
+			"category": "Covid19"
 		},
 		{
-			"label":"caresteouvert",
-			"url":"https://www.caresteouvert.fr/@{lat},{lon},{z}",
-			"category":"Covid19"
+			"label": "caresteouvert",
+			"url": "https://www.caresteouvert.fr/@{lat},{lon},{z}",
+			"category": "Covid19"
 		},
 		{
-			"label":"Zone authorisée",
-			"url":"http://dev.osm162.openstreetmap.fr/zone_autorisee.html#x={lon}&y={lat}",
-			"category":"Covid19"
+			"label": "Zone authorisée",
+			"url": "http://dev.osm162.openstreetmap.fr/zone_autorisee.html#x={lon}&y={lat}",
+			"category": "Covid19"
 		},
 		{
-			"label":"100km|Mon territoire*",
-			"url":"https://100km.monterritoire.fr/",
-			"category":"Covid19"
+			"label": "100km|Mon territoire*",
+			"url": "https://100km.monterritoire.fr/",
+			"category": "Covid19"
 		},
 		{
-			"label":"OSM DATA*",
-			"url":"http://demo.openstreetmap.fr/map",
-			"category":"OpenStreetMap"
+			"label": "OSM DATA*",
+			"url": "http://demo.openstreetmap.fr/map",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"GeOSM*",
-			"url":"https://geo.sm/",
-			"category":"OpenStreetMap"
+			"label": "GeOSM*",
+			"url": "https://geo.sm/",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"GéoDataMine*",
-			"url":"https://geodatamine.fr",
-			"category":"OpenStreetMap"
+			"label": "GéoDataMine*",
+			"url": "https://geodatamine.fr",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"Cyclofix*",
-			"url":"https://cyclofix.osm.be/map/",
-			"category":"OpenStreetMap"
+			"label": "Cyclofix*",
+			"url": "https://cyclofix.osm.be/map/",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"Water map*",
-			"url":"https://water-map.org/",
-			"category":"OpenStreetMap"
+			"label": "Water map*",
+			"url": "https://water-map.org/",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"OSMBoundaries*",
-			"url":"https://osm-boundaries.com/Map",
-			"category":"OpenStreetMap"
+			"label": "OSMBoundaries*",
+			"url": "https://osm-boundaries.com/Map",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"Figuregrounder*",
-			"url":"http://hanshack.com/figuregrounder/",
-			"category":"Art with OpenStreetMap"
+			"label": "Figuregrounder*",
+			"url": "http://hanshack.com/figuregrounder/",
+			"category": "Art with OpenStreetMap"
 		},
 		{
-			"label":"Pretty Map*",
-			"url":"https://share.streamlit.io/chrieke/prettymapp/main/streamlit-prettymapp/app.py",
-			"category":"Art with OpenStreetMap"
+			"label": "Pretty Map*",
+			"url": "https://share.streamlit.io/chrieke/prettymapp/main/streamlit-prettymapp/app.py",
+			"category": "Art with OpenStreetMap"
 		},
 		{
-			"label":"City roads*",
-			"url":"https://anvaka.github.io/city-roads/",
-			"category":"Art with OpenStreetMap"
+			"label": "City roads*",
+			"url": "https://anvaka.github.io/city-roads/",
+			"category": "Art with OpenStreetMap"
 		},
 		{
-			"label":"Historique (osm.org)",
-			"url":"http://www.openstreetmap.org//browse/changesets/#map={z}/{lat}/{lon}",
-			"category":"OpenStreetMap contributing"
+			"label": "Historique (osm.org)",
+			"url": "http://www.openstreetmap.org//browse/changesets/#map={z}/{lat}/{lon}",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"OSM Visual History*",
-			"url":"https://aleung.github.io/osm-visual-history/",
-			"category":"OpenStreetMap contributing"
+			"label": "OSM Visual History*",
+			"url": "https://aleung.github.io/osm-visual-history/",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"OSM History* (pewu)",
-			"url":"https://pewu.github.io/osm-history",
-			"category":"OpenStreetMap contributing"
+			"label": "OSM History* (pewu)",
+			"url": "https://pewu.github.io/osm-history",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"OSM History* (osmhv)",
-			"url":"http://osmhv.openstreetmap.de",
-			"category":"OpenStreetMap contributing"
+			"label": "OSM History* (osmhv)",
+			"url": "http://osmhv.openstreetmap.de",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"Latest OpenStreetMap Edits per Tile",
-			"url":"https://resultmaps.neis-one.org/osm-change-tiles#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap contributing"
+			"label": "Latest OpenStreetMap Edits per Tile",
+			"url": "https://resultmaps.neis-one.org/osm-change-tiles#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"Changeset by Comparison Visualization*",
-			"url":"https://resultmaps.neis-one.org/osm-change-viz?",
-			"category":"OpenStreetMap contributing"
+			"label": "Changeset by Comparison Visualization*",
+			"url": "https://resultmaps.neis-one.org/osm-change-viz?",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"Your OSM heat map",
-			"url":"https://yosmhm.neis-one.org/?zoom={z<14}&lat={lat}&lon={lon}&layers=B000TTF",
-			"category":"OpenStreetMap contributing"
+			"label": "Your OSM heat map",
+			"url": "https://yosmhm.neis-one.org/?zoom={z<14}&lat={lat}&lon={lon}&layers=B000TTF",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"Notes heatmap",
-			"url":"https://notes-heatmap.openstreetmap.fr/?pos={lat},{lon},{z}",
-			"category":"OpenStreetMap contributing"
+			"label": "Notes heatmap",
+			"url": "https://notes-heatmap.openstreetmap.fr/?pos={lat},{lon},{z}",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"OSM Community Index*",
-			"url":"https://openstreetmap.community/",
-			"category":"OpenStreetMap contributing"
+			"label": "OSM Community Index*",
+			"url": "https://openstreetmap.community/",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"Who's that - OSM user names database*",
-			"url":"http://whosthat.osmz.ru/",
-			"category":"OpenStreetMap contributing"
+			"label": "Who's that - OSM user names database*",
+			"url": "http://whosthat.osmz.ru/",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"OSM suspicious",
-			"url":"https://resultmaps.neis-one.org/osm-suspicious#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap contributing"
+			"label": "OSM suspicious",
+			"url": "https://resultmaps.neis-one.org/osm-suspicious#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"OSM suspicious (review requested changesets)",
-			"url":"https://resultmaps.neis-one.org/osm-suspicious?country=140&hours=96&mappingdays=-1&groupby=c&tsearch=review_requested%3Dyes&anyobj=t&comp=%3E&value=10&action=d&obj=n#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap contributing"
+			"label": "OSM suspicious (review requested changesets)",
+			"url": "https://resultmaps.neis-one.org/osm-suspicious?country=140&hours=96&mappingdays=-1&groupby=c&tsearch=review_requested%3Dyes&anyobj=t&comp=%3E&value=10&action=d&obj=n#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"Changeset Discussions",
-			"url":"https://resultmaps.neis-one.org/osm-discussions#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap contributing"
+			"label": "Changeset Discussions",
+			"url": "https://resultmaps.neis-one.org/osm-discussions#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"Who's around me",
-			"url":"https://resultmaps.neis-one.org/oooc?lat={lat}&lon={lon}&zoom={z<19}",
-			"category":"OpenStreetMap contributing"
+			"label": "Who's around me",
+			"url": "https://resultmaps.neis-one.org/oooc?lat={lat}&lon={lon}&zoom={z<19}",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"New contributors feed",
-			"url":"https://resultmaps.neis-one.org/newestosmcreatefeed?lat={lat}&lon={lon}&zoom={z}",
-			"category":"OpenStreetMap contributing"
+			"label": "New contributors feed",
+			"url": "https://resultmaps.neis-one.org/newestosmcreatefeed?lat={lat}&lon={lon}&zoom={z}",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"Unmapped places",
-			"url":"https://resultmaps.neis-one.org/unmapped#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap contributing"
+			"label": "Unmapped places",
+			"url": "https://resultmaps.neis-one.org/unmapped#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"OSM GPS Points",
-			"url":"https://resultmaps.neis-one.org/osmgps.html?lat={lat}&lon={lon}&zoom={z<9}",
-			"category":"OpenStreetMap contributing"
+			"label": "OSM GPS Points",
+			"url": "https://resultmaps.neis-one.org/osmgps.html?lat={lat}&lon={lon}&zoom={z<9}",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"Neis OSM Stats",
-			"url":"https://osmstats.neis-one.org/",
-			"category":"OpenStreetMap contributing"
+			"label": "Neis OSM Stats",
+			"url": "https://osmstats.neis-one.org/",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"Meet Your Mapper*",
-			"url":"https://mym.rtijn.org/",
-			"category":"OpenStreetMap contributing"
+			"label": "Meet Your Mapper*",
+			"url": "https://mym.rtijn.org/",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"ArcheOSM",
-			"url":"http://osm13.openstreetmap.fr/~cquest/leaflet/archeosm.html#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap contributing"
+			"label": "ArcheOSM",
+			"url": "http://osm13.openstreetmap.fr/~cquest/leaflet/archeosm.html#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"Cadastre Damsy",
-			"url":"https://cadastre.damsy.net/#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap contributing"
+			"label": "Cadastre Damsy",
+			"url": "https://cadastre.damsy.net/#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"Is OSM up to date?",
-			"url":"https://is-osm-uptodate.frafra.eu/#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap contributing"
+			"label": "Is OSM up to date?",
+			"url": "https://is-osm-uptodate.frafra.eu/#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"OSM stats report*",
-			"url":"https://www.openstreetmap.org/stats/data_stats.html",
-			"category":"OpenStreetMap contributing"
+			"label": "OSM stats report*",
+			"url": "https://www.openstreetmap.org/stats/data_stats.html",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"Tile OSM Fr",
-			"url":"http://tile.openstreetmap.fr/?zoom={z}&lat={lat}&lon={lon}",
-			"category":"OpenStreetMap contributing"
+			"label": "Tile OSM Fr",
+			"url": "http://tile.openstreetmap.fr/?zoom={z}&lat={lat}&lon={lon}",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"BANO",
-			"url":"http://tile.openstreetmap.fr/~cquest/leaflet/bano.html#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap contributing"
+			"label": "BANO",
+			"url": "http://tile.openstreetmap.fr/~cquest/leaflet/bano.html#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"BD-Ortho dates de prise de vue",
-			"url":"http://umap.openstreetmap.fr/fr/map/date-heure-des-prises-de-vues-aeriennes-de-la-bd-o_160764#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap contributing"
+			"label": "BD-Ortho dates de prise de vue",
+			"url": "http://umap.openstreetmap.fr/fr/map/date-heure-des-prises-de-vues-aeriennes-de-la-bd-o_160764#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"Fullscreen map (tile regen tool)",
-			"url":"https://www.sammyshp.de/fsmap/#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap contributing"
+			"label": "Fullscreen map (tile regen tool)",
+			"url": "https://www.sammyshp.de/fsmap/#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"Node density",
-			"url":"http://tyrasd.github.io/osm-node-density/#{z}/{lat}/{lon}/latest,places",
-			"category":"OpenStreetMap contributing"
+			"label": "Node density",
+			"url": "http://tyrasd.github.io/osm-node-density/#{z}/{lat}/{lon}/latest,places",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"Parking lane viewer (zlant)",
-			"url":"https://zlant.github.io/parking-lanes/#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap contributing"
+			"label": "Parking lane viewer (zlant)",
+			"url": "https://zlant.github.io/parking-lanes/#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"OpenParkingMap",
-			"url":"https://openparkingmap.com/#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap"
+			"label": "OpenParkingMap",
+			"url": "https://openparkingmap.com/#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"Bus lane viewer (zlant)",
-			"url":"https://zlant.github.io/bus-lanes/#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap contributing"
+			"label": "Bus lane viewer (zlant)",
+			"url": "https://zlant.github.io/bus-lanes/#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"uMap des uMaps",
-			"url":"http://umap.openstreetmap.fr/en/map/showcase_4783#{z}/{lat}/{lon}",
-			"category":"uMap"
+			"label": "uMap des uMaps",
+			"url": "http://umap.openstreetmap.fr/en/map/showcase_4783#{z}/{lat}/{lon}",
+			"category": "uMap"
 		},
 		{
-			"label":"Les 3000 des Pyrénées",
-			"url":"http://umap.openstreetmap.fr/fr/map/les-3000-des-pyrenees_76885#{z}/{lat}/{lon}",
-			"category":"uMap"
+			"label": "Les 3000 des Pyrénées",
+			"url": "http://umap.openstreetmap.fr/fr/map/les-3000-des-pyrenees_76885#{z}/{lat}/{lon}",
+			"category": "uMap"
 		},
 		{
-			"label":"Activités pour les enfants",
-			"url":"http://umap.openstreetmap.fr/fr/map/activites-pour-les-enfants_5848#{z}/{lat}/{lon}",
-			"category":"uMap"
+			"label": "Activités pour les enfants",
+			"url": "http://umap.openstreetmap.fr/fr/map/activites-pour-les-enfants_5848#{z}/{lat}/{lon}",
+			"category": "uMap"
 		},
 		{
-			"label":"Stations de ski des Pyrénées",
-			"url":"http://umap.openstreetmap.fr/fr/map/stations-de-ski-des-pyrenees_30564#{z}/{lat}/{lon}",
-			"category":"uMap"
+			"label": "Stations de ski des Pyrénées",
+			"url": "http://umap.openstreetmap.fr/fr/map/stations-de-ski-des-pyrenees_30564#{z}/{lat}/{lon}",
+			"category": "uMap"
 		},
 		{
-			"label":"Sites archéologiques",
-			"url":"http://umap.openstreetmap.fr/fr/map/sites-archeologiques_22883#{z}/{lat}/{lon}",
-			"category":"uMap"
+			"label": "Sites archéologiques",
+			"url": "http://umap.openstreetmap.fr/fr/map/sites-archeologiques_22883#{z}/{lat}/{lon}",
+			"category": "uMap"
 		},
 		{
-			"label":"Pelote Basque",
-			"url":"http://umap.openstreetmap.fr/fr/map/pelote-basque_24035#{z}/{lat}/{lon}",
-			"category":"uMap"
+			"label": "Pelote Basque",
+			"url": "http://umap.openstreetmap.fr/fr/map/pelote-basque_24035#{z}/{lat}/{lon}",
+			"category": "uMap"
 		},
 		{
-			"label":"MeteoBlue",
-			"url":"https://www.meteoblue.com/en/weather/forecast/week/{lat}N{lon}E",
-			"category":"Meteo",
-			"favorite":true
+			"label": "MeteoBlue",
+			"url": "https://www.meteoblue.com/en/weather/forecast/week/{lat}N{lon}E",
+			"category": "Meteo",
+			"favorite": true
 		},
 		{
-			"label":"MeteoBlue Map",
-			"url":"https://www.meteoblue.com/en/weather-maps/{lat}N{lon}E162_Europe%2FParis?variable=precipitation3h_cloudcover_pressure&level=surface&lines=none&mapcenter={lon}N{lat}&zoom={z}",
-			"category":"Meteo"
+			"label": "MeteoBlue Map",
+			"url": "https://www.meteoblue.com/en/weather-maps/{lat}N{lon}E162_Europe%2FParis?variable=precipitation3h_cloudcover_pressure&level=surface&lines=none&mapcenter={lon}N{lat}&zoom={z}",
+			"category": "Meteo"
 		},
 		{
-			"label":"Windy",
-			"url":"https://www.windy.com/?{lat},{lon},{z}",
-			"category":"Meteo",
-			"favorite":true
+			"label": "Windy",
+			"url": "https://www.windy.com/?{lat},{lon},{z}",
+			"category": "Meteo",
+			"favorite": true
 		},
 		{
-			"label":"Météo parapente",
-			"url":"https://meteo-parapente.com/#/{lat},{lon},{z}",
-			"category":"Meteo"
+			"label": "Météo parapente",
+			"url": "https://meteo-parapente.com/#/{lat},{lon},{z}",
+			"category": "Meteo"
 		},
 		{
-			"label":"Meteox Rain Radar (static)",
-			"url":"http://meteox.fr/meteox-maps.aspx?lat={lat}&lon={lon}&z={z<11}&a=1",
-			"category":"Meteo"
+			"label": "Meteox Rain Radar (static)",
+			"url": "http://meteox.fr/meteox-maps.aspx?lat={lat}&lon={lon}&z={z<11}&a=1",
+			"category": "Meteo"
 		},
 		{
-			"label":"Meteox Rain Radar (gmap)",
-			"url":"http://www.meteox.com/gmap.aspx?soort=loop3uur&zoom={z<11}&lat={lat}&lon={lon}",
-			"category":"Meteo",
-			"favorite":true
+			"label": "Meteox Rain Radar (gmap)",
+			"url": "http://www.meteox.com/gmap.aspx?soort=loop3uur&zoom={z<11}&lat={lat}&lon={lon}",
+			"category": "Meteo",
+			"favorite": true
 		},
 		{
-			"label":"Windfinder",
-			"url":"https://fr.windfinder.com/weather-maps/forecast/#{z}/{lat}/{lon}",
-			"category":"Meteo"
+			"label": "Windfinder",
+			"url": "https://fr.windfinder.com/weather-maps/forecast/#{z}/{lat}/{lon}",
+			"category": "Meteo"
 		},
 		{
-			"label":"Wisuki",
-			"url":"http://fr.wisuki.com/?lat={lat}&lon={lon}&zoom={z}&mode=terrain#sa-0",
-			"category":"Outdoor"
+			"label": "Wisuki",
+			"url": "http://fr.wisuki.com/?lat={lat}&lon={lon}&zoom={z}&mode=terrain#sa-0",
+			"category": "Outdoor"
 		},
 		{
-			"label":"GoSurf*",
-			"url":"https://gosurf.fr/map",
-			"category":"Outdoor"
+			"label": "GoSurf*",
+			"url": "https://gosurf.fr/map",
+			"category": "Outdoor"
 		},
 		{
-			"label":"OpenSeaMap Weather",
-			"url":"http://map.openseamap.org/weather.php?zoom={z<8}&lat={lat}&lon={lon}&layers=BTFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
-			"category":"Meteo"
+			"label": "OpenSeaMap Weather",
+			"url": "http://map.openseamap.org/weather.php?zoom={z<8}&lat={lat}&lon={lon}&layers=BTFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+			"category": "Meteo"
 		},
 		{
-			"label":"OpenWeatherMap",
-			"url":"http://openweathermap.org/maps?zoom={z}&lat={lat}&lon={lon}&layers=B0FTTFFT",
-			"category":"Meteo"
+			"label": "OpenWeatherMap",
+			"url": "http://openweathermap.org/maps?zoom={z}&lat={lat}&lon={lon}&layers=B0FTTFFT",
+			"category": "Meteo"
 		},
 		{
-			"label":"WunderMap",
-			"url":"https://www.wunderground.com/wundermap?lat={lat}&lon={lon}&zoom={z}&type=terrain&units=metric",
-			"category":"Meteo"
+			"label": "WunderMap",
+			"url": "https://www.wunderground.com/wundermap?lat={lat}&lon={lon}&zoom={z}&type=terrain&units=metric",
+			"category": "Meteo"
 		},
 		{
-			"label":"Blitzortung.org",
-			"url":"http://map.blitzortung.org/#{z}/{lat}/{lon}",
-			"category":"Meteo"
+			"label": "Blitzortung.org",
+			"url": "http://map.blitzortung.org/#{z}/{lat}/{lon}",
+			"category": "Meteo"
 		},
 		{
-			"label":"LightningMaps.org",
-			"url":"http://www.lightningmaps.org/?lang=fr#m=oss;t=3;s=0;o=0;b=;ts=0;y={lat};x={lon};z={z};d=2;dl=2;dc=0;",
-			"category":"Meteo"
+			"label": "LightningMaps.org",
+			"url": "http://www.lightningmaps.org/?lang=fr#m=oss;t=3;s=0;o=0;b=;ts=0;y={lat};x={lon};z={z};d=2;dl=2;dc=0;",
+			"category": "Meteo"
 		},
 		{
-			"label":"Keraunos.org*",
-			"url":"http://www.keraunos.org/",
-			"category":"Meteo"
+			"label": "Keraunos.org*",
+			"url": "http://www.keraunos.org/",
+			"category": "Meteo"
 		},
 		{
-			"label":"maree.info*",
-			"url":"http://maree.info/meteo",
-			"category":"Meteo",
-			"favorite":true
+			"label": "maree.info*",
+			"url": "http://maree.info/meteo",
+			"category": "Meteo",
+			"favorite": true
 		},
 		{
-			"label":"Suncalc",
-			"url":"http://www.suncalc.org/#/{lat},{lon},{z}/{date}/{time}/1",
-			"category":"Ephemeride"
+			"label": "Suncalc",
+			"url": "http://www.suncalc.org/#/{lat},{lon},{z}/{date}/{time}/1",
+			"category": "Ephemeride"
 		},
 		{
-			"label":"Mooncalc",
-			"url":"http://www.mooncalc.org/#/{lat},{lon},{z}/{date}/{time}/1",
-			"category":"Ephemeride"
+			"label": "Mooncalc",
+			"url": "http://www.mooncalc.org/#/{lat},{lon},{z}/{date}/{time}/1",
+			"category": "Ephemeride"
 		},
 		{
-			"label":"SolarTopo*",
-			"url":"http://solartopo.com/orbite-solaire.htm",
-			"category":"Ephemeride"
+			"label": "SolarTopo*",
+			"url": "http://solartopo.com/orbite-solaire.htm",
+			"category": "Ephemeride"
 		},
 		{
-			"label":"Under the sun*",
-			"url":"http://projects.truth-and-beauty.net/under-the-sun/",
-			"category":"Ephemeride"
+			"label": "Under the sun*",
+			"url": "http://projects.truth-and-beauty.net/under-the-sun/",
+			"category": "Ephemeride"
 		},
 		{
-			"label":"JVeuxDuSoleil",
-			"url":"https://jveuxdusoleil.fr/#{z}/{lat}/{lon}",
-			"category":"Ephemeride"
+			"label": "JVeuxDuSoleil",
+			"url": "https://jveuxdusoleil.fr/#{z}/{lat}/{lon}",
+			"category": "Ephemeride"
 		},
 		{
-			"label":"Tweets",
-			"url":"https://twitter.com/search?q=geocode:{lat},{lon},1mi",
-			"category":"Social"
+			"label": "Tweets",
+			"url": "https://twitter.com/search?q=geocode:{lat},{lon},1mi",
+			"category": "Social"
 		},
 		{
-			"label":"Pic4Carto",
-			"url":"http://projets.pavie.info/pic4carto/index.html?#{z}/{lat}/{lon}",
-			"category":"Photo services"
+			"label": "Pic4Carto",
+			"url": "http://projets.pavie.info/pic4carto/index.html?#{z}/{lat}/{lon}",
+			"category": "Photo services"
 		},
 		{
-			"label":"Mapillary",
-			"url":"http://www.mapillary.com/map/search/{lat}/{lon}/{z}",
-			"category":"Photo services"
+			"label": "Mapillary",
+			"url": "http://www.mapillary.com/map/search/{lat}/{lon}/{z}",
+			"category": "Photo services"
 		},
 		{
-			"label":"Measure height with Mapillary*",
-			"url":"https://tankaru.github.io/Measure-Height-with-Mapillary/",
-			"category":"Photo services"
+			"label": "Measure height with Mapillary*",
+			"url": "https://tankaru.github.io/Measure-Height-with-Mapillary/",
+			"category": "Photo services"
 		},
 		{
-			"label":"OpenStreetCam",
-			"url":"http://openstreetcam.org/map/@{lat},{lon},{z}z",
-			"category":"Photo services"
+			"label": "OpenStreetCam",
+			"url": "http://openstreetcam.org/map/@{lat},{lon},{z}z",
+			"category": "Photo services"
 		},
 		{
-			"label":"Street-level OSM data viewer",
-			"url":"https://tankaru.github.io/Street-level-POI-Viewer/viewer.html#{z}/{lat}/{lon}",
-			"category":"Photo services"
+			"label": "Street-level OSM data viewer",
+			"url": "https://tankaru.github.io/Street-level-POI-Viewer/viewer.html#{z}/{lat}/{lon}",
+			"category": "Photo services"
 		},
 		{
-			"label":"Flickr",
-			"url":"https://www.flickr.com/map/?fLat={lat}&fLon={lon}&zl={z}",
-			"category":"Photo services"
+			"label": "Flickr",
+			"url": "https://www.flickr.com/map/?fLat={lat}&fLon={lon}&zl={z}",
+			"category": "Photo services"
 		},
 		{
-			"label":"Geoportail IGN",
-			"url":"https://www.geoportail.gouv.fr/carte?c={lon},{lat}&z={z}&l0=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25TOUR.CV::GEOPORTAIL:OGC:WMTS(1)&permalink=yes",
-			"category":"Geoportails",
-			"favorite":true
+			"label": "Geoportail IGN",
+			"url": "https://www.geoportail.gouv.fr/carte?c={lon},{lat}&z={z}&l0=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25TOUR.CV::GEOPORTAIL:OGC:WMTS(1)&permalink=yes",
+			"category": "Geoportails",
+			"favorite": true
 		},
 		{
-			"label":"Geoportail Espagne*",
-			"url":"http://www.idee.es/visualizador/",
-			"category":"Geoportails"
+			"label": "Geoportail Espagne*",
+			"url": "http://www.idee.es/visualizador/",
+			"category": "Geoportails"
 		},
 		{
-			"label":"Geoportail Pays Basque*",
-			"url":"https://www.geo.euskadi.eus/s69-bisorea/es/x72aGeoeuskadiWAR/index.jsp",
-			"category":"Geoportails"
+			"label": "Geoportail Pays Basque*",
+			"url": "https://www.geo.euskadi.eus/s69-bisorea/es/x72aGeoeuskadiWAR/index.jsp",
+			"category": "Geoportails"
 		},
 		{
-			"label":"Geoportail Navarre*",
-			"url":"https://idena.navarra.es/navegar/",
-			"category":"Geoportails"
+			"label": "Geoportail Navarre*",
+			"url": "https://idena.navarra.es/navegar/",
+			"category": "Geoportails"
 		},
 		{
-			"label":"Geoportail Aragon*",
-			"url":"https://idearagon.aragon.es/visor/",
-			"category":"Geoportails"
+			"label": "Geoportail Aragon*",
+			"url": "https://idearagon.aragon.es/visor/",
+			"category": "Geoportails"
 		},
 		{
-			"label":"Geoportail Catalogne",
-			"url":"http://www.icc.cat/vissir3/embedded.html?zoom={z-9}&lon={xUTM31}&lat={yUTM31}",
-			"category":"Geoportails"
+			"label": "Geoportail Catalogne",
+			"url": "http://www.icc.cat/vissir3/embedded.html?zoom={z-9}&lon={xUTM31}&lat={yUTM31}",
+			"category": "Geoportails"
 		},
 		{
-			"label":"IGN - Visionneuse",
-			"url":"http://mavisionneuse.ign.fr/visio.html?lon={lon}&lat={lat}&zoom={z}&num=2&mt0=ign-scexclassic&mt1=ign-scexstandard",
-			"category":"Geoportails"
+			"label": "IGN - Visionneuse",
+			"url": "http://mavisionneuse.ign.fr/visio.html?lon={lon}&lat={lat}&zoom={z}&num=2&mt0=ign-scexclassic&mt1=ign-scexstandard",
+			"category": "Geoportails"
 		},
 		{
-			"label":"IGN - Remonter le temps",
-			"url":"https://remonterletemps.ign.fr/map/basic?x={lon}&y={lat}&z={z}&layer1=GEOGRAPHICALGRIDSYSTEMS.MAPS&layer2=GEOGRAPHICALGRIDSYSTEMS.CASSINI&mode=hSlider",
-			"category":"Geoportails"
+			"label": "IGN - Remonter le temps",
+			"url": "https://remonterletemps.ign.fr/map/basic?x={lon}&y={lat}&z={z}&layer1=GEOGRAPHICALGRIDSYSTEMS.MAPS&layer2=GEOGRAPHICALGRIDSYSTEMS.CASSINI&mode=hSlider",
+			"category": "Geoportails"
 		},
 		{
-			"label":"Photo aériennes de l'IGN",
-			"url":"http://umap.openstreetmap.fr/fr/map/photos-aeriennes-anciennes-de-lign-via-openeventda_87467#{z}/{lat}/{lon}",
-			"category":"Geoportails"
+			"label": "Photo aériennes de l'IGN",
+			"url": "http://umap.openstreetmap.fr/fr/map/photos-aeriennes-anciennes-de-lign-via-openeventda_87467#{z}/{lat}/{lon}",
+			"category": "Geoportails"
 		},
 		{
-			"label":"Mides - Cartes anciennes",
-			"url":"http://www.mides.fr/geocaching/fullmapcassi/index.php?zoom={z}&lat={lat}&lon={lon}&layers=0000000BTTTTFT",
-			"category":"Geoportails"
+			"label": "Mides - Cartes anciennes",
+			"url": "http://www.mides.fr/geocaching/fullmapcassi/index.php?zoom={z}&lat={lat}&lon={lon}&layers=0000000BTTTTFT",
+			"category": "Geoportails"
 		},
 		{
-			"label":"Geoportail Luxembourg",
-			"url":"http://map.geoportal.lu/theme/main?version=3&zoom={z}&X={x}&Y={y}&lang=fr&layers&opacities&bgLayer=basemap_2015_global",
-			"category":"Geoportails"
+			"label": "Geoportail Luxembourg",
+			"url": "http://map.geoportal.lu/theme/main?version=3&zoom={z}&X={x}&Y={y}&lang=fr&layers&opacities&bgLayer=basemap_2015_global",
+			"category": "Geoportails"
 		},
 		{
-			"label":"Geoportail Occitanie*",
-			"url":"http://occitanie.geocameroun.cm/map",
-			"category":"Geoportails"
+			"label": "Geoportail Occitanie*",
+			"url": "http://occitanie.geocameroun.cm/map",
+			"category": "Geoportails"
 		},
 		{
-			"label":"Qwant Maps",
-			"url":"https://www.qwant.com/maps/#map={z}/{lat}/{lon}",
-			"category":"Services"
+			"label": "Qwant Maps",
+			"url": "https://www.qwant.com/maps/#map={z}/{lat}/{lon}",
+			"category": "Services"
 		},
 		{
-			"label":"nakarte",
-			"url":"https://nakarte.me/#m={z}/{lat}/{lon}&l=O",
-			"category":"Services"
+			"label": "nakarte",
+			"url": "https://nakarte.me/#m={z}/{lat}/{lon}&l=O",
+			"category": "Services"
 		},
 		{
-			"label":"Google Maps",
-			"url":"https://www.google.com/maps/@{lat},{lon},{z}z",
-			"category":"Services"
+			"label": "Google Maps",
+			"url": "https://www.google.com/maps/@{lat},{lon},{z}z",
+			"category": "Services"
 		},
 		{
-			"label":"The True Size Of*",
-			"url":"https://www.thetruesize.com/",
-			"category":"Services"
+			"label": "The True Size Of*",
+			"url": "https://www.thetruesize.com/",
+			"category": "Services"
 		},
 		{
-			"label":"Mapquest",
-			"url":"https://www.mapquest.com/?center={lat},{lon}&zoom={z}&maptype=map",
-			"category":"Services"
+			"label": "Mapquest",
+			"url": "https://www.mapquest.com/?center={lat},{lon}&zoom={z}&maptype=map",
+			"category": "Services"
 		},
 		{
-			"label":"Mapquest fullscreen",
-			"url":"https://www.mapquest.com/embed?center={lat},{lon}&zoom={z}&maptype=map",
-			"category":"Services"
+			"label": "Mapquest fullscreen",
+			"url": "https://www.mapquest.com/embed?center={lat},{lon}&zoom={z}&maptype=map",
+			"category": "Services"
 		},
 		{
-			"label":"Plan de Toulouse",
-			"url":"https://www.plan.toulouse.fr/?&center={lon},{lat}&zoom={z}",
-			"category":"Services"
+			"label": "Plan de Toulouse",
+			"url": "https://www.plan.toulouse.fr/?&center={lon},{lat}&zoom={z}",
+			"category": "Services"
 		},
 		{
-			"label":"Occupation du sol 2017 (CESBIO)*",
-			"url":"http://osr-cesbio.ups-tlse.fr/~oso/ui-ol/S2_2017/layer.html",
-			"category":"Services"
+			"label": "Occupation du sol 2017 (CESBIO)*",
+			"url": "http://osr-cesbio.ups-tlse.fr/~oso/ui-ol/S2_2017/layer.html",
+			"category": "Services"
 		},
 		{
-			"label":"TravelTime Maps",
-			"url":"https://app.traveltimeplatform.com/#/search/0_lat={lat}&0_lng={lon}",
-			"category":"Services"
+			"label": "TravelTime Maps",
+			"url": "https://app.traveltimeplatform.com/#/search/0_lat={lat}&0_lng={lon}",
+			"category": "Services"
 		},
 		{
-			"label":"TravelTime Maps (radius map)*",
-			"url":"https://radiusmap.traveltimeplatform.com/",
-			"category":"Services"
+			"label": "TravelTime Maps (radius map)*",
+			"url": "https://radiusmap.traveltimeplatform.com/",
+			"category": "Services"
 		},
 		{
-			"label":"Bing Maps",
-			"url":"http://www.bing.com/mapspreview?cp={lat}~{lon}&lvl={z}&style=h",
-			"category":"Services"
+			"label": "Bing Maps",
+			"url": "http://www.bing.com/mapspreview?cp={lat}~{lon}&lvl={z}&style=h",
+			"category": "Services"
 		},
 		{
-			"label":"Stamen",
-			"url":"http://maps.stamen.com/#watercolor/{z}/{lat}/{lon}",
-			"category":"Services"
+			"label": "Stamen",
+			"url": "http://maps.stamen.com/#watercolor/{z}/{lat}/{lon}",
+			"category": "Services"
 		},
 		{
-			"label":"Mappy",
-			"url":"http://fr.mappy.com/#/5/M2/THome/N151.12061,6.11309,{lon},{lat}/Z{z-5}/",
-			"category":"Services"
+			"label": "Mappy",
+			"url": "http://fr.mappy.com/#/5/M2/THome/N151.12061,6.11309,{lon},{lat}/Z{z-5}/",
+			"category": "Services"
 		},
 		{
-			"label":"Here",
-			"url":"https://wego.here.com/?map={lat},{lon},{z},normal",
-			"category":"Services"
+			"label": "Here",
+			"url": "https://wego.here.com/?map={lat},{lon},{z},normal",
+			"category": "Services"
 		},
 		{
-			"label":"F4map",
-			"url":"http://demo.f4map.com/#lat={lat}&lon={lon}&zoom={z}",
-			"category":"OpenStreetMap"
+			"label": "F4map",
+			"url": "http://demo.f4map.com/#lat={lat}&lon={lon}&zoom={z}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"MapOSMatic*",
-			"url":"https://maposmatic.osm-baustelle.de/",
-			"category":"OpenStreetMap"
+			"label": "MapOSMatic*",
+			"url": "https://maposmatic.osm-baustelle.de/",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"MapCat",
-			"url":"https://www.mapcat.com/directions/car#map={z}/{lat}/{lon}",
-			"category":"OpenStreetMap"
+			"label": "MapCat",
+			"url": "https://www.mapcat.com/directions/car#map={z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"indoor=",
-			"url":"https://indoorequal.org/#map={z}/{lat}/{lon}",
-			"category":"OpenStreetMap"
+			"label": "indoor=",
+			"url": "https://indoorequal.org/#map={z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"OSM Buildings",
-			"url":"http://osmbuildings.org/?lat={lat}&lon={lon}&zoom={z}&tilt=30&rotation=0",
-			"category":"OpenStreetMap"
+			"label": "OSM Buildings",
+			"url": "http://osmbuildings.org/?lat={lat}&lon={lon}&zoom={z}&tilt=30&rotation=0",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"Wikipedia",
-			"url":"https://tools.wmflabs.org/wiwosm/osm-on-ol/kml-on-ol.php?lat={lat}&lon={lon}&zoom={z}&lang=fr&uselang=fr",
-			"category":"Encyclopedia"
+			"label": "Wikipedia",
+			"url": "https://tools.wmflabs.org/wiwosm/osm-on-ol/kml-on-ol.php?lat={lat}&lon={lon}&zoom={z}&lang=fr&uselang=fr",
+			"category": "Encyclopedia"
 		},
 		{
-			"label":"Wikipedia 2",
-			"url":"http://ausleuchtung.ch/geo_wiki/?lat={lat}&lng={lon}&zm={z}&lang=en&ds=wiki&rd=10",
-			"category":"Encyclopedia"
+			"label": "Wikipedia 2",
+			"url": "http://ausleuchtung.ch/geo_wiki/?lat={lat}&lng={lon}&zm={z}&lang=en&ds=wiki&rd=10",
+			"category": "Encyclopedia"
 		},
 		{
-			"label":"Wikimedia commons",
-			"url":"https://tools.wmflabs.org/wiwosm/osm-on-ol/commons-on-osm.php?zoom={z}&lat={lat}&lon={lon}",
-			"category":"Encyclopedia"
+			"label": "Wikimedia commons",
+			"url": "https://tools.wmflabs.org/wiwosm/osm-on-ol/commons-on-osm.php?zoom={z}&lat={lat}&lon={lon}",
+			"category": "Encyclopedia"
 		},
 		{
-			"label":"Wiki loves monuments",
-			"url":"http://tools.wmflabs.org/wlm-maps/#{z}/{lat}/{lon}",
-			"category":"Encyclopedia"
+			"label": "Wiki loves monuments",
+			"url": "http://tools.wmflabs.org/wlm-maps/#{z}/{lat}/{lon}",
+			"category": "Encyclopedia"
 		},
 		{
-			"label":"Visit Sights*",
-			"url":"https://visitsights.com/",
-			"category":"Encyclopedia"
+			"label": "Visit Sights*",
+			"url": "https://visitsights.com/",
+			"category": "Encyclopedia"
 		},
 		{
-			"label":"OpenInfraMap",
-			"url":"https://openinframap.org/#{z}/{lat}/{lon}",
-			"category":"Encyclopedia"
+			"label": "OpenInfraMap",
+			"url": "https://openinframap.org/#{z}/{lat}/{lon}",
+			"category": "Encyclopedia"
 		},
 		{
-			"label":"Wikimedia commons in Google Earth",
-			"url":"https://tools.wmflabs.org/geocommons/earth.kml?latdegdec={lat}&londegdec={lon}&scale=10000&commons=1",
-			"category":"Encyclopedia"
+			"label": "Wikimedia commons in Google Earth",
+			"url": "https://tools.wmflabs.org/geocommons/earth.kml?latdegdec={lat}&londegdec={lon}&scale=10000&commons=1",
+			"category": "Encyclopedia"
 		},
 		{
-			"label":"Wikivoyage",
-			"url":"https://tools.wmflabs.org/wikivoyage/w/poimap2.php?lat={lat}&lon={lon}&zoom={z}&layer=M&lang=fr",
-			"category":"Encyclopedia"
+			"label": "Wikivoyage",
+			"url": "https://tools.wmflabs.org/wikivoyage/w/poimap2.php?lat={lat}&lon={lon}&zoom={z}&layer=M&lang=fr",
+			"category": "Encyclopedia"
 		},
 		{
-			"label":"Geopedia",
-			"url":"https://www.geopedia.de/?lat={lat}&lon={lon}&z={z}&l=fr",
-			"category":"Encyclopedia",
-			"favorite":true
+			"label": "Geopedia",
+			"url": "https://www.geopedia.de/?lat={lat}&lon={lon}&z={z}&l=fr",
+			"category": "Encyclopedia",
+			"favorite": true
 		},
 		{
-			"label":"Wikimap",
-			"url":"https://wikimap.wiki/?base=map&lat={y}&lon={x}&showAll=true&wiki=frwiki&zoom={z}",
-			"category":"Encyclopedia"
+			"label": "Wikimap",
+			"url": "https://wikimap.wiki/?base=map&lat={y}&lon={x}&showAll=true&wiki=frwiki&zoom={z}",
+			"category": "Encyclopedia"
 		},
 		{
-			"label":"WikiShootMe!",
-			"url":"https://tools.wmflabs.org/wikishootme/#lat={lat}&lng={lon}&zoom={z}",
-			"category":"Encyclopedia"
+			"label": "WikiShootMe!",
+			"url": "https://tools.wmflabs.org/wikishootme/#lat={lat}&lng={lon}&zoom={z}",
+			"category": "Encyclopedia"
 		},
 		{
-			"label":"Locator-tool*",
-			"url":"https://tools.wmflabs.org/locator-tool/#/",
-			"category":"Encyclopedia"
+			"label": "Locator-tool*",
+			"url": "https://tools.wmflabs.org/locator-tool/#/",
+			"category": "Encyclopedia"
 		},
 		{
-			"label":"Wikidata-OSM Distance Visualizer",
-			"url":"https://osmlab.github.io/wikidata-osm/#{z}/{lat}/{lon}",
-			"category":"Encyclopedia"
+			"label": "Wikidata-OSM Distance Visualizer",
+			"url": "https://osmlab.github.io/wikidata-osm/#{z}/{lat}/{lon}",
+			"category": "Encyclopedia"
 		},
 		{
-			"label":"Geolocator",
-			"url":"http://tools.freeside.sk/geolocator/geolocator.html?ll={lat},{lon}&t=osm",
-			"category":"Encyclopedia"
+			"label": "Geolocator",
+			"url": "http://tools.freeside.sk/geolocator/geolocator.html?ll={lat},{lon}&t=osm",
+			"category": "Encyclopedia"
 		},
 		{
-			"label":"Wikidata-OSM Distance Visualizer",
-			"url":"https://osmlab.github.io/wikidata-osm/#{z}/{lat}/{lon}",
-			"category":"Encyclopedia"
+			"label": "Wikidata-OSM Distance Visualizer",
+			"url": "https://osmlab.github.io/wikidata-osm/#{z}/{lat}/{lon}",
+			"category": "Encyclopedia"
 		},
 		{
-			"label":"FlashEarth",
-			"url":"http://www.flashearth.com/?lat={lat}&lon={lon}&z={z}",
-			"category":"Services"
+			"label": "FlashEarth",
+			"url": "http://www.flashearth.com/?lat={lat}&lon={lon}&z={z}",
+			"category": "Services"
 		},
 		{
-			"label":"Geocaching",
-			"url":"https://www.geocaching.com/map/default.aspx?ll={lat},{lon}&z={z}",
-			"category":"Games",
-			"favorite":true
+			"label": "Geocaching",
+			"url": "https://www.geocaching.com/map/default.aspx?ll={lat},{lon}&z={z}",
+			"category": "Games",
+			"favorite": true
 		},
 		{
-			"label":"Geocaching (list)",
-			"url":"http://www.geocaching.com/seek/nearest.aspx?lat={lat}&lng={lon}",
-			"category":"Games"
+			"label": "Geocaching (list)",
+			"url": "http://www.geocaching.com/seek/nearest.aspx?lat={lat}&lng={lon}",
+			"category": "Games"
 		},
 		{
-			"label":"Geocaching (list - filter out finds)",
-			"url":"http://www.geocaching.com/seek/nearest.aspx?lat={lat}&lng={lon}&f=1",
-			"category":"Games"
+			"label": "Geocaching (list - filter out finds)",
+			"url": "http://www.geocaching.com/seek/nearest.aspx?lat={lat}&lng={lon}&f=1",
+			"category": "Games"
 		},
 		{
-			"label":"Geocaches récentes*",
-			"url":"http://www.mides.fr/geocaching/fullmapder/",
-			"category":"Games"
+			"label": "Geocaches récentes*",
+			"url": "http://www.mides.fr/geocaching/fullmapder/",
+			"category": "Games"
 		},
 		{
-			"label":"Confluence",
-			"url":"http://www.confluence.org/confluence.php?lat={lat}&lon={lon}&zoom={z}",
-			"category":"Games"
+			"label": "Confluence",
+			"url": "http://www.confluence.org/confluence.php?lat={lat}&lon={lon}&zoom={z}",
+			"category": "Games"
 		},
 		{
-			"label":"Waymarking",
-			"url":"http://www.waymarking.com/wm/search.aspx?lat={lat}&lon={lon}&zoom={z}",
-			"category":"Games"
+			"label": "Waymarking",
+			"url": "http://www.waymarking.com/wm/search.aspx?lat={lat}&lon={lon}&zoom={z}",
+			"category": "Games"
 		},
 		{
-			"label":"OpenGeoFiction",
-			"url":"http://www.opengeofiction.net/#map={z}/{lat}/{lon}",
-			"category":"Games"
+			"label": "OpenGeoFiction",
+			"url": "http://www.opengeofiction.net/#map={z}/{lat}/{lon}",
+			"category": "Games"
 		},
 		{
-			"label":"VTTrack",
-			"url":"http://www.vttrack.fr/?lat={lat}&lon={lon}&zoom={z}&layers=OpenStreetMap|UtagawaVTT|LaTrace|",
-			"category":"Outdoor"
+			"label": "VTTrack",
+			"url": "http://www.vttrack.fr/?lat={lat}&lon={lon}&zoom={z}&layers=OpenStreetMap|UtagawaVTT|LaTrace|",
+			"category": "Outdoor"
 		},
 		{
-			"label":"Strava",
-			"url":"https://labs.strava.com/heatmap/#{z}/{lon}/{lat}/hot/all",
-			"category":"Outdoor"
+			"label": "Strava",
+			"url": "https://labs.strava.com/heatmap/#{z}/{lon}/{lat}/hot/all",
+			"category": "Outdoor"
 		},
 		{
-			"label":"BikeMaps",
-			"url":"https://bikemaps.org/@{lat},{lon},{z}z",
-			"category":"Outdoor"
+			"label": "BikeMaps",
+			"url": "https://bikemaps.org/@{lat},{lon},{z}z",
+			"category": "Outdoor"
 		},
 		{
-			"label":"Peakfinder",
-			"url":"http://www.peakfinder.org/fr/?lat={lat}&lng={lon}&alt=3000",
-			"category":"Outdoor - Panorama"
+			"label": "Peakfinder",
+			"url": "http://www.peakfinder.org/fr/?lat={lat}&lng={lon}&alt=3000",
+			"category": "Outdoor - Panorama"
 		},
 		{
-			"label":"Toposcope Maker*",
-			"url":"http://toposcope.freemap.sk/",
-			"category":"Outdoor - Panorama"
+			"label": "Toposcope Maker*",
+			"url": "http://toposcope.freemap.sk/",
+			"category": "Outdoor - Panorama"
 		},
 		{
-			"label":"Tables d'orientation Pyrénées",
-			"url":"https://www.tables-orientation-pyrenees.fr/@{lat},{lon},{z}z",
-			"category":"Outdoor - Panorama"
+			"label": "Tables d'orientation Pyrénées",
+			"url": "https://www.tables-orientation-pyrenees.fr/@{lat},{lon},{z}z",
+			"category": "Outdoor - Panorama"
 		},
 		{
-			"label":"PeakVisor",
-			"url":"http://peakvisor.com/panorama.html?lat={lat}&lng={lon}",
-			"category":"Outdoor - Panorama"
+			"label": "PeakVisor",
+			"url": "http://peakvisor.com/panorama.html?lat={lat}&lng={lon}",
+			"category": "Outdoor - Panorama"
 		},
 		{
-			"label":"Wikiloc",
-			"url":"http://fr.wikiloc.com/wikiloc/map.do#lt={lat}&ln={lon}&z={z}",
-			"category":"Outdoor"
+			"label": "Wikiloc",
+			"url": "http://fr.wikiloc.com/wikiloc/map.do#lt={lat}&ln={lon}&z={z}",
+			"category": "Outdoor"
 		},
 		{
-			"label":"4Umaps",
-			"url":"http://www.4umaps.eu/map.htm?zoom={z<16}&lat={lat}&lon={lon}&layers=B",
-			"category":"Outdoor"
+			"label": "4Umaps",
+			"url": "http://www.4umaps.eu/map.htm?zoom={z<16}&lat={lat}&lon={lon}&layers=B",
+			"category": "Outdoor"
 		},
 		{
-			"label":"Refuges.info",
-			"url":"http://www.refuges.info/nav#lat={lat}&lon={lon}&zoom={z}",
-			"category":"Outdoor"
+			"label": "Refuges.info",
+			"url": "http://www.refuges.info/nav#lat={lat}&lon={lon}&zoom={z}",
+			"category": "Outdoor"
 		},
 		{
-			"label":"Refuges.info (carte seule)",
-			"url":"http://maps.refuges.info/?lat={lat}&lon={lon}&zoom={z}",
-			"category":"Outdoor"
+			"label": "Refuges.info (carte seule)",
+			"url": "http://maps.refuges.info/?lat={lat}&lon={lon}&zoom={z}",
+			"category": "Outdoor"
 		},
 		{
-			"label":"Refuges et cabanes des Pyrénées",
-			"url":"http://www.pyrenees-refuges.com/#{z}/{lat}/{lon}",
-			"category":"Outdoor"
-		},		{
-			"label":"Waymarkedtrails",
-			"url":"http://hiking.waymarkedtrails.org/fr/?lat={lat}&lon={lon}&zoom={z}",
-			"category":"Outdoor"
+			"label": "Refuges et cabanes des Pyrénées",
+			"url": "http://www.pyrenees-refuges.com/#{z}/{lat}/{lon}",
+			"category": "Outdoor"
 		},
 		{
-			"label":"OpenTopoMap",
-			"url":"http://opentopomap.org/#map={z}/{lat}/{lon}",
-			"category":"Outdoor"
+			"label": "Waymarkedtrails",
+			"url": "http://hiking.waymarkedtrails.org/fr/?lat={lat}&lon={lon}&zoom={z}",
+			"category": "Outdoor"
 		},
 		{
-			"label":"OpenSeaMap",
-			"url":"http://map.openseamap.org/?zoom={z}&lat={lat}&lon={lon}&layers=BFTFFFTFFTF0FFFFFFFF",
-			"category":"OpenStreetMap"
+			"label": "OpenTopoMap",
+			"url": "http://opentopomap.org/#map={z}/{lat}/{lon}",
+			"category": "Outdoor"
 		},
 		{
-			"label":"OpenLinkMap",
-			"url":"http://www.openlinkmap.org?lat={lat}&lon={lon}&zoom={z}",
-			"category":"OpenStreetMap"
+			"label": "OpenSeaMap",
+			"url": "http://map.openseamap.org/?zoom={z}&lat={lat}&lon={lon}&layers=BFTFFFTFFTF0FFFFFFFF",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"OpenFireMap",
-			"url":"http://openfiremap.org?lat={lat}&lon={lon}&zoom={z}",
-			"category":"OpenStreetMap"
+			"label": "OpenLinkMap",
+			"url": "http://www.openlinkmap.org?lat={lat}&lon={lon}&zoom={z}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"Geofabrik Map",
-			"url":"http://tools.geofabrik.de/map/#{z}/{lat}/{lon}&type=Geofabrik_Standard",
-			"category":"OpenStreetMap"
+			"label": "OpenFireMap",
+			"url": "http://openfiremap.org?lat={lat}&lon={lon}&zoom={z}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"OSM WMS",
-			"url":"http://osm-wms.de/index.html?zoom={z<14}&lat={lat}&lon={lon}&layers=B000TFT",
-			"category":"OpenStreetMap"
+			"label": "Geofabrik Map",
+			"url": "http://tools.geofabrik.de/map/#{z}/{lat}/{lon}&type=Geofabrik_Standard",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"Wheelmap",
-			"url":"http://wheelmap.org/fr/map#/?lat={lat}&lon={lon}&zoom={z}",
-			"category":"OpenStreetMap"
+			"label": "OSM WMS",
+			"url": "http://osm-wms.de/index.html?zoom={z<14}&lat={lat}&lon={lon}&layers=B000TFT",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"AccessMap*",
-			"url":"https://www.accessmap.io/",
-			"category":"OpenStreetMap"
+			"label": "Wheelmap",
+			"url": "http://wheelmap.org/fr/map#/?lat={lat}&lon={lon}&zoom={z}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"XC Trails",
-			"url":"http://www.xctrails.org/map.html?type=xc&zoom={z}&lat={lat}&lon={lon}&layers=B00000TFFTTTTTTTFTTTFTT",
-			"category":"Outdoor"
+			"label": "AccessMap*",
+			"url": "https://www.accessmap.io/",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"Camp2camp",
-			"url":"http://www.camptocamp.org/map?map_y={y}&map_x={x}&map_zoom={z}&baselayer_ref=osm",
-			"category":"Outdoor"
+			"label": "XC Trails",
+			"url": "http://www.xctrails.org/map.html?type=xc&zoom={z}&lat={lat}&lon={lon}&layers=B00000TFFTTTTTTTFTTTFTT",
+			"category": "Outdoor"
 		},
 		{
-			"label":"HikeBikeMap*",
-			"url":"http://hikebikemap.org/",
-			"category":"Outdoor"
+			"label": "Camp2camp",
+			"url": "http://www.camptocamp.org/map?map_y={y}&map_x={x}&map_zoom={z}&baselayer_ref=osm",
+			"category": "Outdoor"
 		},
 		{
-			"label":"Cycle Travel",
-			"url":"https://cycle.travel/map?lat={lat}&lon={lon}&zoom={z}",
-			"category":"Outdoor"
+			"label": "HikeBikeMap*",
+			"url": "http://hikebikemap.org/",
+			"category": "Outdoor"
 		},
 		{
-			"label":"Climbing Away*",
-			"url":"https://climbingaway.fr/fr/sites-escalade/carte-du-monde-des-sites-d-escalade",
-			"category":"Outdoor"
+			"label": "Cycle Travel",
+			"url": "https://cycle.travel/map?lat={lat}&lon={lon}&zoom={z}",
+			"category": "Outdoor"
 		},
 		{
-			"label":"GPSies",
-			"url":"https://www.gpsies.com/home.do;jsessionid=FBD8ED116444F119B5417CDA8555F3FF.fe2#{z}_{lat}_{lon}_hikebike",
-			"category":"Outdoor"
+			"label": "Climbing Away*",
+			"url": "https://climbingaway.fr/fr/sites-escalade/carte-du-monde-des-sites-d-escalade",
+			"category": "Outdoor"
 		},
 		{
-			"label":"WTracks*",
-			"url":"https://opoto.github.io/wtracks/",
-			"category":"Outdoor"
+			"label": "GPSies",
+			"url": "https://www.gpsies.com/home.do;jsessionid=FBD8ED116444F119B5417CDA8555F3FF.fe2#{z}_{lat}_{lon}_hikebike",
+			"category": "Outdoor"
 		},
 		{
-			"label":"AllTrails*",
-			"url":"https://www.alltrails.com/fr/explore",
-			"category":"Outdoor"
+			"label": "WTracks*",
+			"url": "https://opoto.github.io/wtracks/",
+			"category": "Outdoor"
 		},
 		{
-			"label":"OpenSnowMap",
-			"url":"http://www.opensnowmap.org?lat={lat}&lon={lon}&zoom={z}",
-			"category":"Outdoor - Ski"
+			"label": "AllTrails*",
+			"url": "https://www.alltrails.com/fr/explore",
+			"category": "Outdoor"
 		},
 		{
-			"label":"SkiTrack",
-			"url":"http://www.skitrack.fr?lat={lat}&lon={lon}&zoom={z}",
-			"category":"Outdoor - Ski"
+			"label": "OpenSnowMap",
+			"url": "http://www.opensnowmap.org?lat={lat}&lon={lon}&zoom={z}",
+			"category": "Outdoor - Ski"
 		},
 		{
-			"label":"Open Signal",
-			"url":"http://opensignal.com/index.php?lat={lat}&lng={lon}&initZoom={z}",
-			"category":"Communications"
+			"label": "SkiTrack",
+			"url": "http://www.skitrack.fr?lat={lat}&lon={lon}&zoom={z}",
+			"category": "Outdoor - Ski"
 		},
 		{
-			"label":"OpenCellId",
-			"url":"http://opencellid.org/#action=filters.GPSPositions&zoom={z}&lat={lat}&lon={lon}",
-			"category":"Communications"
+			"label": "Open Signal",
+			"url": "http://opensignal.com/index.php?lat={lat}&lng={lon}&initZoom={z}",
+			"category": "Communications"
 		},
 		{
-			"label":"Carte des déploiements fibre",
-			"url":"https://cartefibre.arcep.fr/index.html?lng={lon}&lat={lat}&zoom={z}&legende=true&filter=true&trimestre=2018T3",
-			"category":"Communications"
+			"label": "OpenCellId",
+			"url": "http://opencellid.org/#action=filters.GPSPositions&zoom={z}&lat={lat}&lon={lon}",
+			"category": "Communications"
 		},
 		{
-			"label":"Faisceaux Hertziens*",
-			"url":"https://carte-fh.lafibre.info/",
-			"category":"Communications"
+			"label": "Carte des déploiements fibre",
+			"url": "https://cartefibre.arcep.fr/index.html?lng={lon}&lat={lat}&zoom={z}&legende=true&filter=true&trimestre=2018T3",
+			"category": "Communications"
 		},
 		{
-			"label":"Projet Crozon*",
-			"url":"https://carte-fh.lafibre.info/index_crozon.php",
-			"category":"Communications"
+			"label": "Faisceaux Hertziens*",
+			"url": "https://carte-fh.lafibre.info/",
+			"category": "Communications"
 		},
 		{
-			"label":"Zones Wifi",
-			"url":"http://pierzen.dev.openstreetmap.org/zoneswifi/#{z}/{lat}/{lon}",
-			"category":"Communications"
+			"label": "Projet Crozon*",
+			"url": "https://carte-fh.lafibre.info/index_crozon.php",
+			"category": "Communications"
 		},
 		{
-			"label":"Tempo Pyrénées",
-			"url":"http://tempo.agglo-pau.fr/chimere/?zoom={z}&lat={y}&lon={x}&layers=BTT&checked_categories=2_4_1_3_5&display_submited=false",
-			"category":"History"
+			"label": "Zones Wifi",
+			"url": "http://pierzen.dev.openstreetmap.org/zoneswifi/#{z}/{lat}/{lon}",
+			"category": "Communications"
 		},
 		{
-			"label":"Historic Place",
-			"url":"http://gk.historic.place/historische_objekte/translate/fr/index-fr.html?zoom={z}&lat={lat}&lon={lon}&detail=3",
-			"category":"History",
-			"favorite":true
+			"label": "Tempo Pyrénées",
+			"url": "http://tempo.agglo-pau.fr/chimere/?zoom={z}&lat={y}&lon={x}&layers=BTT&checked_categories=2_4_1_3_5&display_submited=false",
+			"category": "History"
 		},
 		{
-			"label":"HistOSM",
-			"url":"http://histosm.org/#{z}/{lon}/{lat}/0/",
-			"category":"History"
-		},		{
-			"label":"OpenHistoricalMap",
-			"url":"http://www.openhistoricalmap.org/#map={z}/{lat}/{lon}&layers=H",
-			"category":"History"
+			"label": "Historic Place",
+			"url": "http://gk.historic.place/historische_objekte/translate/fr/index-fr.html?zoom={z}&lat={lat}&lon={lon}&detail=3",
+			"category": "History",
+			"favorite": true
 		},
 		{
-			"label":"OldMapsOnline",
-			"url":"http://www.oldmapsonline.org/en/France#bbox={xmin},{ymin},{xmax},{ymax}",
-			"category":"History"
+			"label": "HistOSM",
+			"url": "http://histosm.org/#{z}/{lon}/{lat}/0/",
+			"category": "History"
 		},
 		{
-			"label":"Peipleo",
-			"url":"http://pelagios.org/peripleo/map#at={lat},{lon},{z}",
-			"category":"History"
+			"label": "OpenHistoricalMap",
+			"url": "http://www.openhistoricalmap.org/#map={z}/{lat}/{lon}&layers=H",
+			"category": "History"
 		},
 		{
-			"label":"Vici",
-			"url":"http://vici.org/selectview.php?center={lat},{lon}&zoom={z}",
-			"category":"History"
+			"label": "OldMapsOnline",
+			"url": "http://www.oldmapsonline.org/en/France#bbox={xmin},{ymin},{xmax},{ymax}",
+			"category": "History"
 		},
 		{
-			"label":"Dossier des châteaux de la Suisse",
-			"url":"https://castle-map.infs.ch/#{lat},{lon},{z}z",
-			"category":"History"
+			"label": "Peipleo",
+			"url": "http://pelagios.org/peripleo/map#at={lat},{lon},{z}",
+			"category": "History"
 		},
 		{
-			"label":"geojson.io",
-			"url":"http://geojson.io/#map={z}/{lat}/{lon}",
-			"category":"Tools"
+			"label": "Vici",
+			"url": "http://vici.org/selectview.php?center={lat},{lon}&zoom={z}",
+			"category": "History"
 		},
 		{
-			"label":"geojson.net",
-			"url":"http://geojson.net/#map={z}/{lat}/{lon}",
-			"category":"Tools"
+			"label": "Dossier des châteaux de la Suisse",
+			"url": "https://castle-map.infs.ch/#{lat},{lon},{z}z",
+			"category": "History"
 		},
 		{
-			"label":"Google Maps Compass",
-			"url":"http://googlecompass.com/full-screen-map.htm?lat={lat}&lng={lon}&zol={z}&pn=0",
-			"category":"Tools"
+			"label": "geojson.io",
+			"url": "http://geojson.io/#map={z}/{lat}/{lon}",
+			"category": "Tools"
 		},
 		{
-			"label":"XAPI viewer",
-			"url":"http://osm.dumoulin63.net/xapiviewer?lat={lat}&lon={lon}&zoom={z}",
-			"category":"Tools"
+			"label": "geojson.net",
+			"url": "http://geojson.net/#map={z}/{lat}/{lon}",
+			"category": "Tools"
 		},
 		{
-			"label":"Overpass-turbo",
-			"url":"http://overpass-turbo.eu?lat={lat}&lon={lon}&zoom={z}",
-			"category":"Tools"
+			"label": "Google Maps Compass",
+			"url": "http://googlecompass.com/full-screen-map.htm?lat={lat}&lng={lon}&zol={z}&pn=0",
+			"category": "Tools"
 		},
 		{
-			"label":"ohsome history explorer*",
-			"url":"https://ohsome.org/apps/osm-history-explorer/",
-			"category":"Tools"
+			"label": "XAPI viewer",
+			"url": "http://osm.dumoulin63.net/xapiviewer?lat={lat}&lon={lon}&zoom={z}",
+			"category": "Tools"
 		},
 		{
-			"label":"ohsome dashboard*",
-			"url":"https://ohsome.org/apps/dashboard/",
-			"category":"Tools"
+			"label": "Overpass-turbo",
+			"url": "http://overpass-turbo.eu?lat={lat}&lon={lon}&zoom={z}",
+			"category": "Tools"
 		},
 		{
-			"label":"magOSM*",
-			"url":"https://magosm.magellium.com/portail/#/carte",
-			"category":"Tools"
+			"label": "ohsome history explorer*",
+			"url": "https://ohsome.org/apps/osm-history-explorer/",
+			"category": "Tools"
 		},
 		{
-			"label":"magOSM changements*",
-			"url":"https://magosm.magellium.com/portail/#/changements",
-			"category":"Tools"
+			"label": "ohsome dashboard*",
+			"url": "https://ohsome.org/apps/dashboard/",
+			"category": "Tools"
 		},
 		{
-			"label":"Map Compare",
-			"url":"http://mc.bbbike.org/mc?lat={lat}&lon={lon}&zoom={z}",
-			"category":"Tools"
+			"label": "magOSM*",
+			"url": "https://magosm.magellium.com/portail/#/carte",
+			"category": "Tools"
 		},
 		{
-			"label":"Multimap(a)s",
-			"url":"https://javier.jimenezshaw.com/mapas/?c={lat},{lon}&z={z}&f=osm&b=bng-sat&v=3&e=0.5&o=100&ed=0&m=&ga=0",
-			"category":"Tools"
+			"label": "magOSM changements*",
+			"url": "https://magosm.magellium.com/portail/#/changements",
+			"category": "Tools"
 		},
 		{
-			"label":"Mapas (compare)",
-			"url":"http://javier.jimenezshaw.com/mapas/mapas.html?z={z}&c={lat},{lon}",
-			"category":"Tools"
+			"label": "Map Compare",
+			"url": "http://mc.bbbike.org/mc?lat={lat}&lon={lon}&zoom={z}",
+			"category": "Tools"
 		},
 		{
-			"label":"Distance calculator",
-			"url":"http://map.meurisse.org/?lon={lon}&lat={lat}&zoom={z}",
-			"category":"Tools"
+			"label": "Multimap(a)s",
+			"url": "https://javier.jimenezshaw.com/mapas/?c={lat},{lon}&z={z}&f=osm&b=bng-sat&v=3&e=0.5&o=100&ed=0&m=&ga=0",
+			"category": "Tools"
 		},
 		{
-			"label":"Tile calculator",
-			"url":"http://tools.geofabrik.de/calc/#type=geofabrik_standard&bbox={xmin},{ymin},{xmax},{ymax}",
-			"category":"Tools"
+			"label": "Mapas (compare)",
+			"url": "http://javier.jimenezshaw.com/mapas/mapas.html?z={z}&c={lat},{lon}",
+			"category": "Tools"
 		},
 		{
-			"label":"Spatial Reference*",
-			"url":"http://spatialreference.org/",
-			"category":"Tools"
+			"label": "Distance calculator",
+			"url": "http://map.meurisse.org/?lon={lon}&lat={lat}&zoom={z}",
+			"category": "Tools"
 		},
 		{
-			"label":"epsg.io*",
-			"url":"http://epsg.io/",
-			"category":"Tools"
+			"label": "Tile calculator",
+			"url": "http://tools.geofabrik.de/calc/#type=geofabrik_standard&bbox={xmin},{ymin},{xmax},{ymax}",
+			"category": "Tools"
 		},
 		{
-			"label":"epsg.io map",
-			"url":"http://epsg.io/map#srs=3857&x={x}&y={y}&z={z}&layer=streets",
-			"category":"Tools"
+			"label": "Spatial Reference*",
+			"url": "http://spatialreference.org/",
+			"category": "Tools"
 		},
 		{
-			"label":"Bbox finder",
-			"url":"http://bboxfinder.com/#{ymin},{xmin},{ymax},{xmax}",
-			"category":"Tools"
+			"label": "epsg.io*",
+			"url": "http://epsg.io/",
+			"category": "Tools"
 		},
 		{
-			"label":"FlipCoords",
-			"url":"https://flipcoords.com/#{lat},{lon}",
-			"category":"Tools"
+			"label": "epsg.io map",
+			"url": "http://epsg.io/map#srs=3857&x={x}&y={y}&z={z}&layer=streets",
+			"category": "Tools"
 		},
 		{
-			"label":"MGRS grid*",
-			"url":"https://mappingsupport.com/p/gmap4.php?usng=14S_QG_0044_8474&z=5&t=h",
-			"category":"Tools"
+			"label": "Bbox finder",
+			"url": "http://bboxfinder.com/#{ymin},{xmin},{ymax},{xmax}",
+			"category": "Tools"
 		},
 		{
-			"label":"Wicket (WKT writer)*",
-			"url":"https://arthur-e.github.io/Wicket/sandbox-gmaps3.html",
-			"category":"Tools"
+			"label": "FlipCoords",
+			"url": "https://flipcoords.com/#{lat},{lon}",
+			"category": "Tools"
 		},
 		{
-			"label":"Who Did It",
-			"url":"http://zverik.osm.rambler.ru/whodidit/?zoom={z}&lat={lat}&lon={lon}&layers=BTT",
-			"category":"OpenStreetMap contributing"
+			"label": "MGRS grid*",
+			"url": "https://mappingsupport.com/p/gmap4.php?usng=14S_QG_0044_8474&z=5&t=h",
+			"category": "Tools"
 		},
 		{
-			"label":"Who Did It (fork)",
-			"url":"http://simon04.dev.openstreetmap.org/whodidit/?zoom={z}&lat={lat}&lon={lon}&layers=BTT",
-			"category":"OpenStreetMap contributing"
+			"label": "Wicket (WKT writer)*",
+			"url": "https://arthur-e.github.io/Wicket/sandbox-gmaps3.html",
+			"category": "Tools"
 		},
 		{
-			"label":"OSM QA Feeds*",
-			"url":"https://tyrasd.github.io/osm-qa-feeds/",
-			"category":"OpenStreetMap contributing"
+			"label": "Who Did It",
+			"url": "http://zverik.osm.rambler.ru/whodidit/?zoom={z}&lat={lat}&lon={lon}&layers=BTT",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"OSM Tasking Manager*",
-			"url":"http://tasks.hotosm.org/",
-			"category":"OpenStreetMap contributing",
-			"favorite":true
+			"label": "Who Did It (fork)",
+			"url": "http://simon04.dev.openstreetmap.org/whodidit/?zoom={z}&lat={lat}&lon={lon}&layers=BTT",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"Disaster Ninja",
-			"url":"https://disaster.ninja/active/?map={z}/{lon}/{lat}",
-			"category":"OpenStreetMap contributing"
+			"label": "OSM QA Feeds*",
+			"url": "https://tyrasd.github.io/osm-qa-feeds/",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"OSMCha",
-			"url":"https://osmcha.org/?filters={%22in_bbox%22%3A[{%22label%22%3A%22extent%22%2C%22value%22%3A%22{xmin}%2C{ymin}%2C{xmax}%2C{ymax}%22}]}",
-			"category":"OpenStreetMap contributing"
+			"label": "OSM Tasking Manager*",
+			"url": "http://tasks.hotosm.org/",
+			"category": "OpenStreetMap contributing",
+			"favorite": true
 		},
 		{
-			"label":"Change viewer (achavi)",
-			"url":"http://overpass-api.de/achavi/?zoom={z}&lat={lat}&lon={lon}&layers=B0TFTTT",
-			"category":"OpenStreetMap contributing"
+			"label": "Disaster Ninja",
+			"url": "https://disaster.ninja/active/?map={z}/{lon}/{lat}",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"Last Week on OSM",
-			"url":"http://tyrasd.github.io/latest-changes/#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap contributing"
+			"label": "OSMCha",
+			"url": "https://osmcha.org/?filters={%22in_bbox%22%3A[{%22label%22%3A%22extent%22%2C%22value%22%3A%22{xmin}%2C{ymin}%2C{xmax}%2C{ymax}%22}]}",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"Field Papers",
-			"url":"http://fieldpapers.org/compose/select?lat={lat}&lon={lon}&zoom={z}",
-			"category":"OpenStreetMap contributing"
+			"label": "Change viewer (achavi)",
+			"url": "http://overpass-api.de/achavi/?zoom={z}&lat={lat}&lon={lon}&layers=B0TFTTT",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"Walking Papers",
-			"url":"http://www.walking-papers.org/?lat={lat}&lon={lon}&zoom={z}#make",
-			"category":"OpenStreetMap contributing"
+			"label": "Last Week on OSM",
+			"url": "http://tyrasd.github.io/latest-changes/#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"Inkatlas*",
-			"url":"https://inkatlas.com/create/",
-			"category":"OpenStreetMap"
+			"label": "Field Papers",
+			"url": "http://fieldpapers.org/compose/select?lat={lat}&lon={lon}&zoom={z}",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"BigMap* (export as image)",
-			"url":"http://openstreetmap.gryph.de/bigmap.html",
-			"category":"OpenStreetMap"
+			"label": "Walking Papers",
+			"url": "http://www.walking-papers.org/?lat={lat}&lon={lon}&zoom={z}#make",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"BigMap2 (export as image)",
-			"url":"http://bigmap.osmz.ru/index.html#map={z}/{lat}/{lon}",
-			"category":"OpenStreetMap"
+			"label": "Inkatlas*",
+			"url": "https://inkatlas.com/create/",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"MapCraft",
-			"url":"http://mapcraft.nanodesu.ru/map?zoom={z}&lat={y}&lon={x}&layers=BT",
-			"category":"OpenStreetMap contributing"
+			"label": "BigMap* (export as image)",
+			"url": "http://openstreetmap.gryph.de/bigmap.html",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"OsmHydrant",
-			"url":"https://www.osmhydrant.org/fr/#zoom={z}&lat={lat}&lon={lon}",
-			"category":"OpenStreetMap contributing"
+			"label": "BigMap2 (export as image)",
+			"url": "http://bigmap.osmz.ru/index.html#map={z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"MapContrib - bornes à incendie",
-			"url":"https://www.mapcontrib.xyz/t/s8c2d9-Les_bornes_a_incendie#position/{z}/{lat}/{lon}",
-			"category":"OpenStreetMap contributing"
+			"label": "MapCraft",
+			"url": "http://mapcraft.nanodesu.ru/map?zoom={z}&lat={y}&lon={x}&layers=BT",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"MapRoulette*",
-			"url":"http://maproulette.org/",
-			"category":"OpenStreetMap contributing"
+			"label": "OsmHydrant",
+			"url": "https://www.osmhydrant.org/fr/#zoom={z}&lat={lat}&lon={lon}",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"Pic4Review*",
-			"url":"https://pic4review.pavie.info/#/",
-			"category":"OpenStreetMap contributing"
+			"label": "MapContrib - bornes à incendie",
+			"url": "https://www.mapcontrib.xyz/t/s8c2d9-Les_bornes_a_incendie#position/{z}/{lat}/{lon}",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"Planet OSM*",
-			"url":"https://planet.osm.org/",
-			"category":"OpenStreetMap download"
+			"label": "MapRoulette*",
+			"url": "http://maproulette.org/",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"OSM.fr extracts*",
-			"url":"http://download.openstreetmap.fr/extracts/europe/",
-			"category":"OpenStreetMap download"
+			"label": "Pic4Review*",
+			"url": "https://pic4review.pavie.info/#/",
+			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label":"Garmin by OpenTopoMap*",
-			"url":"http://garmin.opentopomap.org",
-			"category":"OpenStreetMap download"
+			"label": "Planet OSM*",
+			"url": "https://planet.osm.org/",
+			"category": "OpenStreetMap download"
 		},
 		{
-			"label":"Frikart*",
-			"url":"http://www.frikart.no/garmin/velgkart.html",
-			"category":"OpenStreetMap download"
+			"label": "OSM.fr extracts*",
+			"url": "http://download.openstreetmap.fr/extracts/europe/",
+			"category": "OpenStreetMap download"
 		},
 		{
-			"label":"Garmin osm.nl*",
-			"url":"http://garmin.openstreetmap.nl/",
-			"category":"OpenStreetMap download"
+			"label": "Garmin by OpenTopoMap*",
+			"url": "http://garmin.opentopomap.org",
+			"category": "OpenStreetMap download"
 		},
 		{
-			"label":"Garmin osm.fr*",
-			"url":"http://garmin.openstreetmap.fr/",
-			"category":"OpenStreetMap download"
+			"label": "Frikart*",
+			"url": "http://www.frikart.no/garmin/velgkart.html",
+			"category": "OpenStreetMap download"
 		},
 		{
-			"label":"Geofabrik download*",
-			"url":"http://download.geofabrik.de/",
-			"category":"OpenStreetMap download"
+			"label": "Garmin osm.nl*",
+			"url": "http://garmin.openstreetmap.nl/",
+			"category": "OpenStreetMap download"
 		},
 		{
-			"label":"bbbike extracts",
-			"url":"http://extract.bbbike.org/?lang=fr&sw_lng={xmin}&sw_lat={ymin}&ne_lng={xmax}&ne_lat={ymax}&format=osm.pbf&oi=1&layers=0B000T",
-			"category":"OpenStreetMap download"
+			"label": "Garmin osm.fr*",
+			"url": "http://garmin.openstreetmap.fr/",
+			"category": "OpenStreetMap download"
 		},
 		{
-			"label":"Garmin alternativaslibres*",
-			"url":"http://alternativaslibres.org/fr/",
-			"category":"OpenStreetMap download"
+			"label": "Geofabrik download*",
+			"url": "http://download.geofabrik.de/",
+			"category": "OpenStreetMap download"
 		},
 		{
-			"label":"OpenAndroMaps*",
-			"url":"https://www.openandromaps.org/en",
-			"category":"OpenStreetMap download"
+			"label": "bbbike extracts",
+			"url": "http://extract.bbbike.org/?lang=fr&sw_lng={xmin}&sw_lat={ymin}&ne_lng={xmax}&ne_lat={ymax}&format=osm.pbf&oi=1&layers=0B000T",
+			"category": "OpenStreetMap download"
 		},
 		{
-			"label":"HOT Export tool*",
-			"url":"https://export.hotosm.org/fr/v3/exports",
-			"category":"OpenStreetMap download"
+			"label": "Garmin alternativaslibres*",
+			"url": "http://alternativaslibres.org/fr/",
+			"category": "OpenStreetMap download"
 		},
 		{
-			"label":"HOT Export tool (old)*",
-			"url":"http://old-export.hotosm.org/fr/exports/",
-			"category":"OpenStreetMap download"
+			"label": "OpenAndroMaps*",
+			"url": "https://www.openandromaps.org/en",
+			"category": "OpenStreetMap download"
 		},
 		{
-			"label":"10 years of OSM",
-			"url":"https://www.mapbox.com/ten-years-openstreetmap/#{lon}/{lat}/{z}",
-			"category":"OpenStreetMap"
+			"label": "HOT Export tool*",
+			"url": "https://export.hotosm.org/fr/v3/exports",
+			"category": "OpenStreetMap download"
 		},
 		{
-			"label":"OSM Live*",
-			"url":"http://live.openstreetmap.fr/",
-			"category":"OpenStreetMap"
+			"label": "HOT Export tool (old)*",
+			"url": "http://old-export.hotosm.org/fr/exports/",
+			"category": "OpenStreetMap download"
 		},
 		{
-			"label":"Show me the way*",
-			"url":"http://osmlab.github.io/show-me-the-way/",
-			"category":"OpenStreetMap"
+			"label": "10 years of OSM",
+			"url": "https://www.mapbox.com/ten-years-openstreetmap/#{lon}/{lat}/{z}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"OSM in realtime*",
-			"url":"https://osm-in-realtime.jwestman.net/",
-			"category":"OpenStreetMap"
+			"label": "OSM Live*",
+			"url": "http://live.openstreetmap.fr/",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"OSM Then And Now",
-			"url":"http://mvexel.github.io/thenandnow/#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap"
-		},		{
-			"label":"Best Of OSM",
-			"url":"http://bestofosm.org/?zoom={z}&lat={lat}&lon={lon}",
-			"category":"OpenStreetMap"
+			"label": "Show me the way*",
+			"url": "http://osmlab.github.io/show-me-the-way/",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"OpenMapSurfer",
-			"url":"http://korona.geog.uni-heidelberg.de/?zoom={z}&lat={lat}&lon={lon}&layers=B00000FFFF",
-			"category":"OpenStreetMap"
+			"label": "OSM in realtime*",
+			"url": "https://osm-in-realtime.jwestman.net/",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"OSM India i18n map",
-			"url":"http://openstreetmap.in/demo/#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap"
+			"label": "OSM Then And Now",
+			"url": "http://mvexel.github.io/thenandnow/#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"OpenPoiMap",
-			"url":"http://openpoimap.org/?map=amenity&zoom={z}&lat={lat}&lon={lon}&layers=B00FFFFFFFFT",
-			"category":"OpenStreetMap"
+			"label": "Best Of OSM",
+			"url": "http://bestofosm.org/?zoom={z}&lat={lat}&lon={lon}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"flOSM",
-			"url":"http://www.flosm.de/en/poimap.html?lat={lat}&lon={lon}&r={res}",
-			"category":"OpenStreetMap"
+			"label": "OpenMapSurfer",
+			"url": "http://korona.geog.uni-heidelberg.de/?zoom={z}&lat={lat}&lon={lon}&layers=B00000FFFF",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"OSM POI Viewer*",
-			"url":"http://www.lenz-online.de/cgi-bin/osmpoi/osmpoi.pl",
-			"category":"OpenStreetMap"
+			"label": "OSM India i18n map",
+			"url": "http://openstreetmap.in/demo/#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"WhatIsWhere*",
-			"url":"https://www.whatiswhere.com/",
-			"category":"OpenStreetMap"
+			"label": "OpenPoiMap",
+			"url": "http://openpoimap.org/?map=amenity&zoom={z}&lat={lat}&lon={lon}&layers=B00FFFFFFFFT",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"Nouvelles Ici*",
-			"url":"http://nouvellesici.com/",
-			"category":"OpenStreetMap"
+			"label": "flOSM",
+			"url": "http://www.flosm.de/en/poimap.html?lat={lat}&lon={lon}&r={res}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"OpenStreetBrowser",
-			"url":"https://openstreetbrowser.org/#map={z}/{lat}/{lon}",
-			"category":"OpenStreetMap"
+			"label": "OSM POI Viewer*",
+			"url": "http://www.lenz-online.de/cgi-bin/osmpoi/osmpoi.pl",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"OpenWhateverMap",
-			"url":"http://www.openwhatevermap.xyz/#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap"
+			"label": "WhatIsWhere*",
+			"url": "https://www.whatiswhere.com/",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"Nuclear Generators",
-			"url":"http://www.leretourdelautruche.com/map/nuke/?zoom={z}&lat={lat}&lon={lon}&layers=B0TT",
-			"category":"OpenStreetMap"
+			"label": "Nouvelles Ici*",
+			"url": "http://nouvellesici.com/",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"Cameras",
-			"url":"http://www.leretourdelautruche.com/map/cctv/cctv.html?zoom={z}&lat={lat}&lon={lon}&layers=B00T",
-			"category":"OpenStreetMap"
+			"label": "OpenStreetBrowser",
+			"url": "https://openstreetbrowser.org/#map={z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"Under surveillance*",
-			"url":"https://kamba4.crux.uberspace.de/?lat={lat}&lon={lon}&zoom={z}",
-			"category":"OpenStreetMap"
+			"label": "OpenWhateverMap",
+			"url": "http://www.openwhatevermap.xyz/#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"OpenLevelUp",
-			"url":"https://openlevelup.net/?l=0#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap"
+			"label": "Nuclear Generators",
+			"url": "http://www.leretourdelautruche.com/map/nuke/?zoom={z}&lat={lat}&lon={lon}&layers=B0TT",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"OpenLevelUp - Old",
-			"url":"https://openlevelup.net/old/?lat={lat}&lon={lon}&z={z}&t=0",
-			"category":"OpenStreetMap"
+			"label": "Cameras",
+			"url": "http://www.leretourdelautruche.com/map/cctv/cctv.html?zoom={z}&lat={lat}&lon={lon}&layers=B00T",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"OpenStationMap",
-			"url":"http://www.openstationmap.org/#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap"
+			"label": "Under surveillance*",
+			"url": "https://kamba4.crux.uberspace.de/?lat={lat}&lon={lon}&zoom={z}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"OpenStationMap 2",
-			"url":"https://openstationmap.org/html.html#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap"
+			"label": "OpenLevelUp",
+			"url": "https://openlevelup.net/?l=0#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"OpenBeerMap",
-			"url":"https://openbeermap.github.io/#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap"
+			"label": "OpenLevelUp - Old",
+			"url": "https://openlevelup.net/old/?lat={lat}&lon={lon}&z={z}&t=0",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"Open Brewery Map",
-			"url":"https://brewmap.openstreetmap.de/index.html.en#{z}/{lat}/{lon}/0/0/f",
-			"category":"OpenStreetMap"
+			"label": "OpenStationMap",
+			"url": "http://www.openstationmap.org/#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"OpenAdvertMap",
-			"url":"http://projets.pavie.info/openadvertmap/#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap"
+			"label": "OpenStationMap 2",
+			"url": "https://openstationmap.org/html.html#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"Carte des radars",
-			"url":"http://www.leretourdelautruche.com/map/radar_fr.html?zoom={z}&amp=&lat={lat}&lon={lon}&layers=B0000000T",
-			"category":"OpenStreetMap"
+			"label": "OpenBeerMap",
+			"url": "https://openbeermap.github.io/#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"OSMLanduse",
-			"url":"http://osmlanduse.org/#{z}/{lon}/{lat}/0/",
-			"category":"OpenStreetMap"
+			"label": "Open Brewery Map",
+			"url": "https://brewmap.openstreetmap.de/index.html.en#{z}/{lat}/{lon}/0/0/f",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"Carte des routes",
-			"url":"http://itineraires.de.bus.free.fr/carte-des-routes-europeennes-2016/index.html?7,{lon},{lat}#",
-			"category":"OpenStreetMap"
+			"label": "OpenAdvertMap",
+			"url": "http://projets.pavie.info/openadvertmap/#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"OpenFuelMap",
-			"url":"http://openfuelmap.net/#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap"
+			"label": "Carte des radars",
+			"url": "http://www.leretourdelautruche.com/map/radar_fr.html?zoom={z}&amp=&lat={lat}&lon={lon}&layers=B0000000T",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"OpenStreetMap.bzh",
-			"url":"http://tile.openstreetmap.bzh/?lat={lat}&lon={lon}&zoom={z}&layers=M",
-			"category":"OpenStreetMap"
+			"label": "OSMLanduse",
+			"url": "http://osmlanduse.org/#{z}/{lon}/{lat}/0/",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"Wikimedia tile server",
-			"url":"https://maps.wikimedia.org/#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap"
+			"label": "Carte des routes",
+			"url": "http://itineraires.de.bus.free.fr/carte-des-routes-europeennes-2016/index.html?7,{lon},{lat}#",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"Bexhill-OSM",
-			"url":"http://bexhill-osm.org.uk/#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap"
+			"label": "OpenFuelMap",
+			"url": "http://openfuelmap.net/#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"Nominatim reverse geocoder",
-			"url":"http://nominatim.openstreetmap.org/reverse.php?format=html&lat={lat}&lon={lon}&zoom={z}",
-			"category":"OpenStreetMap Geocoding"
+			"label": "OpenStreetMap.bzh",
+			"url": "http://tile.openstreetmap.bzh/?lat={lat}&lon={lon}&zoom={z}&layers=M",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"BANO + Solr*",
-			"url":"https://www.ideeslibres.org/Bano",
-			"category":"OpenStreetMap Geocoding"
+			"label": "Wikimedia tile server",
+			"url": "https://maps.wikimedia.org/#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"OpenTripMap",
-			"url":"https://opentripmap.com/en/#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap"
+			"label": "Bexhill-OSM",
+			"url": "http://bexhill-osm.org.uk/#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"Omniscale OSM Hosting",
-			"url":"https://maps.omniscale.com/en/demo#map={z}/{lat}/{lon}/3857/B",
-			"category":"OpenStreetMap"
+			"label": "Nominatim reverse geocoder",
+			"url": "http://nominatim.openstreetmap.org/reverse.php?format=html&lat={lat}&lon={lon}&zoom={z}",
+			"category": "OpenStreetMap Geocoding"
 		},
 		{
-			"label":"Parc Epique*",
-			"url":"https://parc-epique.fr/#/",
-			"category":"OpenStreetMap"
+			"label": "BANO + Solr*",
+			"url": "https://www.ideeslibres.org/Bano",
+			"category": "OpenStreetMap Geocoding"
 		},
 		{
-			"label":"OpenCampingMap",
-			"url":"https://opencampingmap.org/#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap"
+			"label": "OpenTripMap",
+			"url": "https://opentripmap.com/en/#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"Medical by OpenStreetMap",
-			"url":"http://www.tappenbeck.net/osm/maps/deu/index.php?id=1029&zoom={zoom}&lat={lat}&lon={lon}&layers=BFTTT&lang=de",
-			"category":"OpenStreetMap"
+			"label": "Omniscale OSM Hosting",
+			"url": "https://maps.omniscale.com/en/demo#map={z}/{lat}/{lon}/3857/B",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"OpenStreetMap 4D",
-			"url":"http://osm13.openstreetmap.fr/~cquest/leaflet/4d.html#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap"
+			"label": "Parc Epique*",
+			"url": "https://parc-epique.fr/#/",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"OpenStreetMap by cquest",
-			"url":"http://osm13.openstreetmap.fr/~cquest/leaflet/l.html#{z}/{lat}/{lon}",
-			"category":"OpenStreetMap"
+			"label": "OpenCampingMap",
+			"url": "https://opencampingmap.org/#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"Cassini GL",
-			"url":"https://makinacorpus.github.io/cassini-gl-style/#{z}/{lon}/{lat}",
-			"category":"OpenStreetMap"
+			"label": "Medical by OpenStreetMap",
+			"url": "http://www.tappenbeck.net/osm/maps/deu/index.php?id=1029&zoom={zoom}&lat={lat}&lon={lon}&layers=BFTTT&lang=de",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"FacilMap",
-			"url":"https://facilmap.org/#{z}/{lon}/{lat}/Mpnk",
-			"category":"OpenStreetMap"
+			"label": "OpenStreetMap 4D",
+			"url": "http://osm13.openstreetmap.fr/~cquest/leaflet/4d.html#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"Wikimapia",
-			"url":"http://wikimapia.org/#lat={lat}&lon={lon}&z={z}&lang=fr&m=b",
-			"category":"Encyclopedia"
+			"label": "OpenStreetMap by cquest",
+			"url": "http://osm13.openstreetmap.fr/~cquest/leaflet/l.html#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"GeoHack",
-			"url":"http://tools.wmflabs.org/geohack/geohack.php?language=fr&params={lat}_N_{lon}_E",
-			"category":"Services"
+			"label": "Cassini GL",
+			"url": "https://makinacorpus.github.io/cassini-gl-style/#{z}/{lon}/{lat}",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"Geody",
-			"url":"http://www.geody.com/geolook.php?lat={lat}&lon={lon}&z={z}",
-			"category":"Services"
+			"label": "FacilMap",
+			"url": "https://facilmap.org/#{z}/{lon}/{lat}/Mpnk",
+			"category": "OpenStreetMap"
 		},
 		{
-			"label":"Geody KML",
-			"url":"http://www.geody.com/geovex.php?lat={lat}&lon={lon}&z={z}&fmt=gearth",
-			"category":"Services"
+			"label": "Wikimapia",
+			"url": "http://wikimapia.org/#lat={lat}&lon={lon}&z={z}&lang=fr&m=b",
+			"category": "Encyclopedia"
 		},
 		{
-			"label":"Geonames",
-			"url":"http://www.geonames.org/maps/google_{lat}_{lon}.html",
-			"category":"Services"
+			"label": "GeoHack",
+			"url": "http://tools.wmflabs.org/geohack/geohack.php?language=fr&params={lat}_N_{lon}_E",
+			"category": "Services"
 		},
 		{
-			"label":"Relief Map",
-			"url":"http://maps-for-free.com/?val={lat},{lon},{z}",
-			"category":"Services"
+			"label": "Geody",
+			"url": "http://www.geody.com/geolook.php?lat={lat}&lon={lon}&z={z}",
+			"category": "Services"
 		},
 		{
-			"label":"Hitchwiki",
-			"url":"http://hitchwiki.org/maps/?zoom={z}&lat={lat}&lon={lon}",
-			"category":"Services"
+			"label": "Geody KML",
+			"url": "http://www.geody.com/geovex.php?lat={lat}&lon={lon}&z={z}&fmt=gearth",
+			"category": "Services"
 		},
 		{
-			"label":"Falling Fruit",
-			"url":"https://fallingfruit.org/?z={z}&y={lat}&x={lon}&m=false",
-			"category":"Services"
+			"label": "Geonames",
+			"url": "http://www.geonames.org/maps/google_{lat}_{lon}.html",
+			"category": "Services"
 		},
 		{
-			"label":"FixMyStreet",
-			"url":"https://www.fixmystreet.fr/around?lon={lon}&lat={lat}",
-			"category":"Services"
+			"label": "Relief Map",
+			"url": "http://maps-for-free.com/?val={lat},{lon},{z}",
+			"category": "Services"
 		},
 		{
-			"label":"Antarctica Map",
-			"url":"http://polar.openstreetmap.de/#zoom={z}&lat={lat}&lon={lon}&layers=BT",
-			"category":"Services"
+			"label": "Hitchwiki",
+			"url": "http://hitchwiki.org/maps/?zoom={z}&lat={lat}&lon={lon}",
+			"category": "Services"
 		},
 		{
-			"label":"Protected Planet*",
-			"url":"https://www.protectedplanet.net/",
-			"category":"Services"
+			"label": "Falling Fruit",
+			"url": "https://fallingfruit.org/?z={z}&y={lat}&x={lon}&m=false",
+			"category": "Services"
 		},
 		{
-			"label":"Pollution lumineuse*",
-			"url":"https://avex-asso.org/dossiers/pl/europe-2016/google-map-fausse-couleur/index.html",
-			"category":"Services"
+			"label": "FixMyStreet",
+			"url": "https://www.fixmystreet.fr/around?lon={lon}&lat={lat}",
+			"category": "Services"
 		},
 		{
-			"label":"OpenAerialMap",
-			"url":"https://map.openaerialmap.org/#/{lon},{lat},{z}",
-			"category":"Services"
+			"label": "Antarctica Map",
+			"url": "http://polar.openstreetmap.de/#zoom={z}&lat={lat}&lon={lon}&layers=BT",
+			"category": "Services"
 		},
 		{
-			"label":"LandGIS",
-			"url":"https://landgis.opengeohub.org/#/?center={lat},{lon}&zoom={z}",
-			"category":"Services"
+			"label": "Protected Planet*",
+			"url": "https://www.protectedplanet.net/",
+			"category": "Services"
 		},
 		{
-			"label":"Antipodes",
-			"url":"https://www.datadaptive.com/ant/?lat={lat}&lng={lon}",
-			"category":"Services"
+			"label": "Pollution lumineuse*",
+			"url": "https://avex-asso.org/dossiers/pl/europe-2016/google-map-fausse-couleur/index.html",
+			"category": "Services"
 		},
 		{
-			"label":"EFFIS - Fires map*",
-			"url":"https://effis.jrc.ec.europa.eu/apps/effis_current_situation/",
-			"category":"Services"
+			"label": "OpenAerialMap",
+			"url": "https://map.openaerialmap.org/#/{lon},{lat},{z}",
+			"category": "Services"
 		},
 		{
-			"label":"OSRM",
-			"url":"http://map.project-osrm.org/?z={z}&center={lat}%2C{lon}&loc=&loc=&hl=en&ly=&alt=&df=&srv=",
-			"category":"Routing"
+			"label": "LandGIS",
+			"url": "https://landgis.opengeohub.org/#/?center={lat},{lon}&zoom={z}",
+			"category": "Services"
 		},
 		{
-			"label":"OpenRouteService",
-			"url":"http://www.openrouteservice.org/?pos={lon},{lat}&zoom={z}",
-			"category":"Routing"
+			"label": "Antipodes",
+			"url": "https://www.datadaptive.com/ant/?lat={lat}&lng={lon}",
+			"category": "Services"
 		},
 		{
-			"label":"Brouter",
-			"url":"http://brouter.de/brouter-web/#map={z}/{lat}/{lon}/cyclosm&profile=hiking-beta",
-			"category":"Routing",
-			"favorite":true
+			"label": "EFFIS - Fires map*",
+			"url": "https://effis.jrc.ec.europa.eu/apps/effis_current_situation/",
+			"category": "Services"
 		},
 		{
-			"label":"How far did I run*",
-			"url":"https://onthegomap.com/#/create",
-			"category":"Routing",
-			"favorite":true
+			"label": "OSRM",
+			"url": "http://map.project-osrm.org/?z={z}&center={lat}%2C{lon}&loc=&loc=&hl=en&ly=&alt=&df=&srv=",
+			"category": "Routing"
 		},
 		{
-			"label":"Bike Citizens*",
-			"url":"https://map.bikecitizens.net",
-			"category":"Routing"
+			"label": "OpenRouteService",
+			"url": "http://www.openrouteservice.org/?pos={lon},{lat}&zoom={z}",
+			"category": "Routing"
 		},
 		{
-			"label":"Kurviger (motorcyle)",
-			"url":"https://kurviger.de/en?point={lat}%2C{lon}",
-			"category":"Routing"
+			"label": "Brouter",
+			"url": "http://brouter.de/brouter-web/#map={z}/{lat}/{lon}/cyclosm&profile=hiking-beta",
+			"category": "Routing",
+			"favorite": true
 		},
 		{
-			"label":"Calimoto*",
-			"url":"https://calimoto.com/fr/itineraires-moto",
-			"category":"Routing"
+			"label": "How far did I run*",
+			"url": "https://onthegomap.com/#/create",
+			"category": "Routing",
+			"favorite": true
 		},
 		{
-			"label":"Roadcurvature",
-			"url":"https://roadcurvature.com/map/#map={z}/{lon}/{lat}",
-			"category":"Routing"
+			"label": "Bike Citizens*",
+			"url": "https://map.bikecitizens.net",
+			"category": "Routing"
 		},
 		{
-			"label":"Railway Routing",
-			"url":"https://signal.eu.org/osm/#{z}/{lat}/{lon}",
-			"category":"Routing"
+			"label": "Kurviger (motorcyle)",
+			"url": "https://kurviger.de/en?point={lat}%2C{lon}",
+			"category": "Routing"
 		},
 		{
-			"label":"Waze",
-			"url":"https://www.waze.com/fr/livemap/?zoom={z}&lat={lat}&lon={lon}",
-			"category":"Transport"
+			"label": "Calimoto*",
+			"url": "https://calimoto.com/fr/itineraires-moto",
+			"category": "Routing"
 		},
 		{
-			"label":"V-Traffic*",
-			"url":"http://www.v-traffic.com/?addr=Toulouse&amp;pois=8",
-			"category":"Transport"
+			"label": "Roadcurvature",
+			"url": "https://roadcurvature.com/map/#map={z}/{lon}/{lat}",
+			"category": "Routing"
 		},
 		{
-			"label":"InfoTraffic*",
-			"url":"https://www.infotrafic.com/home",
-			"category":"Transport"
+			"label": "Railway Routing",
+			"url": "https://signal.eu.org/osm/#{z}/{lat}/{lon}",
+			"category": "Routing"
 		},
 		{
-			"label":"Bison Futé*",
-			"url":"https://www.bison-fute.gouv.fr/maintenant.html",
-			"category":"Transport"
+			"label": "Waze",
+			"url": "https://www.waze.com/fr/livemap/?zoom={z}&lat={lat}&lon={lon}",
+			"category": "Transport"
 		},
 		{
-			"label":"Vinci Autoroutes*",
-			"url":"https://www.vinci-autoroutes.com/fr/autoroutes-temps-reel",
-			"category":"Transport"
+			"label": "V-Traffic*",
+			"url": "http://www.v-traffic.com/?addr=Toulouse&amp;pois=8",
+			"category": "Transport"
 		},
 		{
-			"label":"Prix des carburants*",
-			"url":"https://www.prix-carburants.gouv.fr/",
-			"category":"Transport"
+			"label": "InfoTraffic*",
+			"url": "https://www.infotrafic.com/home",
+			"category": "Transport"
 		},
 		{
-			"label":"Autoroutes.fr*",
-			"url":"https://www.autoroutes.fr/fr/trafic-en-temps-reel.htm",
-			"category":"Transport"
+			"label": "Bison Futé*",
+			"url": "https://www.bison-fute.gouv.fr/maintenant.html",
+			"category": "Transport"
 		},
 		{
-			"label":"Traze",
-			"url":"https://traze.app/@{lat},{lon},{z}",
-			"category":"Transport"
+			"label": "Vinci Autoroutes*",
+			"url": "https://www.vinci-autoroutes.com/fr/autoroutes-temps-reel",
+			"category": "Transport"
 		},
 		{
-			"label":"Plan Tisseo*",
-			"url":"https://www.tisseo.fr/plan-interactif/#",
-			"category":"Transport"
+			"label": "Prix des carburants*",
+			"url": "https://www.prix-carburants.gouv.fr/",
+			"category": "Transport"
 		},
 		{
-			"label":"Moovit*",
-			"url":"https://moovitapp.com/",
-			"category":"Transport"
+			"label": "Autoroutes.fr*",
+			"url": "https://www.autoroutes.fr/fr/trafic-en-temps-reel.htm",
+			"category": "Transport"
 		},
 		{
-			"label":"Flightradar24",
-			"url":"https://www.flightradar24.com/{lat},{lon}/{z}",
-			"category":"Transport"
+			"label": "Traze",
+			"url": "https://traze.app/@{lat},{lon},{z}",
+			"category": "Transport"
 		},
 		{
-			"label":"Radar Box",
-			"url":"https://www.radarbox24.com/@{lat},{lon},z{z}",
-			"category":"Transport"
+			"label": "Plan Tisseo*",
+			"url": "https://www.tisseo.fr/plan-interactif/#",
+			"category": "Transport"
 		},
 		{
-			"label":"Open Transport Map",
-			"url":"http://app.hslayers.org/open_transport_map/map.html?hs_x={x}&hs_y={y}&hs_z={z}",
-			"category":"Transport"
+			"label": "Moovit*",
+			"url": "https://moovitapp.com/",
+			"category": "Transport"
 		},
 		{
-			"label":"OSM Tchoutchou",
-			"url":"http://www.raildar.fr/#lat={lat}&lng={lon}&zoom={z}",
-			"category":"Transport"
+			"label": "Flightradar24",
+			"url": "https://www.flightradar24.com/{lat},{lon}/{z}",
+			"category": "Transport"
 		},
 		{
-			"label":"OpenRailayMap",
-			"url":"https://www.openrailwaymap.org/?lat={lat}&lon={lon}&zoom={z}",
-			"category":"Transport"
+			"label": "Radar Box",
+			"url": "https://www.radarbox24.com/@{lat},{lon},z{z}",
+			"category": "Transport"
 		},
 		{
-			"label":"Ship watch",
-			"url":"http://www.geody.com/shipswatch.php?lat={lat}&lon={lon}&z={z}",
-			"category":"Transport"
+			"label": "Open Transport Map",
+			"url": "http://app.hslayers.org/open_transport_map/map.html?hs_x={x}&hs_y={y}&hs_z={z}",
+			"category": "Transport"
 		},
 		{
-			"label":"Carte de balises en ligne",
-			"url":"http://beacons.schmirler.de/fr/world.html#map={z}/{lat}/{lon}&layers=OS6&details=18",
-			"category":"Transport"
+			"label": "OSM Tchoutchou",
+			"url": "http://www.raildar.fr/#lat={lat}&lng={lon}&zoom={z}",
+			"category": "Transport"
 		},
 		{
-			"label":"Marine Traffic",
-			"url":"http://www.marinetraffic.com/fr/ais/home/centerx:{lon}/centery:{lat}/zoom:{z}",
-			"category":"Transport"
+			"label": "OpenRailayMap",
+			"url": "https://www.openrailwaymap.org/?lat={lat}&lon={lon}&zoom={z}",
+			"category": "Transport"
 		},
 		{
-			"label":"Navigable Waterways",
-			"url":"http://maps.grade.de/?zoom={z}&lat={lat}&lon={lon}&layers=B0FTTTTFFFFFFFFTT",
-			"category":"Transport"
+			"label": "Ship watch",
+			"url": "http://www.geody.com/shipswatch.php?lat={lat}&lon={lon}&z={z}",
+			"category": "Transport"
 		},
 		{
-			"label":"LighthouseMap*",
-			"url":"https://geodienst.github.io/lighthousemap/",
-			"category":"Transport"
+			"label": "Carte de balises en ligne",
+			"url": "http://beacons.schmirler.de/fr/world.html#map={z}/{lat}/{lon}&layers=OS6&details=18",
+			"category": "Transport"
 		},
 		{
-			"label":"Heaven Above",
-			"url":"http://www.heavens-above.com/allsats.aspx?lat={lat}&lng={lon}&z={z}",
-			"category":"Space"
+			"label": "Marine Traffic",
+			"url": "http://www.marinetraffic.com/fr/ais/home/centerx:{lon}/centery:{lat}/zoom:{z}",
+			"category": "Transport"
 		},
 		{
-			"label":"Sat map*",
-			"url":"https://satmap.space/",
-			"category":"Space"
+			"label": "Navigable Waterways",
+			"url": "http://maps.grade.de/?zoom={z}&lat={lat}&lon={lon}&layers=B0FTTTTFFFFFFFFTT",
+			"category": "Transport"
 		},
 		{
-			"label":"2 pieds 2 roues*",
-			"url":"https://velomax.2p2r.org/websig/lizmap/www/index.php/view/map/?repository=velomax&project=velomax",
-			"category":"Transport"
+			"label": "LighthouseMap*",
+			"url": "https://geodienst.github.io/lighthousemap/",
+			"category": "Transport"
 		},
 		{
-			"label":"OpenOrienteeringMap",
-			"url":"http://oomap.co.uk/global/#/new/oterrain_global/{z}/{lon}/{lat}/",
-			"category":"Games"
+			"label": "Heaven Above",
+			"url": "http://www.heavens-above.com/allsats.aspx?lat={lat}&lng={lon}&z={z}",
+			"category": "Space"
+		},
+		{
+			"label": "Sat map*",
+			"url": "https://satmap.space/",
+			"category": "Space"
+		},
+		{
+			"label": "2 pieds 2 roues*",
+			"url": "https://velomax.2p2r.org/websig/lizmap/www/index.php/view/map/?repository=velomax&project=velomax",
+			"category": "Transport"
+		},
+		{
+			"label": "OpenOrienteeringMap",
+			"url": "http://oomap.co.uk/global/#/new/oterrain_global/{z}/{lon}/{lat}/",
+			"category": "Games"
 		}
 	],
-	"edit":[
+	"edit": [
 		{
-			"label":"Load in JOSM",
-			"url":"http://127.0.0.1:8111/load_and_zoom?left={xmin}&right={xmax}&top={ymax}&bottom={ymin}"
+			"label": "Load in JOSM",
+			"url": "http://127.0.0.1:8111/load_and_zoom?left={xmin}&right={xmax}&top={ymax}&bottom={ymin}"
 		},
 		{
-			"label":"Edit with iD editor",
-			"url":"http://www.openstreetmap.org/edit?editor=id#map={z}/{lat}/{lon}"
+			"label": "Edit with iD editor",
+			"url": "http://www.openstreetmap.org/edit?editor=id#map={z}/{lat}/{lon}"
 		},
 		{
-			"label":"Improve OSM",
-			"url":"http://improveosm.org/#background=Bing&map={z}/{lat}/{lon}"
+			"label": "Improve OSM",
+			"url": "http://improveosm.org/#background=Bing&map={z}/{lat}/{lon}"
 		},
 		{
-			"label":"Amenity editor",
-			"url":"http://ae.osmsurround.org/ae/index?lat={lat}&lon={lon}&zoom={z}"
+			"label": "Amenity editor",
+			"url": "http://ae.osmsurround.org/ae/index?lat={lat}&lon={lon}&zoom={z}"
 		},
 		{
-			"label":"Level0*",
-			"url":"http://level0.osmz.ru/index.php"
+			"label": "Level0*",
+			"url": "http://level0.osmz.ru/index.php"
 		}
 	],
-	"check":[
+	"check": [
 		{
-			"label":"Osmose",
-			"url":"https://osmose.openstreetmap.fr/fr/map/#zoom={z}&lat={lat}&lon={lon}"
+			"label": "Osmose",
+			"url": "https://osmose.openstreetmap.fr/fr/map/#zoom={z}&lat={lat}&lon={lon}"
 		},
 		{
-			"label":"OSM Note Viewer*",
-			"url":"https://antonkhorev.github.io/osm-note-viewer/"
+			"label": "OSM Note Viewer*",
+			"url": "https://antonkhorev.github.io/osm-note-viewer/"
 		},
 		{
-			"label":"Notes review",
-			"url":"https://ent8r.github.io/NotesReview/?view=map&map={z}%2F{lat}%2F{lon}"
+			"label": "Notes review",
+			"url": "https://ent8r.github.io/NotesReview/?view=map&map={z}%2F{lat}%2F{lon}"
 		},
 		{
-			"label":"Nominatim QA",
-			"url":"https://nominatim.org/qa/#map={z}/{lat}/{lon}"
+			"label": "Nominatim QA",
+			"url": "https://nominatim.org/qa/#map={z}/{lat}/{lon}"
 		},
 		{
-			"label":"BANCO",
-			"url":"https://commerces.openstreetmap.fr/projects/2022-01_shop/map#map={z}/{lat}/{lon}"
+			"label": "BANCO",
+			"url": "https://commerces.openstreetmap.fr/projects/2022-01_shop/map#map={z}/{lat}/{lon}"
 		},
 		{
-			"label":"Pifometre",
-			"url":"https://bano.openstreetmap.fr/pifometre/"
+			"label": "Pifometre",
+			"url": "https://bano.openstreetmap.fr/pifometre/"
 		},
 		{
-			"label":"FANTOIR - Outil de rapprochement*",
-			"url":"https://dev.cadastre.openstreetmap.fr/fantoir"
+			"label": "FANTOIR - Outil de rapprochement*",
+			"url": "https://dev.cadastre.openstreetmap.fr/fantoir"
 		},
 		{
-			"label":"FANTOIR - Stats Département*",
-			"url":"http://cadastre.openstreetmap.fr/fantoir/stats_dept.html"
+			"label": "FANTOIR - Stats Département*",
+			"url": "http://cadastre.openstreetmap.fr/fantoir/stats_dept.html"
 		},
 		{
-			"label":"FANTOIR - Voies récentes*",
-			"url":"http://cadastre.openstreetmap.fr/fantoir/voies_recentes_manquantes.html"
+			"label": "FANTOIR - Voies récentes*",
+			"url": "http://cadastre.openstreetmap.fr/fantoir/voies_recentes_manquantes.html"
 		},
 		{
-			"label":"GeoCheck*",
-			"url":"https://www.ideeslibres.org/GeoCheck/"
+			"label": "GeoCheck*",
+			"url": "https://www.ideeslibres.org/GeoCheck/"
 		},
 		{
-			"label":"OSMInspector",
-			"url":"http://tools.geofabrik.de/osmi/?lat={lat}&lon={lon}&zoom={z}"
+			"label": "OSMInspector",
+			"url": "http://tools.geofabrik.de/osmi/?lat={lat}&lon={lon}&zoom={z}"
 		},
 		{
-			"label":"Keepright",
-			"url":"http://keepright.ipax.at/report_map.php?lat={lat}&lon={lon}&zoom={z}"
+			"label": "Keepright",
+			"url": "http://keepright.ipax.at/report_map.php?lat={lat}&lon={lon}&zoom={z}"
 		},
 		{
-			"label":"Osmoscope",
-			"url":"http://osmoscope.jochentopf.com/#map={z}/{lon}/{lat}"
+			"label": "Osmoscope",
+			"url": "http://osmoscope.jochentopf.com/#map={z}/{lon}/{lat}"
 		},
 		{
-			"label":"CheckAutopista2",
-			"url":"http://k1wiosm.github.io/checkautopista2/?lat={lat}&lon={lon}&z={z}"
+			"label": "CheckAutopista2",
+			"url": "http://k1wiosm.github.io/checkautopista2/?lat={lat}&lon={lon}&z={z}"
 		},
-        {
-			"label":"OSM Truck QA Map*",
-			"url":"http://maxheight.bplaced.net/overpass/map.html"
+		{
+			"label": "OSM Truck QA Map*",
+			"url": "http://maxheight.bplaced.net/overpass/map.html"
 		}
 	],
-	"reference":[
+	"reference": [
 		{
-			"label":"Map Features Wiki",
-			"url":"http://wiki.openstreetmap.org/wiki/FR:%C3%89l%C3%A9ments_cartographiques"
+			"label": "Map Features Wiki",
+			"url": "http://wiki.openstreetmap.org/wiki/FR:%C3%89l%C3%A9ments_cartographiques"
 		},
 		{
-			"label":"Tag Info",
-			"url":"https://taginfo.openstreetmap.org/"
+			"label": "Tag Info",
+			"url": "https://taginfo.openstreetmap.org/"
 		},
 		{
-			"label":"YoHours",
-			"url":"http://projets.pavie.info/yohours/"
+			"label": "YoHours",
+			"url": "http://projets.pavie.info/yohours/"
 		}
 	]
 }
