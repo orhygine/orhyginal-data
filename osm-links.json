@@ -22,6 +22,12 @@ var links = {
 			"favorite": true
 		},
 		{
+			"label": "Open Etymology Map",
+			"url": "https://mapcomplete.osm.be/etymology.html?z={zoom}&lat={lat}&lon={-0.8674}&language=fr",
+			"category": "OpenStreetMap",
+			"favorite": true
+		},
+		{
 			"label": "unkm",
 			"url": "https://www.unkm.fr/#{lat},{lon}",
 			"category": "Covid19"
@@ -89,6 +95,16 @@ var links = {
 		{
 			"label": "Historique (osm.org)",
 			"url": "http://www.openstreetmap.org//browse/changesets/#map={z}/{lat}/{lon}",
+			"category": "OpenStreetMap contributing"
+		},
+		{
+			"label": "How did you contribute*",
+			"url": "https://hdyc.neis-one.org/",
+			"category": "OpenStreetMap contributing"
+		},
+		{
+			"label": "Missing maps users*",
+			"url": "https://www.missingmaps.org/users/#/",
 			"category": "OpenStreetMap contributing"
 		},
 		{
@@ -398,6 +414,11 @@ var links = {
 		{
 			"label": "Mapillary",
 			"url": "http://www.mapillary.com/map/search/{lat}/{lon}/{z}",
+			"category": "Photo services"
+		},
+		{
+			"label": "GeoVisio*",
+			"url": "https://geovisio.fr/",
 			"category": "Photo services"
 		},
 		{
@@ -1051,10 +1072,15 @@ var links = {
 			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label": "OSM Tasking Manager*",
+			"label": "HOT Tasking Manager*",
 			"url": "http://tasks.hotosm.org/",
 			"category": "OpenStreetMap contributing",
 			"favorite": true
+		},
+		{
+			"label": "Missing maps*",
+			"url": "https://www.missingmaps.org/",
+			"category": "OpenStreetMap contributing"
 		},
 		{
 			"label": "Disaster Ninja",
