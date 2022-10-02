@@ -22,6 +22,12 @@ var links = {
 			"favorite": true
 		},
 		{
+			"label": "Map Complete",
+			"url": "https://mapcomplete.osm.be/?z={zoom}&lat={lat}&lon={lon}&language=en",
+			"category": "OpenStreetMap",
+			"favorite": true
+		},
+		{
 			"label": "Open Etymology Map",
 			"url": "https://mapcomplete.osm.be/etymology.html?z={zoom}&lat={lat}&lon={-0.8674}&language=fr",
 			"category": "OpenStreetMap",
