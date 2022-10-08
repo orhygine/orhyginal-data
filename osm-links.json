@@ -29,7 +29,7 @@ var links = {
 		},
 		{
 			"label": "Open Etymology Map",
-			"url": "https://mapcomplete.osm.be/etymology.html?z={zoom}&lat={lat}&lon={-0.8674}&language=fr",
+			"url": "https://mapcomplete.osm.be/etymology.html?z={zoom}&lat={lat}&lon={lon}&language=fr",
 			"category": "OpenStreetMap",
 			"favorite": true
 		},
