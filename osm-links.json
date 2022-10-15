@@ -1244,6 +1244,11 @@ var links = {
 			"category": "OpenStreetMap"
 		},
 		{
+			"label": "4 maps",
+			"url": "https://2012.osmz.ru/4.html#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
+		},
+		{
 			"label": "Best Of OSM",
 			"url": "http://bestofosm.org/?zoom={z}&lat={lat}&lon={lon}",
 			"category": "OpenStreetMap"
