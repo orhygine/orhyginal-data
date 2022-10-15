@@ -23,13 +23,13 @@ var links = {
 		},
 		{
 			"label": "Map Complete",
-			"url": "https://mapcomplete.osm.be/?z={zoom}&lat={lat}&lon={lon}&language=en",
+			"url": "https://mapcomplete.osm.be/?z={z}&lat={lat}&lon={lon}&language=en",
 			"category": "OpenStreetMap",
 			"favorite": true
 		},
 		{
 			"label": "Open Etymology Map",
-			"url": "https://mapcomplete.osm.be/etymology.html?z={zoom}&lat={lat}&lon={lon}&language=fr",
+			"url": "https://mapcomplete.osm.be/etymology.html?z={z}&lat={lat}&lon={lon}&language=fr",
 			"category": "OpenStreetMap",
 			"favorite": true
 		},
@@ -1415,7 +1415,7 @@ var links = {
 		},
 		{
 			"label": "Medical by OpenStreetMap",
-			"url": "http://www.tappenbeck.net/osm/maps/deu/index.php?id=1029&zoom={zoom}&lat={lat}&lon={lon}&layers=BFTTT&lang=de",
+			"url": "http://www.tappenbeck.net/osm/maps/deu/index.php?id=1029&zoom={z}&lat={lat}&lon={lon}&layers=BFTTT&lang=de",
 			"category": "OpenStreetMap"
 		},
 		{
