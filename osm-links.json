@@ -1704,7 +1704,7 @@ var links = {
 		},
 		{
 			"label": "Edit with iD editor",
-			"url": "http://www.openstreetmap.org/edit?editor=id#map={z}/{lat}/{lon}"
+			"url": "http://www.openstreetmap.org/id#map={z}/{lat}/{lon}"
 		},
 		{
 			"label": "Improve OSM",
