@@ -164,6 +164,11 @@ var links = {
 			"category": "OpenStreetMap contributing"
 		},
 		{
+			"label": "OSM Welcome Tool*",
+			"url": "https://welcome.osm.be/",
+			"category": "OpenStreetMap contributing"
+		},
+		{
 			"label": "OSM suspicious",
 			"url": "https://resultmaps.neis-one.org/osm-suspicious#{z}/{lat}/{lon}",
 			"category": "OpenStreetMap contributing"
