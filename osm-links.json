@@ -1043,6 +1043,11 @@ var links = {
 			"category": "Tools"
 		},
 		{
+			"label": "Geo Projections*",
+			"url": "https://www.geo-projections.com/",
+			"category": "Tools"
+		},
+		{
 			"label": "Bbox finder",
 			"url": "http://bboxfinder.com/#{ymin},{xmin},{ymax},{xmax}",
 			"category": "Tools"
