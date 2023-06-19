@@ -591,7 +591,12 @@ var links = {
 		{
 			"label": "F4map",
 			"url": "http://demo.f4map.com/#lat={lat}&lon={lon}&zoom={z}",
-			"category": "OpenStreetMap"
+			"category": "OpenStreetMap - 3D"
+		},
+		{
+			"label": "Streets GL",
+			"url": "https://streets.gl/#{lat},{lon},45.00,0.00,2000.00",
+			"category": "OpenStreetMap - 3D"
 		},
 		{
 			"label": "MapOSMatic*",
