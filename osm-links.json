@@ -892,6 +892,11 @@ var links = {
 			"category": "Outdoor - Ski"
 		},
 		{
+			"label": "Skimap.org*",
+			"url": "https://skimap.org/",
+			"category": "Outdoor - Ski"
+		},
+		{
 			"label": "Open Signal",
 			"url": "http://opensignal.com/index.php?lat={lat}&lng={lon}&initZoom={z}",
 			"category": "Communications"
