@@ -897,6 +897,11 @@ var links = {
 			"category": "Outdoor - Ski"
 		},
 		{
+			"label": "OpenSkiMap",
+			"url": "https://openskimap.org/#{z}/{lat}/{lon}",
+			"category": "Outdoor - Ski"
+		},
+		{
 			"label": "Skimap.org*",
 			"url": "https://skimap.org/",
 			"category": "Outdoor - Ski"
@@ -1065,6 +1070,11 @@ var links = {
 		{
 			"label": "Bbox finder",
 			"url": "http://bboxfinder.com/#{ymin},{xmin},{ymax},{xmax}",
+			"category": "Tools"
+		},
+		{
+			"label": "Mapshaper*",
+			"url": "https://mapshaper.org/",
 			"category": "Tools"
 		},
 		{
@@ -1667,8 +1677,13 @@ var links = {
 			"category": "Transport"
 		},
 		{
-			"label": "OpenRailayMap",
+			"label": "OpenRailwayMap",
 			"url": "https://www.openrailwaymap.org/?lat={lat}&lon={lon}&zoom={z}",
+			"category": "Transport"
+		},
+		{
+			"label": "Carto GRAOU",
+			"url": "https://carto.graou.info/{lat}/{lon}/{z}/0/0",
 			"category": "Transport"
 		},
 		{
