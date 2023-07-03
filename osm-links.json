@@ -1,7 +1,7 @@
 var links = {
 	"link": [
 		{
-			"label": "Openstreetmap.org",
+			"label": "Openstreetmap.org !",
 			"url": "http://www.openstreetmap.org/#map={z}/{lat}/{lon}",
 			"category": "OpenStreetMap"
 		},
