@@ -34,6 +34,12 @@ var links = {
 			"favorite": true
 		},
 		{
+			"label": "Open Etymology Map bis",
+			"url": "https://etymology.dsantini.it/#{lon},{lat},{z},type,db_all",
+			"category": "OpenStreetMap",
+			"favorite": true
+		},
+		{
 			"label": "unkm",
 			"url": "https://www.unkm.fr/#{lat},{lon}",
 			"category": "Covid19"
@@ -134,6 +140,11 @@ var links = {
 			"category": "OpenStreetMap contributing"
 		},
 		{
+			"label": "gimme OSM*",
+			"url": "http://ustroetz.github.io/gimmeOSM/",
+			"category": "OpenStreetMap contributing"
+		},
+		{
 			"label": "Changeset by Comparison Visualization*",
 			"url": "https://resultmaps.neis-one.org/osm-change-viz?",
 			"category": "OpenStreetMap contributing"
@@ -141,6 +152,11 @@ var links = {
 		{
 			"label": "Your OSM heat map",
 			"url": "https://yosmhm.neis-one.org/?zoom={z<14}&lat={lat}&lon={lon}&layers=B000TTF",
+			"category": "OpenStreetMap contributing"
+		},
+		{
+			"label": "OSM proposals*",
+			"url": "https://osm-proposals.push-f.com/",
 			"category": "OpenStreetMap contributing"
 		},
 		{
@@ -204,8 +220,13 @@ var links = {
 			"category": "OpenStreetMap contributing"
 		},
 		{
-			"label": "Neis OSM Stats",
+			"label": "Neis OSM Stats*",
 			"url": "https://osmstats.neis-one.org/",
+			"category": "OpenStreetMap contributing"
+		},
+		{
+			"label": "OpenStreetMap Statistics*",
+			"url": "https://piebro.github.io/openstreetmap-statistics/#63f6",
 			"category": "OpenStreetMap contributing"
 		},
 		{
@@ -1013,6 +1034,11 @@ var links = {
 			"category": "Tools"
 		},
 		{
+			"label": "OpenSwitchMaps*",
+			"url": "https://tankaru.github.io/OpenSwitchMapsWeb/index.html",
+			"category": "Tools"
+		},
+		{
 			"label": "magOSM*",
 			"url": "https://magosm.magellium.com/portail/#/carte",
 			"category": "Tools"
@@ -1196,6 +1222,16 @@ var links = {
 		{
 			"label": "OSM.fr extracts*",
 			"url": "http://download.openstreetmap.fr/extracts/europe/",
+			"category": "OpenStreetMap download"
+		},
+		{
+			"label": "DATAWAX Données OSM*",
+			"url": "https://www.data-wax.com/",
+			"category": "OpenStreetMap download"
+		},
+		{
+			"label": "France GeoJSON*",
+			"url": "https://france-geojson.gregoiredavid.fr/",
 			"category": "OpenStreetMap download"
 		},
 		{
