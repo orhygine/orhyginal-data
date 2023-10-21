@@ -266,7 +266,7 @@ var links = {
 		},
 		{
 			"label": "BD-Ortho dates de prise de vue",
-			"url": "http://umap.openstreetmap.fr/fr/map/date-heure-des-prises-de-vues-aeriennes-de-la-bd-o_160764#{z}/{lat}/{lon}",
+			"url": "https://umap.openstreetmap.fr/fr/map/date-heure-des-prises-de-vues-aeriennes-de-la-bd-o_160764#{z}/{lat}/{lon}",
 			"category": "OpenStreetMap contributing"
 		},
 		{
@@ -296,32 +296,32 @@ var links = {
 		},
 		{
 			"label": "uMap des uMaps",
-			"url": "http://umap.openstreetmap.fr/en/map/showcase_4783#{z}/{lat}/{lon}",
+			"url": "https://umap.openstreetmap.fr/en/map/showcase_4783#{z}/{lat}/{lon}",
 			"category": "uMap"
 		},
 		{
 			"label": "Les 3000 des Pyrénées",
-			"url": "http://umap.openstreetmap.fr/fr/map/les-3000-des-pyrenees_76885#{z}/{lat}/{lon}",
+			"url": "https://umap.openstreetmap.fr/fr/map/les-3000-des-pyrenees_76885#{z}/{lat}/{lon}",
 			"category": "uMap"
 		},
 		{
 			"label": "Activités pour les enfants",
-			"url": "http://umap.openstreetmap.fr/fr/map/activites-pour-les-enfants_5848#{z}/{lat}/{lon}",
+			"url": "https://umap.openstreetmap.fr/fr/map/activites-pour-les-enfants_5848#{z}/{lat}/{lon}",
 			"category": "uMap"
 		},
 		{
 			"label": "Stations de ski des Pyrénées",
-			"url": "http://umap.openstreetmap.fr/fr/map/stations-de-ski-des-pyrenees_30564#{z}/{lat}/{lon}",
+			"url": "https://umap.openstreetmap.fr/fr/map/stations-de-ski-des-pyrenees_30564#{z}/{lat}/{lon}",
 			"category": "uMap"
 		},
 		{
 			"label": "Sites archéologiques",
-			"url": "http://umap.openstreetmap.fr/fr/map/sites-archeologiques_22883#{z}/{lat}/{lon}",
+			"url": "https://umap.openstreetmap.fr/fr/map/sites-archeologiques_22883#{z}/{lat}/{lon}",
 			"category": "uMap"
 		},
 		{
 			"label": "Pelote Basque",
-			"url": "http://umap.openstreetmap.fr/fr/map/pelote-basque_24035#{z}/{lat}/{lon}",
+			"url": "https://umap.openstreetmap.fr/fr/map/pelote-basque_24035#{z}/{lat}/{lon}",
 			"category": "uMap"
 		},
 		{
@@ -516,7 +516,7 @@ var links = {
 		},
 		{
 			"label": "Photo aériennes de l'IGN",
-			"url": "http://umap.openstreetmap.fr/fr/map/photos-aeriennes-anciennes-de-lign-via-openeventda_87467#{z}/{lat}/{lon}",
+			"url": "https://umap.openstreetmap.fr/fr/map/photos-aeriennes-anciennes-de-lign-via-openeventda_87467#{z}/{lat}/{lon}",
 			"category": "Geoportails"
 		},
 		{
