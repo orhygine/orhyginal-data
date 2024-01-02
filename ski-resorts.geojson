@@ -272,6 +272,23 @@
         "id": "relation/2926602",
         "slug": "val-louron"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.30163,
+          42.77876
+        ]
+      },
+      "properties": {
+        "name": "Guzet-Neige",
+        "site": "piste",
+        "type": "site",
+        "id": "relation/2924760",
+        "slug": "guzet"
+      }
     }
   ]
 }
