@@ -24,14 +24,17 @@ var links = {
 		{
 			"label": "Map Complete",
 			"url": "https://mapcomplete.osm.be/?z={z}&lat={lat}&lon={lon}&language=en",
-			"category": "OpenStreetMap",
-			"favorite": true
+			"category": "OpenStreetMap"
 		},
 		{
 			"label": "Open Etymology Map",
 			"url": "https://mapcomplete.osm.be/etymology.html?z={z}&lat={lat}&lon={lon}&language=fr",
-			"category": "OpenStreetMap",
-			"favorite": true
+			"category": "OpenStreetMap"
+		},
+		{
+			"label": "Artwork (Map Complete)",
+			"url": "https://mapcomplete.org/artwork?z={z}&lat={lat}&lon={lon}",
+			"category": "OpenStreetMap"
 		},
 		{
 			"label": "Open Etymology Map bis",
