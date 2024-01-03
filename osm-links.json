@@ -1829,7 +1829,7 @@ var links = {
 		},
 		{
 			"label": "Pifometre",
-			"url": "https://bano.openstreetmap.fr/pifometre/"
+			"url": "https://bano.openstreetmap.fr/pifometre/pifomap.html?ratio=no#map={z}/{lat}/{lon}"
 		},
 		{
 			"label": "FANTOIR - Outil de rapprochement*",
