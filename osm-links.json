@@ -23,23 +23,23 @@ var links = {
 		},
 		{
 			"label": "Map Complete",
-			"url": "https://mapcomplete.osm.be/?z={z-1}&lat={lat}&lon={lon}&language=en",
+			"url": "https://mapcomplete.osm.be/?z={z}&lat={lat}&lon={lon}&language=en",
 			"category": "OpenStreetMap"
 		},
 		{
 			"label": "Open Etymology Map",
-			"url": "https://mapcomplete.osm.be/etymology.html?z={z-1}&lat={lat}&lon={lon}&language=fr",
+			"url": "https://mapcomplete.osm.be/etymology.html?z={z}&lat={lat}&lon={lon}&language=fr",
 			"category": "OpenStreetMap",
 			"favorite": true
 		},
 		{
 			"label": "Artwork (Map Complete)",
-			"url": "https://mapcomplete.org/artwork?z={z-1}&lat={lat}&lon={lon}",
+			"url": "https://mapcomplete.org/artwork?z={z}&lat={lat}&lon={lon}",
 			"category": "OpenStreetMap"
 		},
 		{
 			"label": "Open Etymology Map bis",
-			"url": "https://etymology.dsantini.it/#{lon},{lat},{z-1},type,db_all",
+			"url": "https://etymology.dsantini.it/#{lon},{lat},{z},type,db_all",
 			"category": "OpenStreetMap",
 			"favorite": true
 		},
