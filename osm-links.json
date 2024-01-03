@@ -1114,6 +1114,16 @@ var links = {
 			"category": "Tools"
 		},
 		{
+			"label": "Geoid Viewer*",
+			"url": "https://www.g-red.eu/geoid/geoidViewer.html",
+			"category": "Tools"
+		},
+		{
+			"label": "Online Geoid Calculator",
+			"url": "https://geographiclib.sourceforge.io/cgi-bin/GeoidEval?input={lat}%20{lon}&option=Submit",
+			"category": "Tools"
+		},
+		{
 			"label": "Wicket (WKT writer)*",
 			"url": "https://arthur-e.github.io/Wicket/sandbox-gmaps3.html",
 			"category": "Tools"
@@ -1267,6 +1277,12 @@ var links = {
 		{
 			"label": "Garmin alternativaslibres*",
 			"url": "http://alternativaslibres.org/fr/",
+			"category": "OpenStreetMap download"
+		},
+		},
+		{
+			"label": "OpenHikingMaps*",
+			"url": "https://www.openhiking.eu/en/",
 			"category": "OpenStreetMap download"
 		},
 		{
