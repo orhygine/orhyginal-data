@@ -1279,7 +1279,6 @@ var links = {
 			"url": "http://alternativaslibres.org/fr/",
 			"category": "OpenStreetMap download"
 		},
-		},
 		{
 			"label": "OpenHikingMaps*",
 			"url": "https://www.openhiking.eu/en/",
