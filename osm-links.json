@@ -402,11 +402,6 @@ var links = {
 			"category": "Outdoor"
 		},
 		{
-			"label": "GoSurf*",
-			"url": "https://gosurf.fr/map",
-			"category": "Outdoor"
-		},
-		{
 			"label": "OpenSeaMap Weather",
 			"url": "http://map.openseamap.org/weather.php?zoom={z<8}&lat={lat}&lon={lon}&layers=BTFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
 			"category": "Meteo"
