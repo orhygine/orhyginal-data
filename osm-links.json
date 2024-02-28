@@ -38,6 +38,11 @@ var links = {
 			"category": "OpenStreetMap"
 		},
 		{
+			"label": "Ski pistes and aerialways (Map Complete)",
+			"url": "https://mapcomplete.org/ski?z={z}&lat={lat}&lon={lon}",
+			"category": "OpenStreetMap"
+		},
+		{
 			"label": "Open Etymology Map bis",
 			"url": "https://etymology.dsantini.it/#{lon},{lat},{z},type,db_all",
 			"category": "OpenStreetMap",
@@ -259,6 +264,16 @@ var links = {
 			"category": "OpenStreetMap contributing"
 		},
 		{
+			"label": "Is OSM Complete?*",
+			"url": "https://wvanderp.github.io/isOsmComplete/",
+			"category": "OpenStreetMap contributing"
+		},
+		{
+			"label": "OSM wiki stats*",
+			"url": "https://wiki.openstreetmap.org/wiki/Stats",
+			"category": "OpenStreetMap contributing"
+		},
+		{
 			"label": "Tile OSM Fr",
 			"url": "http://tile.openstreetmap.fr/?zoom={z}&lat={lat}&lon={lon}",
 			"category": "OpenStreetMap contributing"
@@ -344,6 +359,21 @@ var links = {
 			"url": "https://www.windy.com/?{lat},{lon},{z}",
 			"category": "Meteo",
 			"favorite": true
+		},
+		{
+			"label": "Balises Nivose*",
+			"url": "http://www.webcams-montagne.fr/nivoses.php",
+			"category": "Meteo"
+		},
+		{
+			"label": "Go Surf webcams map*",
+			"url": "https://gosurf.fr/map",
+			"category": "Webcams"
+		},
+		{
+			"label": "Carto Cams*",
+			"url": "https://cartocams.com/",
+			"category": "Webcams"
 		},
 		{
 			"label": "Météo parapente",
@@ -557,6 +587,11 @@ var links = {
 			"label": "Google Maps",
 			"url": "https://www.google.com/maps/@{lat},{lon},{z}z",
 			"category": "Services"
+		},
+		{
+			"label": "Wonders of Street View*",
+			"url": "https://neal.fun/wonders-of-street-view/",
+			"category": "Games"
 		},
 		{
 			"label": "The True Size Of*",
@@ -1003,6 +1038,11 @@ var links = {
 			"category": "History"
 		},
 		{
+			"label": "placemark.io*",
+			"url": "https://play.placemark.io",
+			"category": "Tools"
+		},
+		{
 			"label": "geojson.io",
 			"url": "http://geojson.io/#map={z}/{lat}/{lon}",
 			"category": "Tools"
@@ -1130,6 +1170,11 @@ var links = {
 		{
 			"label": "Wicket (WKT writer)*",
 			"url": "https://arthur-e.github.io/Wicket/sandbox-gmaps3.html",
+			"category": "Tools"
+		},
+		{
+			"label": "FreeMapTools*",
+			"url": "https://www.freemaptools.com/",
 			"category": "Tools"
 		},
 		{
@@ -1304,6 +1349,21 @@ var links = {
 			"category": "OpenStreetMap download"
 		},
 		{
+			"label": "Overture Labs*",
+			"url": "https://labs.overturemaps.org/",
+			"category": "OpenStreetMap data"
+		},
+		{
+			"label": "Overture Planetiler Demo",
+			"url": "https://msbarry.github.io/planetiler-overture-demo/#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap data"
+		},
+		{
+			"label": "Overture places map",
+			"url": "https://bdon.github.io/overture-tiles/places.html#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap data"
+		},
+		{
 			"label": "10 years of OSM",
 			"url": "https://www.mapbox.com/ten-years-openstreetmap/#{lon}/{lat}/{z}",
 			"category": "OpenStreetMap"
@@ -1311,6 +1371,11 @@ var links = {
 		{
 			"label": "OSM Live*",
 			"url": "http://live.openstreetmap.fr/",
+			"category": "OpenStreetMap"
+		},
+		{
+			"label": "Musical OSM*",
+			"url": "https://musical-osm.netlify.app",
 			"category": "OpenStreetMap"
 		},
 		{
@@ -1421,6 +1486,11 @@ var links = {
 		{
 			"label": "OpenBeerMap",
 			"url": "https://openbeermap.github.io/#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
+		},
+		{
+			"label": "OpenBookCase*",
+			"url": "https://openbookcase.de/map",
 			"category": "OpenStreetMap"
 		},
 		{
@@ -1739,6 +1809,11 @@ var links = {
 		{
 			"label": "Carto GRAOU",
 			"url": "https://carto.graou.info/{lat}/{lon}/{z}/0/0",
+			"category": "Transport"
+		},
+		{
+			"label": "Carte de France du train vélo*",
+			"url": "https://velotrain.fr",
 			"category": "Transport"
 		},
 		{
