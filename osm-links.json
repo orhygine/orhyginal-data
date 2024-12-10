@@ -1108,8 +1108,13 @@ var links = {
 			"category": "Tools"
 		},
 		{
-			"label": "Tile calculator",
+			"label": "Geofabrik Tile Calculator",
 			"url": "http://tools.geofabrik.de/calc/#type=geofabrik_standard&bbox={xmin},{ymin},{xmax},{ymax}",
+			"category": "Tools"
+		},
+		{
+			"label": "ICGC Tile Calculator*",
+			"url": "https://betaserver.icgc.cat/visor/calculator.html",
 			"category": "Tools"
 		},
 		{
