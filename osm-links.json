@@ -89,6 +89,17 @@ var links = {
 			"category": "OpenStreetMap"
 		},
 		{
+			"label": "AirRescueMap",
+			"url": "http://airrescuemap.org/#lat={lat}&lng={lon}&zoom={z}",
+			"category": "OpenStreetMap"
+		},
+		{
+			"label": "OSMarche*",
+			"url": "https://osmarche.someware.fr/explore",
+			"category": "OpenStreetMap",
+			"favorite": true
+		},
+		{
 			"label": "Water map*",
 			"url": "https://water-map.org/",
 			"category": "OpenStreetMap"
@@ -1143,6 +1154,21 @@ var links = {
 			"category": "Tools"
 		},
 		{
+			"label": "Shadow finder*",
+			"url": "https://colab.research.google.com/github/Bellingcat/ShadowFinder/blob/main/ShadowFinderColab.ipynb",
+			"category": "Tools"
+		},
+		{
+			"label": "Bbox tool",
+			"url": "https://norbertrenner.de/osm/bbox.html?zoom={z}&lat={lat}&lon={lon}",
+			"category": "Tools"
+		},
+		{
+			"label": "BoundingBox (klokantech)*",
+			"url": "https://boundingbox.klokantech.com/",
+			"category": "Tools"
+		},
+		{
 			"label": "Mapshaper*",
 			"url": "https://mapshaper.org/",
 			"category": "Tools"
@@ -1173,6 +1199,26 @@ var links = {
 			"category": "Tools"
 		},
 		{
+			"label": "Geohashes*",
+			"url": "https://www.movable-type.co.uk/scripts/geohash.html",
+			"category": "Tools"
+		},
+		{
+			"label": "Geohash Converter*",
+			"url": "http://geohash.co/",
+			"category": "Tools"
+		},
+		{
+			"label": "geohash.org*",
+			"url": "http://geohash.org/",
+			"category": "Tools"
+		},
+		{
+			"label": "Flip coords",
+			"url": "https://flipcoords.com/#{lat},{lon}",
+			"category": "Tools"
+		},
+		{
 			"label": "FreeMapTools*",
 			"url": "https://www.freemaptools.com/",
 			"category": "Tools"
@@ -1197,6 +1243,11 @@ var links = {
 			"url": "http://tasks.hotosm.org/",
 			"category": "OpenStreetMap contributing",
 			"favorite": true
+		},
+		{
+			"label": "OMO*",
+			"url": "https://vps-3fba2a8a.ynh.fr/gestionnaire-de-taches-simple/project/",
+			"category": "OpenStreetMap contributing"
 		},
 		{
 			"label": "Missing maps*",
@@ -1314,6 +1365,16 @@ var links = {
 			"category": "OpenStreetMap download"
 		},
 		{
+			"label": "Garmin alternativaslibres*",
+			"url": "http://alternativaslibres.org/fr/",
+			"category": "OpenStreetMap download"
+		},
+		{
+			"label": "OpenStreetMap for Garmin GPS devices*",
+			"url": "https://www.userbeam.de/",
+			"category": "OpenStreetMap download"
+		},
+		{
 			"label": "Geofabrik download*",
 			"url": "http://download.geofabrik.de/",
 			"category": "OpenStreetMap download"
@@ -1321,11 +1382,6 @@ var links = {
 		{
 			"label": "bbbike extracts",
 			"url": "http://extract.bbbike.org/?lang=fr&sw_lng={xmin}&sw_lat={ymin}&ne_lng={xmax}&ne_lat={ymax}&format=osm.pbf&oi=1&layers=0B000T",
-			"category": "OpenStreetMap download"
-		},
-		{
-			"label": "Garmin alternativaslibres*",
-			"url": "http://alternativaslibres.org/fr/",
 			"category": "OpenStreetMap download"
 		},
 		{
@@ -1389,11 +1445,6 @@ var links = {
 			"category": "OpenStreetMap"
 		},
 		{
-			"label": "OSM Then And Now",
-			"url": "http://mvexel.github.io/thenandnow/#{z}/{lat}/{lon}",
-			"category": "OpenStreetMap"
-		},
-		{
 			"label": "4 maps",
 			"url": "https://2012.osmz.ru/4.html#{z}/{lat}/{lon}",
 			"category": "OpenStreetMap"
@@ -1416,6 +1467,16 @@ var links = {
 		{
 			"label": "OpenPoiMap",
 			"url": "http://openpoimap.org/?map=amenity&zoom={z}&lat={lat}&lon={lon}&layers=B00FFFFFFFFT",
+			"category": "OpenStreetMap"
+		},
+		{
+			"label": "OpenAEDMap",
+			"url": "https://openaedmap.org/fr/#map={z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
+		},
+		{
+			"label": "OSMyBiz",
+			"url": "https://osmybiz.osm.ch/{z}/{lat}/{lon}",
 			"category": "OpenStreetMap"
 		},
 		{
@@ -1679,6 +1740,11 @@ var links = {
 			"category": "Services"
 		},
 		{
+			"label": "IGN LidarHD access portal*",
+			"url": "https://diffusion-lidarhd.ign.fr/",
+			"category": "Services"
+		},
+		{
 			"label": "OSRM",
 			"url": "http://map.project-osrm.org/?z={z}&center={lat}%2C{lon}&loc=&loc=&hl=en&ly=&alt=&df=&srv=",
 			"category": "Routing"
@@ -1837,6 +1903,11 @@ var links = {
 			"category": "Transport"
 		},
 		{
+			"label": "WaterwayMap",
+			"url": "https://waterwaymap.org/#map={z}/{lat}/{lon}",
+			"category": "Transport"
+		},
+		{
 			"label": "LighthouseMap*",
 			"url": "https://geodienst.github.io/lighthousemap/",
 			"category": "Transport"
@@ -1854,6 +1925,11 @@ var links = {
 		{
 			"label": "2 pieds 2 roues*",
 			"url": "https://velomax.2p2r.org/websig/lizmap/www/index.php/view/map/?repository=velomax&project=velomax",
+			"category": "Transport"
+		},
+		{
+			"label": "Open Charge Map*",
+			"url": "https://openchargemap.org/site",
 			"category": "Transport"
 		},
 		{
