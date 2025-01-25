@@ -1485,11 +1485,6 @@ var links = {
 			"category": "OpenStreetMap"
 		},
 		{
-			"label": "OSM POI Viewer*",
-			"url": "http://www.lenz-online.de/cgi-bin/osmpoi/osmpoi.pl",
-			"category": "OpenStreetMap"
-		},
-		{
 			"label": "WhatIsWhere*",
 			"url": "https://www.whatiswhere.com/",
 			"category": "OpenStreetMap"
