@@ -74,6 +74,11 @@ var links = {
 			"category": "OpenStreetMap"
 		},
 		{
+			"label": "OSMApp*",
+			"url": "https://osmapp.org/#{z}/{lat}/{lon}",
+			"category": "OpenStreetMap"
+		},
+		{
 			"label": "GeOSM*",
 			"url": "https://geo.sm/",
 			"category": "OpenStreetMap"
@@ -91,6 +96,11 @@ var links = {
 		{
 			"label": "AirRescueMap",
 			"url": "http://airrescuemap.org/#lat={lat}&lng={lon}&zoom={z}",
+			"category": "OpenStreetMap"
+		},
+		{
+			"label": "OpenStreetLight",
+			"url": "https://sb12.github.io/OSMStreetLight/#{z}/{lat}/{lon}",
 			"category": "OpenStreetMap"
 		},
 		{
@@ -325,6 +335,11 @@ var links = {
 			"category": "OpenStreetMap contributing"
 		},
 		{
+			"label": "Divide and map. Now.*",
+			"url": "https://damn-project.org/",
+			"category": "OpenStreetMap contributing"
+		},
+		{
 			"label": "uMap des uMaps",
 			"url": "https://umap.openstreetmap.fr/en/map/showcase_4783#{z}/{lat}/{lon}",
 			"category": "uMap"
@@ -374,6 +389,11 @@ var links = {
 		{
 			"label": "Balises Nivose*",
 			"url": "http://www.webcams-montagne.fr/nivoses.php",
+			"category": "Meteo"
+		},
+		{
+			"label": "Vigicrue Flash*",
+			"url": "https://apic-vigicruesflash.fr",
 			"category": "Meteo"
 		},
 		{
@@ -655,6 +675,11 @@ var links = {
 			"category": "Services"
 		},
 		{
+			"label": "Mosquito Alert",
+			"url": "https://map.mosquitoalert.com/es?utm_source=pocket_saves",
+			"category": "Services"
+		},
+		{
 			"label": "F4map",
 			"url": "http://demo.f4map.com/#lat={lat}&lon={lon}&zoom={z}",
 			"category": "OpenStreetMap - 3D"
@@ -717,6 +742,11 @@ var links = {
 		{
 			"label": "Wikimedia commons in Google Earth",
 			"url": "https://tools.wmflabs.org/geocommons/earth.kml?latdegdec={lat}&londegdec={lon}&scale=10000&commons=1",
+			"category": "Encyclopedia"
+		},
+		{
+			"label": "commons.flickr.org",
+			"url": "https://commons.flickr.org/map/?center_lat={lat}&center_lng={lon}&zoom={z}",
 			"category": "Encyclopedia"
 		},
 		{
@@ -938,6 +968,11 @@ var links = {
 			"category": "Outdoor"
 		},
 		{
+			"label": "Climbing Community",
+			"url": "https://oblyk.org/maps/crags?lat={lat}&lng={lon}&zoom={z}",
+			"category": "Outdoor"
+		},
+		{
 			"label": "GPSies",
 			"url": "https://www.gpsies.com/home.do;jsessionid=FBD8ED116444F119B5417CDA8555F3FF.fe2#{z}_{lat}_{lon}_hikebike",
 			"category": "Outdoor"
@@ -1059,6 +1094,11 @@ var links = {
 			"category": "Tools"
 		},
 		{
+			"label": "geojson.xyz*",
+			"url": "https://geojson.xyz/",
+			"category": "Data download"
+		},
+		{
 			"label": "Google Maps Compass",
 			"url": "http://googlecompass.com/full-screen-map.htm?lat={lat}&lng={lon}&zol={z}&pn=0",
 			"category": "Tools"
@@ -1071,6 +1111,11 @@ var links = {
 		{
 			"label": "Overpass-turbo",
 			"url": "http://overpass-turbo.eu?lat={lat}&lon={lon}&zoom={z}",
+			"category": "Tools"
+		},
+		{
+			"label": "Overpass Ultra",
+			"url": "https://overpass-ultra.us/#m={z}/{lat}/{lon}",
 			"category": "Tools"
 		},
 		{
@@ -1322,6 +1367,11 @@ var links = {
 		{
 			"label": "Pic4Review*",
 			"url": "https://pic4review.pavie.info/#/",
+			"category": "OpenStreetMap contributing"
+		},
+		{
+			"label": "OpenStreetMap Localization Tool",
+			"url": "https://localize.osm.tracestrack.com/?tags=place%3Dcity&limit=100/#/{z}/{lat}/{lon}",
 			"category": "OpenStreetMap contributing"
 		},
 		{
@@ -1764,6 +1814,12 @@ var links = {
 		{
 			"label": "gpx.studio*",
 			"url": "https://gpx.studio/",
+			"category": "Routing",
+			"favorite": true
+		},
+		{
+			"label": "Sherpa Map*",
+			"url": "https://sherpa-map.com/",
 			"category": "Routing",
 			"favorite": true
 		},
