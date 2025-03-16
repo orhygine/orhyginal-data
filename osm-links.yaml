@@ -35,16 +35,16 @@ link:
   - label: Zone authorisée
     url: http://dev.osm162.openstreetmap.fr/zone_autorisee.html#x={lon}&y={lat}
     category: Covid19
-  - label: OSM DATA*
+  - label: OSM DATA
     url: http://demo.openstreetmap.fr/map
     category: OpenStreetMap
-  - label: OSMApp*
+  - label: OSMApp
     url: https://osmapp.org/#{z}/{lat}/{lon}
     category: OpenStreetMap
-  - label: GéoDataMine*
+  - label: GéoDataMine
     url: https://geodatamine.fr
     category: OpenStreetMap
-  - label: Cyclofix*
+  - label: Cyclofix
     url: https://cyclofix.osm.be/map/
     category: OpenStreetMap
   - label: AirRescueMap
@@ -53,71 +53,71 @@ link:
   - label: OpenStreetLight
     url: https://sb12.github.io/OSMStreetLight/#{z}/{lat}/{lon}
     category: OpenStreetMap
-  - label: OSMarche*
+  - label: OSMarche
     url: https://osmarche.someware.fr/explore
     category: OpenStreetMap
     favorite: true
-  - label: Water map*
+  - label: Water map
     url: https://water-map.org/
     category: OpenStreetMap
-  - label: OSMBoundaries*
+  - label: OSMBoundaries
     url: https://osm-boundaries.com/Map
     category: OpenStreetMap
-  - label: Figuregrounder*
+  - label: Figuregrounder
     url: http://hanshack.com/figuregrounder/
     category: Art with OpenStreetMap
-  - label: Pretty Map*
+  - label: Pretty Map
     url: https://share.streamlit.io/chrieke/prettymapp/main/streamlit-prettymapp/app.py
     category: Art with OpenStreetMap
-  - label: City roads*
+  - label: City roads
     url: https://anvaka.github.io/city-roads/
     category: Art with OpenStreetMap
   - label: Historique (osm.org)
     url: http://www.openstreetmap.org//browse/changesets/#map={z}/{lat}/{lon}
     category: OpenStreetMap contributing
-  - label: How did you contribute*
+  - label: How did you contribute
     url: https://hdyc.neis-one.org/
     category: OpenStreetMap contributing
-  - label: Missing maps users*
+  - label: Missing maps users
     url: https://www.missingmaps.org/users/#/
     category: OpenStreetMap contributing
-  - label: OSM Visual History*
+  - label: OSM Visual History
     url: https://aleung.github.io/osm-visual-history/
     category: OpenStreetMap contributing
-  - label: OSM History* (pewu)
+  - label: OSM History (pewu)
     url: https://pewu.github.io/osm-history
     category: OpenStreetMap contributing
-  - label: OSM History* (osmhv)
+  - label: OSM History (osmhv)
     url: http://osmhv.openstreetmap.de
     category: OpenStreetMap contributing
   - label: Latest OpenStreetMap Edits per Tile
     url: https://resultmaps.neis-one.org/osm-change-tiles#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-  - label: gimme OSM*
+  - label: gimme OSM
     url: http://ustroetz.github.io/gimmeOSM/
     category: OpenStreetMap contributing
-  - label: Changeset by Comparison Visualization*
+  - label: Changeset by Comparison Visualization
     url: https://resultmaps.neis-one.org/osm-change-viz?
     category: OpenStreetMap contributing
   - label: Your OSM heat map
     url: https://yosmhm.neis-one.org/?zoom={z<14}&lat={lat}&lon={lon}&layers=B000TTF
     category: OpenStreetMap contributing
-  - label: OSM proposals*
+  - label: OSM proposals
     url: https://osm-proposals.push-f.com/
     category: OpenStreetMap contributing
   - label: Notes heatmap
     url: https://notes-heatmap.openstreetmap.fr/?pos={lat},{lon},{z}
     category: OpenStreetMap contributing
-  - label: OSM Streak*
+  - label: OSM Streak
     url: http://streak.osmz.ru/
     category: OpenStreetMap contributing
-  - label: OSM Community Index*
+  - label: OSM Community Index
     url: https://openstreetmap.community/
     category: OpenStreetMap contributing
-  - label: Who's that - OSM user names database*
+  - label: Who's that - OSM user names database
     url: http://whosthat.osmz.ru/
     category: OpenStreetMap contributing
-  - label: OSM Welcome Tool*
+  - label: OSM Welcome Tool
     url: https://welcome.osm.be/
     category: OpenStreetMap contributing
   - label: OSM suspicious
@@ -141,10 +141,10 @@ link:
   - label: OSM GPS Points
     url: https://resultmaps.neis-one.org/osmgps.html?lat={lat}&lon={lon}&zoom={z<9}
     category: OpenStreetMap contributing
-  - label: Neis OSM Stats*
+  - label: Neis OSM Stats
     url: https://osmstats.neis-one.org/
     category: OpenStreetMap contributing
-  - label: OpenStreetMap Statistics*
+  - label: OpenStreetMap Statistics
     url: https://piebro.github.io/openstreetmap-statistics/#63f6
     category: OpenStreetMap contributing
   - label: ArcheOSM
@@ -153,13 +153,13 @@ link:
   - label: Cadastre Damsy
     url: https://cadastre.damsy.net/#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-  - label: OSM stats report*
+  - label: OSM stats report
     url: https://www.openstreetmap.org/stats/data_stats.html
     category: OpenStreetMap contributing
-  - label: Is OSM Complete?*
+  - label: Is OSM Complete?
     url: https://wvanderp.github.io/isOsmComplete/
     category: OpenStreetMap contributing
-  - label: OSM wiki stats*
+  - label: OSM wiki stats
     url: https://wiki.openstreetmap.org/wiki/Stats
     category: OpenStreetMap contributing
   - label: Tile OSM Fr
@@ -183,7 +183,7 @@ link:
   - label: Bus lane viewer (zlant)
     url: https://zlant.github.io/bus-lanes/#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-  - label: Divide and map. Now.*
+  - label: Divide and map. Now.
     url: https://damn-project.org/
     category: OpenStreetMap contributing
   - label: uMap des uMaps
@@ -215,16 +215,16 @@ link:
     url: https://www.windy.com/?{lat},{lon},{z}
     category: Meteo
     favorite: true
-  - label: Balises Nivose*
+  - label: Balises Nivose
     url: http://www.webcams-montagne.fr/nivoses.php
     category: Meteo
-  - label: Vigicrue Flash*
+  - label: Vigicrue Flash
     url: https://apic-vigicruesflash.fr
     category: Meteo
-  - label: Go Surf webcams map*
+  - label: Go Surf webcams map
     url: https://gosurf.fr/map
     category: Webcams
-  - label: Carto Cams*
+  - label: Carto Cams
     url: https://cartocams.com/
     category: Webcams
   - label: Météo parapente
@@ -254,10 +254,10 @@ link:
   - label: LightningMaps.org
     url: http://www.lightningmaps.org/?lang=fr#m=oss;t=3;s=0;o=0;b=;ts=0;y={lat};x={lon};z={z};d=2;dl=2;dc=0;
     category: Meteo
-  - label: Keraunos.org*
+  - label: Keraunos.org
     url: http://www.keraunos.org/
     category: Meteo
-  - label: maree.info*
+  - label: maree.info
     url: http://maree.info/meteo
     category: Meteo
     favorite: true
@@ -267,10 +267,10 @@ link:
   - label: Mooncalc
     url: http://www.mooncalc.org/#/{lat},{lon},{z}/{date}/{time}/1
     category: Ephemeride
-  - label: SolarTopo*
+  - label: SolarTopo
     url: http://solartopo.com/orbite-solaire.htm
     category: Ephemeride
-  - label: Under the sun*
+  - label: Under the sun
     url: http://projects.truth-and-beauty.net/under-the-sun/
     category: Ephemeride
   - label: JVeuxDuSoleil
@@ -282,10 +282,10 @@ link:
   - label: Mapillary
     url: http://www.mapillary.com/map/search/{lat}/{lon}/{z}
     category: Photo services
-  - label: GeoVisio*
+  - label: GeoVisio
     url: https://geovisio.fr/
     category: Photo services
-  - label: Measure height with Mapillary*
+  - label: Measure height with Mapillary
     url: https://tankaru.github.io/Measure-Height-with-Mapillary/
     category: Photo services
   - label: OpenStreetCam
@@ -301,16 +301,16 @@ link:
     url: https://www.geoportail.gouv.fr/carte?c={lon},{lat}&z={z}&l0=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25TOUR.CV::GEOPORTAIL:OGC:WMTS(1)&permalink=yes
     category: Geoportails
     favorite: true
-  - label: Geoportail Espagne*
+  - label: Geoportail Espagne
     url: http://www.idee.es/visualizador/
     category: Geoportails
-  - label: Geoportail Pays Basque*
+  - label: Geoportail Pays Basque
     url: https://www.geo.euskadi.eus/s69-bisorea/es/x72aGeoeuskadiWAR/index.jsp
     category: Geoportails
-  - label: Geoportail Navarre*
+  - label: Geoportail Navarre
     url: https://idena.navarra.es/navegar/
     category: Geoportails
-  - label: Geoportail Aragon*
+  - label: Geoportail Aragon
     url: https://idearagon.aragon.es/visor/
     category: Geoportails
   - label: Geoportail Catalogne
@@ -334,10 +334,10 @@ link:
   - label: Google Maps
     url: https://www.google.com/maps/@{lat},{lon},{z}z
     category: Services
-  - label: Wonders of Street View*
+  - label: Wonders of Street View
     url: https://neal.fun/wonders-of-street-view/
     category: Games
-  - label: The True Size Of*
+  - label: The True Size Of
     url: https://www.thetruesize.com/
     category: Services
   - label: Mapquest
@@ -346,13 +346,13 @@ link:
   - label: Plan de Toulouse
     url: https://www.plan.toulouse.fr/?&center={lon},{lat}&zoom={z}
     category: Services
-  - label: Occupation du sol 2017 (CESBIO)*
+  - label: Occupation du sol 2017 (CESBIO)
     url: http://osr-cesbio.ups-tlse.fr/~oso/ui-ol/S2_2017/layer.html
     category: Services
   - label: TravelTime Maps
     url: https://app.traveltimeplatform.com/#/search/0_lat={lat}&0_lng={lon}
     category: Services
-  - label: TravelTime Maps (radius map)*
+  - label: TravelTime Maps (radius map)
     url: https://radiusmap.traveltimeplatform.com/
     category: Services
   - label: Bing Maps
@@ -376,7 +376,7 @@ link:
   - label: Streets GL
     url: https://streets.gl/#{lat},{lon},45.00,0.00,2000.00
     category: OpenStreetMap - 3D
-  - label: MapOSMatic*
+  - label: MapOSMatic
     url: https://maposmatic.osm-baustelle.de/
     category: OpenStreetMap
   - label: indoor=
@@ -397,7 +397,7 @@ link:
   - label: Wiki loves monuments
     url: http://tools.wmflabs.org/wlm-maps/#{z}/{lat}/{lon}
     category: Encyclopedia
-  - label: Visit Sights*
+  - label: Visit Sights
     url: https://visitsights.com/
     category: Encyclopedia
   - label: OpenInfraMap
@@ -413,7 +413,7 @@ link:
     url: https://www.geopedia.de/?lat={lat}&lon={lon}&z={z}&l=fr
     category: Encyclopedia
     favorite: true
-  - label: Mapcarta*
+  - label: Mapcarta
     url: https://mapcarta.com
     category: Encyclopedia
     favorite: true
@@ -423,7 +423,7 @@ link:
   - label: WikiShootMe!
     url: https://tools.wmflabs.org/wikishootme/#lat={lat}&lng={lon}&zoom={z}
     category: Encyclopedia
-  - label: Locator-tool*
+  - label: Locator-tool
     url: https://tools.wmflabs.org/locator-tool/#/
     category: Encyclopedia
   - label: Geolocator
@@ -442,10 +442,10 @@ link:
   - label: Geocaching (list - filter out finds)
     url: http://www.geocaching.com/seek/nearest.aspx?lat={lat}&lng={lon}&f=1
     category: Games
-  - label: Geocaches (mides)*
+  - label: Geocaches (mides)
     url: https://www.mides.fr/geocaching/map/land/
     category: Games
-  - label: Geocaches récentes (mides)*
+  - label: Geocaches récentes (mides)
     url: https://www.mides.fr/les-dernieres-geocaches-placees
     category: Games
   - label: Confluence
@@ -469,7 +469,7 @@ link:
   - label: Peakfinder
     url: http://www.peakfinder.org/fr/?lat={lat}&lng={lon}&alt=3000
     category: Outdoor - Panorama
-  - label: Toposcope Maker*
+  - label: Toposcope Maker
     url: http://toposcope.freemap.sk/
     category: Outdoor - Panorama
   - label: Tables d'orientation Pyrénées
@@ -514,7 +514,7 @@ link:
   - label: Wheelmap
     url: http://wheelmap.org/fr/map#/?lat={lat}&lon={lon}&zoom={z}
     category: OpenStreetMap
-  - label: AccessMap*
+  - label: AccessMap
     url: https://www.accessmap.io/
     category: OpenStreetMap
   - label: XC Trails
@@ -523,13 +523,13 @@ link:
   - label: Camp2camp
     url: http://www.camptocamp.org/map?map_y={y}&map_x={x}&map_zoom={z}&baselayer_ref=osm
     category: Outdoor
-  - label: HikeBikeMap*
+  - label: HikeBikeMap
     url: http://hikebikemap.org/
     category: Outdoor
   - label: Cycle Travel
     url: https://cycle.travel/map?lat={lat}&lon={lon}&zoom={z}
     category: Outdoor
-  - label: Climbing Away*
+  - label: Climbing Away
     url: https://climbingaway.fr/fr/sites-escalade/carte-du-monde-des-sites-d-escalade
     category: Outdoor
   - label: Climbing Community
@@ -538,10 +538,10 @@ link:
   - label: GPSies
     url: https://www.gpsies.com/home.do;jsessionid=FBD8ED116444F119B5417CDA8555F3FF.fe2#{z}_{lat}_{lon}_hikebike
     category: Outdoor
-  - label: WTracks*
+  - label: WTracks
     url: https://opoto.github.io/wtracks/
     category: Outdoor
-  - label: AllTrails*
+  - label: AllTrails
     url: https://www.alltrails.com/fr/explore
     category: Outdoor
   - label: OpenSnowMap
@@ -550,10 +550,10 @@ link:
   - label: SkiTrack
     url: http://www.skitrack.fr?lat={lat}&lon={lon}&zoom={z}
     category: Outdoor - Ski
-  - label: OpenSkiMap*
+  - label: OpenSkiMap
     url: https://openskimap.org
     category: Outdoor - Ski
-  - label: Skimap.org*
+  - label: Skimap.org
     url: https://skimap.org/
     category: Outdoor - Ski
   - label: Open Signal
@@ -565,10 +565,10 @@ link:
   - label: Carte des déploiements fibre
     url: https://cartefibre.arcep.fr/index.html?lng={lon}&lat={lat}&zoom={z}&legende=true&filter=true&trimestre=2018T3
     category: Communications
-  - label: Faisceaux Hertziens*
+  - label: Faisceaux Hertziens
     url: https://carte-fh.lafibre.info/
     category: Communications
-  - label: Projet Crozon*
+  - label: Projet Crozon
     url: https://carte-fh.lafibre.info/index_crozon.php
     category: Communications
   - label: Zones Wifi
@@ -599,7 +599,7 @@ link:
   - label: Dossier des châteaux de la Suisse
     url: https://castle-map.infs.ch/#{lat},{lon},{z}z
     category: History
-  - label: placemark.io*
+  - label: placemark.io
     url: https://play.placemark.io
     category: Tools
   - label: geojson.io
@@ -608,7 +608,7 @@ link:
   - label: geojson.net
     url: http://geojson.net/#map={z}/{lat}/{lon}
     category: Tools
-  - label: geojson.xyz*
+  - label: geojson.xyz
     url: https://geojson.xyz/
     category: Data download
   - label: Google Maps Compass
@@ -623,19 +623,19 @@ link:
   - label: Overpass Ultra
     url: https://overpass-ultra.us/#m={z}/{lat}/{lon}
     category: Tools
-  - label: ohsome history explorer*
+  - label: ohsome history explorer
     url: https://ohsome.org/apps/osm-history-explorer/
     category: Tools
-  - label: ohsome dashboard*
+  - label: ohsome dashboard
     url: https://ohsome.org/apps/dashboard/
     category: Tools
-  - label: OpenSwitchMaps*
+  - label: OpenSwitchMaps
     url: https://tankaru.github.io/OpenSwitchMapsWeb/index.html
     category: Tools
-  - label: magOSM*
+  - label: magOSM
     url: https://magosm.magellium.com/portail/#/carte
     category: Tools
-  - label: magOSM changements*
+  - label: magOSM changements
     url: https://magosm.magellium.com/portail/#/changements
     category: Tools
   - label: Map Compare
@@ -653,64 +653,64 @@ link:
   - label: Geofabrik Tile Calculator
     url: http://tools.geofabrik.de/calc/#type=geofabrik_standard&bbox={xmin},{ymin},{xmax},{ymax}
     category: Tools
-  - label: ICGC Tile Calculator*
+  - label: ICGC Tile Calculator
     url: https://betaserver.icgc.cat/visor/calculator.html
     category: Tools
-  - label: Spatial Reference*
+  - label: Spatial Reference
     url: http://spatialreference.org/
     category: Tools
-  - label: epsg.io*
+  - label: epsg.io
     url: http://epsg.io/
     category: Tools
   - label: epsg.io map
     url: http://epsg.io/map#srs=3857&x={x}&y={y}&z={z}&layer=streets
     category: Tools
-  - label: Geo Projections*
+  - label: Geo Projections
     url: https://www.geo-projections.com/
     category: Tools
   - label: Bbox finder
     url: http://bboxfinder.com/#{ymin},{xmin},{ymax},{xmax}
     category: Tools
-  - label: Shadow finder*
+  - label: Shadow finder
     url: https://colab.research.google.com/github/Bellingcat/ShadowFinder/blob/main/ShadowFinderColab.ipynb
     category: Tools
   - label: Bbox tool
     url: https://norbertrenner.de/osm/bbox.html?zoom={z}&lat={lat}&lon={lon}
     category: Tools
-  - label: BoundingBox (klokantech)*
+  - label: BoundingBox (klokantech)
     url: https://boundingbox.klokantech.com/
     category: Tools
-  - label: Mapshaper*
+  - label: Mapshaper
     url: https://mapshaper.org/
     category: Tools
   - label: FlipCoords
     url: https://flipcoords.com/#{lat},{lon}
     category: Tools
-  - label: MGRS grid*
+  - label: MGRS grid
     url: https://mappingsupport.com/p/gmap4.php?usng=14S_QG_0044_8474&z=5&t=h
     category: Tools
-  - label: Geoid Viewer*
+  - label: Geoid Viewer
     url: https://www.g-red.eu/geoid/geoidViewer.html
     category: Tools
   - label: Online Geoid Calculator
     url: https://geographiclib.sourceforge.io/cgi-bin/GeoidEval?input={lat}%20{lon}&option=Submit
     category: Tools
-  - label: Wicket (WKT writer)*
+  - label: Wicket (WKT writer)
     url: https://arthur-e.github.io/Wicket/sandbox-gmaps3.html
     category: Tools
-  - label: Geohashes*
+  - label: Geohashes
     url: https://www.movable-type.co.uk/scripts/geohash.html
     category: Tools
-  - label: Geohash Converter*
+  - label: Geohash Converter
     url: http://geohash.co/
     category: Tools
-  - label: geohash.org*
+  - label: geohash.org
     url: http://geohash.org/
     category: Tools
   - label: Flip coords
     url: https://flipcoords.com/#{lat},{lon}
     category: Tools
-  - label: FreeMapTools*
+  - label: FreeMapTools
     url: https://www.freemaptools.com/
     category: Tools
   - label: Who Did It
@@ -719,17 +719,17 @@ link:
   - label: Who Did It (fork)
     url: http://simon04.dev.openstreetmap.org/whodidit/?zoom={z}&lat={lat}&lon={lon}&layers=BTT
     category: OpenStreetMap contributing
-  - label: OSM QA Feeds*
+  - label: OSM QA Feeds
     url: https://tyrasd.github.io/osm-qa-feeds/
     category: OpenStreetMap contributing
-  - label: HOT Tasking Manager*
+  - label: HOT Tasking Manager
     url: http://tasks.hotosm.org/
     category: OpenStreetMap contributing
     favorite: true
-  - label: OMO*
+  - label: OMO
     url: https://vps-3fba2a8a.ynh.fr/gestionnaire-de-taches-simple/project/
     category: OpenStreetMap contributing
-  - label: Missing maps*
+  - label: Missing maps
     url: https://www.missingmaps.org/
     category: OpenStreetMap contributing
   - label: Disaster Ninja
@@ -750,10 +750,10 @@ link:
   - label: Walking Papers
     url: http://www.walking-papers.org/?lat={lat}&lon={lon}&zoom={z}#make
     category: OpenStreetMap contributing
-  - label: Inkatlas*
+  - label: Inkatlas
     url: https://inkatlas.com/create/
     category: OpenStreetMap
-  - label: BigMap* (export as image)
+  - label: BigMap (export as image)
     url: http://openstreetmap.gryph.de/bigmap.html
     category: OpenStreetMap
   - label: BigMap2 (export as image)
@@ -768,64 +768,64 @@ link:
   - label: MapContrib - bornes à incendie
     url: https://www.mapcontrib.xyz/t/s8c2d9-Les_bornes_a_incendie#position/{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-  - label: MapRoulette*
+  - label: MapRoulette
     url: http://maproulette.org/
     category: OpenStreetMap contributing
-  - label: Pic4Review*
+  - label: Pic4Review
     url: https://pic4review.pavie.info
     category: OpenStreetMap contributing
   - label: OpenStreetMap Localization Tool
     url: https://localize.osm.tracestrack.com/?tags=place%3Dcity&limit=100/#/{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-  - label: Planet OSM*
+  - label: Planet OSM
     url: https://planet.osm.org/
     category: OpenStreetMap download
-  - label: OSM.fr extracts*
+  - label: OSM.fr extracts
     url: http://download.openstreetmap.fr/extracts/europe/
     category: OpenStreetMap download
-  - label: DATAWAX Données OSM*
+  - label: DATAWAX Données OSM
     url: https://www.data-wax.com/
     category: OpenStreetMap download
-  - label: France GeoJSON*
+  - label: France GeoJSON
     url: https://france-geojson.gregoiredavid.fr/
     category: OpenStreetMap download
-  - label: Garmin by OpenTopoMap*
+  - label: Garmin by OpenTopoMap
     url: http://garmin.opentopomap.org
     category: OpenStreetMap download
-  - label: Frikart*
+  - label: Frikart
     url: http://www.frikart.no/garmin/velgkart.html
     category: OpenStreetMap download
-  - label: Garmin osm.nl*
+  - label: Garmin osm.nl
     url: http://garmin.openstreetmap.nl/
     category: OpenStreetMap download
-  - label: Garmin osm.fr*
+  - label: Garmin osm.fr
     url: http://garmin.openstreetmap.fr/
     category: OpenStreetMap download
-  - label: Garmin alternativaslibres*
+  - label: Garmin alternativaslibres
     url: http://alternativaslibres.org/fr/
     category: OpenStreetMap download
-  - label: OpenStreetMap for Garmin GPS devices*
+  - label: OpenStreetMap for Garmin GPS devices
     url: https://www.userbeam.de/
     category: OpenStreetMap download
-  - label: Geofabrik download*
+  - label: Geofabrik download
     url: http://download.geofabrik.de/
     category: OpenStreetMap download
   - label: bbbike extracts
     url: http://extract.bbbike.org/?lang=fr&sw_lng={xmin}&sw_lat={ymin}&ne_lng={xmax}&ne_lat={ymax}&format=osm.pbf&oi=1&layers=0B000T
     category: OpenStreetMap download
-  - label: OpenHikingMaps*
+  - label: OpenHikingMaps
     url: https://www.openhiking.eu/en/
     category: OpenStreetMap download
-  - label: OpenAndroMaps*
+  - label: OpenAndroMaps
     url: https://www.openandromaps.org/en
     category: OpenStreetMap download
-  - label: HOT Export tool*
+  - label: HOT Export tool
     url: https://export.hotosm.org/fr/v3/exports
     category: OpenStreetMap download
-  - label: HOT Export tool (old)*
+  - label: HOT Export tool (old)
     url: http://old-export.hotosm.org/fr/exports/
     category: OpenStreetMap download
-  - label: Overture Labs*
+  - label: Overture Labs
     url: https://labs.overturemaps.org/
     category: OpenStreetMap data
   - label: Overture Planetiler Demo
@@ -837,16 +837,16 @@ link:
   - label: 10 years of OSM
     url: https://www.mapbox.com/ten-years-openstreetmap/#{lon}/{lat}/{z}
     category: OpenStreetMap
-  - label: OSM Live*
+  - label: OSM Live
     url: http://live.openstreetmap.fr/
     category: OpenStreetMap
-  - label: Musical OSM*
+  - label: Musical OSM
     url: https://musical-osm.netlify.app
     category: OpenStreetMap
-  - label: Show me the way*
+  - label: Show me the way
     url: http://osmlab.github.io/show-me-the-way/
     category: OpenStreetMap
-  - label: OSM in realtime*
+  - label: OSM in realtime
     url: https://osm-in-realtime.jwestman.net/
     category: OpenStreetMap
   - label: 4 maps
@@ -873,10 +873,10 @@ link:
   - label: flOSM
     url: http://www.flosm.de/en/poimap.html?lat={lat}&lon={lon}&r={res}
     category: OpenStreetMap
-  - label: WhatIsWhere*
+  - label: WhatIsWhere
     url: https://www.whatiswhere.com/
     category: OpenStreetMap
-  - label: Nouvelles Ici*
+  - label: Nouvelles Ici
     url: http://nouvellesici.com/
     category: OpenStreetMap
   - label: OpenStreetBrowser
@@ -891,7 +891,7 @@ link:
   - label: Cameras
     url: http://www.leretourdelautruche.com/map/cctv/cctv.html?zoom={z}&lat={lat}&lon={lon}&layers=B00T
     category: OpenStreetMap
-  - label: Under surveillance*
+  - label: Under surveillance
     url: https://kamba4.crux.uberspace.de/?lat={lat}&lon={lon}&zoom={z}
     category: OpenStreetMap
   - label: OpenLevelUp
@@ -909,7 +909,7 @@ link:
   - label: OpenBeerMap
     url: https://openbeermap.github.io/#{z}/{lat}/{lon}
     category: OpenStreetMap
-  - label: OpenBookCase*
+  - label: OpenBookCase
     url: https://openbookcase.de/map
     category: OpenStreetMap
   - label: Veggy map
@@ -945,7 +945,7 @@ link:
   - label: Nominatim reverse geocoder
     url: http://nominatim.openstreetmap.org/reverse.php?format=html&lat={lat}&lon={lon}&zoom={z}
     category: OpenStreetMap Geocoding
-  - label: BANO + Solr*
+  - label: BANO + Solr
     url: https://www.ideeslibres.org/Bano
     category: OpenStreetMap Geocoding
   - label: OpenTripMap
@@ -954,7 +954,7 @@ link:
   - label: Omniscale OSM Hosting
     url: https://maps.omniscale.com/en/demo#map={z}/{lat}/{lon}/3857/B
     category: OpenStreetMap
-  - label: Parc Epique*
+  - label: Parc Epique
     url: https://parc-epique.fr/#/
     category: OpenStreetMap
   - label: OpenCampingMap
@@ -1005,10 +1005,10 @@ link:
   - label: Antarctica Map
     url: http://polar.openstreetmap.de/#zoom={z}&lat={lat}&lon={lon}&layers=BT
     category: Services
-  - label: Protected Planet*
+  - label: Protected Planet
     url: https://www.protectedplanet.net/
     category: Services
-  - label: Pollution lumineuse*
+  - label: Pollution lumineuse
     url: https://avex-asso.org/dossiers/pl/europe-2016/google-map-fausse-couleur/index.html
     category: Services
   - label: OpenAerialMap
@@ -1020,10 +1020,10 @@ link:
   - label: Antipodes
     url: https://www.datadaptive.com/ant/?lat={lat}&lng={lon}
     category: Services
-  - label: EFFIS - Fires map*
+  - label: EFFIS - Fires map
     url: https://effis.jrc.ec.europa.eu/apps/effis_current_situation/
     category: Services
-  - label: IGN LidarHD access portal*
+  - label: IGN LidarHD access portal
     url: https://diffusion-lidarhd.ign.fr/
     category: Services
   - label: OSRM
@@ -1036,25 +1036,25 @@ link:
     url: http://brouter.de/brouter-web/#map={z}/{lat}/{lon}/cyclosm&profile=hiking-beta
     category: Routing
     favorite: true
-  - label: How far did I run*
+  - label: How far did I run
     url: https://onthegomap.com/#/create
     category: Routing
     favorite: true
-  - label: gpx.studio*
+  - label: gpx.studio
     url: https://gpx.studio/
     category: Routing
     favorite: true
-  - label: Sherpa Map*
+  - label: Sherpa Map
     url: https://sherpa-map.com/
     category: Routing
     favorite: true
-  - label: Bike Citizens*
+  - label: Bike Citizens
     url: https://map.bikecitizens.net
     category: Routing
   - label: Kurviger (motorcyle)
     url: https://kurviger.de/en?point={lat}%2C{lon}
     category: Routing
-  - label: Calimoto*
+  - label: Calimoto
     url: https://calimoto.com/fr/itineraires-moto
     category: Routing
   - label: Roadcurvature
@@ -1066,31 +1066,31 @@ link:
   - label: Waze
     url: https://www.waze.com/fr/livemap/?zoom={z}&lat={lat}&lon={lon}
     category: Transport
-  - label: V-Traffic*
+  - label: V-Traffic
     url: http://www.v-traffic.com/?addr=Toulouse&amp;pois=8
     category: Transport
-  - label: InfoTraffic*
+  - label: InfoTraffic
     url: https://www.infotrafic.com/home
     category: Transport
-  - label: Bison Futé*
+  - label: Bison Futé
     url: https://www.bison-fute.gouv.fr/maintenant.html
     category: Transport
-  - label: Vinci Autoroutes*
+  - label: Vinci Autoroutes
     url: https://www.vinci-autoroutes.com/fr/autoroutes-temps-reel
     category: Transport
-  - label: Prix des carburants*
+  - label: Prix des carburants
     url: https://www.prix-carburants.gouv.fr/
     category: Transport
-  - label: Autoroutes.fr*
+  - label: Autoroutes.fr
     url: https://www.autoroutes.fr/fr/trafic-en-temps-reel.htm
     category: Transport
   - label: Traze
     url: https://traze.app/@{lat},{lon},{z}
     category: Transport
-  - label: Plan Tisseo*
+  - label: Plan Tisseo
     url: https://www.tisseo.fr/plan-interactif/#
     category: Transport
-  - label: Moovit*
+  - label: Moovit
     url: https://moovitapp.com/
     category: Transport
   - label: Flightradar24
@@ -1111,7 +1111,7 @@ link:
   - label: Carto GRAOU
     url: https://carto.graou.info/{lat}/{lon}/{z}/0/0
     category: Transport
-  - label: Carte de France du train vélo*
+  - label: Carte de France du train vélo
     url: https://velotrain.fr
     category: Transport
   - label: Ship watch
@@ -1129,19 +1129,19 @@ link:
   - label: WaterwayMap
     url: https://waterwaymap.org/#map={z}/{lat}/{lon}
     category: Transport
-  - label: LighthouseMap*
+  - label: LighthouseMap
     url: https://geodienst.github.io/lighthousemap/
     category: Transport
   - label: Heaven Above
     url: http://www.heavens-above.com/allsats.aspx?lat={lat}&lng={lon}&z={z}
     category: Space
-  - label: Sat map*
+  - label: Sat map
     url: https://satmap.space/
     category: Space
-  - label: 2 pieds 2 roues*
+  - label: 2 pieds 2 roues
     url: https://velomax.2p2r.org/websig/lizmap/www/index.php/view/map/?repository=velomax&project=velomax
     category: Transport
-  - label: Open Charge Map*
+  - label: Open Charge Map
     url: https://openchargemap.org/site
     category: Transport
   - label: OpenOrienteeringMap
@@ -1157,13 +1157,13 @@ edit:
     url: http://improveosm.org/#background=Bing&map={z}/{lat}/{lon}
   - label: Amenity editor
     url: http://ae.osmsurround.org/ae/index?lat={lat}&lon={lon}&zoom={z}
-  - label: Level0*
+  - label: Level0
     url: http://level0.osmz.ru/index.php
 
 check:
   - label: Osmose
     url: https://osmose.openstreetmap.fr/fr/map/#zoom={z}&lat={lat}&lon={lon}
-  - label: OSM Note Viewer*
+  - label: OSM Note Viewer
     url: https://antonkhorev.github.io/osm-note-viewer/
   - label: Notes review
     url: https://ent8r.github.io/NotesReview/?view=map&map={z}%2F{lat}%2F{lon}
@@ -1173,13 +1173,13 @@ check:
     url: https://commerces.openstreetmap.fr/projects/2022-01_shop/map#map={z}/{lat}/{lon}
   - label: Pifometre
     url: https://bano.openstreetmap.fr/pifometre/pifomap.html?ratio=no#map={z}/{lat}/{lon}
-  - label: FANTOIR - Outil de rapprochement*
+  - label: FANTOIR - Outil de rapprochement
     url: https://dev.cadastre.openstreetmap.fr/fantoir
-  - label: FANTOIR - Stats Département*
+  - label: FANTOIR - Stats Département
     url: http://cadastre.openstreetmap.fr/fantoir/stats_dept.html
-  - label: FANTOIR - Voies récentes*
+  - label: FANTOIR - Voies récentes
     url: http://cadastre.openstreetmap.fr/fantoir/voies_recentes_manquantes.html
-  - label: GeoCheck*
+  - label: GeoCheck
     url: https://www.ideeslibres.org/GeoCheck/
   - label: OSMInspector
     url: http://tools.geofabrik.de/osmi/?lat={lat}&lon={lon}&zoom={z}
@@ -1189,7 +1189,7 @@ check:
     url: http://osmoscope.jochentopf.com/#map={z}/{lon}/{lat}
   - label: CheckAutopista2
     url: http://k1wiosm.github.io/checkautopista2/?lat={lat}&lon={lon}&z={z}
-  - label: OSM Truck QA Map*
+  - label: OSM Truck QA Map
     url: http://maxheight.bplaced.net/overpass/map.html
 
 reference:
