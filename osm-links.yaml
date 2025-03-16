@@ -32,23 +32,14 @@ link:
   - label: unkm
     url: https://www.unkm.fr/#{lat},{lon}
     category: Covid19
-  - label: caresteouvert
-    url: https://www.caresteouvert.fr/@{lat},{lon},{z}
-    category: Covid19
   - label: Zone authorisée
     url: http://dev.osm162.openstreetmap.fr/zone_autorisee.html#x={lon}&y={lat}
-    category: Covid19
-  - label: 100km|Mon territoire*
-    url: https://100km.monterritoire.fr/
     category: Covid19
   - label: OSM DATA*
     url: http://demo.openstreetmap.fr/map
     category: OpenStreetMap
   - label: OSMApp*
     url: https://osmapp.org/#{z}/{lat}/{lon}
-    category: OpenStreetMap
-  - label: GeOSM*
-    url: https://geo.sm/
     category: OpenStreetMap
   - label: GéoDataMine*
     url: https://geodatamine.fr
@@ -156,17 +147,11 @@ link:
   - label: OpenStreetMap Statistics*
     url: https://piebro.github.io/openstreetmap-statistics/#63f6
     category: OpenStreetMap contributing
-  - label: Meet Your Mapper*
-    url: https://mym.rtijn.org/
-    category: OpenStreetMap contributing
   - label: ArcheOSM
     url: http://osm13.openstreetmap.fr/~cquest/leaflet/archeosm.html#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
   - label: Cadastre Damsy
     url: https://cadastre.damsy.net/#{z}/{lat}/{lon}
-    category: OpenStreetMap contributing
-  - label: Is OSM up to date?
-    url: https://is-osm-uptodate.frafra.eu/#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
   - label: OSM stats report*
     url: https://www.openstreetmap.org/stats/data_stats.html
@@ -179,9 +164,6 @@ link:
     category: OpenStreetMap contributing
   - label: Tile OSM Fr
     url: http://tile.openstreetmap.fr/?zoom={z}&lat={lat}&lon={lon}
-    category: OpenStreetMap contributing
-  - label: BANO
-    url: http://tile.openstreetmap.fr/~cquest/leaflet/bano.html#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
   - label: BD-Ortho dates de prise de vue
     url: https://umap.openstreetmap.fr/fr/map/date-heure-des-prises-de-vues-aeriennes-de-la-bd-o_160764#{z}/{lat}/{lon}
