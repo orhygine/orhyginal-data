@@ -73,7 +73,7 @@ link:
   - label: OSMarche
     url: https://osmarche.someware.fr/explore
     category: OpenStreetMap
-    favorite: true
+  
     tags: ["hiking", "outdoor", "favorite"]
   - label: Water map
     url: https://water-map.org/
@@ -202,7 +202,7 @@ link:
   - label: Cadastre Damsy
     url: https://cadastre.damsy.net/#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["osm", "contributing"]
   - label: OSM stats report
     url: https://www.openstreetmap.org/stats/data_stats.html
     category: OpenStreetMap contributing
@@ -773,10 +773,6 @@ link:
     tags: ["history"]
   - label: OldMapsOnline
     url: http://www.oldmapsonline.org/en/France#bbox={xmin},{ymin},{xmax},{ymax}
-    category: History
-    tags: ["history"]
-  - label: Peipleo
-    url: http://pelagios.org/peripleo/map#at={lat},{lon},{z}
     category: History
     tags: ["history"]
   - label: Vici
