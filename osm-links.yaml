@@ -32,7 +32,7 @@ link:
   - label: Ski pistes and aerialways (Map Complete)
     url: https://mapcomplete.org/ski?z={z}&lat={lat}&lon={lon}
     category: OpenStreetMap
-    tags: ["sports", "winter", "ski"]
+    tags: ["sport", "winter", "ski", "outdoor"]
   - label: Open Etymology Map bis
     url: https://etymology.dsantini.it/#{lon},{lat},{z},type,db_all
     category: OpenStreetMap
