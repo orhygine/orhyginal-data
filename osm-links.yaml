@@ -459,10 +459,6 @@ link:
     url: https://www.plan.toulouse.fr/?&center={lon},{lat}&zoom={z}
     category: Services
     tags: ["services"]
-  - label: Occupation du sol 2017 (CESBIO)
-    url: http://osr-cesbio.ups-tlse.fr/~oso/ui-ol/S2_2017/layer.html
-    category: Services
-    tags: ["services"]
   - label: TravelTime Maps
     url: https://app.traveltimeplatform.com/#/search/0_lat={lat}&0_lng={lon}
     category: Services
@@ -940,13 +936,9 @@ link:
     category: Tools
     tags: ["tools"]
   - label: Who Did It
-    url: http://zverik.osm.rambler.ru/whodidit/?zoom={z}&lat={lat}&lon={lon}&layers=BTT
-    category: OpenStreetMap contributing
-    tags: ["history", "osm"]
-  - label: Who Did It (fork)
     url: http://simon04.dev.openstreetmap.org/whodidit/?zoom={z}&lat={lat}&lon={lon}&layers=BTT
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["contributing", "osm"]
   - label: OSM QA Feeds
     url: https://tyrasd.github.io/osm-qa-feeds/
     category: OpenStreetMap contributing
@@ -1084,20 +1076,12 @@ link:
     url: https://export.hotosm.org/fr/v3/exports
     category: OpenStreetMap download
     tags: ["data", "osm"]
-  - label: HOT Export tool (old)
-    url: http://old-export.hotosm.org/fr/exports/
-    category: OpenStreetMap download
-    tags: ["data", "osm"]
   - label: Overture Labs
     url: https://labs.overturemaps.org/
     category: OpenStreetMap data
     tags: ["data", "osm"]
   - label: Overture Planetiler Demo
     url: https://msbarry.github.io/planetiler-overture-demo/#{z}/{lat}/{lon}
-    category: OpenStreetMap data
-    tags: ["data", "osm"]
-  - label: Overture places map
-    url: https://bdon.github.io/overture-tiles/places.html#{z}/{lat}/{lon}
     category: OpenStreetMap data
     tags: ["data", "osm"]
   - label: 10 years of OSM
@@ -1126,10 +1110,6 @@ link:
     tags: ["history", "osm"]
   - label: Best Of OSM
     url: http://bestofosm.org/?zoom={z}&lat={lat}&lon={lon}
-    category: OpenStreetMap
-    tags: ["history", "osm"]
-  - label: OpenMapSurfer
-    url: http://korona.geog.uni-heidelberg.de/?zoom={z}&lat={lat}&lon={lon}&layers=B00000FFFF
     category: OpenStreetMap
     tags: ["history", "osm"]
   - label: OSM India community map
