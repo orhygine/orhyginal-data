@@ -1507,7 +1507,7 @@ link:
   - label: 2 pieds 2 roues
     url: https://velomax.2p2r.org/index.php/view/map/?repository=carto&project=velomax&bbox={xmin_3857}%2C{ymin_3857}%2C{xmax_3857}%2C{ymax_3857}&crs=EPSG%3A3857
     category: Transport
-    tags: ["transport", "bike", "toulouse"]
+    tags: ["transport", "cycling", "toulouse"]
   - label: Open Charge Map
     url: https://openchargemap.org/site
     category: Transport
