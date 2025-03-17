@@ -1436,10 +1436,6 @@ link:
     url: https://www.autoroutes.fr/fr/trafic-en-temps-reel.htm
     category: Transport
     tags: ["transport", "osm"]
-  - label: Traze
-    url: https://traze.app/@{lat},{lon},{z}
-    category: Transport
-    tags: ["transport", "osm"]
   - label: Plan Tisseo
     url: https://www.tisseo.fr/plan-interactif/#
     category: Transport
@@ -1497,7 +1493,7 @@ link:
     category: Transport
     tags: ["transport", "osm"]
   - label: Heaven Above
-    url: http://www.heavens-above.com/allsats.aspx?lat={lat}&lng={lon}&z={z}
+    url: https://www.heavens-above.com/skyview/?lat={lat}&lng={lon}&cul=fr#/livesky
     category: Space
     tags: ["space"]
   - label: Sat map
