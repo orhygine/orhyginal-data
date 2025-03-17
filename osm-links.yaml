@@ -682,10 +682,6 @@ link:
     url: http://wheelmap.org/fr/map#/?lat={lat}&lon={lon}&zoom={z}
     category: OpenStreetMap
     tags: ["data", "osm"]
-  - label: AccessMap
-    url: https://www.accessmap.io/
-    category: OpenStreetMap
-    tags: ["data", "osm"]
   - label: XC Trails
     url: http://www.xctrails.org/map.html?type=xc&zoom={z}&lat={lat}&lon={lon}&layers=B00000TFFTTTTTTTFTTTFTT
     category: Outdoor
@@ -1136,10 +1132,10 @@ link:
     url: http://korona.geog.uni-heidelberg.de/?zoom={z}&lat={lat}&lon={lon}&layers=B00000FFFF
     category: OpenStreetMap
     tags: ["history", "osm"]
-  - label: OSM India i18n map
-    url: http://openstreetmap.in/demo/#{z}/{lat}/{lon}
+  - label: OSM India community map
+    url: https://www.openstreetmap.in/#{z}/{lat}/{lon}
     category: OpenStreetMap
-    tags: ["history", "osm"]
+    tags: ["geoportal", "osm", "community"]
   - label: OpenPoiMap
     url: http://openpoimap.org/?map=amenity&zoom={z}&lat={lat}&lon={lon}&layers=B00FFFFFFFFT
     category: OpenStreetMap
@@ -1193,13 +1189,9 @@ link:
     category: OpenStreetMap
     tags: ["history", "osm"]
   - label: OpenStationMap
-    url: http://www.openstationmap.org/#{z}/{lat}/{lon}
+    url: https://openstationmap.org/#{z}/{lat}/{lon}/0/55
     category: OpenStreetMap
-    tags: ["history", "osm"]
-  - label: OpenStationMap 2
-    url: https://openstationmap.org/html.html#{z}/{lat}/{lon}
-    category: OpenStreetMap
-    tags: ["history", "osm"]
+    tags: ["transport", "osm", "railway"]
   - label: OpenBeerMap
     url: https://openbeermap.github.io/#{z}/{lat}/{lon}
     category: OpenStreetMap
@@ -1249,9 +1241,9 @@ link:
     category: OpenStreetMap
     tags: ["history", "osm"]
   - label: Nominatim reverse geocoder
-    url: http://nominatim.openstreetmap.org/reverse.php?format=html&lat={lat}&lon={lon}&zoom={z}
+    url: https://nominatim.openstreetmap.org/ui/reverse.html?lat={lat}&lon={lon}&zoom={z}
     category: OpenStreetMap Geocoding
-    tags: ["geocoding", "osm"]
+    tags: ["geocoding", "osm", "toponyms"]
   - label: BANO + Solr
     url: https://www.ideeslibres.org/Bano
     category: OpenStreetMap Geocoding
@@ -1270,10 +1262,6 @@ link:
     tags: ["history", "osm"]
   - label: OpenCampingMap
     url: https://opencampingmap.org/#{z}/{lat}/{lon}
-    category: OpenStreetMap
-    tags: ["history", "osm"]
-  - label: Medical by OpenStreetMap
-    url: http://www.tappenbeck.net/osm/maps/deu/index.php?id=1029&zoom={z}&lat={lat}&lon={lon}&layers=BFTTT&lang=de
     category: OpenStreetMap
     tags: ["history", "osm"]
   - label: OpenStreetMap 4D
@@ -1322,14 +1310,6 @@ link:
     tags: ["tools"]
   - label: Falling Fruit
     url: https://fallingfruit.org/?z={z}&y={lat}&x={lon}&m=false
-    category: Services
-    tags: ["tools"]
-  - label: FixMyStreet
-    url: https://www.fixmystreet.fr/around?lon={lon}&lat={lat}
-    category: Services
-    tags: ["tools"]
-  - label: Antarctica Map
-    url: http://polar.openstreetmap.de/#zoom={z}&lat={lat}&lon={lon}&layers=BT
     category: Services
     tags: ["tools"]
   - label: Protected Planet
@@ -1410,10 +1390,6 @@ link:
     tags: ["routing", "osm"]
   - label: Waze
     url: https://www.waze.com/fr/livemap/?zoom={z}&lat={lat}&lon={lon}
-    category: Transport
-    tags: ["transport", "osm"]
-  - label: V-Traffic
-    url: http://www.v-traffic.com/?addr=Toulouse&amp;pois=8
     category: Transport
     tags: ["transport", "osm"]
   - label: InfoTraffic
