@@ -428,7 +428,7 @@ link:
     category: Geoportails
     tags: ["maps", "geoportail"]
   - label: Geoportail Luxembourg
-    url: http://map.geoportal.lu/theme/main?version=3&zoom={z}&X={x}&Y={y}&lang=fr&layers&opacities&bgLayer=basemap_2015_global
+    url: http://map.geoportal.lu/theme/main?version=3&zoom={z}&X={x_3857}&Y={y_3857}&lang=fr&layers&opacities&bgLayer=basemap_2015_global
     category: Geoportails
     tags: ["maps", "geoportail"]
   - label: seignanx.com
@@ -554,7 +554,7 @@ link:
     favorite: true
     tags: ["encyclopedia"]
   - label: Wikimap
-    url: https://wikimap.wiki/?base=map&lat={y}&lon={x}&showAll=true&wiki=frwiki&zoom={z}
+    url: https://wikimap.wiki/?base=map&lat={y_3857}&lon={x_3857}&showAll=true&wiki=frwiki&zoom={z}
     category: Encyclopedia
     tags: ["encyclopedia"]
   - label: WikiShootMe!
@@ -691,7 +691,7 @@ link:
     category: Outdoor
     tags: ["outdoor", "hiking"]
   - label: Camp2camp
-    url: http://www.camptocamp.org/map?map_y={y}&map_x={x}&map_zoom={z}&baselayer_ref=osm
+    url: http://www.camptocamp.org/map?map_y={y_3857}&map_x={x_3857}&map_zoom={z}&baselayer_ref=osm
     category: Outdoor
     tags: ["outdoor", "hiking"]
   - label: HikeBikeMap
@@ -763,7 +763,7 @@ link:
     category: Communications
     tags: ["communications"]
   - label: Tempo Pyrénées
-    url: http://tempo.agglo-pau.fr/chimere/?zoom={z}&lat={y}&lon={x}&layers=BTT&checked_categories=2_4_1_3_5&display_submited=false
+    url: http://tempo.agglo-pau.fr/chimere/?zoom={z}&lat={y_3857}&lon={x_3857}&layers=BTT&checked_categories=2_4_1_3_5&display_submited=false
     category: History
     tags: ["history"]
   - label: Historic Place
@@ -880,7 +880,7 @@ link:
     category: Tools
     tags: ["tools"]
   - label: epsg.io map
-    url: http://epsg.io/map#srs=3857&x={x}&y={y}&z={z}&layer=streets
+    url: http://epsg.io/map#srs=3857&x={x_3857}&y={y_3857}&z={z}&layer=streets
     category: Tools
     tags: ["tools"]
   - label: Geo Projections
@@ -1005,7 +1005,7 @@ link:
     category: OpenStreetMap
     tags: ["art", "culture"]
   - label: MapCraft
-    url: http://mapcraft.nanodesu.ru/map?zoom={z}&lat={y}&lon={x}&layers=BT
+    url: http://mapcraft.nanodesu.ru/map?zoom={z}&lat={y_3857}&lon={x_3857}&layers=BT
     category: OpenStreetMap contributing
     tags: ["art", "culture"]
   - label: OsmHydrant
@@ -1457,7 +1457,7 @@ link:
     category: Transport
     tags: ["transport", "osm"]
   - label: Open Transport Map
-    url: http://app.hslayers.org/open_transport_map/map.html?hs_x={x}&hs_y={y}&hs_z={z}
+    url: http://app.hslayers.org/open_transport_map/map.html?hs_x={x_3857}&hs_y={y_3857}&hs_z={z}
     category: Transport
     tags: ["transport", "osm"]
   - label: OpenRailwayMap
