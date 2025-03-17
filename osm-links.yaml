@@ -24,7 +24,7 @@ link:
   - label: Map Complete
     url: https://mapcomplete.osm.be/?z={z}&lat={lat}&lon={lon}&language=en
     category: OpenStreetMap
-    tags: ["editing", "osm"]
+    tags: ["editing", "osm", "contributing"]
 
   - label: Open Etymology Map
     url: https://mapcomplete.org/etymology?z={z}&lat={lat}&lon={lon}
@@ -35,18 +35,18 @@ link:
   - label: Artwork (Map Complete)
     url: https://mapcomplete.org/artwork?z={z}&lat={lat}&lon={lon}
     category: OpenStreetMap
-    tags: ["art", "culture"]
+    tags: ["art", "contributing"]
 
   - label: Ski pistes and aerialways (Map Complete)
     url: https://mapcomplete.org/ski?z={z}&lat={lat}&lon={lon}
     category: OpenStreetMap
-    tags: ["sport", "winter", "ski", "outdoor"]
+    tags: ["sport", "winter", "ski", "outdoor", "contributing"]
 
   - label: Open Etymology Map bis
     url: https://etymology.dsantini.it/#{lon},{lat},{z},type,db_all
     category: OpenStreetMap
     favorite: true
-    tags: ["etymology", "history", "favorite"]
+    tags: ["history", "favorite"]
 
   - label: unkm
     url: https://www.unkm.fr/#{lat},{lon}
@@ -56,7 +56,7 @@ link:
   - label: Zone authorisée
     url: http://dev.osm162.openstreetmap.fr/zone_autorisee.html#x={lon}&y={lat}
     category: Covid19
-    tags: ["health", "covid19", "restrictions"]
+    tags: ["health", "covid19"]
 
   - label: OSM DATA
     url: http://demo.openstreetmap.fr/map
@@ -71,27 +71,26 @@ link:
   - label: GéoDataMine
     url: https://geodatamine.fr
     category: OpenStreetMap
-    tags: ["data", "mining"]
+    tags: ["data", "osm"]
 
   - label: Cyclofix
     url: https://cyclofix.osm.be/map/
     category: OpenStreetMap
-    tags: ["cycling", "repair"]
+    tags: ["cycling", "osm"]
 
   - label: AirRescueMap
     url: http://airrescuemap.org/#lat={lat}&lng={lon}&zoom={z}
     category: OpenStreetMap
-    tags: ["emergency", "rescue"]
+    tags: ["emergency"]
 
   - label: OpenStreetLight
     url: https://sb12.github.io/OSMStreetLight/#{z}/{lat}/{lon}
     category: OpenStreetMap
-    tags: ["lighting", "infrastructure"]
+    tags: ["infrastructure"]
 
   - label: OSMarche
     url: https://osmarche.someware.fr/explore
     category: OpenStreetMap
-  
     tags: ["hiking", "outdoor", "favorite"]
 
   - label: Water map
@@ -102,147 +101,147 @@ link:
   - label: OSMBoundaries
     url: https://osm-boundaries.com/Map
     category: OpenStreetMap
-    tags: ["boundaries", "admin"]
+    tags: ["boundaries", "admin", "osm"]
 
   - label: Figuregrounder
     url: http://hanshack.com/figuregrounder/
     category: Art with OpenStreetMap
-    tags: ["art", "visualization"]
+    tags: ["art", "osm"]
 
   - label: Pretty Map
     url: https://share.streamlit.io/chrieke/prettymapp/main/streamlit-prettymapp/app.py
     category: Art with OpenStreetMap
-    tags: ["art", "visualization"]
+    tags: ["art", "osm"]
 
   - label: City roads
     url: https://anvaka.github.io/city-roads/
     category: Art with OpenStreetMap
-    tags: ["art", "roads", "visualization"]
+    tags: ["art", "osm"]
 
   - label: Historique (osm.org)
-    url: http://www.openstreetmap.org//browse/changesets/#map={z}/{lat}/{lon}
+    url: http://www.openstreetmap.org/browse/changesets/#map={z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["osm", "contributing", "edits"]
 
   - label: How did you contribute
     url: https://hdyc.neis-one.org/
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["osm", "contributing", "edits"]
 
   - label: Missing maps users
     url: https://www.missingmaps.org/users/#/
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["osm", "contributing"]
 
   - label: OSM Visual History
     url: https://aleung.github.io/osm-visual-history/
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["osm", "contributing", "edits"]
 
   - label: OSM History (pewu)
     url: https://pewu.github.io/osm-history
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["osm", "contributing", "edits"]
 
   - label: OSM History (osmhv)
     url: http://osmhv.openstreetmap.de
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["osm", "contributing", "edits"]
 
   - label: Latest OpenStreetMap Edits per Tile
     url: https://resultmaps.neis-one.org/osm-change-tiles#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["osm", "contributing", "edits"]
 
   - label: gimme OSM
     url: http://ustroetz.github.io/gimmeOSM/
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["osm", "contributing"]
 
   - label: Changeset by Comparison Visualization
     url: https://resultmaps.neis-one.org/osm-change-viz?
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["edits", "osm", "contributing"]
 
   - label: Your OSM heat map
     url: https://yosmhm.neis-one.org/?zoom={z<14}&lat={lat}&lon={lon}&layers=B000TTF
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["edits", "osm", "contributing"]
 
   - label: OSM proposals
     url: https://osm-proposals.push-f.com/
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["osm", "contributing"]
 
   - label: Notes heatmap
     url: https://notes-heatmap.openstreetmap.fr/?pos={lat},{lon},{z}
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["osm", "contributing"]
 
   - label: OSM Streak
     url: http://streak.osmz.ru/
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["osm", "contributing"]
 
   - label: OSM Community Index
     url: https://openstreetmap.community/
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["osm", "contributing"]
 
   - label: Who's that - OSM user names database
     url: http://whosthat.osmz.ru/
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["osm", "contributing"]
 
   - label: OSM Welcome Tool
     url: https://welcome.osm.be/
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["osm", "contributing"]
 
   - label: OSM suspicious
     url: https://resultmaps.neis-one.org/osm-suspicious#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["edits", "osm", "contributing"]
 
   - label: OSM suspicious (review requested changesets)
     url: https://resultmaps.neis-one.org/osm-suspicious?country=140&hours=96&mappingdays=-1&groupby=c&tsearch=review_requested%3Dyes&anyobj=t&comp=%3E&value=10&action=d&obj=n#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["edits", "osm", "contributing"]
 
   - label: Changeset Discussions
     url: https://resultmaps.neis-one.org/osm-discussions#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["edits", "osm", "contributing"]
 
   - label: Who's around me
     url: https://resultmaps.neis-one.org/oooc?lat={lat}&lon={lon}&zoom={z<19}
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["osm", "contributing"]
 
   - label: New contributors feed
     url: https://resultmaps.neis-one.org/newestosmcreatefeed?lat={lat}&lon={lon}&zoom={z}
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["osm", "contributing"]
 
   - label: Unmapped places
     url: https://resultmaps.neis-one.org/unmapped#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["osm", "contributing"]
 
   - label: OSM GPS Points
     url: https://resultmaps.neis-one.org/osmgps.html?lat={lat}&lon={lon}&zoom={z<9}
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["osm", "contributing"]
 
   - label: Neis OSM Stats
     url: https://osmstats.neis-one.org/
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["stats", "osm", "contributing"]
 
   - label: OpenStreetMap Statistics
     url: https://piebro.github.io/openstreetmap-statistics/#63f6
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["stats", "osm", "contributing"]
 
   - label: ArcheOSM
     url: http://osm13.openstreetmap.fr/~cquest/leaflet/archeosm.html#{z}/{lat}/{lon}
@@ -257,104 +256,104 @@ link:
   - label: OSM stats report
     url: https://www.openstreetmap.org/stats/data_stats.html
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["stats", "osm", "contributing"]
 
   - label: Is OSM Complete?
     url: https://wvanderp.github.io/isOsmComplete/
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["osm", "contributing"]
 
   - label: OSM wiki stats
     url: https://wiki.openstreetmap.org/wiki/Stats
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["stats", "osm", "contributing"]
 
   - label: Tile OSM Fr
     url: http://tile.openstreetmap.fr/?zoom={z}&lat={lat}&lon={lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["tools", "osm", "contributing"]
 
   - label: BD-Ortho dates de prise de vue
     url: https://umap.openstreetmap.fr/fr/map/date-heure-des-prises-de-vues-aeriennes-de-la-bd-o_160764#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["tools", "osm", "contributing"]
 
   - label: Fullscreen map (tile regen tool)
     url: https://www.sammyshp.de/fsmap/#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["tools", "osm", "contributing"]
 
   - label: Node density
     url: http://tyrasd.github.io/osm-node-density/#{z}/{lat}/{lon}/latest,places
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["stats", "osm", "contributing"]
 
   - label: Parking lane viewer (zlant)
     url: https://zlant.github.io/parking-lanes/#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["osm", "contributing"]
 
   - label: OpenParkingMap
     url: https://openparkingmap.com/#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["osm", "contributing"]
 
   - label: Bus lane viewer (zlant)
     url: https://zlant.github.io/bus-lanes/#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["osm", "contributing"]
 
   - label: Divide and map. Now.
     url: https://damn-project.org/
     category: OpenStreetMap contributing
-    tags: ["history", "osm", "contributing"]
+    tags: ["tools", "osm", "contributing"]
 
   - label: uMap des uMaps
     url: https://umap.openstreetmap.fr/en/map/showcase_4783#{z}/{lat}/{lon}
     category: uMap
-    tags: ["history", "osm"]
+    tags: ["osm"]
 
   - label: Les 3000 des Pyrénées
     url: https://umap.openstreetmap.fr/fr/map/les-3000-des-pyrenees_76885#{z}/{lat}/{lon}
     category: uMap
-    tags: ["history", "osm"]
+    tags: ["osm", "query"]
 
   - label: Activités pour les enfants
     url: https://umap.openstreetmap.fr/fr/map/activites-pour-les-enfants_5848#{z}/{lat}/{lon}
     category: uMap
-    tags: ["history", "osm"]
+    tags: ["query", "osm"]
 
   - label: Stations de ski des Pyrénées
     url: https://umap.openstreetmap.fr/fr/map/stations-de-ski-des-pyrenees_30564#{z}/{lat}/{lon}
     category: uMap
-    tags: ["history", "osm"]
+    tags: ["query", "osm"]
 
   - label: Sites archéologiques
     url: https://umap.openstreetmap.fr/fr/map/sites-archeologiques_22883#{z}/{lat}/{lon}
     category: uMap
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "query"]
 
   - label: Pelote Basque
     url: https://umap.openstreetmap.fr/fr/map/pelote-basque_24035#{z}/{lat}/{lon}
     category: uMap
-    tags: ["history", "osm"]
+    tags: ["query", "osm", "sport"]
 
   - label: MeteoBlue
     url: https://www.meteoblue.com/en/weather/forecast/week/{lat}N{lon}E
     category: Meteo
     favorite: true
-    tags: ["weather", "forecast", "favorite"]
+    tags: ["weather", "favorite"]
 
   - label: MeteoBlue Map
     url: https://www.meteoblue.com/en/weather-maps/{lat}N{lon}E162_Europe%2FParis?variable=precipitation3h_cloudcover_pressure&level=surface&lines=none&mapcenter={lon}N{lat}&zoom={z}
     category: Meteo
-    tags: ["weather", "maps"]
+    tags: ["weather"]
 
   - label: Windy
     url: https://www.windy.com/?{lat},{lon},{z}
     category: Meteo
     favorite: true
-    tags: ["weather", "forecast", "favorite"]
+    tags: ["weather", "favorite"]
 
   - label: Balises Nivose
     url: http://www.webcams-montagne.fr/nivoses.php
@@ -364,98 +363,98 @@ link:
   - label: Vigicrue Flash
     url: https://apic-vigicruesflash.fr
     category: Meteo
-    tags: ["weather", "forecast"]
+    tags: ["weather", "water"]
 
   - label: Go Surf webcams map
     url: https://gosurf.fr/map
     category: Webcams
-    tags: ["webcams", "surf"]
+    tags: ["webcams", "outdoor"]
 
   - label: Carto Cams
     url: https://cartocams.com/
     category: Webcams
-    tags: ["webcams", "maps"]
+    tags: ["webcams"]
 
   - label: Météo parapente
     url: https://meteo-parapente.com/#/{lat},{lon},{z}
     category: Meteo
-    tags: ["weather", "forecast"]
+    tags: ["weather", "outdoor"]
 
   - label: Meteox Rain Radar (static)
     url: http://meteox.fr/meteox-maps.aspx?lat={lat}&lon={lon}&z={z<11}&a=1
     category: Meteo
-    tags: ["weather", "maps"]
+    tags: ["weather"]
 
   - label: Windfinder
     url: https://fr.windfinder.com/weather-maps/forecast/#{z}/{lat}/{lon}
     category: Meteo
-    tags: ["weather", "forecast"]
+    tags: ["weather", "outdoor"]
 
   - label: Wisuki
     url: http://fr.wisuki.com/?lat={lat}&lon={lon}&zoom={z}&mode=terrain#sa-0
     category: Outdoor
-    tags: ["outdoor", "hiking"]
+    tags: ["outdoor"]
 
   - label: OpenSeaMap Weather
     url: http://map.openseamap.org/weather.php?zoom={z<8}&lat={lat}&lon={lon}&layers=BTFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
     category: Meteo
-    tags: ["weather", "maps"]
+    tags: ["weather", "sea"]
 
   - label: OpenWeatherMap
     url: http://openweathermap.org/maps?zoom={z}&lat={lat}&lon={lon}&layers=B0FTTFFT
     category: Meteo
-    tags: ["weather", "maps"]
+    tags: ["weather"]
 
   - label: WunderMap
     url: https://www.wunderground.com/wundermap?lat={lat}&lon={lon}&zoom={z}&type=terrain&units=metric
     category: Meteo
-    tags: ["weather", "maps"]
+    tags: ["weather"]
 
   - label: Blitzortung.org
     url: http://map.blitzortung.org/#{z}/{lat}/{lon}
     category: Meteo
-    tags: ["weather", "maps"]
+    tags: ["weather", "lightning"]
 
   - label: LightningMaps.org
     url: http://www.lightningmaps.org/?lang=fr#m=oss;t=3;s=0;o=0;b=;ts=0;y={lat};x={lon};z={z};d=2;dl=2;dc=0;
     category: Meteo
-    tags: ["weather", "maps"]
+    tags: ["weather", "lightning"]
 
   - label: Keraunos.org
     url: http://www.keraunos.org/
     category: Meteo
-    tags: ["weather", "maps"]
+    tags: ["weather", "lightning"]
 
   - label: maree.info
     url: http://maree.info/meteo
     category: Meteo
     favorite: true
-    tags: ["weather", "maps", "favorite"]
+    tags: ["weather", "sea", "favorite"]
 
   - label: Suncalc
     url: http://www.suncalc.org/#/{lat},{lon},{z}/{date}/{time}/1
     category: Ephemeride
-    tags: ["weather", "maps"]
+    tags: ["weather", "space", "tools"]
 
   - label: Mooncalc
     url: http://www.mooncalc.org/#/{lat},{lon},{z}/{date}/{time}/1
     category: Ephemeride
-    tags: ["weather", "maps"]
+    tags: ["weather", "space", "tools"]
 
   - label: SolarTopo
     url: http://solartopo.com/orbite-solaire.htm
     category: Ephemeride
-    tags: ["weather", "maps"]
+    tags: ["weather", "space", "tools"]
 
   - label: Under the sun
     url: http://projects.truth-and-beauty.net/under-the-sun/
     category: Ephemeride
-    tags: ["weather", "maps"]
+    tags: ["weather", "space", "tools"]
 
   - label: JVeuxDuSoleil
     url: https://jveuxdusoleil.fr/#{z}/{lat}/{lon}
     category: Ephemeride
-    tags: ["weather", "maps"]
+    tags: ["weather", "space", "tools"]
 
   - label: Pic4Carto
     url: http://projets.pavie.info/pic4carto/index.html?#{z}/{lat}/{lon}
@@ -1770,7 +1769,7 @@ link:
   - label: Carte de France du train vélo
     url: https://velotrain.fr
     category: Transport
-    tags: ["transport", "osm"]
+    tags: ["transport", "osm", "cycling"]
 
   - label: Ship watch
     url: http://www.geody.com/shipswatch.php?lat={lat}&lon={lon}&z={z}
