@@ -416,7 +416,7 @@ link:
     category: Geoportails
     tags: ["maps", "geoportail"]
   - label: Geoportail Catalogne
-    url: http://www.icc.cat/vissir3/embedded.html?zoom={z-9}&lon={xUTM31}&lat={yUTM31}
+    url: http://www.icc.cat/vissir3/embedded.html?zoom={z-9}&lon={x_23031}&lat={y_23031}
     category: Geoportails
     tags: ["maps", "geoportail"]
   - label: IGN - Remonter le temps
