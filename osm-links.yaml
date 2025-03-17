@@ -15,7 +15,7 @@ link:
     url: https://www.flosm.de/en/adminmap.html?lat={lat}&lon={lon}&r=740000.00&st=0&sw=admina,adminc,admine
     category: OpenStreetMap
     favorite: true
-    tags: ["boundaries", "admin"]
+    tags: ["boundaries", "admin", "favorite"]
   - label: Map Complete
     url: https://mapcomplete.osm.be/?z={z}&lat={lat}&lon={lon}&language=en
     category: OpenStreetMap
@@ -24,7 +24,7 @@ link:
     url: https://mapcomplete.org/etymology?z={z}&lat={lat}&lon={lon}
     category: OpenStreetMap
     favorite: true
-    tags: ["etymology", "history"]
+    tags: ["etymology", "history", "favorite"]
   - label: Artwork (Map Complete)
     url: https://mapcomplete.org/artwork?z={z}&lat={lat}&lon={lon}
     category: OpenStreetMap
@@ -37,7 +37,7 @@ link:
     url: https://etymology.dsantini.it/#{lon},{lat},{z},type,db_all
     category: OpenStreetMap
     favorite: true
-    tags: ["etymology", "history"]
+    tags: ["etymology", "history", "favorite"]
   - label: unkm
     url: https://www.unkm.fr/#{lat},{lon}
     category: Covid19
@@ -74,7 +74,7 @@ link:
     url: https://osmarche.someware.fr/explore
     category: OpenStreetMap
     favorite: true
-    tags: ["hiking", "outdoor"]
+    tags: ["hiking", "outdoor", "favorite"]
   - label: Water map
     url: https://water-map.org/
     category: OpenStreetMap
@@ -275,7 +275,7 @@ link:
     url: https://www.meteoblue.com/en/weather/forecast/week/{lat}N{lon}E
     category: Meteo
     favorite: true
-    tags: ["weather", "forecast"]
+    tags: ["weather", "forecast", "favorite"]
   - label: MeteoBlue Map
     url: https://www.meteoblue.com/en/weather-maps/{lat}N{lon}E162_Europe%2FParis?variable=precipitation3h_cloudcover_pressure&level=surface&lines=none&mapcenter={lon}N{lat}&zoom={z}
     category: Meteo
@@ -284,7 +284,7 @@ link:
     url: https://www.windy.com/?{lat},{lon},{z}
     category: Meteo
     favorite: true
-    tags: ["weather", "forecast"]
+    tags: ["weather", "forecast", "favorite"]
   - label: Balises Nivose
     url: http://www.webcams-montagne.fr/nivoses.php
     category: Meteo
@@ -345,7 +345,7 @@ link:
     url: http://maree.info/meteo
     category: Meteo
     favorite: true
-    tags: ["weather", "maps"]
+    tags: ["weather", "maps", "favorite"]
   - label: Suncalc
     url: http://www.suncalc.org/#/{lat},{lon},{z}/{date}/{time}/1
     category: Ephemeride
@@ -398,7 +398,7 @@ link:
     url: https://www.geoportail.gouv.fr/carte?c={lon},{lat}&z={z}&l0=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25TOUR.CV::GEOPORTAIL:OGC:WMTS(1)&permalink=yes
     category: Geoportails
     favorite: true
-    tags: ["maps", "geoportail"]
+    tags: ["maps", "geoportail", "favorite"]
   - label: Geoportail Espagne
     url: http://www.idee.es/visualizador/
     category: Geoportails
@@ -543,12 +543,12 @@ link:
     url: https://www.geopedia.de/?lat={lat}&lon={lon}&z={z}&l=fr
     category: Encyclopedia
     favorite: true
-    tags: ["encyclopedia"]
+    tags: ["encyclopedia", "favorite"]
   - label: Mapcarta
     url: https://mapcarta.com
     category: Encyclopedia
     favorite: true
-    tags: ["encyclopedia"]
+    tags: ["encyclopedia", "favorite"]
   - label: Wikimap
     url: https://wikimap.wiki/?base=map&lat={y_3857}&lon={x_3857}&showAll=true&wiki=frwiki&zoom={z}
     category: Encyclopedia
@@ -573,7 +573,7 @@ link:
     url: https://www.geocaching.com/map/default.aspx?ll={lat},{lon}&z={z}
     category: Games
     favorite: true
-    tags: ["games"]
+    tags: ["games", "favorite"]
   - label: Geocaching (list)
     url: http://www.geocaching.com/seek/nearest.aspx?lat={lat}&lng={lon}
     category: Games
@@ -762,7 +762,7 @@ link:
     url: http://gk.historic.place/historische_objekte/translate/fr/index-fr.html?zoom={z}&lat={lat}&lon={lon}&detail=3
     category: History
     favorite: true
-    tags: ["history"]
+    tags: ["history", "favorite"]
   - label: HistOSM
     url: http://histosm.org/#{z}/{lon}/{lat}/0/
     category: History
@@ -947,7 +947,7 @@ link:
     url: http://tasks.hotosm.org/
     category: OpenStreetMap contributing
     favorite: true
-    tags: ["contributing", "osm"]
+    tags: ["contributing", "osm", "favorite"]
   - label: OMO
     url: https://vps-3fba2a8a.ynh.fr/gestionnaire-de-taches-simple/project/
     category: OpenStreetMap contributing
@@ -1332,22 +1332,22 @@ link:
     url: http://brouter.de/brouter-web/#map={z}/{lat}/{lon}/cyclosm&profile=hiking-beta
     category: Routing
     favorite: true
-    tags: ["routing", "osm"]
+    tags: ["routing", "osm", "favorite"]
   - label: How far did I run
     url: https://onthegomap.com/#/create
     category: Routing
     favorite: true
-    tags: ["routing", "osm"]
+    tags: ["routing", "osm", "favorite"]
   - label: gpx.studio
     url: https://gpx.studio/
     category: Routing
     favorite: true
-    tags: ["routing", "osm"]
+    tags: ["routing", "osm", "favorite"]
   - label: Sherpa Map
     url: https://sherpa-map.com/
     category: Routing
     favorite: true
-    tags: ["routing", "osm"]
+    tags: ["routing", "osm", "favorite"]
   - label: Bike Citizens
     url: https://map.bikecitizens.net
     category: Routing
