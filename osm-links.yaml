@@ -98,155 +98,155 @@ link:
   - label: Historique (osm.org)
     url: http://www.openstreetmap.org//browse/changesets/#map={z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: How did you contribute
     url: https://hdyc.neis-one.org/
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: Missing maps users
     url: https://www.missingmaps.org/users/#/
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: OSM Visual History
     url: https://aleung.github.io/osm-visual-history/
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: OSM History (pewu)
     url: https://pewu.github.io/osm-history
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: OSM History (osmhv)
     url: http://osmhv.openstreetmap.de
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: Latest OpenStreetMap Edits per Tile
     url: https://resultmaps.neis-one.org/osm-change-tiles#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: gimme OSM
     url: http://ustroetz.github.io/gimmeOSM/
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: Changeset by Comparison Visualization
     url: https://resultmaps.neis-one.org/osm-change-viz?
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: Your OSM heat map
     url: https://yosmhm.neis-one.org/?zoom={z<14}&lat={lat}&lon={lon}&layers=B000TTF
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: OSM proposals
     url: https://osm-proposals.push-f.com/
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: Notes heatmap
     url: https://notes-heatmap.openstreetmap.fr/?pos={lat},{lon},{z}
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: OSM Streak
     url: http://streak.osmz.ru/
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: OSM Community Index
     url: https://openstreetmap.community/
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: Who's that - OSM user names database
     url: http://whosthat.osmz.ru/
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: OSM Welcome Tool
     url: https://welcome.osm.be/
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: OSM suspicious
     url: https://resultmaps.neis-one.org/osm-suspicious#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: OSM suspicious (review requested changesets)
     url: https://resultmaps.neis-one.org/osm-suspicious?country=140&hours=96&mappingdays=-1&groupby=c&tsearch=review_requested%3Dyes&anyobj=t&comp=%3E&value=10&action=d&obj=n#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: Changeset Discussions
     url: https://resultmaps.neis-one.org/osm-discussions#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: Who's around me
     url: https://resultmaps.neis-one.org/oooc?lat={lat}&lon={lon}&zoom={z<19}
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: New contributors feed
     url: https://resultmaps.neis-one.org/newestosmcreatefeed?lat={lat}&lon={lon}&zoom={z}
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: Unmapped places
     url: https://resultmaps.neis-one.org/unmapped#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: OSM GPS Points
     url: https://resultmaps.neis-one.org/osmgps.html?lat={lat}&lon={lon}&zoom={z<9}
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: Neis OSM Stats
     url: https://osmstats.neis-one.org/
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: OpenStreetMap Statistics
     url: https://piebro.github.io/openstreetmap-statistics/#63f6
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: ArcheOSM
     url: http://osm13.openstreetmap.fr/~cquest/leaflet/archeosm.html#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: Cadastre Damsy
     url: https://cadastre.damsy.net/#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: OSM stats report
     url: https://www.openstreetmap.org/stats/data_stats.html
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: Is OSM Complete?
     url: https://wvanderp.github.io/isOsmComplete/
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: OSM wiki stats
     url: https://wiki.openstreetmap.org/wiki/Stats
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: Tile OSM Fr
     url: http://tile.openstreetmap.fr/?zoom={z}&lat={lat}&lon={lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: BD-Ortho dates de prise de vue
     url: https://umap.openstreetmap.fr/fr/map/date-heure-des-prises-de-vues-aeriennes-de-la-bd-o_160764#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: Fullscreen map (tile regen tool)
     url: https://www.sammyshp.de/fsmap/#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: Node density
     url: http://tyrasd.github.io/osm-node-density/#{z}/{lat}/{lon}/latest,places
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: Parking lane viewer (zlant)
     url: https://zlant.github.io/parking-lanes/#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: OpenParkingMap
     url: https://openparkingmap.com/#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: Bus lane viewer (zlant)
     url: https://zlant.github.io/bus-lanes/#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: Divide and map. Now.
     url: https://damn-project.org/
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["history", "osm", "contributing"]
   - label: uMap des uMaps
     url: https://umap.openstreetmap.fr/en/map/showcase_4783#{z}/{lat}/{lon}
     category: uMap
@@ -942,44 +942,44 @@ link:
   - label: OSM QA Feeds
     url: https://tyrasd.github.io/osm-qa-feeds/
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["contributing", "osm"]
   - label: HOT Tasking Manager
     url: http://tasks.hotosm.org/
     category: OpenStreetMap contributing
     favorite: true
-    tags: ["history", "osm"]
+    tags: ["contributing", "osm"]
   - label: OMO
     url: https://vps-3fba2a8a.ynh.fr/gestionnaire-de-taches-simple/project/
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["contributing", "osm"]
   - label: Missing maps
     url: https://www.missingmaps.org/
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["contributing", "osm"]
   - label: Disaster Ninja
     url: https://disaster.ninja/active/?map={z}/{lon}/{lat}
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["contributing", "osm"]
   - label: OSMCha
     url: https://osmcha.org/?filters={%22in_bbox%22%3A[{%22label%22%3A%22extent%22%2C%22value%22%3A%22{xmin}%2C{ymin}%2C{xmax}%2C{ymax}%22}]}
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["contributing", "osm"]
   - label: Change viewer (achavi)
     url: http://overpass-api.de/achavi/?zoom={z}&lat={lat}&lon={lon}&layers=B0TFTTT
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["contributing", "osm"]
   - label: Last Week on OSM
     url: http://tyrasd.github.io/latest-changes/#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["contributing", "osm"]
   - label: Field Papers
     url: http://fieldpapers.org/compose/select?lat={lat}&lon={lon}&zoom={z}
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["contributing", "osm", "survey"]
   - label: Walking Papers
     url: http://www.walking-papers.org/?lat={lat}&lon={lon}&zoom={z}#make
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["contributing", "osm", "survey"]
   - label: Inkatlas
     url: https://inkatlas.com/create/
     category: OpenStreetMap
@@ -999,23 +999,23 @@ link:
   - label: OsmHydrant
     url: https://www.osmhydrant.org/fr/#zoom={z}&lat={lat}&lon={lon}
     category: OpenStreetMap contributing
-    tags: ["infrastructure"]
+    tags: ["infrastructure", "contributing", "osm"]
   - label: MapContrib - bornes à incendie
     url: https://www.mapcontrib.xyz/t/s8c2d9-Les_bornes_a_incendie#position/{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["infrastructure"]
+    tags: ["infrastructure", "contributing", "osm"]
   - label: MapRoulette
     url: http://maproulette.org/
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["contributing", "osm"]
   - label: Pic4Review
     url: https://pic4review.pavie.info
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["contributing", "osm", "photo"]
   - label: OpenStreetMap Localization Tool
     url: https://localize.osm.tracestrack.com/?tags=place%3Dcity&limit=100/#/{z}/{lat}/{lon}
     category: OpenStreetMap contributing
-    tags: ["history", "osm"]
+    tags: ["contributing", "osm"]
   - label: Planet OSM
     url: https://planet.osm.org/
     category: OpenStreetMap download
