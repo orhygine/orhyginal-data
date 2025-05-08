@@ -40,7 +40,7 @@ link:
   - label: Ski pistes and aerialways (Map Complete)
     url: https://mapcomplete.org/ski?z={z}&lat={lat}&lon={lon}
     category: OpenStreetMap
-    tags: ["sport", "winter", "ski", "outdoor", "contributing"]
+    tags: ["sport", "ski", "outdoor", "contributing"]
 
   - label: Open Etymology Map bis
     url: https://etymology.dsantini.it/#{lon},{lat},{z},type,db_all
@@ -316,17 +316,17 @@ link:
   - label: Les 3000 des Pyrénées
     url: https://umap.openstreetmap.fr/fr/map/les-3000-des-pyrenees_76885#{z}/{lat}/{lon}
     category: uMap
-    tags: ["osm", "query"]
+    tags: ["osm"]
 
   - label: Activités pour les enfants
     url: https://umap.openstreetmap.fr/fr/map/activites-pour-les-enfants_5848#{z}/{lat}/{lon}
     category: uMap
-    tags: ["query", "osm"]
+    tags: ["osm"]
 
   - label: Stations de ski des Pyrénées
     url: https://umap.openstreetmap.fr/fr/map/stations-de-ski-des-pyrenees_30564#{z}/{lat}/{lon}
     category: uMap
-    tags: ["query", "osm"]
+    tags: ["osm", "outdoor", "ski"]
 
   - label: Sites archéologiques
     url: https://umap.openstreetmap.fr/fr/map/sites-archeologiques_22883#{z}/{lat}/{lon}
@@ -1699,7 +1699,7 @@ link:
   - label: Railway Routing
     url: https://signal.eu.org/osm/#{z}/{lat}/{lon}
     category: Routing
-    tags: ["routing", "osm"]
+    tags: ["routing", "osm", "railway"]
 
   - label: Waze
     url: https://www.waze.com/fr/livemap/?zoom={z}&lat={lat}&lon={lon}
@@ -1759,7 +1759,7 @@ link:
   - label: OpenRailwayMap
     url: https://www.openrailwaymap.org/?lat={lat}&lon={lon}&zoom={z}
     category: Transport
-    tags: ["transport", "osm"]
+    tags: ["transport", "osm", "railway"]
 
   - label: Carto GRAOU
     url: https://carto.graou.info/{lat}/{lon}/{z}/0/0
