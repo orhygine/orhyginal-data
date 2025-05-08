@@ -331,12 +331,12 @@ link:
   - label: Sites archéologiques
     url: https://umap.openstreetmap.fr/fr/map/sites-archeologiques_22883#{z}/{lat}/{lon}
     category: uMap
-    tags: ["history", "osm", "query"]
+    tags: ["history", "osm"]
 
   - label: Pelote Basque
     url: https://umap.openstreetmap.fr/fr/map/pelote-basque_24035#{z}/{lat}/{lon}
     category: uMap
-    tags: ["query", "osm", "sport"]
+    tags: ["osm", "sport"]
 
   - label: MeteoBlue
     url: https://www.meteoblue.com/en/weather/forecast/week/{lat}N{lon}E
