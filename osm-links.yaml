@@ -19,7 +19,7 @@ link:
     url: https://www.flosm.de/en/adminmap.html?lat={lat}&lon={lon}&r=740000.00&st=0&sw=admina,adminc,admine
     category: OpenStreetMap
     favorite: true
-    tags: ["boundaries", "admin", "favorite"]
+    tags: ["admin_limits", "favorite"]
 
   - label: Map Complete
     url: https://mapcomplete.osm.be/?z={z}&lat={lat}&lon={lon}&language=en
@@ -47,16 +47,6 @@ link:
     category: OpenStreetMap
     favorite: true
     tags: ["history", "favorite"]
-
-  - label: unkm
-    url: https://www.unkm.fr/#{lat},{lon}
-    category: Covid19
-    tags: ["health", "covid19"]
-
-  - label: Zone authorisée
-    url: http://dev.osm162.openstreetmap.fr/zone_autorisee.html#x={lon}&y={lat}
-    category: Covid19
-    tags: ["health", "covid19"]
 
   - label: OSM DATA
     url: http://demo.openstreetmap.fr/map
@@ -101,7 +91,7 @@ link:
   - label: OSMBoundaries
     url: https://osm-boundaries.com/Map
     category: OpenStreetMap
-    tags: ["boundaries", "admin", "osm"]
+    tags: ["admin_limits", "osm"]
 
   - label: Figuregrounder
     url: http://hanshack.com/figuregrounder/
@@ -456,11 +446,6 @@ link:
     category: Ephemeride
     tags: ["weather", "space", "tools"]
 
-  - label: Pic4Carto
-    url: http://projets.pavie.info/pic4carto/index.html?#{z}/{lat}/{lon}
-    category: Photo services
-    tags: ["photo", "services"]
-
   - label: Mapillary
     url: http://www.mapillary.com/map/search/{lat}/{lon}/{z}
     category: Photo services
@@ -741,7 +726,7 @@ link:
     tags: ["games"]
 
   - label: Waymarking
-    url: http://www.waymarking.com/wm/search.aspx?lat={lat}&lon={lon}&zoom={z}
+    url: http://www.waymarking.com/
     category: Games
     tags: ["games"]
 
@@ -910,11 +895,6 @@ link:
     category: Outdoor - Ski
     tags: ["outdoor", "ski"]
 
-  - label: Open Signal
-    url: http://opensignal.com/index.php?lat={lat}&lng={lon}&initZoom={z}
-    category: Communications
-    tags: ["communications"]
-
   - label: OpenCellId
     url: http://opencellid.org/#action=filters.GPSPositions&zoom={z}&lat={lat}&lon={lon}
     category: Communications
@@ -940,11 +920,6 @@ link:
     category: Communications
     tags: ["communications"]
 
-  - label: Tempo Pyrénées
-    url: http://tempo.agglo-pau.fr/chimere/?zoom={z}&lat={y_3857}&lon={x_3857}&layers=BTT&checked_categories=2_4_1_3_5&display_submited=false
-    category: History
-    tags: ["history"]
-
   - label: Historic Place
     url: http://gk.historic.place/historische_objekte/translate/fr/index-fr.html?zoom={z}&lat={lat}&lon={lon}&detail=3
     category: History
@@ -967,7 +942,7 @@ link:
     tags: ["history"]
 
   - label: Vici
-    url: http://vici.org/selectview.php?center={lat},{lon}&zoom={z}
+    url: https://vici.org/#{z}/{lat},{lon}
     category: History
     tags: ["history"]
 
@@ -995,11 +970,6 @@ link:
     url: https://geojson.xyz/
     category: Data download
     tags: ["data"]
-
-  - label: Google Maps Compass
-    url: http://googlecompass.com/full-screen-map.htm?lat={lat}&lng={lon}&zol={z}&pn=0
-    category: Tools
-    tags: ["tools"]
 
   - label: XAPI viewer
     url: http://osm.dumoulin63.net/xapiviewer?lat={lat}&lon={lon}&zoom={z}
@@ -1208,7 +1178,7 @@ link:
     tags: ["contributing", "osm"]
 
   - label: Field Papers
-    url: http://fieldpapers.org/compose/select?lat={lat}&lon={lon}&zoom={z}
+    url: https://fieldpapers.org/compose#{z}/{lat}/{lon}
     category: OpenStreetMap contributing
     tags: ["contributing", "osm", "survey"]
 
