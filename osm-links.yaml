@@ -1212,11 +1212,6 @@ link:
     category: OpenStreetMap contributing
     tags: ["infrastructure", "contributing", "osm"]
 
-  - label: MapContrib - bornes à incendie
-    url: https://www.mapcontrib.xyz/t/s8c2d9-Les_bornes_a_incendie#position/{z}/{lat}/{lon}
-    category: OpenStreetMap contributing
-    tags: ["infrastructure", "contributing", "osm"]
-
   - label: MapRoulette
     url: http://maproulette.org/
     category: OpenStreetMap contributing
