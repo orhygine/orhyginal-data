@@ -2522,6 +2522,27 @@ link:
   - svg
   - art
   created: 07/06/2025
+- label: YouTube GeoFind
+  url: https://mattw.io/youtube-geofind/location
+  category: Services
+  tags:
+  - videos
+  - geolocation
+  created: 07/06/2025
+- label: Planet Insights
+  url: https://insights.planet.com/analyze/browser/
+  category: Data access
+  tags:
+  - satellite
+  - data
+  - imagery
+  created: 07/06/2025
+- label: Commute Time Map
+  url: https://commutetimemap.com/map
+  category: Transport
+  tags:
+  - transport
+  created: 07/06/2025
 edit:
 - label: Load in JOSM
   url: http://127.0.0.1:8111/load_and_zoom?left={xmin}&right={xmax}&top={ymax}&bottom={ymin}
