@@ -2483,6 +2483,45 @@ link:
   - osm
   - outdoor
   created: 01/01/2025
+- label: Knooppuntnet
+  url: https://knooppuntnet.nl/fr/map/hiking
+  category: Outdoor
+  tags:
+  - outdoor
+  - hiking
+  - cycling
+  created: 07/06/2025
+- label: FloodMap
+  url: https://www.floodmap.net/
+  category: Services
+  tags:
+  - tools
+  - water
+  created: 07/06/2025
+- label: Copernicus Browser
+  url: https://browser.dataspace.copernicus.eu
+  category: Services
+  tags:
+  - tools
+  - satellite
+  - data
+  created: 07/06/2025
+- label: Zoom Earth
+  url: https://zoom.earth/maps/precipitation
+  category: Meteo
+  tags:
+  - weather
+  - satellite
+  created: 07/06/2025
+- label: CartoSVG
+  url: https://cartosvg.com/app
+  category: Tools
+  tags:
+  - tools
+  - creation
+  - svg
+  - art
+  created: 07/06/2025
 edit:
 - label: Load in JOSM
   url: http://127.0.0.1:8111/load_and_zoom?left={xmin}&right={xmax}&top={ymax}&bottom={ymin}
