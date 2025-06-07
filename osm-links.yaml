@@ -914,7 +914,7 @@ link:
   - encyclopedia
   created: 01/01/2025
 - label: commons.flickr.org
-  url: https://commons.flickr.com/map/?center_lat={lat}&center_lng={lon}&zoom={z}
+  url: https://commons.flickr.org/map/?center_lat={lat}&center_lng={lon}&zoom={z}
   category: Encyclopedia
   tags:
   - encyclopedia
@@ -1035,13 +1035,6 @@ link:
   created: 01/01/2025
 - label: Strava
   url: https://labs.strava.com/heatmap/#{z}/{lon}/{lat}/hot/all
-  category: Outdoor
-  tags:
-  - outdoor
-  - hiking
-  created: 01/01/2025
-- label: BikeMaps
-  url: https://bikemaps.org/@{lat},{lon},{z}z
   category: Outdoor
   tags:
   - outdoor
