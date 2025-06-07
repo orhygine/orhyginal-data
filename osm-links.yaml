@@ -924,7 +924,7 @@ link:
   - encyclopedia
   created: 01/01/2025
 - label: commons.flickr.org
-  url: https://commons.flickr.org/map/?center_lat={lat}&center_lng={lon}&zoom={z}
+  url: https://commons.flickr.com/map/?center_lat={lat}&center_lng={lon}&zoom={z}
   category: Encyclopedia
   tags:
   - encyclopedia
