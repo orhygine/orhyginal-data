@@ -24,7 +24,6 @@ link:
 - label: Administrative boundaries
   url: https://www.flosm.de/en/adminmap.html?lat={lat}&lon={lon}&r=740000.00&st=0&sw=admina,adminc,admine
   category: OpenStreetMap
-  favorite: true
   tags:
   - admin_limits
   - favorite
@@ -488,7 +487,6 @@ link:
 - label: MeteoBlue
   url: https://www.meteoblue.com/en/weather/forecast/week/{lat}N{lon}E
   category: Meteo
-  favorite: true
   tags:
   - weather
   - favorite
@@ -944,7 +942,6 @@ link:
 - label: Mapcarta
   url: https://mapcarta.com
   category: Encyclopedia
-  favorite: true
   tags:
   - encyclopedia
   - favorite
