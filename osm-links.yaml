@@ -539,12 +539,6 @@ link:
   - weather
   - outdoor
   created: 01/01/2025
-- label: Meteox Rain Radar (static)
-  url: http://meteox.fr/meteox-maps.aspx?lat={lat}&lon={lon}&z={z<11}&a=1
-  category: Meteo
-  tags:
-  - weather
-  created: 01/01/2025
 - label: Windfinder
   url: https://fr.windfinder.com/weather-maps/forecast/#{z}/{lat}/{lon}
   category: Meteo
