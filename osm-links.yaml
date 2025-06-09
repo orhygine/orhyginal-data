@@ -1194,14 +1194,14 @@ link:
   category: Outdoor
   tags:
   - outdoor
-  - hiking
+  - climbing
   created: 01/01/2025
 - label: Climbing Community
   url: https://oblyk.org/maps/crags?lat={lat}&lng={lon}&zoom={z}
   category: Outdoor
   tags:
   - outdoor
-  - hiking
+  - climbing
   created: 01/01/2025
 - label: GPSies
   url: https://www.gpsies.com/home.do;jsessionid=FBD8ED116444F119B5417CDA8555F3FF.fe2#{z}_{lat}_{lon}_hikebike
