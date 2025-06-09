@@ -1037,28 +1037,28 @@ link:
   created: 01/01/2025
 - label: Peakfinder
   url: http://www.peakfinder.org/fr/?lat={lat}&lng={lon}&alt=3000
-  category: Outdoor - Panorama
+  category: Outdoor
   tags:
   - outdoor
   - panorama
   created: 01/01/2025
 - label: Toposcope Maker
   url: http://toposcope.freemap.sk/
-  category: Outdoor - Panorama
+  category: Outdoor
   tags:
   - outdoor
   - panorama
   created: 01/01/2025
 - label: Tables d'orientation Pyrénées
   url: https://www.tables-orientation-pyrenees.fr/@{lat},{lon},{z}z
-  category: Outdoor - Panorama
+  category: Outdoor
   tags:
   - outdoor
   - panorama
   created: 01/01/2025
 - label: PeakVisor
   url: http://peakvisor.com/panorama.html?lat={lat}&lng={lon}
-  category: Outdoor - Panorama
+  category: Outdoor
   tags:
   - outdoor
   - panorama
