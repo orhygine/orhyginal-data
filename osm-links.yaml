@@ -688,7 +688,6 @@ link:
   category: Geoportails
   favorite: true
   tags:
-  - maps
   - geoportail
   - favorite
   created: 01/01/2025
@@ -696,7 +695,6 @@ link:
   url: https://geoservices.ign.fr/services-geoplateforme-diffusion
   category: Data access
   tags:
-  - maps
   - geoportail
   - data
   created: 07/06/2025
@@ -704,77 +702,66 @@ link:
   url: http://www.idee.es/visualizador/
   category: Geoportails
   tags:
-  - maps
   - geoportail
   created: 01/01/2025
 - label: Geoportail Pays Basque
   url: https://www.geo.euskadi.eus/s69-bisorea/es/x72aGeoeuskadiWAR/index.jsp
   category: Geoportails
   tags:
-  - maps
   - geoportail
   created: 01/01/2025
 - label: Geoportail Navarre
   url: https://idena.navarra.es/navegar/
   category: Geoportails
   tags:
-  - maps
   - geoportail
   created: 01/01/2025
 - label: Geoportail Aragon
   url: https://idearagon.aragon.es/visor/
   category: Geoportails
   tags:
-  - maps
   - geoportail
   created: 01/01/2025
 - label: Geoportail Catalogne
   url: http://www.icc.cat/vissir3/embedded.html?zoom={z-9}&lon={x_23031}&lat={y_23031}
   category: Geoportails
   tags:
-  - maps
   - geoportail
   created: 01/01/2025
 - label: IGN - Remonter le temps
   url: https://remonterletemps.ign.fr/map/basic?x={lon}&y={lat}&z={z}&layer1=GEOGRAPHICALGRIDSYSTEMS.MAPS&layer2=GEOGRAPHICALGRIDSYSTEMS.CASSINI&mode=hSlider
   category: Geoportails
   tags:
-  - maps
   - geoportail
   created: 01/01/2025
 - label: Photo aériennes de l'IGN
   url: https://umap.openstreetmap.fr/fr/map/photos-aeriennes-anciennes-de-lign-via-openeventda_87467#{z}/{lat}/{lon}
   category: Geoportails
   tags:
-  - maps
   - geoportail
   created: 01/01/2025
 - label: Geoportail Luxembourg
   url: http://map.geoportal.lu/theme/main?version=3&zoom={z}&X={x_3857}&Y={y_3857}&lang=fr&layers&opacities&bgLayer=basemap_2015_global
   category: Geoportails
   tags:
-  - maps
   - geoportail
   created: 01/01/2025
 - label: seignanx.com
   url: https://carte.seignanx.com/#map={z}/{lat}/{lon}
   category: Geoportails
   tags:
-  - maps
   - geoportail
   created: 01/01/2025
 - label: nakarte
   url: https://nakarte.me/#m={z}/{lat}/{lon}&l=O
   category: Services
   tags:
-  - maps
   - services
   created: 01/01/2025
 - label: Google Maps
   url: https://www.google.com/maps/@{lat},{lon},{z}z
   category: Services
   tags:
-  - maps
   - services
   created: 01/01/2025
 - label: Wonders of Street View
@@ -782,7 +769,6 @@ link:
   category: Games
   tags:
   - games
-  - maps
   created: 01/01/2025
 - label: The True Size Of
   url: https://www.thetruesize.com/
