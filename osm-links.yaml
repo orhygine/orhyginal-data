@@ -1020,7 +1020,7 @@ link:
   - cycling
   created: 01/01/2025
 - label: Geovelo
-  url: https://geovelo.app/fr/route/
+  url: https://geovelo.app/fr/route/?c={lon}%2C{lat}&z={z}
   category: Outdoor
   tags:
   - cycling
