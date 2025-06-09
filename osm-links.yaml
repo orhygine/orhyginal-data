@@ -648,13 +648,6 @@ link:
   - photo
   - services
   created: 01/01/2025
-- label: GeoVisio
-  url: https://geovisio.fr/
-  category: Photo services
-  tags:
-  - photo
-  - services
-  created: 01/01/2025
 - label: Measure height with Mapillary
   url: https://tankaru.github.io/Measure-Height-with-Mapillary/
   category: Photo services
