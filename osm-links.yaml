@@ -1033,6 +1033,15 @@ link:
   - outdoor
   - cycking
   created: 01/01/2025
+- label: Geovelo
+  url: https://geovelo.app/fr/route/
+  category: Outdoor
+  tags:
+  - cycling
+  - routing
+  - outdoor
+  - osm
+  created: 09/06/2025
 - label: Strava
   url: https://labs.strava.com/heatmap/#{z}/{lon}/{lat}/hot/all
   category: Outdoor
