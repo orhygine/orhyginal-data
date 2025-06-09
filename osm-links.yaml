@@ -1031,7 +1031,7 @@ link:
   category: Outdoor
   tags:
   - outdoor
-  - hiking
+  - cycking
   created: 01/01/2025
 - label: Strava
   url: https://labs.strava.com/heatmap/#{z}/{lon}/{lat}/hot/all
