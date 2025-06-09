@@ -2509,6 +2509,20 @@ link:
   tags:
   - transport
   created: 07/06/2025
+- label: Panoramax OSM
+  url: https://panoramax.openstreetmap.fr/?background=streets&focus=map&map={z}/{lat}/{lon}
+  category: Services
+  tags:
+  - streetview
+  - photo
+  created: 10/06/2025
+- label: Panoramax IGN
+  url: https://panoramax.ign.fr/?background=streets&focus=map&map={z}/{lat}/{lon}
+  category: Services
+  tags:
+  - streetview
+  - photo
+  created: 10/06/2025
 edit:
 - label: Load in JOSM
   url: http://127.0.0.1:8111/load_and_zoom?left={xmin}&right={xmax}&top={ymax}&bottom={ymin}
