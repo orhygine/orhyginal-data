@@ -25,7 +25,7 @@ link:
   url: https://www.flosm.de/en/adminmap.html?lat={lat}&lon={lon}&r=740000.00&st=0&sw=admina,adminc,admine
   category: OpenStreetMap
   tags:
-  - admin_limits
+  - administrative
   - favorite
   created: 01/01/2025
 - label: Map Complete
@@ -133,7 +133,7 @@ link:
   url: https://osm-boundaries.com/Map
   category: OpenStreetMap
   tags:
-  - admin_limits
+  - administrative
   - osm
   created: 01/01/2025
 - label: Figuregrounder
