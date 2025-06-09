@@ -1043,7 +1043,7 @@ link:
   - osm
   created: 09/06/2025
 - label: Strava
-  url: https://labs.strava.com/heatmap/#{z}/{lon}/{lat}/hot/all
+  url: https://www.strava.com/maps/global-heatmap?sport=All&style=dark&terrain=false&labels=true&poi=true&cPhotos=true&gColor=blue&gOpacity=100#{z}/{lat}/{lon}
   category: Outdoor
   tags:
   - outdoor
