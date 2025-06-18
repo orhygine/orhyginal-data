@@ -51,6 +51,13 @@ link:
   - art
   - contributing
   created: 01/01/2025
+- label: findskatespots
+  url: https://findskatespots.com/spots?lat={lat}&lng={lon}&zoom={z}
+  category: Outdoor
+  tags:
+  - sport
+  - outdoor
+  created: 18/06/2025
 - label: Ski pistes and aerialways (Map Complete)
   url: https://mapcomplete.org/ski?z={z}&lat={lat}&lon={lon}
   category: OpenStreetMap
