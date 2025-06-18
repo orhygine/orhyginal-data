@@ -763,6 +763,12 @@ link:
   tags:
   - games
   created: 01/01/2025
+- label: Mercator extreme
+  url: https://mrgris.com/projects/merc-extreme/
+  category: Games
+  tags:
+  - games
+  created: 18/06/2025
 - label: The True Size Of
   url: https://www.thetruesize.com/
   category: Services
@@ -1769,6 +1775,14 @@ link:
   - data
   - osm
   created: 01/01/2025
+- label: Geo Downloader
+  url: https://geodownloader.com/
+  category: OpenStreetMap download
+  tags:
+  - data
+  - osm
+  - download
+  created: 18/06/2025
 - label: Overture Labs
   url: https://labs.overturemaps.org/
   category: OpenStreetMap data
@@ -2182,6 +2196,12 @@ link:
   tags:
   - tools
   created: 01/01/2025
+- label: Teleray
+  url: https://teleray.asnr.fr/#/home/map
+  category: Services
+  tags:
+  - tools
+  created: 18/06/2025
 - label: OSRM
   url: http://map.project-osrm.org/?z={z}&center={lat}%2C{lon}&loc=&loc=&hl=en&ly=&alt=&df=&srv=
   category: Routing
@@ -2353,6 +2373,15 @@ link:
   - osm
   - railway
   created: 01/01/2025
+- label: OpenRailwayMap 2
+  url: https://openrailwaymap.fly.dev/#view={z}/{lat}/{lon}
+  category: Transport
+  tags:
+  - transport
+  - osm
+  - railway
+  - historic
+  created: 18/06/2025
 - label: Carto GRAOU
   url: https://carto.graou.info/{lat}/{lon}/{z}/0/0
   category: Transport
@@ -2496,12 +2525,25 @@ link:
   - satellite
   - data
   created: 07/06/2025
+- label: IGN Spain DEM Grabber
+  url: https://martingonzalez.net/ign-dem-grabber/
+  category: Data access
+  tags:
+  - data
+  - download
+  created: 18/06/2025
 - label: Commute Time Map
   url: https://commutetimemap.com/map
   category: Transport
   tags:
   - transport
   created: 07/06/2025
+- label: Chronotrains
+  url: https://www.chronotrains.com/fr
+  category: Transport
+  tags:
+  - transport
+  created: 18/06/2025
 - label: Panoramax OSM
   url: https://panoramax.openstreetmap.fr/?background=streets&focus=map&map={z}/{lat}/{lon}
   category: Services
