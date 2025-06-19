@@ -1334,6 +1334,20 @@ link:
   tags:
   - tools
   created: 01/01/2025
+- label: geojsonlint
+  comment: "Validate GeoJSON data"
+  url: https://geojsonlint.com/
+  category: Tools
+  tags:
+  - tools
+  created: 19/06/2025
+- label: geoconverter
+  comment: "Convert WMS, WFS, Vector- and Raster-Files to the format you need"
+  url: https://geoconverter.infs.ch/
+  category: Tools
+  tags:
+  - tools
+  created: 19/06/2025
 - label: geojson.net
   url: http://geojson.net/#map={z}/{lat}/{lon}
   category: Tools
