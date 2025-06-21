@@ -1871,7 +1871,6 @@ link:
   url: https://www.openstreetmap.in/#{z}/{lat}/{lon}
   category: OpenStreetMap
   tags:
-  - geoportal
   - osm
   created: 2025-01-01
 - label: OpenPoiMap
