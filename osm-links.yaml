@@ -2223,6 +2223,12 @@ link:
   tags:
   - tools
   created: 2025-06-18
+- label: Radiological Maps - European Commission
+  url: https://remap.jrc.ec.europa.eu/Advanced.aspx
+  category: Services
+  tags:
+  - tools
+  created: 2025-06-21
 - label: OSRM
   url: http://map.project-osrm.org/?z={z}&center={lat}%2C{lon}&loc=&loc=&hl=en&ly=&alt=&df=&srv=
   category: Routing
