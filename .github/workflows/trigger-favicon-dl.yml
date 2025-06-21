@@ -1,5 +1,10 @@
 # This workflow triggers after a push to the 'gh-pages' branch when 'osm-links.yaml' changes,
 # and then dispatches the 'run-favicon-dl' event in the 'orhyginal-map' repository.
+#
+# This is useful for keeping the favicons up to date after deploying changes to the Pages site.
+# This workflow triggers the favicon-dl workflow in the orhyginal-map repository
+# to ensure that the favicons are updated whenever the 'osm-links.yaml' file is modified and pushed
+# to the 'gh-pages' branch.
 
 name: Trigger favicon-dl after Pages deploy
 
@@ -20,4 +25,4 @@ jobs:
           token: ${{ secrets.WEB_REPO_ACCESS_TOKEN }}
           repository: orhygine/orhyginal-map
           event-type: run-favicon-dl
-          client-payload: '{"source_repo": "orhyginal-data", "triggered_by": "push to main"}'
+          client-payload: '{"source_repo": "orhyginal-data", "triggered_by": "push to gh-pages"}'
