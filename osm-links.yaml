@@ -1473,6 +1473,7 @@ link:
   category: Tools
   tags:
   - tools
+  - bounding_box
   created: 2025-01-01
 - label: Shadow finder
   url: https://colab.research.google.com/github/Bellingcat/ShadowFinder/blob/main/ShadowFinderColab.ipynb
@@ -1485,12 +1486,14 @@ link:
   category: Tools
   tags:
   - tools
+  - bounding_box
   created: 2025-01-01
 - label: BoundingBox (klokantech)
   url: https://boundingbox.klokantech.com/
   category: Tools
   tags:
   - tools
+  - bounding_box
   created: 2025-01-01
 - label: Mapshaper
   url: https://mapshaper.org/
@@ -2267,6 +2270,7 @@ link:
   tags:
   - routing
   - osm
+  - outdoor
   - favorite
   created: 2025-01-01
 - label: Sherpa Map
@@ -2276,6 +2280,7 @@ link:
   tags:
   - routing
   - osm
+  - outdoor
   - favorite
   created: 2025-01-01
 - label: Bike Citizens
