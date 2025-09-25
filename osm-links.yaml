@@ -1475,6 +1475,13 @@ link:
   - tools
   - bounding_box
   created: 2025-01-01
+- label: Bounding Box Calculator (Mapscaping)
+  url: https://mapscaping.com/bounding-box-calculator/
+  category: Tools
+  tags:
+  - tools
+  - bounding_box
+  created: 2025-09-25
 - label: Shadow finder
   url: https://colab.research.google.com/github/Bellingcat/ShadowFinder/blob/main/ShadowFinderColab.ipynb
   category: Tools
@@ -1495,6 +1502,32 @@ link:
   - tools
   - bounding_box
   created: 2025-01-01
+- label: Web Mercator to WGS84 Converter (Mapscaping)
+  url: https://mapscaping.com/web-mercator-to-wgs84-converter/
+  category: Tools
+  tags:
+  - tools
+  created: 2025-09-25
+- label: Interactive Coordinate Grid Map (Mapscaping)
+  url: https://mapscaping.com/interactive-coordinate-grid-map/
+  category: Tools
+  tags:
+  - tools
+  created: 2025-09-25
+- label: Interactive Global UTM Grid Viewer (Mapscaping)
+  url: https://mapscaping.com/utm-zone-map-viewer/
+  category: Tools
+  tags:
+  - tools
+  created: 2025-09-25
+- label: Download data from OSM (Mapscaping)
+  url: https://mapscaping.com/openstreetmap-category-viewer/
+  category: Tools
+  tags:
+  - tools
+  - data
+  - download
+  created: 2025-09-25
 - label: Mapshaper
   url: https://mapshaper.org/
   category: Tools
@@ -1694,6 +1727,13 @@ link:
   - contributing
   - osm
   created: 2025-01-01
+- label: Isosmfar (Interactive Openstreetmap Heatmap Visualization)
+  url: https://liotier.github.io/Geogizmos/Isosmfar/Isosmfar.html
+  category: OpenStreetMap contributing
+  tags:
+  - contributing
+  - osm
+  created: 2025-09-25
 - label: Planet OSM
   url: https://planet.osm.org/
   category: OpenStreetMap download
@@ -2225,6 +2265,12 @@ link:
   tags:
   - tools
   created: 2025-06-18
+- label: FOGOS.pt
+  url: https://fogos.pt/
+  category: Services
+  tags:
+  - tools
+  created: 2025-09-25
 - label: Radiological Maps - European Commission
   url: https://remap.jrc.ec.europa.eu/Advanced.aspx
   category: Services
@@ -2273,6 +2319,15 @@ link:
   - outdoor
   - favorite
   created: 2025-01-01
+- label: Running Routes
+  url: https://www.running-routes.com/
+  category: Routing
+  tags:
+  - routing
+  - osm
+  - running
+  - outdoor
+  created: 2025-09-25
 - label: Sherpa Map
   url: https://sherpa-map.com/
   category: Routing
