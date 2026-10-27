@@ -12,6 +12,15 @@ link:
   - eclipse
   - astronomy
   created: 2026-10-27
+- label: Terraink
+  url: https://terraink.app/
+  category: Services
+  tags:
+  - maps
+  - design
+  - art
+  - map city
+  created: 2026-10-27
 - label: Openstreetmap.org
   url: http://www.openstreetmap.org/#map={z}/{lat}/{lon}
   category: OpenStreetMap
