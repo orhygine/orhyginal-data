@@ -1367,6 +1367,15 @@ link:
   - sport
   - course-à-pied
   created: 2025-06-07
+- label: Fastest Known Time
+  url: https://fastestknowntime.com/routes
+  description: Carte des itinéraires de trail, alpinisme et randonnée avec les records de vitesse (FKT) établis sur chacun.
+  category: Plein air
+  tags:
+  - plein-air
+  - sport
+  - course-à-pied
+  created: 2026-10-28
 - label: OpenSnowMap
   url: http://www.opensnowmap.org?lat={lat}&lon={lon}&zoom={z}
   description: Carte mondiale des pistes de ski alpin, de fond et de randonnée basée sur OpenStreetMap.
