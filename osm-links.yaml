@@ -670,6 +670,15 @@ link:
   - space
   - tools
   created: 2025-01-01
+- label: Ouest Le Soleil
+  url: https://ouestlesoleil.fr/map
+  category: Ephemeride
+  tags:
+  - weather
+  - space
+  - tools
+  - meteo
+  created: 2026-10-27
 - label: Mapillary
   url: http://www.mapillary.com/map/search/{lat}/{lon}/{z}
   category: Photo services
