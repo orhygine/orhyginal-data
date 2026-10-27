@@ -2270,7 +2270,7 @@ link:
   - outil
   created: 2025-01-01
 - label: EFFIS - Fires map
-  url: https://forest-fire.emergency.copernicus.eu/apps/effis.csv/?c={x},{y}
+  url: https://forest-fire.emergency.copernicus.eu/apps/effis.csv/?c={x_3857},{y_3857}
   category: Services cartographiques
   tags:
   - outil
@@ -2777,4 +2777,3 @@ reference:
   tags:
   - documentation
   - osm
-
