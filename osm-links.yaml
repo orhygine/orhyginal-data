@@ -1,12 +1,14 @@
 link:
 - label: Scopus
   url: https://julesrumeau.github.io/Scopus/#map={z}/{lat}/{lon}
+  description: Visualisation du LiDAR HD de l'IGN pour révéler le relief caché sous la végétation.
   category: Services cartographiques
   tags:
   - 3d
   created: 2026-10-27
 - label: EclipseFan
   url: https://eclipsefan.org/?v=2&t=max&layers=eclipse%2Cumbra-live%2Cshadow-3d%2Ccloud-projection%2Cosm&opacity=besselian%3A0.2%2Cumbra-live%3A0.2&lat={lat}&lon={lon}&zoom={z}&palier=minute&lang=en
+  description: Carte interactive de l'éclipse totale de Soleil du 12 août 2026 avec horaires précis, bande de totalité et probabilité de ciel dégagé.
   category: Services cartographiques
   tags:
   - éclipse
@@ -14,6 +16,7 @@ link:
   created: 2026-10-27
 - label: Terraink
   url: https://terraink.app/
+  description: Générateur gratuit de posters et fonds d'écran cartographiques à exporter en PNG, PDF ou SVG.
   category: Services cartographiques
   tags:
   - cartes
@@ -23,6 +26,7 @@ link:
   created: 2026-10-27
 - label: Openstreetmap.org
   url: http://www.openstreetmap.org/#map={z}/{lat}/{lon}
+  description: Carte officielle d'OpenStreetMap, la carte du monde libre et collaborative.
   category: Cartes OSM
   tags:
   - fond-de-carte
@@ -30,6 +34,7 @@ link:
   created: 2025-01-01
 - label: Openstreet/map.org (+data)
   url: http://www.openstreetmap.org/#map={z}/{lat}/{lon}&layers=D
+  description: Carte OpenStreetMap avec le calque de données activé pour inspecter les objets OSM.
   category: Cartes OSM
   tags:
   - fond-de-carte
@@ -38,6 +43,7 @@ link:
   created: 2025-01-01
 - label: CyclOSM
   url: https://www.cyclosm.org/#map={z}/{lat}/{lon}/cyclosm
+  description: Carte vélo basée sur OpenStreetMap mettant en avant pistes cyclables, stationnements et services vélo.
   category: Cartes OSM
   tags:
   - vélo
@@ -45,6 +51,7 @@ link:
   created: 2025-01-01
 - label: Administrative boundaries
   url: https://www.flosm.de/en/adminmap.html?lat={lat}&lon={lon}&r=740000.00&st=0&sw=admina,adminc,admine
+  description: Carte des limites administratives et des codes postaux issus d'OpenStreetMap, avec leur hiérarchie détaillée.
   category: Cartes OSM
   favorite: true
   tags:
@@ -52,6 +59,7 @@ link:
   created: 2025-01-01
 - label: Map Complete
   url: https://mapcomplete.osm.be/?z={z}&lat={lat}&lon={lon}&language=en
+  description: Plateforme de cartes thématiques permettant de consulter et compléter facilement les données OpenStreetMap.
   category: Cartes OSM
   tags:
   - osm
@@ -59,6 +67,7 @@ link:
   created: 2025-01-01
 - label: Open Etymology Map
   url: https://mapcomplete.org/etymology?z={z}&lat={lat}&lon={lon}
+  description: Carte MapComplete montrant l'origine des noms de rues et de lieux (étymologie), avec possibilité de la compléter.
   category: Cartes OSM
   favorite: true
   tags:
@@ -67,6 +76,7 @@ link:
   created: 2025-01-01
 - label: Artwork (Map Complete)
   url: https://mapcomplete.org/artwork?z={z}&lat={lat}&lon={lon}
+  description: Carte ouverte des statues, bustes, graffitis et autres œuvres d'art dans le monde, éditable via MapComplete.
   category: Cartes OSM
   tags:
   - art
@@ -74,6 +84,7 @@ link:
   created: 2025-01-01
 - label: findskatespots
   url: https://findskatespots.com/spots?lat={lat}&lng={lon}&zoom={z}
+  description: Carte des spots de skate avec localisation, vidéos et spots à proximité.
   category: Plein air
   tags:
   - sport
@@ -81,6 +92,7 @@ link:
   created: 2025-06-18
 - label: Ski pistes and aerialways (Map Complete)
   url: https://mapcomplete.org/ski?z={z}&lat={lat}&lon={lon}
+  description: Thème MapComplete dédié aux pistes de ski et remontées mécaniques.
   category: Cartes OSM
   tags:
   - sport
@@ -90,6 +102,7 @@ link:
   created: 2025-01-01
 - label: Open Etymology Map bis
   url: https://etymology.dsantini.it/#{lon},{lat},{z},type,db_all
+  description: Carte interactive de l'étymologie des noms de rues et de points d'intérêt, basée sur OpenStreetMap et Wikidata.
   category: Cartes OSM
   favorite: true
   tags:
@@ -97,6 +110,7 @@ link:
   created: 2025-01-01
 - label: OSM DATA
   url: http://demo.openstreetmap.fr/map
+  description: Portail OpenStreetMap France pour explorer les données OSM sur le territoire français.
   category: Cartes OSM
   tags:
   - données
@@ -104,12 +118,14 @@ link:
   created: 2025-01-01
 - label: Climate Action HeiGIT Bike Dashboard
   url: https://climate-action.heigit.org/webapp/dashboard/plugin/hibike
+  description: Climate Action Navigator de HeiGIT, tableau de bord sur la cyclabilité, la marchabilité et les émissions à l'échelle locale.
   category: Services cartographiques
   tags:
   - vélo
   created: 2025-06-07
 - label: OSMApp
   url: https://osmapp.org/#{z}/{lat}/{lon}
+  description: Carte du monde open source basée sur OpenStreetMap avec recherche, points d'intérêt cliquables et édition intégrée.
   category: Cartes OSM
   tags:
   - mobile
@@ -117,6 +133,7 @@ link:
   created: 2025-01-01
 - label: GéoDataMine
   url: https://geodatamine.fr
+  description: Extraction simplifiée de données OpenStreetMap thématiques pour un territoire français.
   category: Cartes OSM
   tags:
   - données
@@ -124,6 +141,7 @@ link:
   created: 2025-01-01
 - label: Cyclofix
   url: https://cyclofix.osm.be/map/
+  description: Carte MapComplete des stations de réparation de vélos et magasins de cycles.
   category: Cartes OSM
   tags:
   - vélo
@@ -131,18 +149,21 @@ link:
   created: 2025-01-01
 - label: AirRescueMap
   url: http://airrescuemap.org/#lat={lat}&lng={lon}&zoom={z}
+  description: Carte des bases et moyens d'hélicoptères de secours (HEMS) dans OpenStreetMap.
   category: Cartes OSM
   tags:
   - osm
   created: 2025-01-01
 - label: OpenStreetLight
   url: https://sb12.github.io/OSMStreetLight/#{z}/{lat}/{lon}
+  description: Carte des lampadaires présents dans OpenStreetMap avec opérateurs, références et caractéristiques d'éclairage.
   category: Cartes OSM
   tags:
   - infrastructure
   created: 2025-01-01
 - label: OSMarche
   url: https://osmarche.someware.fr/explore
+  description: Outil d'exploration des cheminements piétons et de l'accessibilité à partir des données OpenStreetMap.
   category: Cartes OSM
   favorite: true
   tags:
@@ -151,6 +172,7 @@ link:
   created: 2025-01-01
 - label: Water map
   url: https://water-map.org/
+  description: Carte collaborative de plus de 22 000 fontaines et points d'eau potable.
   category: Cartes OSM
   tags:
   - eau
@@ -158,6 +180,7 @@ link:
   created: 2025-01-01
 - label: OSMBoundaries
   url: https://osm-boundaries.com/Map
+  description: Outil d'extraction des limites administratives (pays, régions, communes…) depuis OpenStreetMap à différents niveaux.
   category: Cartes OSM
   tags:
   - limites-administratives
@@ -165,6 +188,7 @@ link:
   created: 2025-01-01
 - label: Figuregrounder
   url: http://hanshack.com/figuregrounder/
+  description: Générateur de posters en diagramme plein/vide (figure-ground) à partir des données OpenStreetMap.
   category: Art et visualisation
   tags:
   - art
@@ -172,6 +196,7 @@ link:
   created: 2025-01-01
 - label: Pretty Map
   url: https://share.streamlit.io/chrieke/prettymapp/main/streamlit-prettymapp/app.py
+  description: Application Streamlit pour créer de jolies cartes artistiques d'un lieu à partir d'OpenStreetMap.
   category: Art et visualisation
   tags:
   - art
@@ -179,6 +204,7 @@ link:
   created: 2025-01-01
 - label: City roads
   url: https://anvaka.github.io/city-roads/
+  description: Dessine en une seule fois toutes les routes d'une ville choisie à partir d'OpenStreetMap.
   category: Art et visualisation
   tags:
   - art
@@ -186,6 +212,7 @@ link:
   created: 2025-01-01
 - label: Historique (osm.org)
   url: http://www.openstreetmap.org/browse/changesets/#map={z}/{lat}/{lon}
+  description: Liste des groupes de modifications (changesets) récents sur la zone affichée d'openstreetmap.org.
   category: Contribution OSM
   tags:
   - osm
@@ -194,6 +221,7 @@ link:
   created: 2025-01-01
 - label: How did you contribute
   url: https://hdyc.neis-one.org/
+  description: Profil statistique détaillé des contributions d'un utilisateur OpenStreetMap (Pascal Neis).
   category: Contribution OSM
   tags:
   - osm
@@ -202,6 +230,9 @@ link:
   created: 2025-01-01
 - label: Missing maps users
   url: https://www.missingmaps.org/users/#/
+  description: Statistiques et classements des contributeurs du projet humanitaire Missing Maps.
+  status: erreur 404
+  checked: 2026-10-27
   category: Contribution OSM
   tags:
   - osm
@@ -209,6 +240,7 @@ link:
   created: 2025-01-01
 - label: OSM Visual History
   url: https://aleung.github.io/osm-visual-history/
+  description: Visualisation de l'historique des versions d'un nœud, d'un chemin ou d'une relation OpenStreetMap.
   category: Contribution OSM
   tags:
   - osm
@@ -217,6 +249,7 @@ link:
   created: 2025-01-01
 - label: OSM History (pewu)
   url: https://pewu.github.io/osm-history
+  description: Visualiseur de l'historique d'un objet OpenStreetMap, version par version.
   category: Contribution OSM
   tags:
   - osm
@@ -225,6 +258,9 @@ link:
   created: 2025-01-01
 - label: OSM History (osmhv)
   url: http://osmhv.openstreetmap.de
+  description: Visualiseur de l'historique des objets et changesets OpenStreetMap.
+  status: service arrêté
+  checked: 2026-10-27
   category: Contribution OSM
   tags:
   - osm
@@ -233,6 +269,7 @@ link:
   created: 2025-01-01
 - label: Latest OpenStreetMap Edits per Tile
   url: https://resultmaps.neis-one.org/osm-change-tiles#{z}/{lat}/{lon}
+  description: Carte des tuiles OpenStreetMap modifiées le plus récemment (Pascal Neis).
   category: Contribution OSM
   tags:
   - osm
@@ -241,6 +278,7 @@ link:
   created: 2025-01-01
 - label: gimme OSM
   url: http://ustroetz.github.io/gimmeOSM/
+  description: Outil pour récupérer et afficher rapidement un nœud, un chemin ou une relation OpenStreetMap.
   category: Contribution OSM
   tags:
   - osm
@@ -248,6 +286,7 @@ link:
   created: 2025-01-01
 - label: Changeset by Comparison Visualization
   url: https://resultmaps.neis-one.org/osm-change-viz?
+  description: Visualisation comparative avant/après des modifications d'un changeset OpenStreetMap.
   category: Contribution OSM
   tags:
   - modifications
@@ -256,6 +295,7 @@ link:
   created: 2025-01-01
 - label: Your OSM heat map
   url: https://yosmhm.neis-one.org/?zoom={z<14}&lat={lat}&lon={lon}&layers=B000TTF
+  description: Carte de chaleur personnelle des zones éditées par un contributeur OpenStreetMap.
   category: Contribution OSM
   tags:
   - modifications
@@ -264,6 +304,7 @@ link:
   created: 2025-01-01
 - label: OSM proposals
   url: https://osm-proposals.push-f.com/
+  description: Vue d'ensemble, mise à jour toutes les heures, des propositions de nouveaux tags OpenStreetMap.
   category: Contribution OSM
   tags:
   - osm
@@ -271,6 +312,7 @@ link:
   created: 2025-01-01
 - label: Notes heatmap
   url: https://notes-heatmap.openstreetmap.fr/?pos={lat},{lon},{z}
+  description: Carte de chaleur des notes OpenStreetMap ouvertes.
   category: Contribution OSM
   tags:
   - osm
@@ -278,6 +320,7 @@ link:
   created: 2025-01-01
 - label: OSM Streak
   url: http://streak.osmz.ru/
+  description: Jeu de défis quotidiens pour contribuer à OpenStreetMap chaque jour et entretenir sa série.
   category: Contribution OSM
   tags:
   - osm
@@ -285,6 +328,7 @@ link:
   created: 2025-01-01
 - label: OSM Community Index
   url: https://openstreetmap.community/
+  description: Annuaire des communautés OpenStreetMap locales et de leurs canaux de discussion.
   category: Contribution OSM
   tags:
   - osm
@@ -292,6 +336,7 @@ link:
   created: 2025-01-01
 - label: Who's that - OSM user names database
   url: http://whosthat.osmz.ru/
+  description: Base de données des noms d'utilisateurs OSM et de leurs anciens pseudonymes.
   category: Contribution OSM
   tags:
   - osm
@@ -299,6 +344,9 @@ link:
   created: 2025-01-01
 - label: OSM Welcome Tool
   url: https://welcome.osm.be/
+  description: Outil d'accueil des nouveaux contributeurs OpenStreetMap pour les communautés locales.
+  status: erreur 502
+  checked: 2026-10-27
   category: Contribution OSM
   tags:
   - osm
@@ -306,6 +354,7 @@ link:
   created: 2025-01-01
 - label: OSM suspicious
   url: https://resultmaps.neis-one.org/osm-suspicious#{z}/{lat}/{lon}
+  description: Détection des changesets OpenStreetMap suspects (suppressions massives, nouveaux comptes…).
   category: Contribution OSM
   tags:
   - modifications
@@ -314,6 +363,7 @@ link:
   created: 2025-01-01
 - label: OSM suspicious (review requested changesets)
   url: https://resultmaps.neis-one.org/osm-suspicious?country=140&hours=96&mappingdays=-1&groupby=c&tsearch=review_requested%3Dyes&anyobj=t&comp=%3E&value=10&action=d&obj=n#{z}/{lat}/{lon}
+  description: Liste des changesets OpenStreetMap pour lesquels une relecture a été demandée.
   category: Contribution OSM
   tags:
   - modifications
@@ -322,6 +372,7 @@ link:
   created: 2025-01-01
 - label: Changeset Discussions
   url: https://resultmaps.neis-one.org/osm-discussions#{z}/{lat}/{lon}
+  description: Derniers commentaires et discussions sur les changesets OpenStreetMap.
   category: Contribution OSM
   tags:
   - modifications
@@ -330,6 +381,7 @@ link:
   created: 2025-01-01
 - label: Who's around me
   url: https://resultmaps.neis-one.org/oooc?lat={lat}&lon={lon}&zoom={z<19}
+  description: Carte des contributeurs OpenStreetMap actifs autour d'un lieu.
   category: Contribution OSM
   tags:
   - osm
@@ -337,6 +389,7 @@ link:
   created: 2025-01-01
 - label: New contributors feed
   url: https://resultmaps.neis-one.org/newestosmcreatefeed?lat={lat}&lon={lon}&zoom={z}
+  description: Création d'un flux RSS des nouveaux contributeurs OpenStreetMap sur une zone donnée.
   category: Contribution OSM
   tags:
   - osm
@@ -344,6 +397,7 @@ link:
   created: 2025-01-01
 - label: Unmapped places
   url: https://resultmaps.neis-one.org/unmapped#{z}/{lat}/{lon}
+  description: Carte des lieux habités encore non cartographiés dans OpenStreetMap.
   category: Contribution OSM
   tags:
   - osm
@@ -351,6 +405,7 @@ link:
   created: 2025-01-01
 - label: OSM GPS Points
   url: https://resultmaps.neis-one.org/osmgps.html?lat={lat}&lon={lon}&zoom={z<9}
+  description: Grille de densité des points GPS téléversés sur OpenStreetMap.
   category: Contribution OSM
   tags:
   - osm
@@ -358,6 +413,7 @@ link:
   created: 2025-01-01
 - label: Neis OSM Stats
   url: https://osmstats.neis-one.org/
+  description: Statistiques quotidiennes de l'activité OpenStreetMap (contributeurs, nœuds, changesets).
   category: Contribution OSM
   tags:
   - statistiques
@@ -366,6 +422,7 @@ link:
   created: 2025-01-01
 - label: OpenStreetMap Statistics
   url: https://piebro.github.io/openstreetmap-statistics/#63f6
+  description: Graphiques et statistiques sur l'évolution d'OpenStreetMap, des éditeurs et des contributeurs.
   category: Contribution OSM
   tags:
   - statistiques
@@ -374,6 +431,7 @@ link:
   created: 2025-01-01
 - label: ArcheOSM
   url: http://osm13.openstreetmap.fr/~cquest/leaflet/archeosm.html#{z}/{lat}/{lon}
+  description: Carte des sites archéologiques présents dans OpenStreetMap.
   category: Contribution OSM
   tags:
   - histoire
@@ -382,6 +440,7 @@ link:
   created: 2025-01-01
 - label: Cadastre Damsy
   url: https://cadastre.damsy.net/#{z}/{lat}/{lon}
+  description: Outil d'aide à l'import des bâtiments du cadastre dans OpenStreetMap, commune par commune.
   category: Contribution OSM
   tags:
   - osm
@@ -389,6 +448,7 @@ link:
   created: 2025-01-01
 - label: OSM stats report
   url: https://www.openstreetmap.org/stats/data_stats.html
+  description: Rapport quotidien officiel des statistiques d'OpenStreetMap (utilisateurs, points GPS, objets).
   category: Contribution OSM
   tags:
   - statistiques
@@ -397,6 +457,7 @@ link:
   created: 2025-01-01
 - label: Is OSM Complete?
   url: https://wvanderp.github.io/isOsmComplete/
+  description: Évalue la complétude d'OpenStreetMap en la comparant à des sources de données officielles.
   category: Contribution OSM
   tags:
   - osm
@@ -404,6 +465,7 @@ link:
   created: 2025-01-01
 - label: OSM wiki stats
   url: https://wiki.openstreetmap.org/wiki/Stats
+  description: Page du wiki OSM recensant les statistiques et outils de suivi du projet.
   category: Contribution OSM
   tags:
   - statistiques
@@ -412,6 +474,7 @@ link:
   created: 2025-01-01
 - label: Tile OSM Fr
   url: http://tile.openstreetmap.fr/?zoom={z}&lat={lat}&lon={lon}
+  description: Service de tuiles d'OpenStreetMap France avec rendus de contrôle qualité des données.
   category: Contribution OSM
   tags:
   - outil
@@ -420,6 +483,7 @@ link:
   created: 2025-01-01
 - label: BD-Ortho dates de prise de vue
   url: https://umap.openstreetmap.fr/fr/map/date-heure-des-prises-de-vues-aeriennes-de-la-bd-o_160764#{z}/{lat}/{lon}
+  description: Carte uMap des dates et heures de prise de vue des orthophotos de la BD Ortho IGN.
   category: Contribution OSM
   tags:
   - outil
@@ -428,6 +492,7 @@ link:
   created: 2025-01-01
 - label: Fullscreen map (tile regen tool)
   url: https://www.sammyshp.de/fsmap/#{z}/{lat}/{lon}
+  description: Carte plein écran permettant de forcer le recalcul des tuiles OpenStreetMap.
   category: Contribution OSM
   tags:
   - outil
@@ -436,6 +501,7 @@ link:
   created: 2025-01-01
 - label: Node density
   url: http://tyrasd.github.io/osm-node-density/#{z}/{lat}/{lon}/latest,places
+  description: Carte de la densité de nœuds OpenStreetMap, utile pour repérer les zones peu cartographiées.
   category: Contribution OSM
   tags:
   - statistiques
@@ -444,6 +510,7 @@ link:
   created: 2025-01-01
 - label: Parking lane viewer (zlant)
   url: https://zlant.github.io/parking-lanes/#{z}/{lat}/{lon}
+  description: Visualiseur et éditeur du stationnement le long des voies (parking:lane) dans OpenStreetMap.
   category: Contribution OSM
   tags:
   - osm
@@ -451,6 +518,7 @@ link:
   created: 2025-01-01
 - label: OpenParkingMap
   url: https://openparkingmap.com/#{z}/{lat}/{lon}
+  description: Carte des parkings et du stationnement issus d'OpenStreetMap.
   category: Contribution OSM
   tags:
   - osm
@@ -458,6 +526,7 @@ link:
   created: 2025-01-01
 - label: Bus lane viewer (zlant)
   url: https://zlant.github.io/bus-lanes/#{z}/{lat}/{lon}
+  description: Visualiseur des voies de bus dans les données OpenStreetMap.
   category: Contribution OSM
   tags:
   - osm
@@ -465,6 +534,7 @@ link:
   created: 2025-01-01
 - label: Divide and map. Now.
   url: https://damn-project.org/
+  description: Outil qui découpe une grande zone en carrés pour répartir la cartographie entre contributeurs.
   category: Contribution OSM
   tags:
   - outil
@@ -473,24 +543,28 @@ link:
   created: 2025-01-01
 - label: uMap des uMaps
   url: https://umap.openstreetmap.fr/en/map/showcase_4783#{z}/{lat}/{lon}
+  description: Vitrine des cartes uMap mises en avant par la communauté.
   category: Cartes thématiques
   tags:
   - osm
   created: 2025-01-01
 - label: Les 3000 des Pyrénées
   url: https://umap.openstreetmap.fr/fr/map/les-3000-des-pyrenees_76885#{z}/{lat}/{lon}
+  description: Carte uMap des sommets de plus de 3000 m des Pyrénées.
   category: Cartes thématiques
   tags:
   - osm
   created: 2025-01-01
 - label: Activités pour les enfants
   url: https://umap.openstreetmap.fr/fr/map/activites-pour-les-enfants_5848#{z}/{lat}/{lon}
+  description: Carte uMap d'activités et sorties pour les enfants.
   category: Cartes thématiques
   tags:
   - osm
   created: 2025-01-01
 - label: Stations de ski des Pyrénées
   url: https://umap.openstreetmap.fr/fr/map/stations-de-ski-des-pyrenees_30564#{z}/{lat}/{lon}
+  description: Carte uMap des stations de ski des Pyrénées.
   category: Cartes thématiques
   tags:
   - osm
@@ -499,6 +573,7 @@ link:
   created: 2025-01-01
 - label: Sites archéologiques
   url: https://umap.openstreetmap.fr/fr/map/sites-archeologiques_22883#{z}/{lat}/{lon}
+  description: Carte uMap de sites archéologiques.
   category: Cartes thématiques
   tags:
   - histoire
@@ -506,6 +581,7 @@ link:
   created: 2025-01-01
 - label: Pelote Basque
   url: https://umap.openstreetmap.fr/fr/map/pelote-basque_24035#{z}/{lat}/{lon}
+  description: Carte uMap des frontons et trinquets de pelote basque.
   category: Cartes thématiques
   tags:
   - osm
@@ -513,6 +589,7 @@ link:
   created: 2025-01-01
 - label: MeteoBlue
   url: https://www.meteoblue.com/en/weather/forecast/week/{lat}N{lon}E
+  description: Prévisions météo détaillées sur 7 jours pour la position choisie (Meteoblue).
   category: Météo
   favorite: true
   tags:
@@ -520,12 +597,14 @@ link:
   created: 2025-01-01
 - label: MeteoBlue Map
   url: https://www.meteoblue.com/en/weather-maps/{lat}N{lon}E162_Europe%2FParis?variable=precipitation3h_cloudcover_pressure&level=surface&lines=none&mapcenter={lon}N{lat}&zoom={z}
+  description: 'Cartes météo Meteoblue : radar, satellite, précipitations, vent et qualité de l''air.'
   category: Météo
   tags:
   - météo
   created: 2025-01-01
 - label: Windy
   url: https://www.windy.com/?{lat},{lon},{z}
+  description: Carte animée mondiale des prévisions de vent, vagues et météo.
   category: Météo
   favorite: true
   tags:
@@ -533,6 +612,7 @@ link:
   created: 2025-01-01
 - label: Balises Nivose
   url: http://www.webcams-montagne.fr/nivoses.php
+  description: Données des stations automatiques nivôse de Météo-France, du Piémont et des Pyrénées espagnoles.
   category: Météo
   tags:
   - météo
@@ -540,6 +620,7 @@ link:
   created: 2025-01-01
 - label: Vigicrue Flash
   url: https://apic-vigicruesflash.fr
+  description: Avertissements de pluies intenses (APIC) et de crues soudaines (Vigicrues Flash).
   category: Météo
   tags:
   - météo
@@ -547,6 +628,7 @@ link:
   created: 2025-01-01
 - label: Go Surf webcams map
   url: https://gosurf.fr/map
+  description: Carte des spots et webcams de surf en France, Espagne et Portugal.
   category: Webcams
   tags:
   - webcam
@@ -554,12 +636,14 @@ link:
   created: 2025-01-01
 - label: Carto Cams
   url: https://cartocams.com/
+  description: Carte de toutes les webcams référencées dans OpenStreetMap.
   category: Webcams
   tags:
   - webcam
   created: 2025-01-01
 - label: Météo parapente
   url: https://meteo-parapente.com/#/{lat},{lon},{z}
+  description: Prévisions météo spécialisées pour le parapente et le vol libre.
   category: Météo
   tags:
   - météo
@@ -567,6 +651,7 @@ link:
   created: 2025-01-01
 - label: Windfinder
   url: https://fr.windfinder.com/weather-maps/forecast/#{z}/{lat}/{lon}
+  description: Cartes de prévisions de vent, vagues et météo pour les sports de glisse.
   category: Météo
   tags:
   - météo
@@ -574,12 +659,14 @@ link:
   created: 2025-01-01
 - label: Wisuki
   url: http://fr.wisuki.com/?lat={lat}&lon={lon}&zoom={z}&mode=terrain#sa-0
+  description: Prévisions de vent, vagues et marées pour le surf, le windsurf et le kitesurf.
   category: Plein air
   tags:
   - plein-air
   created: 2025-01-01
 - label: OpenSeaMap Weather
   url: http://map.openseamap.org/weather.php?zoom={z<8}&lat={lat}&lon={lon}&layers=BTFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+  description: Carte météo marine d'OpenSeaMap (vent, pression, vagues, précipitations).
   category: Météo
   tags:
   - météo
@@ -587,18 +674,21 @@ link:
   created: 2025-01-01
 - label: OpenWeatherMap
   url: http://openweathermap.org/maps?zoom={z}&lat={lat}&lon={lon}&layers=B0FTTFFT
+  description: Carte météo mondiale interactive d'OpenWeather (température, précipitations, vent, pression).
   category: Météo
   tags:
   - météo
   created: 2025-01-01
 - label: WunderMap
   url: https://www.wunderground.com/wundermap?lat={lat}&lon={lon}&zoom={z}&type=terrain&units=metric
+  description: Carte météo et radar interactive de Weather Underground avec les stations personnelles.
   category: Météo
   tags:
   - météo
   created: 2025-01-01
 - label: Blitzortung.org
   url: http://map.blitzortung.org/#{z}/{lat}/{lon}
+  description: Carte des impacts de foudre en temps réel du réseau communautaire Blitzortung.
   category: Météo
   tags:
   - météo
@@ -606,6 +696,7 @@ link:
   created: 2025-01-01
 - label: LightningMaps.org
   url: http://www.lightningmaps.org/?lang=fr#m=oss;t=3;s=0;o=0;b=;ts=0;y={lat};x={lon};z={z};d=2;dl=2;dc=0;
+  description: Carte des éclairs en temps réel et archives des orages passés.
   category: Météo
   tags:
   - météo
@@ -613,6 +704,7 @@ link:
   created: 2025-01-01
 - label: Keraunos.org
   url: http://www.keraunos.org/
+  description: 'Observatoire français des tornades et des orages : prévisions, suivi et climatologie.'
   category: Météo
   tags:
   - météo
@@ -620,6 +712,7 @@ link:
   created: 2025-01-01
 - label: maree.info
   url: http://maree.info/meteo
+  description: Horaires de marée des ports et cartes météo GRIB pour l'Atlantique, la Manche et la mer du Nord.
   category: Météo
   favorite: true
   tags:
@@ -628,6 +721,7 @@ link:
   created: 2025-01-01
 - label: Suncalc
   url: http://www.suncalc.org/#/{lat},{lon},{z}/{date}/{time}/1
+  description: 'Course du soleil sur carte : lever, coucher, longueur des ombres et position du soleil.'
   category: Soleil et astronomie
   tags:
   - météo
@@ -636,6 +730,7 @@ link:
   created: 2025-01-01
 - label: Mooncalc
   url: http://www.mooncalc.org/#/{lat},{lon},{z}/{date}/{time}/1
+  description: Position et phases de la Lune sur carte, lever et coucher, calendrier lunaire.
   category: Soleil et astronomie
   tags:
   - météo
@@ -644,6 +739,7 @@ link:
   created: 2025-01-01
 - label: SolarTopo
   url: http://solartopo.com/orbite-solaire.htm
+  description: Calcul de l'orbite solaire (azimut et hauteur) pour un lieu et une date.
   category: Soleil et astronomie
   tags:
   - météo
@@ -652,6 +748,7 @@ link:
   created: 2025-01-01
 - label: Under the sun
   url: http://projects.truth-and-beauty.net/under-the-sun/
+  description: Visualisation de la durée d'ensoleillement selon la latitude et la saison.
   category: Soleil et astronomie
   tags:
   - météo
@@ -660,6 +757,7 @@ link:
   created: 2025-01-01
 - label: JVeuxDuSoleil
   url: https://jveuxdusoleil.fr/#{z}/{lat}/{lon}
+  description: Simulateur d'ensoleillement pour trouver des terrasses au soleil en ville.
   category: Soleil et astronomie
   tags:
   - météo
@@ -668,6 +766,7 @@ link:
   created: 2025-01-01
 - label: Ouest Le Soleil
   url: https://ouestlesoleil.fr/map
+  description: Prévisions de ciel dégagé en Europe pour les 6 prochaines heures, demain et le week-end.
   category: Soleil et astronomie
   tags:
   - météo
@@ -677,6 +776,7 @@ link:
   created: 2026-10-27
 - label: Mapillary
   url: http://www.mapillary.com/map/search/{lat}/{lon}/{z}
+  description: Plateforme collaborative de photos immersives au niveau de la rue.
   category: Photo et imagerie
   tags:
   - photo
@@ -684,6 +784,7 @@ link:
   created: 2025-01-01
 - label: Measure height with Mapillary
   url: https://tankaru.github.io/Measure-Height-with-Mapillary/
+  description: Outil pour mesurer la hauteur d'un objet à partir d'images Mapillary 360°.
   category: Photo et imagerie
   tags:
   - photo
@@ -691,6 +792,7 @@ link:
   created: 2025-01-01
 - label: OpenStreetCam
   url: http://openstreetcam.org/map/@{lat},{lon},{z}z
+  description: KartaView (ex-OpenStreetCam), photos libres au niveau de la rue pour améliorer OpenStreetMap.
   category: Photo et imagerie
   tags:
   - photo
@@ -698,6 +800,7 @@ link:
   created: 2025-01-01
 - label: Street-level OSM data viewer
   url: https://tankaru.github.io/Street-level-POI-Viewer/viewer.html#{z}/{lat}/{lon}
+  description: Visualisation des points d'intérêt OpenStreetMap sur des images au niveau de la rue.
   category: Photo et imagerie
   tags:
   - photo
@@ -705,6 +808,7 @@ link:
   created: 2025-01-01
 - label: Flickr
   url: https://www.flickr.com/map/?fLat={lat}&fLon={lon}&zl={z}
+  description: Exploration des photos Flickr géolocalisées sur une carte.
   category: Photo et imagerie
   tags:
   - photo
@@ -712,6 +816,7 @@ link:
   created: 2025-01-01
 - label: Cartes.gouv.fr
   url: https://cartes.gouv.fr/explorer-les-cartes/?c={lon},{lat}&z={z}
+  description: Portail national de l'IGN pour explorer les cartes de référence et thématiques de la France.
   category: Géoportails
   favorite: true
   tags:
@@ -719,6 +824,7 @@ link:
   created: 2026-10-27
 - label: IGN Geoservices Platform
   url: https://geoservices.ign.fr/services-geoplateforme-diffusion
+  description: Documentation des services de diffusion de la Géoplateforme IGN (WMS, WMTS, WFS, TMS).
   category: Données géographiques
   tags:
   - géoportail
@@ -726,144 +832,168 @@ link:
   created: 2025-06-07
 - label: Geoportail Espagne
   url: http://www.idee.es/visualizador/
+  description: Visualiseur de l'infrastructure de données spatiales d'Espagne (IDEE).
   category: Géoportails
   tags:
   - géoportail
   created: 2025-01-01
 - label: Geoportail Pays Basque
   url: https://www.geo.euskadi.eus/s69-bisorea/es/x72aGeoeuskadiWAR/index.jsp
+  description: 'Visualiseur geoEuskadi : cartographie, orthophotos historiques et données du Pays basque espagnol.'
   category: Géoportails
   tags:
   - géoportail
   created: 2025-01-01
 - label: Geoportail Navarre
   url: https://idena.navarra.es/navegar/
+  description: IDENA, infrastructure de données spatiales de Navarre.
   category: Géoportails
   tags:
   - géoportail
   created: 2025-01-01
 - label: Geoportail Aragon
   url: https://idearagon.aragon.es/visor/
+  description: Visualiseur 2D de l'infrastructure de données spatiales d'Aragon.
   category: Géoportails
   tags:
   - géoportail
   created: 2025-01-01
 - label: Geoportail Catalogne
   url: http://www.icc.cat/vissir3/embedded.html?zoom={z-9}&lon={x_23031}&lat={y_23031}
+  description: Visualiseur cartographique de l'Institut cartographique de Catalogne (ICC).
   category: Géoportails
   tags:
   - géoportail
   created: 2025-01-01
 - label: IGN - Remonter le temps
   url: https://remonterletemps.ign.fr/map/basic?x={lon}&y={lat}&z={z}&layer1=GEOGRAPHICALGRIDSYSTEMS.MAPS&layer2=GEOGRAPHICALGRIDSYSTEMS.CASSINI&mode=hSlider
+  description: Comparaison de cartes et photos aériennes anciennes et actuelles de l'IGN.
   category: Géoportails
   tags:
   - géoportail
   created: 2025-01-01
 - label: Photo aériennes de l'IGN
   url: https://umap.openstreetmap.fr/fr/map/photos-aeriennes-anciennes-de-lign-via-openeventda_87467#{z}/{lat}/{lon}
+  description: Carte uMap recensant les photos aériennes anciennes de l'IGN.
   category: Géoportails
   tags:
   - géoportail
   created: 2025-01-01
 - label: Geoportail Luxembourg
   url: http://map.geoportal.lu/theme/main?version=3&zoom={z}&X={x_3857}&Y={y_3857}&lang=fr&layers&opacities&bgLayer=basemap_2015_global
+  description: Géoportail national du Luxembourg.
   category: Géoportails
   tags:
   - géoportail
   created: 2025-01-01
 - label: seignanx.com
   url: https://carte.seignanx.com/#map={z}/{lat}/{lon}
+  description: Carte et annuaire des points d'intérêt du Seignanx (sud-ouest des Landes).
   category: Géoportails
   tags:
   - géoportail
   created: 2025-01-01
 - label: nakarte
   url: https://nakarte.me/#m={z}/{lat}/{lon}&l=O
+  description: Visualiseur multi-fonds de cartes, notamment topographiques, populaire chez les randonneurs.
   category: Services cartographiques
   tags:
   - service
   created: 2025-01-01
 - label: Google Maps
   url: https://www.google.com/maps/@{lat},{lon},{z}z
+  description: Service de cartes, d'itinéraires et de recherche de lieux de Google.
   category: Services cartographiques
   tags:
   - service
   created: 2025-01-01
 - label: Wonders of Street View
   url: https://neal.fun/wonders-of-street-view/
+  description: Collection des vues Street View les plus étonnantes du monde.
   category: Jeux et découvertes
   tags:
   - jeux
   created: 2025-01-01
 - label: Mercator extreme
   url: https://mrgris.com/projects/merc-extreme/
+  description: Exploration interactive des distorsions extrêmes de la projection de Mercator.
   category: Jeux et découvertes
   tags:
   - jeux
   created: 2025-06-18
 - label: The True Size Of
   url: https://www.thetruesize.com/
+  description: Comparaison de la taille réelle des pays en les déplaçant sur la carte.
   category: Services cartographiques
   tags:
   - service
   created: 2025-01-01
 - label: Mapquest
   url: https://www.mapquest.com/?center={lat},{lon}&zoom={z}&maptype=map
+  description: Cartes, itinéraires routiers et trafic en direct de MapQuest.
   category: Services cartographiques
   tags:
   - service
   created: 2025-01-01
 - label: Plan de Toulouse
   url: https://www.plan.toulouse.fr/?&center={lon},{lat}&zoom={z}
+  description: Plan interactif de la ville de Toulouse.
   category: Services cartographiques
   tags:
   - service
   created: 2025-01-01
 - label: TravelTime Maps
   url: https://app.traveltimeplatform.com/#/search/0_lat={lat}&0_lng={lon}
+  description: 'Cartes isochrones : zones accessibles en un temps donné en voiture, transports, vélo ou à pied.'
   category: Services cartographiques
   tags:
   - service
   created: 2025-01-01
 - label: TravelTime Maps (radius map)
   url: https://radiusmap.traveltimeplatform.com/
+  description: Outil de cartes de rayon et d'isochrones de TravelTime.
   category: Services cartographiques
   tags:
   - service
   created: 2025-01-01
 - label: Bing Maps
   url: http://www.bing.com/mapspreview?cp={lat}~{lon}&lvl={z}&style=h
+  description: Service de cartes, itinéraires et trafic de Microsoft Bing.
   category: Services cartographiques
   tags:
   - service
   created: 2025-01-01
 - label: Stamen
   url: http://maps.stamen.com/#watercolor/{z}/{lat}/{lon}
+  description: Fonds de carte artistiques de Stamen (aquarelle, toner, terrain).
   category: Services cartographiques
   tags:
   - service
   created: 2025-01-01
 - label: Mappy
   url: http://fr.mappy.com/#/5/M2/THome/N151.12061,6.11309,{lon},{lat}/Z{z-5}/
+  description: Plans, itinéraires et comparateur de trajets en France.
   category: Services cartographiques
   tags:
   - service
   created: 2025-01-01
 - label: Here
   url: https://wego.here.com/?map={lat},{lon},{z},normal
+  description: Cartes et navigation de HERE WeGo.
   category: Services cartographiques
   tags:
   - service
   created: 2025-01-01
 - label: Mosquito Alert
   url: https://map.mosquitoalert.com/es?utm_source=pocket_saves
+  description: Carte des signalements de moustiques tigres et autres espèces du projet citoyen Mosquito Alert.
   category: Services cartographiques
   tags:
   - service
   created: 2025-01-01
 - label: F4map
   url: http://demo.f4map.com/#lat={lat}&lon={lon}&zoom={z}
+  description: Carte 3D interactive en WebGL basée sur les données OpenStreetMap.
   category: Cartes 3D OSM
   tags:
   - 3d
@@ -871,6 +1001,7 @@ link:
   created: 2025-01-01
 - label: Streets GL
   url: https://streets.gl/#{lat},{lon},45.00,0.00,2000.00
+  description: Moteur de rendu 3D d'OpenStreetMap permettant d'explorer le monde en détail.
   category: Cartes 3D OSM
   tags:
   - 3d
@@ -878,6 +1009,7 @@ link:
   created: 2025-01-01
 - label: OSM Globe
   url: https://globe.osm.lol/
+  description: Globe 3D montrant en direct les contributions faites sur OpenStreetMap.
   category: Cartes 3D OSM
   tags:
   - 3d
@@ -885,6 +1017,9 @@ link:
   created: 2026-10-27
 - label: MapOSMatic
   url: https://maposmatic.osm-baustelle.de/
+  description: Création de plans de ville imprimables à partir d'OpenStreetMap.
+  status: page par défaut du serveur
+  checked: 2026-10-27
   category: Cartes OSM
   tags:
   - 3d
@@ -892,66 +1027,81 @@ link:
   created: 2025-01-01
 - label: indoor=
   url: https://indoorequal.org/#map={z}/{lat}/{lon}
+  description: Carte des plans d'intérieur (bâtiments, gares, centres commerciaux) issus d'OpenStreetMap.
   category: Cartes OSM
   tags:
   - osm
   created: 2025-01-01
 - label: OSM Buildings
   url: http://osmbuildings.org/?lat={lat}&lon={lon}&zoom={z}&tilt=30&rotation=0
+  description: Visualisation 2,5D des bâtiments OpenStreetMap.
   category: Cartes OSM
   tags:
   - osm
   created: 2025-01-01
 - label: Wikipedia
   url: https://tools.wmflabs.org/wiwosm/osm-on-ol/kml-on-ol.php?lat={lat}&lon={lon}&zoom={z}&lang=fr&uselang=fr
+  description: Articles Wikipédia géolocalisés affichés sur OpenStreetMap.
   category: Références géographiques
   tags:
   - encyclopédie
   created: 2025-01-01
 - label: Wikipedia 2
   url: http://ausleuchtung.ch/geo_wiki/?lat={lat}&lng={lon}&zm={z}&lang=en&ds=wiki&rd=10
+  description: Carte des articles Wikipédia géolocalisés.
+  status: domaine à vendre
+  checked: 2026-10-27
   category: Références géographiques
   tags:
   - encyclopédie
   created: 2025-01-01
 - label: Wikimedia commons
   url: https://tools.wmflabs.org/wiwosm/osm-on-ol/commons-on-osm.php?zoom={z}&lat={lat}&lon={lon}
+  description: Images Wikimedia Commons géolocalisées affichées sur OpenStreetMap.
   category: Références géographiques
   tags:
   - encyclopédie
   created: 2025-01-01
 - label: Wiki loves monuments
   url: http://tools.wmflabs.org/wlm-maps/#{z}/{lat}/{lon}
+  description: Carte des monuments du concours photo Wiki Loves Monuments.
+  status: erreur 503
+  checked: 2026-10-27
   category: Références géographiques
   tags:
   - encyclopédie
   created: 2025-01-01
 - label: Visit Sights
   url: https://visitsights.com/
+  description: Planification de visites touristiques et circuits à pied autoguidés.
   category: Références géographiques
   tags:
   - encyclopédie
   created: 2025-01-01
 - label: OpenInfraMap
   url: https://openinframap.org/#{z}/{lat}/{lon}
+  description: Carte mondiale des infrastructures (électricité, télécoms, pétrole, gaz, eau) d'OpenStreetMap.
   category: Références géographiques
   tags:
   - encyclopédie
   created: 2025-01-01
 - label: commons.flickr.org
   url: https://commons.flickr.org/map/?center_lat={lat}&center_lng={lon}&zoom={z}
+  description: Carte des photos libres de droits de Flickr Commons.
   category: Références géographiques
   tags:
   - encyclopédie
   created: 2025-01-01
 - label: Wikivoyage
   url: https://tools.wmflabs.org/wikivoyage/w/poimap2.php?lat={lat}&lon={lon}&zoom={z}&layer=M&lang=fr
+  description: Carte des points d'intérêt des guides Wikivoyage.
   category: Références géographiques
   tags:
   - encyclopédie
   created: 2025-01-01
 - label: Geopedia
   url: https://www.geopedia.de/?lat={lat}&lon={lon}&z={z}&l=fr
+  description: Visualisation des articles Wikipédia autour d'un lieu, dans de nombreuses langues.
   category: Références géographiques
   favorite: true
   tags:
@@ -959,6 +1109,7 @@ link:
   created: 2025-01-01
 - label: Mapcarta
   url: https://mapcarta.com
+  description: Atlas en ligne de lieux décrits à partir d'OpenStreetMap et Wikidata.
   category: Références géographiques
   favorite: true
   tags:
@@ -966,42 +1117,51 @@ link:
   created: 2025-01-01
 - label: Wikidata Map
   url: https://wmde.github.io/wikidata-map/dist/index.html
+  description: Carte des éléments Wikidata géolocalisés et de leurs liens.
   category: Références géographiques
   tags:
   - encyclopédie
   created: 2025-06-07
 - label: Wikimap
   url: https://wikimap.wiki/?base=map&lat={y_3857}&lon={x_3857}&showAll=true&wiki=frwiki&zoom={z}
+  description: Carte des articles Wikipédia géolocalisés.
   category: Références géographiques
   tags:
   - encyclopédie
   created: 2025-01-01
 - label: WikiShootMe!
   url: https://tools.wmflabs.org/wikishootme/#lat={lat}&lng={lon}&zoom={z}
+  description: Outil pour trouver les éléments Wikidata et Wikipédia sans photo à proximité.
   category: Références géographiques
   tags:
   - encyclopédie
   created: 2025-01-01
 - label: Locator-tool
   url: https://tools.wmflabs.org/locator-tool/#/
+  description: Outil pour ajouter une localisation aux images de Wikimedia Commons.
   category: Références géographiques
   tags:
   - encyclopédie
   created: 2025-01-01
 - label: Geolocator
   url: http://tools.freeside.sk/geolocator/geolocator.html?ll={lat},{lon}&t=osm
+  description: Outil couteau suisse de géoréférencement et de géomarquage de photos.
   category: Références géographiques
   tags:
   - encyclopédie
   created: 2025-01-01
 - label: FlashEarth
   url: http://www.flashearth.com/?lat={lat}&lon={lon}&z={z}
+  description: Visualiseur d'images satellites et aériennes.
+  status: redirige vers Zoom Earth
+  checked: 2026-10-27
   category: Services cartographiques
   tags:
   - service
   created: 2025-01-01
 - label: Geocaching
   url: https://www.geocaching.com/map/default.aspx?ll={lat},{lon}&z={z}
+  description: Carte officielle des géocaches de Geocaching.com.
   category: Jeux et découvertes
   favorite: true
   tags:
@@ -1009,48 +1169,58 @@ link:
   created: 2025-01-01
 - label: Geocaching (list)
   url: http://www.geocaching.com/seek/nearest.aspx?lat={lat}&lng={lon}
+  description: Liste des géocaches les plus proches d'une position.
   category: Jeux et découvertes
   tags:
   - jeux
   created: 2025-01-01
 - label: Geocaching (list - filter out finds)
   url: http://www.geocaching.com/seek/nearest.aspx?lat={lat}&lng={lon}&f=1
+  description: Liste des géocaches les plus proches en excluant celles déjà trouvées.
   category: Jeux et découvertes
   tags:
   - jeux
   created: 2025-01-01
 - label: Geocaches (mides)
   url: https://www.mides.fr/geocaching/map/land/
+  description: Recherche de géocaches et analyse du terrain.
   category: Jeux et découvertes
   tags:
   - jeux
   created: 2025-01-01
 - label: Geocaches récentes (mides)
   url: https://www.mides.fr/les-dernieres-geocaches-placees
+  description: Liste des dernières géocaches placées.
   category: Jeux et découvertes
   tags:
   - jeux
   created: 2025-01-01
 - label: Confluence
   url: http://www.confluence.org/confluence.php?lat={lat}&lon={lon}&zoom={z}
+  description: Projet de visite et de photographie des intersections entières de latitude et longitude (confluences).
   category: Jeux et découvertes
   tags:
   - jeux
   created: 2025-01-01
 - label: Waymarking
   url: http://www.waymarking.com/
+  description: Chasse aux lieux insolites et remarquables classés par catégories, dans l'esprit du géocaching.
   category: Jeux et découvertes
   tags:
   - jeux
   created: 2025-01-01
 - label: OpenGeoFiction
   url: http://www.opengeofiction.net/#map={z}/{lat}/{lon}
+  description: Monde imaginaire cartographié collaborativement avec les outils d'OpenStreetMap.
+  status: domaine introuvable
+  checked: 2026-10-27
   category: Jeux et découvertes
   tags:
   - jeux
   created: 2025-01-01
 - label: VTTrack
   url: http://www.vttrack.fr/?lat={lat}&lon={lon}&zoom={z}&layers=OpenStreetMap|UtagawaVTT|LaTrace|
+  description: Recherche et visualisation de traces GPS de randonnée et de VTT.
   category: Plein air
   tags:
   - plein-air
@@ -1058,6 +1228,7 @@ link:
   created: 2025-01-01
 - label: Geovelo
   url: https://geovelo.app/fr/route/?c={lon}%2C{lat}&z={z}
+  description: Calcul d'itinéraires vélo sécurisés, rapides ou touristiques adaptés à son profil.
   category: Plein air
   tags:
   - vélo
@@ -1067,6 +1238,7 @@ link:
   created: 2025-06-09
 - label: Strava
   url: https://www.strava.com/maps/global-heatmap?sport=All&style=dark&terrain=false&labels=true&poi=true&cPhotos=true&gColor=blue&gOpacity=100#{z}/{lat}/{lon}
+  description: Carte de chaleur mondiale des activités sportives publiques enregistrées sur Strava.
   category: Plein air
   tags:
   - plein-air
@@ -1074,6 +1246,7 @@ link:
   created: 2025-01-01
 - label: Peakfinder
   url: http://www.peakfinder.org/fr/?lat={lat}&lng={lon}&alt=3000
+  description: Panorama dessiné identifiant le nom de tous les sommets visibles depuis un point.
   category: Plein air
   tags:
   - plein-air
@@ -1081,6 +1254,7 @@ link:
   created: 2025-01-01
 - label: Toposcope Maker
   url: http://toposcope.freemap.sk/
+  description: Outil web pour créer des tables d'orientation (toposcopes) depuis n'importe quel point.
   category: Plein air
   tags:
   - plein-air
@@ -1088,6 +1262,7 @@ link:
   created: 2025-01-01
 - label: Tables d'orientation Pyrénées
   url: https://www.tables-orientation-pyrenees.fr/@{lat},{lon},{z}z
+  description: Cartographie et inventaire des tables d'orientation des Pyrénées.
   category: Plein air
   tags:
   - plein-air
@@ -1095,6 +1270,7 @@ link:
   created: 2025-01-01
 - label: PeakVisor
   url: http://peakvisor.com/panorama.html?lat={lat}&lng={lon}
+  description: Panoramas 3D des montagnes avec identification des sommets.
   category: Plein air
   tags:
   - plein-air
@@ -1102,6 +1278,7 @@ link:
   created: 2025-01-01
 - label: Wikiloc
   url: http://fr.wikiloc.com/wikiloc/map.do#lt={lat}&ln={lon}&z={z}
+  description: Partage et recherche de traces GPS de randonnée et d'activités outdoor.
   category: Plein air
   tags:
   - plein-air
@@ -1109,6 +1286,7 @@ link:
   created: 2025-01-01
 - label: Refuges.info
   url: http://www.refuges.info/nav#lat={lat}&lon={lon}&zoom={z}
+  description: Carte des refuges, cabanes et points d'eau en montagne de la communauté refuges.info.
   category: Plein air
   tags:
   - plein-air
@@ -1116,6 +1294,9 @@ link:
   created: 2025-01-01
 - label: Refuges.info (carte seule)
   url: http://maps.refuges.info/?lat={lat}&lon={lon}&zoom={z}
+  description: Carte seule des refuges, cabanes et points d'eau de refuges.info.
+  status: page par défaut du serveur
+  checked: 2026-10-27
   category: Plein air
   tags:
   - plein-air
@@ -1123,6 +1304,7 @@ link:
   created: 2025-01-01
 - label: Refuges et cabanes des Pyrénées
   url: http://www.pyrenees-refuges.com/#{z}/{lat}/{lon}
+  description: Carte interactive des refuges, cabanes, abris et lacs des Pyrénées françaises et espagnoles.
   category: Plein air
   tags:
   - plein-air
@@ -1130,6 +1312,7 @@ link:
   created: 2025-01-01
 - label: Waymarkedtrails
   url: https://hiking.waymarkedtrails.org/#?map={lon}/{lat}/{z}
+  description: Carte des itinéraires de randonnée balisés issus d'OpenStreetMap.
   category: Plein air
   tags:
   - plein-air
@@ -1137,6 +1320,7 @@ link:
   created: 2025-01-01
 - label: OpenTopoMap
   url: http://opentopomap.org/#map={z}/{lat}/{lon}
+  description: Carte topographique avec courbes de niveau et ombrage, issue d'OpenStreetMap.
   category: Plein air
   tags:
   - plein-air
@@ -1144,6 +1328,7 @@ link:
   created: 2025-01-01
 - label: OpenSeaMap
   url: http://map.openseamap.org/?zoom={z}&lat={lat}&lon={lon}&layers=BFTFFFTFFTF0FFFFFFFF
+  description: Cartographie nautique libre (balises, ports, profondeurs) basée sur OpenStreetMap.
   category: Cartes OSM
   tags:
   - plein-air
@@ -1151,6 +1336,7 @@ link:
   created: 2025-01-01
 - label: OpenLinkMap
   url: http://www.openlinkmap.org?lat={lat}&lon={lon}&zoom={z}
+  description: Carte d'informations détaillées (liens, Wikipédia, horaires) sur les objets OpenStreetMap.
   category: Cartes OSM
   tags:
   - plein-air
@@ -1158,6 +1344,7 @@ link:
   created: 2025-01-01
 - label: OpenFireMap (Swiss only)
   url: http://openfiremap.org?lat={lat}&lon={lon}&zoom={z}
+  description: Carte des casernes de pompiers, bornes incendie et défibrillateurs issus d'OpenStreetMap.
   category: Cartes OSM
   tags:
   - plein-air
@@ -1165,6 +1352,7 @@ link:
   created: 2025-01-01
 - label: Geofabrik Map
   url: http://tools.geofabrik.de/map/#{z}/{lat}/{lon}&type=Geofabrik_Standard
+  description: Visualiseur des fonds de carte de Geofabrik et accès à leurs outils OSM.
   category: Cartes OSM
   tags:
   - données
@@ -1172,6 +1360,9 @@ link:
   created: 2025-01-01
 - label: OSM WMS
   url: http://osm-wms.de/index.html?zoom={z<14}&lat={lat}&lon={lon}&layers=B000TFT
+  description: Service WMS de fonds de carte OpenStreetMap proposé par HeiGIT.
+  status: service fermé
+  checked: 2026-10-27
   category: Cartes OSM
   tags:
   - données
@@ -1179,6 +1370,7 @@ link:
   created: 2025-01-01
 - label: Wheelmap
   url: http://wheelmap.org/fr/map#/?lat={lat}&lon={lon}&zoom={z}
+  description: Carte de l'accessibilité des lieux en fauteuil roulant, basée sur OpenStreetMap.
   category: Cartes OSM
   tags:
   - données
@@ -1186,6 +1378,7 @@ link:
   created: 2025-01-01
 - label: XC Trails
   url: http://www.xctrails.org/map.html?type=xc&zoom={z}&lat={lat}&lon={lon}&layers=B00000TFFTTTTTTTFTTTFTT
+  description: Carte des sentiers VTT et cross-country.
   category: Plein air
   tags:
   - plein-air
@@ -1193,6 +1386,7 @@ link:
   created: 2025-01-01
 - label: Camp2camp
   url: http://www.camptocamp.org/map?map_y={y_3857}&map_x={x_3857}&map_zoom={z}&baselayer_ref=osm
+  description: Carte communautaire des itinéraires d'alpinisme, d'escalade, de ski de randonnée et de randonnée.
   category: Plein air
   tags:
   - plein-air
@@ -1200,6 +1394,7 @@ link:
   created: 2025-01-01
 - label: HikeBikeMap
   url: http://hikebikemap.org/
+  description: Carte de randonnée et de vélo avec relief basée sur OpenStreetMap.
   category: Plein air
   tags:
   - plein-air
@@ -1207,6 +1402,7 @@ link:
   created: 2025-01-01
 - label: Cycle Travel
   url: https://cycle.travel/map?lat={lat}&lon={lon}&zoom={z}
+  description: Planificateur d'itinéraires vélo longue distance basé sur OpenStreetMap.
   category: Plein air
   tags:
   - plein-air
@@ -1214,6 +1410,7 @@ link:
   created: 2025-01-01
 - label: Climbing Away
   url: https://climbingaway.fr/fr/sites-escalade/carte-du-monde-des-sites-d-escalade
+  description: Carte mondiale des sites d'escalade.
   category: Plein air
   tags:
   - plein-air
@@ -1221,6 +1418,7 @@ link:
   created: 2025-01-01
 - label: Climbing Community
   url: https://oblyk.org/maps/crags?lat={lat}&lng={lon}&zoom={z}
+  description: Carte des sites naturels d'escalade en France et dans le monde avec leurs fiches détaillées (Oblyk).
   category: Plein air
   tags:
   - plein-air
@@ -1228,6 +1426,9 @@ link:
   created: 2025-01-01
 - label: GPSies
   url: https://www.gpsies.com/home.do;jsessionid=FBD8ED116444F119B5417CDA8555F3FF.fe2#{z}_{lat}_{lon}_hikebike
+  description: Site de partage et de recherche de traces GPS.
+  status: redirige vers AllTrails
+  checked: 2026-10-27
   category: Plein air
   tags:
   - plein-air
@@ -1235,6 +1436,7 @@ link:
   created: 2025-01-01
 - label: WTracks
   url: https://opoto.github.io/wtracks/
+  description: Éditeur de traces GPX multi-segments en ligne pour les activités de plein air.
   category: Plein air
   tags:
   - plein-air
@@ -1242,6 +1444,7 @@ link:
   created: 2025-01-01
 - label: AllTrails
   url: https://www.alltrails.com/fr/explore
+  description: Guides et cartes de sentiers de randonnée, vélo et course à pied.
   category: Plein air
   tags:
   - plein-air
@@ -1251,6 +1454,7 @@ link:
   created: 2025-01-01
 - label: RunTrail Events Map
   url: https://www.runtrail.fr/events/map
+  description: Carte et calendrier des courses à pied, trails, triathlons et épreuves outdoor.
   category: Plein air
   tags:
   - plein-air
@@ -1259,6 +1463,7 @@ link:
   created: 2025-06-07
 - label: OpenSnowMap
   url: http://www.opensnowmap.org?lat={lat}&lon={lon}&zoom={z}
+  description: Carte mondiale des pistes de ski alpin, de fond et de randonnée basée sur OpenStreetMap.
   category: Ski et montagne
   tags:
   - plein-air
@@ -1266,6 +1471,7 @@ link:
   created: 2025-01-01
 - label: SkiTrack
   url: http://www.skitrack.fr?lat={lat}&lon={lon}&zoom={z}
+  description: Carte des pistes de ski de fond et de randonnée nordique.
   category: Ski et montagne
   tags:
   - plein-air
@@ -1273,6 +1479,7 @@ link:
   created: 2025-01-01
 - label: OpenSkiMap
   url: https://openskimap.org
+  description: Carte interactive mondiale du ski alpin, nordique et de randonnée à partir de données ouvertes.
   category: Ski et montagne
   tags:
   - plein-air
@@ -1280,6 +1487,7 @@ link:
   created: 2025-01-01
 - label: Skimap.org
   url: https://skimap.org/
+  description: Plus grande collection de plans des pistes des stations de ski.
   category: Ski et montagne
   tags:
   - plein-air
@@ -1287,36 +1495,44 @@ link:
   created: 2025-01-01
 - label: OpenCellId
   url: http://opencellid.org/#action=filters.GPSPositions&zoom={z}&lat={lat}&lon={lon}
+  description: Plus grande base de données ouverte des antennes relais de téléphonie mobile.
   category: Communication
   tags:
   - communication
   created: 2025-01-01
 - label: Carte des déploiements fibre
   url: https://cartefibre.arcep.fr/index.html?lng={lon}&lat={lat}&zoom={z}&legende=true&filter=true&trimestre=2018T3
+  description: Carte de l'Arcep des déploiements de la fibre optique et des débits à l'adresse.
   category: Communication
   tags:
   - communication
   created: 2025-01-01
 - label: Faisceaux Hertziens
   url: https://carte-fh.lafibre.info/
+  description: Carte des faisceaux hertziens des opérateurs en France.
   category: Communication
   tags:
   - communication
   created: 2025-01-01
 - label: Projet Crozon
   url: https://carte-fh.lafibre.info/index_crozon.php
+  description: Carte des faisceaux hertziens de la presqu'île de Crozon.
   category: Communication
   tags:
   - communication
   created: 2025-01-01
 - label: Zones Wifi
   url: http://pierzen.dev.openstreetmap.org/zoneswifi/#{z}/{lat}/{lon}
+  description: Carte des points Wi-Fi gratuits à partir d'OpenStreetMap.
   category: Communication
   tags:
   - communication
   created: 2025-01-01
 - label: Historic Place
   url: http://gk.historic.place/historische_objekte/translate/fr/index-fr.html?zoom={z}&lat={lat}&lon={lon}&detail=3
+  description: Carte des objets historiques présents dans OpenStreetMap.
+  status: erreur 404
+  checked: 2026-10-27
   category: Histoire et patrimoine
   favorite: true
   tags:
@@ -1324,42 +1540,49 @@ link:
   created: 2025-01-01
 - label: HistOSM
   url: http://histosm.org/#{z}/{lon}/{lat}/0/
+  description: Application WebGIS pour explorer les objets historiques présents dans OpenStreetMap.
   category: Histoire et patrimoine
   tags:
   - histoire
   created: 2025-01-01
 - label: OpenHistoricalMap
   url: http://www.openhistoricalmap.org/#map={z}/{lat}/{lon}&layers=H
+  description: Carte interactive collaborative du monde à travers l'histoire, sur le modèle d'OpenStreetMap.
   category: Histoire et patrimoine
   tags:
   - histoire
   created: 2025-01-01
 - label: OldMapsOnline
   url: http://www.oldmapsonline.org/en/France#bbox={xmin},{ymin},{xmax},{ymax}
+  description: Moteur de recherche de cartes anciennes numérisées dans les bibliothèques du monde.
   category: Histoire et patrimoine
   tags:
   - histoire
   created: 2025-01-01
 - label: Vici
   url: https://vici.org/#{z}/{lat},{lon}
+  description: Atlas archéologique collaboratif des sites antiques.
   category: Histoire et patrimoine
   tags:
   - histoire
   created: 2025-01-01
 - label: Dossier des châteaux de la Suisse
   url: https://castle-map.infs.ch/#{lat},{lon},{z}z
+  description: Carte interactive des châteaux de Suisse.
   category: Histoire et patrimoine
   tags:
   - histoire
   created: 2025-01-01
 - label: placemark.io
   url: https://play.placemark.io
+  description: Éditeur de données géographiques en ligne pour dessiner et modifier des fichiers GeoJSON.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: geojson.io
   url: http://geojson.io/#map={z}/{lat}/{lon}
+  description: Éditeur en ligne simple pour créer et modifier des données GeoJSON sur une carte.
   category: Outils cartographiques
   tags:
   - outil
@@ -1367,6 +1590,7 @@ link:
 - label: geojsonlint
   comment: "Validate GeoJSON data"
   url: https://geojsonlint.com/
+  description: Validation et affichage sur carte de fichiers GeoJSON.
   category: Outils cartographiques
   tags:
   - outil
@@ -1374,132 +1598,156 @@ link:
 - label: geoconverter
   comment: "Convert WMS, WFS, Vector- and Raster-Files to the format you need"
   url: https://geoconverter.infs.ch/
+  description: Convertisseur de formats de données géographiques en ligne.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-06-19
 - label: geojson.net
   url: http://geojson.net/#map={z}/{lat}/{lon}
+  description: Éditeur de GeoJSON en ligne.
+  status: domaine introuvable
+  checked: 2026-10-27
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: geojson.xyz
   url: https://geojson.xyz/
+  description: Accès rapide à des jeux de données GeoJSON (Natural Earth) pour exemples de cartographie web.
   category: Données géographiques
   tags:
   - données
   created: 2025-01-01
 - label: XAPI viewer
   url: http://osm.dumoulin63.net/xapiviewer?lat={lat}&lon={lon}&zoom={z}
+  description: Visualiseur de requêtes XAPI sur les données OpenStreetMap.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Overpass-turbo
   url: http://overpass-turbo.eu?lat={lat}&lon={lon}&zoom={z}
+  description: Outil d'extraction de données OpenStreetMap via des requêtes Overpass, avec affichage sur carte.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Overpass Ultra
   url: https://overpass-ultra.us/#m={z}/{lat}/{lon}
+  description: Création de cartes MapLibre à partir de requêtes Overpass, GeoJSON, GPX ou KML.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: ohsome history explorer
   url: https://ohsome.org/apps/osm-history-explorer/
+  description: Visualisation de l'évolution historique des données OpenStreetMap par cellule (ohsome).
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: ohsome dashboard
   url: https://ohsome.org/apps/dashboard/
+  description: Tableau de bord ohsome pour analyser l'évolution des données OpenStreetMap sur une zone.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: OpenSwitchMaps
   url: https://tankaru.github.io/OpenSwitchMapsWeb/index.html
+  description: Bascule rapide d'un même emplacement entre de nombreux services de cartographie.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: magOSM
   url: https://magosm.magellium.com/portail/#/carte
+  description: Portail de données thématiques OpenStreetMap de Magellium.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: magOSM changements
   url: https://magosm.magellium.com/portail/#/changements
+  description: Suivi des changements dans les données OpenStreetMap thématiques de Magellium.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Map Compare
   url: http://mc.bbbike.org/mc?lat={lat}&lon={lon}&zoom={z}
+  description: Comparaison côte à côte de plus de 300 fonds de carte synchronisés.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Multimap(a)s
   url: https://javier.jimenezshaw.com/mapas/?c={lat},{lon}&z={z}&f=osm&b=bng-sat&v=3&e=0.5&o=100&ed=0&m=&ga=0
+  description: Comparaison de multiples fonds de carte, notamment espagnols et européens.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Mapas (compare)
   url: http://javier.jimenezshaw.com/mapas/mapas.html?z={z}&c={lat},{lon}
+  description: Comparaison côte à côte de fonds de carte.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Distance calculator
   url: http://map.meurisse.org/?lon={lon}&lat={lat}&zoom={z}
+  description: Mesure de distances et de tracés sur une carte.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Geofabrik Tile Calculator
   url: http://tools.geofabrik.de/calc/#type=geofabrik_standard&bbox={xmin},{ymin},{xmax},{ymax}
+  description: Estimation du nombre de tuiles d'une zone selon les niveaux de zoom.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: ICGC Tile Calculator
   url: https://betaserver.icgc.cat/visor/calculator.html
+  description: Estimateur du nombre de tuiles de l'Institut cartographique de Catalogne.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Spatial Reference
   url: http://spatialreference.org/
+  description: Catalogue des systèmes de coordonnées de référence.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: epsg.io
   url: http://epsg.io/
+  description: Recherche des systèmes de coordonnées EPSG/ESRI avec transformations, WKT et Proj4.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: epsg.io map
   url: http://epsg.io/map#srs=3857&x={x_3857}&y={y_3857}&z={z}&layer=streets
+  description: Conversion de coordonnées entre systèmes de projection en pointant sur une carte.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Geo Projections
   url: https://www.geo-projections.com/
+  description: Exploration des projections cartographiques pour la Terre et d'autres corps célestes.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Bbox finder
   url: http://bboxfinder.com/#{ymin},{xmin},{ymax},{xmax}
+  description: Dessin et récupération des coordonnées d'une emprise (bbox) dans différents formats.
   category: Outils cartographiques
   tags:
   - outil
@@ -1507,6 +1755,7 @@ link:
   created: 2025-01-01
 - label: Bounding Box Calculator (Mapscaping)
   url: https://mapscaping.com/bounding-box-calculator/
+  description: Calcul de l'emprise (bbox) d'une zone géographique sur une carte interactive.
   category: Outils cartographiques
   tags:
   - outil
@@ -1514,12 +1763,14 @@ link:
   created: 2025-09-25
 - label: Shadow finder
   url: https://colab.research.google.com/github/Bellingcat/ShadowFinder/blob/main/ShadowFinderColab.ipynb
+  description: Notebook Bellingcat estimant le lieu possible d'une photo à partir de la longueur des ombres.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Bbox tool
   url: https://norbertrenner.de/osm/bbox.html?zoom={z}&lat={lat}&lon={lon}
+  description: Dessin d'un rectangle et export de ses coordonnées aux formats bbox des outils OSM.
   category: Outils cartographiques
   tags:
   - outil
@@ -1527,6 +1778,7 @@ link:
   created: 2025-01-01
 - label: BoundingBox (klokantech)
   url: https://boundingbox.klokantech.com/
+  description: Sélection visuelle d'une emprise géographique et export dans de nombreux formats.
   category: Outils cartographiques
   tags:
   - outil
@@ -1534,24 +1786,28 @@ link:
   created: 2025-01-01
 - label: Web Mercator to WGS84 Converter (Mapscaping)
   url: https://mapscaping.com/web-mercator-to-wgs84-converter/
+  description: Conversion de coordonnées Web Mercator (EPSG:3857) vers WGS84 (EPSG:4326).
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-09-25
 - label: Interactive Coordinate Grid Map (Mapscaping)
   url: https://mapscaping.com/interactive-coordinate-grid-map/
+  description: Affichage d'une grille de coordonnées GPS (degrés, minutes, secondes) sur une carte.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-09-25
 - label: Interactive Global UTM Grid Viewer (Mapscaping)
   url: https://mapscaping.com/utm-zone-map-viewer/
+  description: Visualisation des zones UTM mondiales et identification de la zone d'un point.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-09-25
 - label: Download data from OSM (Mapscaping)
   url: https://mapscaping.com/openstreetmap-category-viewer/
+  description: Téléchargement de données OpenStreetMap par catégorie au format GeoJSON ou CSV.
   category: Outils cartographiques
   tags:
   - outil
@@ -1560,66 +1816,77 @@ link:
   created: 2025-09-25
 - label: Mapshaper
   url: https://mapshaper.org/
+  description: Édition, simplification et conversion de données géographiques (Shapefile, GeoJSON, TopoJSON…).
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: FlipCoords
   url: https://flipcoords.com/#{lat},{lon}
+  description: Inversion rapide de l'ordre des coordonnées lat/lon et lon/lat.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: MGRS grid
   url: https://mappingsupport.com/p/gmap4.php?usng=14S_QG_0044_8474&z=5&t=h
+  description: Visualiseur SIG GISsurfer avec grilles USNG/MGRS.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Geoid Viewer
   url: https://www.g-red.eu/geoid/geoidViewer.html
+  description: Visualiseur des modèles de géoïde.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Online Geoid Calculator
   url: https://geographiclib.sourceforge.io/cgi-bin/GeoidEval?input={lat}%20{lon}&option=Submit
+  description: Calcul de la hauteur du géoïde en un point (GeographicLib).
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Wicket (WKT writer)
   url: https://arthur-e.github.io/Wicket/sandbox-gmaps3.html
+  description: Bac à sable pour dessiner des géométries et obtenir leur représentation WKT.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Geohashes
   url: https://www.movable-type.co.uk/scripts/geohash.html
+  description: Encodage et décodage de geohash avec explications.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Geohash Converter
   url: http://geohash.co/
+  description: Conversion entre geohash et coordonnées latitude/longitude.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Flip coords
   url: https://flipcoords.com/#{lat},{lon}
+  description: Inversion rapide de l'ordre des coordonnées lat/lon et lon/lat.
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: FreeMapTools
   url: https://www.freemaptools.com/
+  description: Collection d'outils cartographiques gratuits (rayons, distances, codes postaux…).
   category: Outils cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Who Did It
   url: http://simon04.dev.openstreetmap.org/whodidit/?zoom={z}&lat={lat}&lon={lon}&layers=BTT
+  description: Analyse des changesets OpenStreetMap récents sur une zone, avec flux RSS.
   category: Contribution OSM
   tags:
   - contribution
@@ -1627,6 +1894,7 @@ link:
   created: 2025-01-01
 - label: OSM QA Feeds
   url: https://tyrasd.github.io/osm-qa-feeds/
+  description: Liste des flux d'assurance qualité OpenStreetMap disponibles pour une zone.
   category: Contribution OSM
   tags:
   - contribution
@@ -1634,6 +1902,7 @@ link:
   created: 2025-01-01
 - label: HOT Tasking Manager
   url: http://tasks.hotosm.org/
+  description: Gestionnaire de tâches du HOT pour coordonner la cartographie humanitaire sur OpenStreetMap.
   category: Contribution OSM
   favorite: true
   tags:
@@ -1642,6 +1911,7 @@ link:
   created: 2025-01-01
 - label: OMO
   url: https://vps-3fba2a8a.ynh.fr/gestionnaire-de-taches-simple/project/
+  description: Gestionnaire de tâches simplifié pour organiser des projets de contribution OpenStreetMap.
   category: Contribution OSM
   tags:
   - contribution
@@ -1649,6 +1919,7 @@ link:
   created: 2025-01-01
 - label: Missing maps
   url: https://www.missingmaps.org/
+  description: Projet de cartographie humanitaire des zones vulnérables aux crises sur OpenStreetMap.
   category: Contribution OSM
   tags:
   - contribution
@@ -1656,6 +1927,7 @@ link:
   created: 2025-01-01
 - label: Disaster Ninja
   url: https://disaster.ninja/active/?map={z}/{lon}/{lat}
+  description: Plateforme de suivi des catastrophes en cours et des besoins de cartographie associés.
   category: Contribution OSM
   tags:
   - contribution
@@ -1663,6 +1935,7 @@ link:
   created: 2025-01-01
 - label: OSMCha
   url: https://osmcha.org/?filters={%22in_bbox%22%3A[{%22label%22%3A%22extent%22%2C%22value%22%3A%22{xmin}%2C{ymin}%2C{xmax}%2C{ymax}%22}]}
+  description: Outil de validation des changesets OpenStreetMap pour détecter vandalisme et erreurs.
   category: Contribution OSM
   tags:
   - contribution
@@ -1670,6 +1943,7 @@ link:
   created: 2025-01-01
 - label: Change viewer (achavi)
   url: http://overpass-api.de/achavi/?zoom={z}&lat={lat}&lon={lon}&layers=B0TFTTT
+  description: Visualisation détaillée des changements OpenStreetMap à partir des diffs Overpass.
   category: Contribution OSM
   tags:
   - contribution
@@ -1677,6 +1951,7 @@ link:
   created: 2025-01-01
 - label: Last Week on OSM
   url: http://tyrasd.github.io/latest-changes/#{z}/{lat}/{lon}
+  description: Exploration des dernières modifications OpenStreetMap sur 24 h à 30 jours.
   category: Contribution OSM
   tags:
   - contribution
@@ -1684,6 +1959,7 @@ link:
   created: 2025-01-01
 - label: Field Papers
   url: https://fieldpapers.org/compose#{z}/{lat}/{lon}
+  description: Création d'atlas papier imprimables pour faire des relevés de terrain.
   category: Contribution OSM
   tags:
   - contribution
@@ -1692,6 +1968,9 @@ link:
   created: 2025-01-01
 - label: Walking Papers
   url: http://www.walking-papers.org/?lat={lat}&lon={lon}&zoom={z}#make
+  description: Service de cartes papier à imprimer pour faire des relevés de terrain.
+  status: domaine réutilisé par un autre site
+  checked: 2026-10-27
   category: Contribution OSM
   tags:
   - contribution
@@ -1700,6 +1979,7 @@ link:
   created: 2025-01-01
 - label: Inkatlas
   url: https://inkatlas.com/create/
+  description: Création de cartes à imprimer pour une sortie ou une publication.
   category: Cartes OSM
   tags:
   - art
@@ -1707,6 +1987,7 @@ link:
   created: 2025-01-01
 - label: BigMap (export as image)
   url: http://openstreetmap.gryph.de/bigmap.html
+  description: Assemblage de tuiles OpenStreetMap en une grande image exportable.
   category: Cartes OSM
   tags:
   - art
@@ -1714,6 +1995,7 @@ link:
   created: 2025-01-01
 - label: BigMap2 (export as image)
   url: http://bigmap.osmz.ru/index.html#map={z}/{lat}/{lon}
+  description: Assemblage et téléchargement de tuiles OpenStreetMap en une seule image.
   category: Cartes OSM
   tags:
   - art
@@ -1721,6 +2003,7 @@ link:
   created: 2025-01-01
 - label: MapCraft
   url: http://mapcraft.nanodesu.ru/map?zoom={z}&lat={y_3857}&lon={x_3857}&layers=BT
+  description: Outil de gestion de cartographie de masse par découpage en zones.
   category: Contribution OSM
   tags:
   - art
@@ -1728,6 +2011,7 @@ link:
   created: 2025-01-01
 - label: OsmHydrant
   url: https://www.osmhydrant.org/fr/#zoom={z}&lat={lat}&lon={lon}
+  description: Visualisation et cartographie des points d'eau incendie dans OpenStreetMap avec zones de couverture.
   category: Contribution OSM
   tags:
   - infrastructure
@@ -1736,6 +2020,7 @@ link:
   created: 2025-01-01
 - label: MapRoulette
   url: http://maproulette.org/
+  description: Défis de micro-tâches pour corriger et améliorer les données OpenStreetMap.
   category: Contribution OSM
   tags:
   - contribution
@@ -1743,6 +2028,7 @@ link:
   created: 2025-01-01
 - label: Pic4Review
   url: https://pic4review.pavie.info
+  description: Revue de jeux de données géographiques à l'aide de photos libres autour des objets.
   category: Contribution OSM
   tags:
   - contribution
@@ -1751,6 +2037,7 @@ link:
   created: 2025-01-01
 - label: OpenStreetMap Localization Tool
   url: https://localize.osm.tracestrack.com/?tags=place%3Dcity&limit=100/#/{z}/{lat}/{lon}
+  description: Outil pour ajouter les traductions des noms de lieux dans OpenStreetMap.
   category: Contribution OSM
   tags:
   - contribution
@@ -1758,6 +2045,7 @@ link:
   created: 2025-01-01
 - label: Isosmfar (Interactive Openstreetmap Heatmap Visualization)
   url: https://liotier.github.io/Geogizmos/Isosmfar/Isosmfar.html
+  description: Carte de chaleur interactive des objets OpenStreetMap.
   category: Contribution OSM
   tags:
   - contribution
@@ -1765,6 +2053,7 @@ link:
   created: 2025-09-25
 - label: Planet OSM
   url: https://planet.osm.org/
+  description: Copies complètes et régulièrement mises à jour de la base de données OpenStreetMap.
   category: Téléchargement OSM
   tags:
   - données
@@ -1772,6 +2061,7 @@ link:
   created: 2025-01-01
 - label: OSM.fr extracts
   url: http://download.openstreetmap.fr/extracts/europe/
+  description: Extraits régionaux des données OpenStreetMap proposés par OpenStreetMap France.
   category: Téléchargement OSM
   tags:
   - données
@@ -1779,6 +2069,7 @@ link:
   created: 2025-01-01
 - label: DATAWAX Données OSM
   url: https://www.data-wax.com/
+  description: Données géographiques issues d'OpenStreetMap prêtes à l'emploi.
   category: Téléchargement OSM
   tags:
   - données
@@ -1786,6 +2077,7 @@ link:
   created: 2025-01-01
 - label: France GeoJSON
   url: https://france-geojson.gregoiredavid.fr/
+  description: Contours géographiques de la France (régions, départements, communes) au format GeoJSON.
   category: Téléchargement OSM
   tags:
   - données
@@ -1793,6 +2085,7 @@ link:
   created: 2025-01-01
 - label: Garmin by OpenTopoMap
   url: http://garmin.opentopomap.org
+  description: Cartes topographiques OpenStreetMap pour appareils GPS Garmin.
   category: Téléchargement OSM
   tags:
   - données
@@ -1800,6 +2093,7 @@ link:
   created: 2025-01-01
 - label: Frikart
   url: http://www.frikart.no/garmin/velgkart.html
+  description: Cartes gratuites pour GPS Garmin (Norvège).
   category: Téléchargement OSM
   tags:
   - données
@@ -1807,6 +2101,9 @@ link:
   created: 2025-01-01
 - label: Garmin osm.nl
   url: http://garmin.openstreetmap.nl/
+  description: Cartes Garmin gratuites générées à partir d'OpenStreetMap pour la zone choisie.
+  status: déplacé vers garmin.bbbike.org
+  checked: 2026-10-27
   category: Téléchargement OSM
   tags:
   - données
@@ -1814,6 +2111,7 @@ link:
   created: 2025-01-01
 - label: Garmin osm.fr
   url: http://garmin.openstreetmap.fr/
+  description: Cartes Garmin OpenStreetMap de la France.
   category: Téléchargement OSM
   tags:
   - données
@@ -1821,6 +2119,7 @@ link:
   created: 2025-01-01
 - label: Garmin alternativaslibres
   url: http://alternativaslibres.org/fr/
+  description: Cartes gratuites pour appareils Garmin réalisées avec OpenStreetMap (usage général, camion, vélo…).
   category: Téléchargement OSM
   tags:
   - données
@@ -1828,6 +2127,7 @@ link:
   created: 2025-01-01
 - label: OpenStreetMap for Garmin GPS devices
   url: https://www.userbeam.de/
+  description: Cartes routables gratuites pour GPS Garmin basées sur OpenStreetMap.
   category: Téléchargement OSM
   tags:
   - données
@@ -1835,6 +2135,7 @@ link:
   created: 2025-01-01
 - label: Geofabrik download
   url: http://download.geofabrik.de/
+  description: Téléchargement d'extraits OpenStreetMap par pays et région (PBF, Shapefile).
   category: Téléchargement OSM
   tags:
   - données
@@ -1842,6 +2143,7 @@ link:
   created: 2025-01-01
 - label: bbbike extracts
   url: http://extract.bbbike.org/?lang=fr&sw_lng={xmin}&sw_lat={ymin}&ne_lng={xmax}&ne_lat={ymax}&format=osm.pbf&oi=1&layers=0B000T
+  description: Extraits OpenStreetMap sur mesure d'une zone dessinée, dans de nombreux formats.
   category: Téléchargement OSM
   tags:
   - données
@@ -1849,6 +2151,7 @@ link:
   created: 2025-01-01
 - label: OpenHikingMaps
   url: https://www.openhiking.eu/en/
+  description: Cartes de randonnée gratuites pour Garmin basées sur OpenStreetMap.
   category: Téléchargement OSM
   tags:
   - données
@@ -1856,6 +2159,7 @@ link:
   created: 2025-01-01
 - label: OpenAndroMaps
   url: https://www.openandromaps.org/en
+  description: Cartes vélo et randonnée hors ligne pour Android basées sur OpenStreetMap.
   category: Téléchargement OSM
   tags:
   - données
@@ -1863,6 +2167,7 @@ link:
   created: 2025-01-01
 - label: HOT Export tool
   url: https://export.hotosm.org/fr/v3/exports
+  description: Outil d'export de données OpenStreetMap par zone et par thème du HOT.
   category: Téléchargement OSM
   tags:
   - données
@@ -1870,6 +2175,7 @@ link:
   created: 2025-01-01
 - label: Geo Downloader
   url: https://geodownloader.com/
+  description: Téléchargement de données OpenStreetMap par zone et catégorie en GeoJSON, Shapefile ou GeoPackage.
   category: Téléchargement OSM
   tags:
   - données
@@ -1878,6 +2184,7 @@ link:
   created: 2025-06-18
 - label: Overture Labs
   url: https://labs.overturemaps.org/
+  description: Outils expérimentaux et démos autour des données ouvertes d'Overture Maps.
   category: Données OSM
   tags:
   - données
@@ -1885,6 +2192,7 @@ link:
   created: 2025-01-01
 - label: Overture Planetiler Demo
   url: https://msbarry.github.io/planetiler-overture-demo/#{z}/{lat}/{lon}
+  description: Démo de tuiles vectorielles générées avec Planetiler à partir des données Overture.
   category: Données OSM
   tags:
   - données
@@ -1892,6 +2200,7 @@ link:
   created: 2025-01-01
 - label: 10 years of OSM
   url: https://www.mapbox.com/ten-years-openstreetmap/#{lon}/{lat}/{z}
+  description: Animation de l'évolution d'OpenStreetMap sur ses dix premières années (Mapbox).
   category: Cartes OSM
   tags:
   - histoire
@@ -1899,6 +2208,7 @@ link:
   created: 2025-01-01
 - label: OSM Live
   url: http://live.openstreetmap.fr/
+  description: Visualisation en direct des modifications faites sur OpenStreetMap.
   category: Cartes OSM
   tags:
   - histoire
@@ -1906,6 +2216,7 @@ link:
   created: 2025-01-01
 - label: Musical OSM
   url: https://musical-osm.netlify.app
+  description: Carte qui joue une note de musique à chaque modification envoyée sur OpenStreetMap.
   category: Cartes OSM
   tags:
   - histoire
@@ -1913,6 +2224,7 @@ link:
   created: 2025-01-01
 - label: Show me the way
   url: http://osmlab.github.io/show-me-the-way/
+  description: Visualisation en direct des changesets OpenStreetMap à travers le monde.
   category: Cartes OSM
   tags:
   - histoire
@@ -1920,6 +2232,7 @@ link:
   created: 2025-01-01
 - label: OSM in realtime
   url: https://osm-in-realtime.jwestman.net/
+  description: Suivi quasi temps réel des modifications OpenStreetMap.
   category: Cartes OSM
   tags:
   - histoire
@@ -1927,6 +2240,7 @@ link:
   created: 2025-01-01
 - label: 4 maps
   url: https://2012.osmz.ru/4.html#{z}/{lat}/{lon}
+  description: Affichage simultané de quatre cartes synchronisées.
   category: Cartes OSM
   tags:
   - histoire
@@ -1934,6 +2248,7 @@ link:
   created: 2025-01-01
 - label: Best Of OSM
   url: http://bestofosm.org/?zoom={z}&lat={lat}&lon={lon}
+  description: Exemples remarquables de cartographie dans OpenStreetMap.
   category: Cartes OSM
   tags:
   - histoire
@@ -1941,12 +2256,14 @@ link:
   created: 2025-01-01
 - label: OSM India community map
   url: https://www.openstreetmap.in/#{z}/{lat}/{lon}
+  description: Carte de la communauté OpenStreetMap d'Inde.
   category: Cartes OSM
   tags:
   - osm
   created: 2025-01-01
 - label: OpenPoiMap
   url: http://openpoimap.org/?map=amenity&zoom={z}&lat={lat}&lon={lon}&layers=B00FFFFFFFFT
+  description: Carte des points d'intérêt OpenStreetMap par thème.
   category: Cartes OSM
   tags:
   - histoire
@@ -1954,6 +2271,7 @@ link:
   created: 2025-01-01
 - label: OpenAEDMap
   url: https://openaedmap.org/fr/#map={z}/{lat}/{lon}
+  description: Carte des défibrillateurs (DAE) basée sur OpenStreetMap.
   category: Cartes OSM
   tags:
   - histoire
@@ -1961,6 +2279,7 @@ link:
   created: 2025-01-01
 - label: OSMyBiz
   url: https://osmybiz.osm.ch/{z}/{lat}/{lon}
+  description: Outil simple pour ajouter ou modifier son commerce dans OpenStreetMap.
   category: Cartes OSM
   tags:
   - histoire
@@ -1968,6 +2287,7 @@ link:
   created: 2025-01-01
 - label: flOSM
   url: http://www.flosm.de/en/poimap.html?lat={lat}&lon={lon}&r={res}
+  description: Carte avec plus de 300 catégories de points d'intérêt (restaurants, commerces, bornes de recharge…).
   category: Cartes OSM
   tags:
   - histoire
@@ -1975,6 +2295,7 @@ link:
   created: 2025-01-01
 - label: WhatIsWhere
   url: https://www.whatiswhere.com/
+  description: Recherche de points d'intérêt OpenStreetMap avec critères multiples.
   category: Cartes OSM
   tags:
   - histoire
@@ -1982,6 +2303,7 @@ link:
   created: 2025-01-01
 - label: Nouvelles Ici
   url: http://nouvellesici.com/
+  description: Carte des restaurants indépendants (hors chaînes) basée sur OpenStreetMap.
   category: Cartes OSM
   tags:
   - histoire
@@ -1989,6 +2311,7 @@ link:
   created: 2025-01-01
 - label: OpenStreetBrowser
   url: https://openstreetbrowser.org/#map={z}/{lat}/{lon}
+  description: Navigateur thématique des données OpenStreetMap avec nombreuses catégories.
   category: Cartes OSM
   tags:
   - histoire
@@ -1996,12 +2319,14 @@ link:
   created: 2025-01-01
 - label: Vector Shortbread Demo
   url: https://vector.openstreetmap.org/demo/shortbread/?utm_source=pocket_saves#{z}/{lat}/{lon}
+  description: Démo des tuiles vectorielles officielles OpenStreetMap au schéma Shortbread.
   category: Cartes OSM
   tags:
   - osm
   created: 2025-06-07
 - label: OpenWhateverMap
   url: http://www.openwhatevermap.xyz/#{z}/{lat}/{lon}
+  description: Carte composée d'un patchwork de fonds de carte différents.
   category: Cartes OSM
   tags:
   - histoire
@@ -2009,6 +2334,7 @@ link:
   created: 2025-01-01
 - label: Nuclear Generators
   url: http://www.leretourdelautruche.com/map/nuke/?zoom={z}&lat={lat}&lon={lon}&layers=B0TT
+  description: Carte des centrales nucléaires dans le monde avec rayon de 100 km.
   category: Cartes OSM
   tags:
   - histoire
@@ -2016,6 +2342,9 @@ link:
   created: 2025-01-01
 - label: Cameras
   url: http://www.leretourdelautruche.com/map/cctv/cctv.html?zoom={z}&lat={lat}&lon={lon}&layers=B00T
+  description: Carte des caméras de vidéosurveillance issues d'OpenStreetMap.
+  status: erreur 404
+  checked: 2026-10-27
   category: Cartes OSM
   tags:
   - histoire
@@ -2023,6 +2352,9 @@ link:
   created: 2025-01-01
 - label: Under surveillance
   url: https://kamba4.crux.uberspace.de/?lat={lat}&lon={lon}&zoom={z}
+  description: Carte de la vidéosurveillance dans OpenStreetMap.
+  status: page par défaut du serveur
+  checked: 2026-10-27
   category: Cartes OSM
   tags:
   - histoire
@@ -2030,6 +2362,7 @@ link:
   created: 2025-01-01
 - label: OpenLevelUp
   url: https://openlevelup.net/?l=0#{z}/{lat}/{lon}
+  description: Visualisation de l'intérieur des bâtiments à partir des données indoor d'OpenStreetMap.
   category: Cartes OSM
   tags:
   - histoire
@@ -2037,6 +2370,7 @@ link:
   created: 2025-01-01
 - label: OpenLevelUp - Old
   url: https://openlevelup.net/old/?lat={lat}&lon={lon}&z={z}&t=0
+  description: Ancienne version d'OpenLevelUp pour visualiser les données indoor.
   category: Cartes OSM
   tags:
   - histoire
@@ -2044,6 +2378,7 @@ link:
   created: 2025-01-01
 - label: OpenStationMap
   url: https://openstationmap.org/#{z}/{lat}/{lon}/0/55
+  description: Carte de l'intérieur des gares (quais, voies, niveaux) basée sur OpenStreetMap.
   category: Cartes OSM
   tags:
   - transport
@@ -2052,6 +2387,7 @@ link:
   created: 2025-01-01
 - label: OpenBeerMap
   url: https://openbeermap.github.io/#{z}/{lat}/{lon}
+  description: Carte des bars et de leurs bières pression, basée sur OpenStreetMap.
   category: Cartes OSM
   tags:
   - histoire
@@ -2059,6 +2395,7 @@ link:
   created: 2025-01-01
 - label: OpenBookCase
   url: https://openbookcase.de/map
+  description: Carte des boîtes à livres et give-boxes publiques, avec adresses et photos.
   category: Cartes OSM
   tags:
   - histoire
@@ -2066,6 +2403,7 @@ link:
   created: 2025-01-01
 - label: Veggy map
   url: https://veggiekarte.de/?lang=fr#{z}/{lat}/{lon}
+  description: Carte des restaurants végétariens et végans basée sur OpenStreetMap.
   category: Cartes OSM
   tags:
   - histoire
@@ -2073,6 +2411,7 @@ link:
   created: 2025-01-01
 - label: Open Brewery Map
   url: https://brewmap.openstreetmap.de/index.html.en#{z}/{lat}/{lon}/0/0/f
+  description: Carte mondiale des brasseries (brewpubs, brasseries artisanales et industrielles).
   category: Cartes OSM
   tags:
   - histoire
@@ -2080,6 +2419,7 @@ link:
   created: 2025-01-01
 - label: OpenAdvertMap
   url: http://projets.pavie.info/openadvertmap/#{z}/{lat}/{lon}
+  description: Carte des panneaux et dispositifs publicitaires présents dans OpenStreetMap.
   category: Cartes OSM
   tags:
   - histoire
@@ -2087,6 +2427,9 @@ link:
   created: 2025-01-01
 - label: Carte des radars
   url: http://www.leretourdelautruche.com/map/radar_fr.html?zoom={z}&amp=&lat={lat}&lon={lon}&layers=B0000000T
+  description: Carte des radars routiers en France.
+  status: erreur 404
+  checked: 2026-10-27
   category: Cartes OSM
   tags:
   - histoire
@@ -2094,6 +2437,7 @@ link:
   created: 2025-01-01
 - label: OSMLanduse
   url: http://osmlanduse.org/#{z}/{lon}/{lat}/0/
+  description: Application WebGIS pour explorer l'occupation et l'usage des sols dans OpenStreetMap.
   category: Cartes OSM
   tags:
   - histoire
@@ -2101,6 +2445,7 @@ link:
   created: 2025-01-01
 - label: Carte des routes
   url: http://itineraires.de.bus.free.fr/carte-des-routes-europeennes-2016/index.html?7,{lon},{lat}#
+  description: Carte des routes et des villes européennes.
   category: Cartes OSM
   tags:
   - histoire
@@ -2108,6 +2453,7 @@ link:
   created: 2025-01-01
 - label: OpenFuelMap
   url: http://openfuelmap.net/#{z}/{lat}/{lon}
+  description: Carte interactive des stations-service et des prix des carburants, actualisés quotidiennement.
   category: Cartes OSM
   tags:
   - histoire
@@ -2115,6 +2461,7 @@ link:
   created: 2025-01-01
 - label: OpenStreetMap.bzh
   url: http://tile.openstreetmap.bzh/?lat={lat}&lon={lon}&zoom={z}&layers=M
+  description: Rendu de la carte OpenStreetMap en breton.
   category: Cartes OSM
   tags:
   - histoire
@@ -2122,6 +2469,7 @@ link:
   created: 2025-01-01
 - label: Wikimedia tile server
   url: https://maps.wikimedia.org/#{z}/{lat}/{lon}
+  description: Serveur de tuiles cartographiques de Wikimedia.
   category: Cartes OSM
   tags:
   - histoire
@@ -2129,6 +2477,7 @@ link:
   created: 2025-01-01
 - label: Bexhill-OSM
   url: http://bexhill-osm.org.uk/#{z}/{lat}/{lon}
+  description: 'Carte très détaillée de Bexhill-on-Sea (Angleterre) : art, commerces, balades et histoire.'
   category: Cartes OSM
   tags:
   - histoire
@@ -2136,6 +2485,7 @@ link:
   created: 2025-01-01
 - label: Nominatim reverse geocoder
   url: https://nominatim.openstreetmap.org/ui/reverse.html?lat={lat}&lon={lon}&zoom={z}
+  description: 'Géocodage inverse avec Nominatim : retrouver l''adresse OSM d''un point.'
   category: Géocodage OSM
   tags:
   - géocodage
@@ -2143,6 +2493,7 @@ link:
   created: 2025-01-01
 - label: BANO + Solr
   url: https://www.ideeslibres.org/Bano
+  description: Recherche d'adresses dans la Base Adresse Nationale Ouverte (BANO) via Solr.
   category: Géocodage OSM
   tags:
   - géocodage
@@ -2150,6 +2501,7 @@ link:
   created: 2025-01-01
 - label: OpenTripMap
   url: https://opentripmap.com/en/#{z}/{lat}/{lon}
+  description: Carte des sites touristiques du monde pour préparer ses visites et itinéraires.
   category: Cartes OSM
   tags:
   - histoire
@@ -2157,6 +2509,7 @@ link:
   created: 2025-01-01
 - label: Omniscale OSM Hosting
   url: https://maps.omniscale.com/en/demo#map={z}/{lat}/{lon}/3857/B
+  description: Démo des fonds de carte OpenStreetMap hébergés par Omniscale.
   category: Cartes OSM
   tags:
   - histoire
@@ -2164,6 +2517,7 @@ link:
   created: 2025-01-01
 - label: Parc Epique
   url: https://parc-epique.fr/#/
+  description: Carte collaborative des aires de jeux pour enfants.
   category: Cartes OSM
   tags:
   - histoire
@@ -2171,6 +2525,7 @@ link:
   created: 2025-01-01
 - label: OpenCampingMap
   url: https://opencampingmap.org/#{z}/{lat}/{lon}
+  description: Carte des campings basée sur OpenStreetMap.
   category: Cartes OSM
   tags:
   - histoire
@@ -2178,6 +2533,7 @@ link:
   created: 2025-01-01
 - label: OpenStreetMap 4D
   url: http://osm13.openstreetmap.fr/~cquest/leaflet/4d.html#{z}/{lat}/{lon}
+  description: Carte OpenStreetMap avec dimension temporelle (historique des données).
   category: Cartes OSM
   tags:
   - histoire
@@ -2185,6 +2541,7 @@ link:
   created: 2025-01-01
 - label: OpenStreetMap by cquest
   url: http://osm13.openstreetmap.fr/~cquest/leaflet/l.html#{z}/{lat}/{lon}
+  description: Fonds de carte OpenStreetMap expérimentaux de Christian Quest.
   category: Cartes OSM
   tags:
   - histoire
@@ -2192,6 +2549,7 @@ link:
   created: 2025-01-01
 - label: Cassini GL
   url: https://makinacorpus.github.io/cassini-gl-style/#{z}/{lon}/{lat}
+  description: Style de carte vectorielle inspiré de la carte de Cassini (Makina Corpus).
   category: Cartes OSM
   tags:
   - histoire
@@ -2199,6 +2557,7 @@ link:
   created: 2025-01-01
 - label: FacilMap
   url: https://facilmap.org/#{z}/{lon}/{lat}/Mpnk
+  description: Carte collaborative en temps réel basée sur OpenStreetMap pour ajouter marqueurs et tracés.
   category: Cartes OSM
   tags:
   - histoire
@@ -2206,108 +2565,130 @@ link:
   created: 2025-01-01
 - label: Wikimapia
   url: http://wikimapia.org/#lat={lat}&lon={lon}&z={z}&lang=fr&m=b
+  description: Carte collaborative en ligne où chacun peut décrire n'importe quel lieu sur Terre.
   category: Références géographiques
   tags:
   - encyclopédie
   created: 2025-01-01
 - label: GeoHack
   url: http://tools.wmflabs.org/geohack/geohack.php?language=fr&params={lat}_N_{lon}_E
+  description: Page Wikimedia proposant de nombreux services de cartes et vues satellites pour des coordonnées.
   category: Services cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Geody
   url: http://www.geody.com/geolook.php?lat={lat}&lon={lon}&z={z}
+  description: Moteur de recherche géographique et visualiseur de lieux.
+  status: connexion refusée
+  checked: 2026-10-27
   category: Services cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Geody KML
   url: http://www.geody.com/geovex.php?lat={lat}&lon={lon}&z={z}&fmt=gearth
+  description: Export de lieux Geody au format KML.
+  status: connexion refusée
+  checked: 2026-10-27
   category: Services cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Geonames
   url: http://www.geonames.org/maps/google_{lat}_{lon}.html
+  description: Base de données géographique mondiale de toponymes (GeoNames).
   category: Services cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Relief Map
   url: http://maps-for-free.com/?val={lat},{lon},{z}
+  description: Carte du relief mondial avec ombrage et bathymétrie.
   category: Services cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Hitchwiki
   url: http://hitchwiki.org/maps/?zoom={z}&lat={lat}&lon={lon}
+  description: Carte collaborative des spots d'auto-stop.
   category: Services cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Falling Fruit
   url: https://fallingfruit.org/?z={z}&y={lat}&x={lon}&m=false
+  description: Carte collaborative de la cueillette urbaine (arbres fruitiers, plantes comestibles).
   category: Services cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Protected Planet
   url: https://www.protectedplanet.net/
+  description: Base de données mondiale des aires protégées.
   category: Services cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Pollution lumineuse
   url: https://avex-asso.org/dossiers/pl/europe-2016/google-map-fausse-couleur/index.html
+  description: Carte de la pollution lumineuse en Europe (AVEX).
   category: Services cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: OpenAerialMap
   url: https://map.openaerialmap.org/#/{lon},{lat},{z}
+  description: Collection ouverte d'images aériennes et de drone.
   category: Services cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Antipodes
   url: https://www.datadaptive.com/ant/?lat={lat}&lng={lon}
+  description: Trouver l'antipode de n'importe quel point sur Terre.
   category: Services cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: EFFIS - Fires map
   url: https://forest-fire.emergency.copernicus.eu/apps/effis.csv/?c={x_3857},{y_3857}
+  description: Carte des feux de forêt en cours et des surfaces brûlées en Europe (Copernicus EFFIS).
   category: Services cartographiques
   tags:
   - outil
   created: 2026-10-27
 - label: IGN LidarHD access portal
   url: https://diffusion-lidarhd.ign.fr/
+  description: Téléchargement des produits LiDAR HD de l'IGN (nuages de points, MNT, MNS).
   category: Services cartographiques
   tags:
   - outil
   created: 2025-01-01
 - label: Teleray
   url: https://teleray.asnr.fr/#/home/map
+  description: Réseau national de mesure de la radioactivité dans l'air en temps réel (ASNR).
   category: Services cartographiques
   tags:
   - outil
   created: 2025-06-18
 - label: FOGOS.pt
   url: https://fogos.pt/
+  description: Suivi en temps réel des incendies au Portugal avec moyens mobilisés et alertes.
   category: Services cartographiques
   tags:
   - outil
   created: 2025-09-25
 - label: Radiological Maps - European Commission
   url: https://remap.jrc.ec.europa.eu/Advanced.aspx
+  description: Cartes de la radioactivité environnementale en Europe (JRC, Commission européenne).
   category: Services cartographiques
   tags:
   - outil
   created: 2025-06-21
 - label: OSRM
   url: http://map.project-osrm.org/?z={z}&center={lat}%2C{lon}&loc=&loc=&hl=en&ly=&alt=&df=&srv=
+  description: Démo du moteur de calcul d'itinéraires open source OSRM.
   category: Itinéraires
   tags:
   - itinéraire
@@ -2315,6 +2696,7 @@ link:
   created: 2025-01-01
 - label: OpenRouteService
   url: https://maps.openrouteservice.org/#/place/@{lat},{lon},{z}
+  description: Planificateur d'itinéraires et d'isochrones multimodal basé sur OpenStreetMap.
   category: Itinéraires
   tags:
   - itinéraire
@@ -2322,6 +2704,7 @@ link:
   created: 2025-01-01
 - label: Brouter
   url: http://brouter.de/brouter-web/#map={z}/{lat}/{lon}/cyclosm&profile=hiking-beta
+  description: Calcul d'itinéraires vélo et randonnée personnalisables basé sur OpenStreetMap.
   category: Itinéraires
   favorite: true
   tags:
@@ -2330,6 +2713,7 @@ link:
   created: 2025-01-01
 - label: How far did I run
   url: https://onthegomap.com/#/create
+  description: Tracer un parcours de course, marche ou vélo, avec distance et profil altimétrique.
   category: Itinéraires
   favorite: true
   tags:
@@ -2338,6 +2722,7 @@ link:
   created: 2025-01-01
 - label: gpx.studio
   url: https://gpx.studio/
+  description: Éditeur de fichiers GPX en ligne avec planification d'itinéraires.
   category: Itinéraires
   favorite: true
   tags:
@@ -2347,6 +2732,9 @@ link:
   created: 2025-01-01
 - label: Running Routes
   url: https://www.running-routes.com/
+  description: Recherche et partage de parcours de course à pied.
+  status: erreur 404
+  checked: 2026-10-27
   category: Itinéraires
   tags:
   - itinéraire
@@ -2356,6 +2744,7 @@ link:
   created: 2025-09-25
 - label: Sherpa Map
   url: https://sherpa-map.com/
+  description: Planificateur d'itinéraires vélo avancé avec profils de routage, météo et détail du terrain.
   category: Itinéraires
   favorite: true
   tags:
@@ -2365,6 +2754,7 @@ link:
   created: 2025-01-01
 - label: Bike Citizens
   url: https://map.bikecitizens.net
+  description: Planificateur d'itinéraires vélo urbains.
   category: Itinéraires
   tags:
   - itinéraire
@@ -2372,6 +2762,7 @@ link:
   created: 2025-01-01
 - label: Kurviger (motorcyle)
   url: https://kurviger.de/en?point={lat}%2C{lon}
+  description: Planificateur d'itinéraires moto sinueux et pittoresques.
   category: Itinéraires
   tags:
   - itinéraire
@@ -2379,6 +2770,7 @@ link:
   created: 2025-01-01
 - label: Calimoto
   url: https://calimoto.com/fr/itineraires-moto
+  description: Création d'itinéraires moto sinueux.
   category: Itinéraires
   tags:
   - itinéraire
@@ -2386,6 +2778,7 @@ link:
   created: 2025-01-01
 - label: Roadcurvature
   url: https://roadcurvature.com/map/#map={z}/{lon}/{lat}
+  description: Carte des routes les plus sinueuses.
   category: Itinéraires
   tags:
   - itinéraire
@@ -2393,6 +2786,7 @@ link:
   created: 2025-01-01
 - label: Railway Routing
   url: https://signal.eu.org/osm/#{z}/{lat}/{lon}
+  description: Calcul d'itinéraires ferroviaires sur les données OpenStreetMap.
   category: Itinéraires
   tags:
   - itinéraire
@@ -2401,6 +2795,7 @@ link:
   created: 2025-01-01
 - label: Waze
   url: https://www.waze.com/fr/livemap/?zoom={z}&lat={lat}&lon={lon}
+  description: Carte en direct du trafic et des incidents signalés par les utilisateurs Waze.
   category: Transport
   tags:
   - transport
@@ -2408,6 +2803,7 @@ link:
   created: 2025-01-01
 - label: InfoTraffic
   url: https://www.infotrafic.com/home
+  description: Suivi de l'état du trafic routier en temps réel.
   category: Transport
   tags:
   - transport
@@ -2415,6 +2811,7 @@ link:
   created: 2025-01-01
 - label: Bison Futé
   url: https://www.bison-fute.gouv.fr/maintenant.html
+  description: État du trafic routier en temps réel et prévisions officielles en France.
   category: Transport
   tags:
   - transport
@@ -2422,6 +2819,7 @@ link:
   created: 2025-01-01
 - label: Vinci Autoroutes
   url: https://www.vinci-autoroutes.com/fr/autoroutes-temps-reel
+  description: Trafic en temps réel sur le réseau autoroutier Vinci.
   category: Transport
   tags:
   - transport
@@ -2429,6 +2827,7 @@ link:
   created: 2025-01-01
 - label: Prix des carburants
   url: https://www.prix-carburants.gouv.fr/
+  description: Site gouvernemental des prix des carburants en France.
   category: Transport
   tags:
   - transport
@@ -2436,6 +2835,7 @@ link:
   created: 2025-01-01
 - label: Autoroutes.fr
   url: https://www.autoroutes.fr/fr/trafic-en-temps-reel.htm
+  description: Trafic autoroutier en temps réel et estimation des temps de parcours.
   category: Transport
   tags:
   - transport
@@ -2443,6 +2843,7 @@ link:
   created: 2025-01-01
 - label: Plan Tisseo
   url: https://www.tisseo.fr/plan-interactif/#
+  description: Plan interactif du réseau de transports en commun Tisséo de Toulouse.
   category: Transport
   tags:
   - transport
@@ -2450,6 +2851,7 @@ link:
   created: 2025-01-01
 - label: Moovit
   url: https://moovitapp.com/
+  description: Calcul d'itinéraires et horaires de transports en commun en temps réel.
   category: Transport
   tags:
   - transport
@@ -2457,6 +2859,7 @@ link:
   created: 2025-01-01
 - label: Flightradar24
   url: https://www.flightradar24.com/{lat},{lon}/{z}
+  description: Suivi des avions en temps réel dans le monde.
   category: Transport
   tags:
   - transport
@@ -2464,6 +2867,7 @@ link:
   created: 2025-01-01
 - label: Radar Box
   url: https://www.radarbox24.com/@{lat},{lon},z{z}
+  description: Suivi des vols en temps réel via ADS-B.
   category: Transport
   tags:
   - transport
@@ -2471,6 +2875,7 @@ link:
   created: 2025-01-01
 - label: Open Transport Map
   url: http://app.hslayers.org/open_transport_map/map.html?hs_x={x_3857}&hs_y={y_3857}&hs_z={z}
+  description: Carte européenne des réseaux de transport basée sur OpenStreetMap.
   category: Transport
   tags:
   - transport
@@ -2478,6 +2883,7 @@ link:
   created: 2025-01-01
 - label: OpenRailwayMap
   url: https://www.openrailwaymap.org/?lat={lat}&lon={lon}&zoom={z}
+  description: Carte mondiale des infrastructures ferroviaires basée sur OpenStreetMap.
   category: Transport
   tags:
   - transport
@@ -2486,6 +2892,7 @@ link:
   created: 2025-01-01
 - label: OpenRailwayMap 2
   url: https://openrailwaymap.fly.dev/#view={z}/{lat}/{lon}
+  description: Nouvelle version d'OpenRailwayMap en tuiles vectorielles.
   category: Transport
   tags:
   - transport
@@ -2496,6 +2903,7 @@ link:
 - label: Carto Tchoo
   comment: "Carte des trains en France, avec les gares, les voies, les trains en circulation et les horaires."
   url: https://carto.tchoo.net/map/{lat},{lon},{z},0,0
+  description: Carte des voies ferrées basée sur OpenStreetMap.
   category: Transport
   tags:
   - transport
@@ -2503,6 +2911,7 @@ link:
   created: 2025-01-01
 - label: Carte de France du train vélo
   url: https://velotrain.fr
+  description: Planification de voyages combinant vélo et train, avec horaires et conditions.
   category: Transport
   tags:
   - transport
@@ -2511,6 +2920,9 @@ link:
   created: 2025-01-01
 - label: Ship watch
   url: http://www.geody.com/shipswatch.php?lat={lat}&lon={lon}&z={z}
+  description: Suivi des navires en temps réel.
+  status: connexion refusée
+  checked: 2026-10-27
   category: Transport
   tags:
   - transport
@@ -2518,6 +2930,7 @@ link:
   created: 2025-01-01
 - label: Carte de balises en ligne
   url: http://beacons.schmirler.de/fr/world.html#map={z}/{lat}/{lon}&layers=OS6&details=18
+  description: Carte animée de plus de 50 000 phares, bouées et balises lumineuses.
   category: Transport
   tags:
   - transport
@@ -2525,6 +2938,7 @@ link:
   created: 2025-01-01
 - label: Marine Traffic
   url: http://www.marinetraffic.com/fr/ais/home/centerx:{lon}/centery:{lat}/zoom:{z}
+  description: Suivi des navires en temps réel par AIS.
   category: Transport
   tags:
   - transport
@@ -2532,6 +2946,7 @@ link:
   created: 2025-01-01
 - label: Navigable Waterways
   url: http://maps.grade.de/?zoom={z}&lat={lat}&lon={lon}&layers=B0FTTTTFFFFFFFFTT
+  description: Carte des voies navigables européennes.
   category: Transport
   tags:
   - transport
@@ -2539,6 +2954,7 @@ link:
   created: 2025-01-01
 - label: WaterwayMap
   url: https://waterwaymap.org/#map={z}/{lat}/{lon}
+  description: Vue topologique des cours d'eau d'OpenStreetMap montrant leurs bassins et connexions.
   category: Transport
   tags:
   - transport
@@ -2546,6 +2962,7 @@ link:
   created: 2025-01-01
 - label: LighthouseMap
   url: https://geodienst.github.io/lighthousemap/
+  description: Carte animée des phares et feux en mer avec leurs vraies couleurs.
   category: Transport
   tags:
   - transport
@@ -2553,18 +2970,21 @@ link:
   created: 2025-01-01
 - label: Heaven Above
   url: https://www.heavens-above.com/skyview/?lat={lat}&lng={lon}&cul=fr#/livesky
+  description: Vue du ciel en direct avec position des satellites, de l'ISS et des étoiles.
   category: Espace
   tags:
   - astronomie
   created: 2025-01-01
 - label: Sat map
   url: https://satmap.space/
+  description: Carte en temps réel de la position des satellites et des constellations.
   category: Espace
   tags:
   - astronomie
   created: 2025-01-01
 - label: 2 pieds 2 roues
   url: https://velomax.2p2r.org/index.php/view/map/?repository=carto&project=velomax&bbox={xmin_3857}%2C{ymin_3857}%2C{xmax_3857}%2C{ymax_3857}&crs=EPSG%3A3857
+  description: Application de contribution au maillage cyclable de l'association 2 Pieds 2 Roues (Toulouse).
   category: Transport
   tags:
   - transport
@@ -2572,6 +2992,7 @@ link:
   created: 2025-01-01
 - label: Open Charge Map
   url: https://openchargemap.org/site
+  description: Base de données mondiale ouverte des bornes de recharge pour véhicules électriques.
   category: Transport
   tags:
   - transport
@@ -2579,6 +3000,7 @@ link:
   created: 2025-01-01
 - label: OpenOrienteeringMap
   url: http://oomap.co.uk/global/#/new/oterrain_global/{z}/{lon}/{lat}/
+  description: Création facile de cartes de course d'orientation urbaine.
   category: Jeux et découvertes
   tags:
   - jeux
@@ -2588,6 +3010,7 @@ link:
   created: 2025-01-01
 - label: Knooppuntnet
   url: https://knooppuntnet.nl/fr/map/hiking
+  description: Carte des réseaux de points-nœuds de randonnée et de vélo (Pays-Bas, Belgique, Allemagne).
   category: Plein air
   tags:
   - plein-air
@@ -2596,6 +3019,7 @@ link:
   created: 2025-06-07
 - label: FloodMap
   url: https://www.floodmap.net/
+  description: Carte des zones inondables selon la hausse du niveau de l'eau et l'altitude.
   category: Services cartographiques
   tags:
   - outil
@@ -2603,6 +3027,7 @@ link:
   created: 2025-06-07
 - label: Copernicus Browser
   url: https://browser.dataspace.copernicus.eu
+  description: Consultation et téléchargement des images de toutes les missions Copernicus.
   category: Services cartographiques
   tags:
   - outil
@@ -2611,6 +3036,7 @@ link:
   created: 2025-06-07
 - label: Zoom Earth
   url: https://zoom.earth/maps/precipitation
+  description: Carte interactive des précipitations prévues dans le monde.
   category: Météo
   tags:
   - météo
@@ -2618,6 +3044,7 @@ link:
   created: 2025-06-07
 - label: CartoSVG
   url: https://cartosvg.com/app
+  description: Éditeur de cartes SVG interactives à partir de données.
   category: Outils cartographiques
   tags:
   - outil
@@ -2625,6 +3052,7 @@ link:
   created: 2025-06-07
 - label: YouTube GeoFind
   url: https://mattw.io/youtube-geofind/location
+  description: Recherche de vidéos YouTube géolocalisées par lieu.
   category: Services cartographiques
   tags:
   - vidéo
@@ -2632,6 +3060,7 @@ link:
   created: 2025-06-07
 - label: Planet Insights
   url: https://insights.planet.com/analyze/browser/
+  description: Consultation et comparaison des images satellites de Planet.
   category: Données géographiques
   tags:
   - satellite
@@ -2639,6 +3068,7 @@ link:
   created: 2025-06-07
 - label: IGN Spain DEM Grabber
   url: https://martingonzalez.net/ign-dem-grabber/
+  description: Téléchargement des modèles numériques de terrain de l'IGN espagnol (2 m à 200 m).
   category: Données géographiques
   tags:
   - données
@@ -2646,18 +3076,21 @@ link:
   created: 2025-06-18
 - label: Commute Time Map
   url: https://commutetimemap.com/map
+  description: Carte isochrone des temps de trajet depuis son lieu de travail pour choisir où habiter.
   category: Transport
   tags:
   - transport
   created: 2025-06-07
 - label: Chronotrains
   url: https://www.chronotrains.com/fr
+  description: Carte des destinations accessibles en train en Europe et des temps de trajet.
   category: Transport
   tags:
   - transport
   created: 2025-06-18
 - label: Panoramax OSM
   url: https://panoramax.openstreetmap.fr/?background=streets&focus=map&map={z}/{lat}/{lon}
+  description: Photos de rue libres de Panoramax hébergées par OpenStreetMap France.
   category: Services cartographiques
   tags:
   - vue-de-rue
@@ -2665,6 +3098,7 @@ link:
   created: 2025-06-10
 - label: Panoramax IGN
   url: https://panoramax.ign.fr/?background=streets&focus=map&map={z}/{lat}/{lon}
+  description: Photos de rue libres de Panoramax hébergées par l'IGN.
   category: Services cartographiques
   tags:
   - vue-de-rue
@@ -2672,6 +3106,7 @@ link:
   created: 2025-06-10
 - label: Map.army
   url: https://www.map.army/
+  description: Création et partage de cartes de situation militaire avec la symbologie OTAN (MIL-STD-2525, APP-6).
   category: Outils cartographiques
   tags:
   - outil
@@ -2679,6 +3114,7 @@ link:
   created: 2026-10-27
 - label: MapGridder
   url: https://mapgridder.com/map?tool=grid&mgrs=1
+  description: Superposition de grilles MGRS ou métriques sur une carte, édition GPX/KML et export.
   category: Outils cartographiques
   tags:
   - outil
@@ -2686,6 +3122,7 @@ link:
   created: 2026-10-27
 - label: Itiner-e (voies romaines)
   url: https://www.itiner-e.org/
+  description: Atlas numérique des voies romaines de l'Antiquité.
   category: Histoire et patrimoine
   tags:
   - histoire
@@ -2693,6 +3130,7 @@ link:
   created: 2026-10-27
 - label: GlobalBuildingAtlas LoD1
   url: https://tubvsig-so2sat-vm1.srv.mwn.de/
+  description: Atlas mondial des bâtiments en 3D (LoD1) dérivé par apprentissage automatique.
   category: Données géographiques
   tags:
   - données
@@ -2701,6 +3139,7 @@ link:
   created: 2026-10-27
 - label: Galligeo (cartes Gallica géoréférencées)
   url: https://app.ptm.huma-num.fr/galligeo/galerie/index.html
+  description: Cartes et plans de Gallica (BnF) géoréférencés par la communauté.
   category: Histoire et patrimoine
   tags:
   - histoire
@@ -2708,6 +3147,7 @@ link:
   created: 2026-10-27
 - label: CNIG Centro de descargas
   url: https://centrodedescargas.cnig.es/CentroDescargas/catalogo
+  description: Centre de téléchargement des données géographiques du CNIG (Espagne).
   category: Données géographiques
   tags:
   - données
@@ -2715,12 +3155,14 @@ link:
   created: 2026-10-27
 - label: IGN Ma carte
   url: https://macarte.ign.fr/
+  description: Création de cartes personnalisées, narratives ou statistiques sur fonds IGN.
   category: Outils cartographiques
   tags:
   - outil
   created: 2026-10-27
 - label: South America River Basins
   url: https://python-maps-vis.vercel.app/
+  description: Visualisation artistique des bassins fluviaux d'Amérique du Sud.
   category: Art et visualisation
   tags:
   - art
@@ -2728,6 +3170,7 @@ link:
   created: 2026-10-27
 - label: PastVu (photos anciennes)
   url: https://pastvu.com/
+  description: Photos anciennes géolocalisées du monde entier.
   category: Histoire et patrimoine
   tags:
   - histoire
@@ -2735,6 +3178,7 @@ link:
   created: 2026-10-27
 - label: World Piste Map
   url: https://worldpistemap.com/map#lng={lon}&lat={lat}&z={z}
+  description: Carte mondiale des pistes de ski.
   category: Ski et montagne
   tags:
   - plein-air
@@ -2742,6 +3186,7 @@ link:
   created: 2026-10-27
 - label: EOPF Sentinel Zarr Explorer
   url: https://explorer.eopf.copernicus.eu/
+  description: Exploration des produits Sentinel au format Zarr du programme Copernicus EOPF.
   category: Données géographiques
   tags:
   - satellite
@@ -2749,6 +3194,7 @@ link:
   created: 2026-10-27
 - label: Mapterhorn
   url: https://mapterhorn.com/viewer/#map={z}/{lat}/{lon}
+  description: Tuiles de relief publiques et ouvertes, de 30 m dans le monde à 0,25 m en Europe.
   category: Données géographiques
   tags:
   - données
@@ -2756,6 +3202,7 @@ link:
   created: 2026-10-27
 - label: OpenBenches
   url: https://openbenches.org/
+  description: Carte collaborative de près de 40 000 bancs commémoratifs.
   category: Jeux et découvertes
   tags:
   - culture
@@ -2763,6 +3210,7 @@ link:
   created: 2026-10-27
 - label: BBBike downloads
   url: https://download.bbbike.org/osm/
+  description: Téléchargement d'extraits OpenStreetMap prêts à l'emploi de plus de 200 villes et régions.
   category: Téléchargement OSM
   tags:
   - données
@@ -2770,6 +3218,7 @@ link:
   created: 2026-10-27
 - label: OSM Wrapped
   url: https://osmwrapped.com/
+  description: Bilan annuel personnalisé des contributions sur OpenStreetMap.
   category: Contribution OSM
   tags:
   - contribution
@@ -2778,6 +3227,7 @@ link:
   created: 2026-10-27
 - label: Microsoft Planetary Computer
   url: https://planetarycomputer.microsoft.com/
+  description: Catalogue de données d'observation de la Terre et outils d'analyse de Microsoft.
   category: Données géographiques
   tags:
   - satellite
@@ -2785,6 +3235,7 @@ link:
   created: 2026-10-27
 - label: Copernicus STAC Browser
   url: https://browser.stac.dataspace.copernicus.eu/?.language=en
+  description: Catalogue STAC des données Copernicus du Copernicus Data Space Ecosystem.
   category: Données géographiques
   tags:
   - satellite
@@ -2792,6 +3243,7 @@ link:
   created: 2026-10-27
 - label: Copernicus Marine Viewer
   url: https://data.marine.copernicus.eu/viewer/expert
+  description: Visualiseur des données océanographiques du service Copernicus Marine.
   category: Données géographiques
   tags:
   - mer
@@ -2800,6 +3252,7 @@ link:
   created: 2026-10-27
 - label: Trail Router
   url: https://trailrouter.com/
+  description: Générateur de parcours de course à pied en boucle privilégiant les espaces verts.
   category: Itinéraires
   tags:
   - itinéraire
@@ -2808,6 +3261,7 @@ link:
   created: 2026-10-27
 - label: Data Center Map
   url: https://www.datacentermap.com/
+  description: Carte mondiale des centres de données.
   category: Communication
   tags:
   - communication
@@ -2815,6 +3269,7 @@ link:
   created: 2026-10-27
 - label: Geneanet
   url: https://geneanet.org/
+  description: Site de généalogie avec arbres familiaux et archives.
   category: Histoire et patrimoine
   tags:
   - histoire
@@ -2822,6 +3277,7 @@ link:
   created: 2026-10-27
 - label: LiDAR HD MNS (cartes.gouv.fr)
   url: https://cartes.gouv.fr/catalogue/dataset/IGNF_MNS-LIDAR-HD
+  description: Fiche du modèle numérique de surface (MNS) issu du LiDAR HD de l'IGN.
   category: Données géographiques
   tags:
   - données
@@ -2830,12 +3286,14 @@ link:
   created: 2026-10-27
 - label: GoGoCarto
   url: https://gogocarto.fr/projects
+  description: Outil de création de cartes collaboratives pour les projets et réseaux d'acteurs.
   category: Outils cartographiques
   tags:
   - outil
   created: 2026-10-27
 - label: NASA Worldview
   url: https://worldview.earthdata.nasa.gov/
+  description: Visualisation interactive des images satellites de la NASA presque en temps réel.
   category: Services cartographiques
   tags:
   - satellite
@@ -2843,6 +3301,7 @@ link:
   created: 2026-10-27
 - label: Sextant (Ifremer)
   url: https://sextant.ifremer.fr/#/home
+  description: Catalogue de données sur le milieu marin et littoral de l'Ifremer.
   category: Géoportails
   tags:
   - géoportail
@@ -2850,12 +3309,14 @@ link:
   created: 2026-10-27
 - label: GéoBretagne MapStore
   url: https://geobretagne.fr/mapstore/
+  description: Visualiseur cartographique de l'infrastructure de données géographiques de Bretagne.
   category: Géoportails
   tags:
   - géoportail
   created: 2026-10-27
 - label: Welcome to OpenStreetMap
   url: https://welcome.openstreetmap.org/
+  description: Présentation d'OpenStreetMap pour les nouveaux venus et comment y contribuer.
   category: Contribution OSM
   tags:
   - contribution
@@ -2863,12 +3324,14 @@ link:
   created: 2026-10-27
 - label: TreasureGuessr
   url: https://play.treasureguessr.com/
+  description: Jeu de géolocalisation où il faut retrouver des lieux sur une carte.
   category: Jeux et découvertes
   tags:
   - jeux
   created: 2026-10-27
 - label: OSM Mon Commerce
   url: https://osm-commerces.cipherbliss.com/
+  description: Outil pour mettre à jour les informations de son commerce dans OpenStreetMap.
   category: Contribution OSM
   tags:
   - contribution
@@ -2876,6 +3339,7 @@ link:
   created: 2026-10-27
 - label: Knooppuntnet analyse réseaux
   url: https://knooppuntnet.nl/fr/analysis/network/15631178/facts
+  description: Analyse de la qualité d'un réseau de points-nœuds dans OpenStreetMap.
   category: Contribution OSM
   tags:
   - contribution
@@ -2886,114 +3350,145 @@ link:
 edit:
 - label: Load in JOSM
   url: http://127.0.0.1:8111/load_and_zoom?left={xmin}&right={xmax}&top={ymax}&bottom={ymin}
+  description: Charge la zone affichée dans l'éditeur JOSM via son contrôle à distance.
   tags:
   - outil
 - label: Edit with iD editor
   url: http://www.openstreetmap.org/id#map={z}/{lat}/{lon}
+  description: Ouvre la zone affichée dans l'éditeur iD d'OpenStreetMap.
   tags:
   - outil
 - label: Improve OSM
   url: http://improveosm.org/#background=Bing&map={z}/{lat}/{lon}
+  description: Outils et données de Grab pour détecter les routes et sens manquants dans OpenStreetMap.
   tags:
   - outil
 - label: Amenity editor
   url: http://ae.osmsurround.org/ae/index?lat={lat}&lon={lon}&zoom={z}
+  description: Éditeur simple des points d'intérêt (amenity) d'OpenStreetMap.
+  status: erreur 404
+  checked: 2026-10-27
   tags:
   - outil
 - label: Level0
   url: http://level0.osmz.ru/index.php
+  description: Éditeur textuel léger d'OpenStreetMap.
   tags:
   - histoire
   - osm
 check:
 - label: Osmose
   url: https://osmose.openstreetmap.fr/fr/map/#zoom={z}&lat={lat}&lon={lon}
+  description: Outil de contrôle qualité d'OpenStreetMap signalant les erreurs et incohérences.
   tags:
   - histoire
   - osm
 - label: OSM Note Viewer
   url: https://antonkhorev.github.io/osm-note-viewer/
+  description: Visualiseur des notes OpenStreetMap avec filtres.
   tags:
   - histoire
   - osm
 - label: Notes review
   url: https://ent8r.github.io/NotesReview/?view=map&map={z}%2F{lat}%2F{lon}
+  description: Interface de recherche et de résolution des notes OpenStreetMap.
   tags:
   - histoire
   - osm
 - label: Nominatim QA
   url: https://nominatim.org/qa/#map={z}/{lat}/{lon}
+  description: Outil de contrôle qualité extrayant les données suspectes de la base Nominatim.
   tags:
   - histoire
   - osm
 - label: BANCO
   url: https://commerces.openstreetmap.fr/projects/2022-01_shop/map#map={z}/{lat}/{lon}
+  description: Projet d'OpenStreetMap France pour cartographier les commerces.
   tags:
   - histoire
   - osm
 - label: Pifometre
   url: https://bano.openstreetmap.fr/pifometre/pifomap.html?ratio=no#map={z}/{lat}/{lon}
+  description: Suivi de la complétude des adresses et voies dans OpenStreetMap par rapport au FANTOIR (BANO).
   tags:
   - histoire
   - osm
 - label: FANTOIR - Outil de rapprochement
   url: https://dev.cadastre.openstreetmap.fr/fantoir
+  description: Rapprochement des voies du fichier FANTOIR avec OpenStreetMap.
+  status: erreur 404
+  checked: 2026-10-27
   tags:
   - histoire
   - osm
 - label: FANTOIR - Stats Département
   url: http://cadastre.openstreetmap.fr/fantoir/stats_dept.html
+  description: Statistiques par département du rapprochement FANTOIR et OpenStreetMap.
+  status: erreur 404
+  checked: 2026-10-27
   tags:
   - histoire
   - osm
 - label: FANTOIR - Voies récentes
   url: http://cadastre.openstreetmap.fr/fantoir/voies_recentes_manquantes.html
+  description: Liste des voies récemment créées dans le fichier FANTOIR.
+  status: erreur 404
+  checked: 2026-10-27
   tags:
   - histoire
   - osm
 - label: GeoCheck
   url: https://www.ideeslibres.org/GeoCheck/
+  description: Outil de vérification de la cohérence des données géographiques.
   tags:
   - histoire
   - osm
 - label: OSMInspector
   url: http://tools.geofabrik.de/osmi/?lat={lat}&lon={lon}&zoom={z}
+  description: Visualisation des erreurs de géométrie, de tags et de routage dans OpenStreetMap (Geofabrik).
   tags:
   - histoire
   - osm
 - label: Keepright
   url: http://keepright.ipax.at/report_map.php?lat={lat}&lon={lon}&zoom={z}
+  description: Détection des erreurs courantes dans les données OpenStreetMap.
   tags:
   - histoire
   - osm
 - label: Osmoscope
   url: http://osmoscope.jochentopf.com/#map={z}/{lon}/{lat}
+  description: Outil de contrôle qualité OpenStreetMap à partir de sources de données configurables.
   tags:
   - histoire
   - osm
 - label: CheckAutopista2
   url: http://k1wiosm.github.io/checkautopista2/?lat={lat}&lon={lon}&z={z}
+  description: Contrôle qualité des autoroutes et de leurs sorties dans OpenStreetMap.
   tags:
   - histoire
   - osm
 - label: OSM Truck QA Map
   url: http://maxheight.bplaced.net/overpass/map.html
+  description: Carte pour compléter les hauteurs maximales afin d'améliorer le routage des poids lourds.
   tags:
   - histoire
   - osm
 reference:
 - label: Map Features Wiki
   url: http://wiki.openstreetmap.org/wiki/FR:%C3%89l%C3%A9ments_cartographiques
+  description: Page du wiki OSM recensant les éléments cartographiques et leurs tags.
   tags:
   - documentation
   - osm
 - label: Tag Info
   url: https://taginfo.openstreetmap.org/
+  description: Statistiques d'utilisation des clés et valeurs de tags dans OpenStreetMap.
   tags:
   - documentation
   - osm
 - label: YoHours
   url: http://projets.pavie.info/yohours/
+  description: Assistant pour écrire facilement les horaires d'ouverture au format OpenStreetMap.
   tags:
   - documentation
   - osm
