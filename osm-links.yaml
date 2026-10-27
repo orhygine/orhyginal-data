@@ -227,16 +227,6 @@ link:
   - contribution
   - modifications
   created: 2025-01-01
-- label: Missing maps users
-  url: https://www.missingmaps.org/users/#/
-  description: Statistiques et classements des contributeurs du projet humanitaire Missing Maps.
-  status: erreur 404
-  checked: 2026-10-27
-  category: Contribution OSM
-  tags:
-  - osm
-  - contribution
-  created: 2025-01-01
 - label: OSM Visual History
   url: https://aleung.github.io/osm-visual-history/
   description: Visualisation de l'historique des versions d'un nœud, d'un chemin ou d'une relation OpenStreetMap.
@@ -249,17 +239,6 @@ link:
 - label: OSM History (pewu)
   url: https://pewu.github.io/osm-history
   description: Visualiseur de l'historique d'un objet OpenStreetMap, version par version.
-  category: Contribution OSM
-  tags:
-  - osm
-  - contribution
-  - modifications
-  created: 2025-01-01
-- label: OSM History (osmhv)
-  url: http://osmhv.openstreetmap.de
-  description: Visualiseur de l'historique des objets et changesets OpenStreetMap.
-  status: service arrêté
-  checked: 2026-10-27
   category: Contribution OSM
   tags:
   - osm
@@ -336,16 +315,6 @@ link:
 - label: Who's that - OSM user names database
   url: http://whosthat.osmz.ru/
   description: Base de données des noms d'utilisateurs OSM et de leurs anciens pseudonymes.
-  category: Contribution OSM
-  tags:
-  - osm
-  - contribution
-  created: 2025-01-01
-- label: OSM Welcome Tool
-  url: https://welcome.osm.be/
-  description: Outil d'accueil des nouveaux contributeurs OpenStreetMap pour les communautés locales.
-  status: erreur 502
-  checked: 2026-10-27
   category: Contribution OSM
   tags:
   - osm
@@ -1014,15 +983,13 @@ link:
   - osm
   created: 2026-10-27
 - label: MapOSMatic
-  url: https://maposmatic.osm-baustelle.de/
+  url: https://www.maposmatic.org/
   description: Création de plans de ville imprimables à partir d'OpenStreetMap.
-  status: page par défaut du serveur
-  checked: 2026-10-27
   category: Cartes OSM
   tags:
-  - 3d
   - osm
-  created: 2025-01-01
+  - city map
+  created: 2026-10-27
 - label: indoor=
   url: https://indoorequal.org/#map={z}/{lat}/{lon}
   description: Carte des plans d'intérieur (bâtiments, gares, centres commerciaux) issus d'OpenStreetMap.
@@ -1044,27 +1011,9 @@ link:
   tags:
   - encyclopédie
   created: 2025-01-01
-- label: Wikipedia 2
-  url: http://ausleuchtung.ch/geo_wiki/?lat={lat}&lng={lon}&zm={z}&lang=en&ds=wiki&rd=10
-  description: Carte des articles Wikipédia géolocalisés.
-  status: domaine à vendre
-  checked: 2026-10-27
-  category: Références géographiques
-  tags:
-  - encyclopédie
-  created: 2025-01-01
 - label: Wikimedia commons
   url: https://tools.wmflabs.org/wiwosm/osm-on-ol/commons-on-osm.php?zoom={z}&lat={lat}&lon={lon}
   description: Images Wikimedia Commons géolocalisées affichées sur OpenStreetMap.
-  category: Références géographiques
-  tags:
-  - encyclopédie
-  created: 2025-01-01
-- label: Wiki loves monuments
-  url: http://tools.wmflabs.org/wlm-maps/#{z}/{lat}/{lon}
-  description: Carte des monuments du concours photo Wiki Loves Monuments.
-  status: erreur 503
-  checked: 2026-10-27
   category: Références géographiques
   tags:
   - encyclopédie
@@ -1147,15 +1096,15 @@ link:
   tags:
   - encyclopédie
   created: 2025-01-01
-- label: FlashEarth
-  url: http://www.flashearth.com/?lat={lat}&lon={lon}&z={z}
+- label: ZoomEarth
+  url: https://zoom.earth/maps/satellite/#view={lat},{lon},{z}
   description: Visualiseur d'images satellites et aériennes.
-  status: redirige vers Zoom Earth
-  checked: 2026-10-27
   category: Services cartographiques
   tags:
   - service
-  created: 2025-01-01
+  - satellite
+  - imagery
+  created: 2026-10-27
 - label: Geocaching
   url: https://www.geocaching.com/map/default.aspx?ll={lat},{lon}&z={z}
   description: Carte officielle des géocaches de Geocaching.com.
@@ -1201,15 +1150,6 @@ link:
 - label: Waymarking
   url: http://www.waymarking.com/
   description: Chasse aux lieux insolites et remarquables classés par catégories, dans l'esprit du géocaching.
-  category: Jeux et découvertes
-  tags:
-  - jeux
-  created: 2025-01-01
-- label: OpenGeoFiction
-  url: http://www.opengeofiction.net/#map={z}/{lat}/{lon}
-  description: Monde imaginaire cartographié collaborativement avec les outils d'OpenStreetMap.
-  status: domaine introuvable
-  checked: 2026-10-27
   category: Jeux et découvertes
   tags:
   - jeux
@@ -1288,16 +1228,6 @@ link:
   - plein-air
   - randonnée
   created: 2025-01-01
-- label: Refuges.info (carte seule)
-  url: http://maps.refuges.info/?lat={lat}&lon={lon}&zoom={z}
-  description: Carte seule des refuges, cabanes et points d'eau de refuges.info.
-  status: page par défaut du serveur
-  checked: 2026-10-27
-  category: Plein air
-  tags:
-  - plein-air
-  - randonnée
-  created: 2025-01-01
 - label: Refuges et cabanes des Pyrénées
   url: http://www.pyrenees-refuges.com/#{z}/{lat}/{lon}
   description: Carte interactive des refuges, cabanes, abris et lacs des Pyrénées françaises et espagnoles.
@@ -1349,16 +1279,6 @@ link:
 - label: Geofabrik Map
   url: http://tools.geofabrik.de/map/#{z}/{lat}/{lon}&type=Geofabrik_Standard
   description: Visualiseur des fonds de carte de Geofabrik et accès à leurs outils OSM.
-  category: Cartes OSM
-  tags:
-  - données
-  - osm
-  created: 2025-01-01
-- label: OSM WMS
-  url: http://osm-wms.de/index.html?zoom={z<14}&lat={lat}&lon={lon}&layers=B000TFT
-  description: Service WMS de fonds de carte OpenStreetMap proposé par HeiGIT.
-  status: service fermé
-  checked: 2026-10-27
   category: Cartes OSM
   tags:
   - données
@@ -1419,16 +1339,6 @@ link:
   tags:
   - plein-air
   - escalade
-  created: 2025-01-01
-- label: GPSies
-  url: https://www.gpsies.com/home.do;jsessionid=FBD8ED116444F119B5417CDA8555F3FF.fe2#{z}_{lat}_{lon}_hikebike
-  description: Site de partage et de recherche de traces GPS.
-  status: redirige vers AllTrails
-  checked: 2026-10-27
-  category: Plein air
-  tags:
-  - plein-air
-  - randonnée
   created: 2025-01-01
 - label: WTracks
   url: https://opoto.github.io/wtracks/
@@ -1525,15 +1435,12 @@ link:
   - communication
   created: 2025-01-01
 - label: Historic Place
-  url: http://gk.historic.place/historische_objekte/translate/fr/index-fr.html?zoom={z}&lat={lat}&lon={lon}&detail=3
+  url: https://gk.historic.place/
   description: Carte des objets historiques présents dans OpenStreetMap.
-  status: erreur 404
-  checked: 2026-10-27
   category: Histoire et patrimoine
-  favorite: true
   tags:
   - histoire
-  created: 2025-01-01
+  created: 2026-10-27
 - label: HistOSM
   url: http://histosm.org/#{z}/{lon}/{lat}/0/
   description: Application WebGIS pour explorer les objets historiques présents dans OpenStreetMap.
@@ -1599,15 +1506,6 @@ link:
   tags:
   - outil
   created: 2025-06-19
-- label: geojson.net
-  url: http://geojson.net/#map={z}/{lat}/{lon}
-  description: Éditeur de GeoJSON en ligne.
-  status: domaine introuvable
-  checked: 2026-10-27
-  category: Outils cartographiques
-  tags:
-  - outil
-  created: 2025-01-01
 - label: geojson.xyz
   url: https://geojson.xyz/
   description: Accès rapide à des jeux de données GeoJSON (Natural Earth) pour exemples de cartographie web.
@@ -1962,17 +1860,6 @@ link:
   - osm
   - relevé-terrain
   created: 2025-01-01
-- label: Walking Papers
-  url: http://www.walking-papers.org/?lat={lat}&lon={lon}&zoom={z}#make
-  description: Service de cartes papier à imprimer pour faire des relevés de terrain.
-  status: domaine réutilisé par un autre site
-  checked: 2026-10-27
-  category: Contribution OSM
-  tags:
-  - contribution
-  - osm
-  - relevé-terrain
-  created: 2025-01-01
 - label: Inkatlas
   url: https://inkatlas.com/create/
   description: Création de cartes à imprimer pour une sortie ou une publication.
@@ -2095,16 +1982,15 @@ link:
   - données
   - osm
   created: 2025-01-01
-- label: Garmin osm.nl
-  url: http://garmin.openstreetmap.nl/
+- label: Garmin BBBike
+  url: https://garmin.bbbike.org/
   description: Cartes Garmin gratuites générées à partir d'OpenStreetMap pour la zone choisie.
-  status: déplacé vers garmin.bbbike.org
-  checked: 2026-10-27
   category: Téléchargement OSM
   tags:
   - données
   - osm
-  created: 2025-01-01
+  - garmin
+  created: 2026-10-27
 - label: Garmin osm.fr
   url: http://garmin.openstreetmap.fr/
   description: Cartes Garmin OpenStreetMap de la France.
@@ -2336,26 +2222,6 @@ link:
   - histoire
   - osm
   created: 2025-01-01
-- label: Cameras
-  url: http://www.leretourdelautruche.com/map/cctv/cctv.html?zoom={z}&lat={lat}&lon={lon}&layers=B00T
-  description: Carte des caméras de vidéosurveillance issues d'OpenStreetMap.
-  status: erreur 404
-  checked: 2026-10-27
-  category: Cartes OSM
-  tags:
-  - histoire
-  - osm
-  created: 2025-01-01
-- label: Under surveillance
-  url: https://kamba4.crux.uberspace.de/?lat={lat}&lon={lon}&zoom={z}
-  description: Carte de la vidéosurveillance dans OpenStreetMap.
-  status: page par défaut du serveur
-  checked: 2026-10-27
-  category: Cartes OSM
-  tags:
-  - histoire
-  - osm
-  created: 2025-01-01
 - label: OpenLevelUp
   url: https://openlevelup.net/?l=0#{z}/{lat}/{lon}
   description: Visualisation de l'intérieur des bâtiments à partir des données indoor d'OpenStreetMap.
@@ -2416,16 +2282,6 @@ link:
 - label: OpenAdvertMap
   url: http://projets.pavie.info/openadvertmap/#{z}/{lat}/{lon}
   description: Carte des panneaux et dispositifs publicitaires présents dans OpenStreetMap.
-  category: Cartes OSM
-  tags:
-  - histoire
-  - osm
-  created: 2025-01-01
-- label: Carte des radars
-  url: http://www.leretourdelautruche.com/map/radar_fr.html?zoom={z}&amp=&lat={lat}&lon={lon}&layers=B0000000T
-  description: Carte des radars routiers en France.
-  status: erreur 404
-  checked: 2026-10-27
   category: Cartes OSM
   tags:
   - histoire
@@ -2573,24 +2429,6 @@ link:
   tags:
   - outil
   created: 2025-01-01
-- label: Geody
-  url: http://www.geody.com/geolook.php?lat={lat}&lon={lon}&z={z}
-  description: Moteur de recherche géographique et visualiseur de lieux.
-  status: connexion refusée
-  checked: 2026-10-27
-  category: Services cartographiques
-  tags:
-  - outil
-  created: 2025-01-01
-- label: Geody KML
-  url: http://www.geody.com/geovex.php?lat={lat}&lon={lon}&z={z}&fmt=gearth
-  description: Export de lieux Geody au format KML.
-  status: connexion refusée
-  checked: 2026-10-27
-  category: Services cartographiques
-  tags:
-  - outil
-  created: 2025-01-01
 - label: Geonames
   url: http://www.geonames.org/maps/google_{lat}_{lon}.html
   description: Base de données géographique mondiale de toponymes (GeoNames).
@@ -2729,8 +2567,6 @@ link:
 - label: Running Routes
   url: https://www.running-routes.com/
   description: Recherche et partage de parcours de course à pied.
-  status: erreur 404
-  checked: 2026-10-27
   category: Itinéraires
   tags:
   - itinéraire
@@ -2913,16 +2749,6 @@ link:
   - transport
   - osm
   - vélo
-  created: 2025-01-01
-- label: Ship watch
-  url: http://www.geody.com/shipswatch.php?lat={lat}&lon={lon}&z={z}
-  description: Suivi des navires en temps réel.
-  status: connexion refusée
-  checked: 2026-10-27
-  category: Transport
-  tags:
-  - transport
-  - osm
   created: 2025-01-01
 - label: Carte de balises en ligne
   url: http://beacons.schmirler.de/fr/world.html#map={z}/{lat}/{lon}&layers=OS6&details=18
@@ -3359,13 +3185,6 @@ edit:
   description: Outils et données de Grab pour détecter les routes et sens manquants dans OpenStreetMap.
   tags:
   - outil
-- label: Amenity editor
-  url: http://ae.osmsurround.org/ae/index?lat={lat}&lon={lon}&zoom={z}
-  description: Éditeur simple des points d'intérêt (amenity) d'OpenStreetMap.
-  status: erreur 404
-  checked: 2026-10-27
-  tags:
-  - outil
 - label: Level0
   url: http://level0.osmz.ru/index.php
   description: Éditeur textuel léger d'OpenStreetMap.
@@ -3406,30 +3225,6 @@ check:
 - label: Pifometre
   url: https://bano.openstreetmap.fr/pifometre/pifomap.html?ratio=no#map={z}/{lat}/{lon}
   description: Suivi de la complétude des adresses et voies dans OpenStreetMap par rapport au FANTOIR (BANO).
-  tags:
-  - histoire
-  - osm
-- label: FANTOIR - Outil de rapprochement
-  url: https://dev.cadastre.openstreetmap.fr/fantoir
-  description: Rapprochement des voies du fichier FANTOIR avec OpenStreetMap.
-  status: erreur 404
-  checked: 2026-10-27
-  tags:
-  - histoire
-  - osm
-- label: FANTOIR - Stats Département
-  url: http://cadastre.openstreetmap.fr/fantoir/stats_dept.html
-  description: Statistiques par département du rapprochement FANTOIR et OpenStreetMap.
-  status: erreur 404
-  checked: 2026-10-27
-  tags:
-  - histoire
-  - osm
-- label: FANTOIR - Voies récentes
-  url: http://cadastre.openstreetmap.fr/fantoir/voies_recentes_manquantes.html
-  description: Liste des voies récemment créées dans le fichier FANTOIR.
-  status: erreur 404
-  checked: 2026-10-27
   tags:
   - histoire
   - osm
