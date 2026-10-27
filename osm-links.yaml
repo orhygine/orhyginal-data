@@ -2834,13 +2834,6 @@ link:
   tags:
   - outil
   created: 2026-10-27
-- label: ISAS Viewer (Ifremer)
-  url: https://data.umr-lops.fr/app/isasviewer/
-  category: Données géographiques
-  tags:
-  - mer
-  - données
-  created: 2026-10-27
 - label: NASA Worldview
   url: https://worldview.earthdata.nasa.gov/
   category: Services cartographiques
