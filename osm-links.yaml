@@ -165,7 +165,6 @@ link:
   url: https://osmarche.someware.fr/explore
   description: Outil d'exploration des cheminements piétons et de l'accessibilité à partir des données OpenStreetMap.
   category: Cartes OSM
-  favorite: true
   tags:
   - randonnée
   - plein-air
@@ -591,7 +590,6 @@ link:
   url: https://www.meteoblue.com/en/weather/forecast/week/{lat}N{lon}E
   description: Prévisions météo détaillées sur 7 jours pour la position choisie (Meteoblue).
   category: Météo
-  favorite: true
   tags:
   - météo
   created: 2025-01-01
@@ -1111,7 +1109,6 @@ link:
   url: https://mapcarta.com
   description: Atlas en ligne de lieux décrits à partir d'OpenStreetMap et Wikidata.
   category: Références géographiques
-  favorite: true
   tags:
   - encyclopédie
   created: 2025-01-01
@@ -1163,7 +1160,6 @@ link:
   url: https://www.geocaching.com/map/default.aspx?ll={lat},{lon}&z={z}
   description: Carte officielle des géocaches de Geocaching.com.
   category: Jeux et découvertes
-  favorite: true
   tags:
   - jeux
   created: 2025-01-01
