@@ -2670,6 +2670,226 @@ link:
   - vue-de-rue
   - photo
   created: 2025-06-10
+- label: Map.army
+  url: https://www.map.army/
+  category: Outils cartographiques
+  tags:
+  - outil
+  - militaire
+  created: 2026-10-27
+- label: MapGridder
+  url: https://mapgridder.com/map?tool=grid&mgrs=1
+  category: Outils cartographiques
+  tags:
+  - outil
+  - carroyage
+  created: 2026-10-27
+- label: Itiner-e (voies romaines)
+  url: https://www.itiner-e.org/
+  category: Histoire et patrimoine
+  tags:
+  - histoire
+  - transport
+  created: 2026-10-27
+- label: GlobalBuildingAtlas LoD1
+  url: https://tubvsig-so2sat-vm1.srv.mwn.de/
+  category: Données géographiques
+  tags:
+  - données
+  - 3d
+  - bâtiments
+  created: 2026-10-27
+- label: Galligeo (cartes Gallica géoréférencées)
+  url: https://app.ptm.huma-num.fr/galligeo/galerie/index.html
+  category: Histoire et patrimoine
+  tags:
+  - histoire
+  - cartes-anciennes
+  created: 2026-10-27
+- label: CNIG Centro de descargas
+  url: https://centrodedescargas.cnig.es/CentroDescargas/catalogo
+  category: Données géographiques
+  tags:
+  - données
+  - téléchargement
+  created: 2026-10-27
+- label: IGN Ma carte
+  url: https://macarte.ign.fr/
+  category: Outils cartographiques
+  tags:
+  - outil
+  created: 2026-10-27
+- label: South America River Basins
+  url: https://python-maps-vis.vercel.app/
+  category: Art et visualisation
+  tags:
+  - art
+  - eau
+  created: 2026-10-27
+- label: PastVu (photos anciennes)
+  url: https://pastvu.com/
+  category: Histoire et patrimoine
+  tags:
+  - histoire
+  - photo
+  created: 2026-10-27
+- label: World Piste Map
+  url: https://worldpistemap.com/map#lng={lon}&lat={lat}&z={z}
+  category: Ski et montagne
+  tags:
+  - plein-air
+  - ski
+  created: 2026-10-27
+- label: EOPF Sentinel Zarr Explorer
+  url: https://explorer.eopf.copernicus.eu/
+  category: Données géographiques
+  tags:
+  - satellite
+  - données
+  created: 2026-10-27
+- label: Mapterhorn
+  url: https://mapterhorn.com/viewer/#map={z}/{lat}/{lon}
+  category: Données géographiques
+  tags:
+  - données
+  - relief
+  created: 2026-10-27
+- label: OpenBenches
+  url: https://openbenches.org/
+  category: Jeux et découvertes
+  tags:
+  - culture
+  - osm
+  created: 2026-10-27
+- label: BBBike downloads
+  url: https://download.bbbike.org/osm/
+  category: Téléchargement OSM
+  tags:
+  - données
+  - osm
+  created: 2026-10-27
+- label: OSM Wrapped
+  url: https://osmwrapped.com/
+  category: Contribution OSM
+  tags:
+  - contribution
+  - statistiques
+  - osm
+  created: 2026-10-27
+- label: Microsoft Planetary Computer
+  url: https://planetarycomputer.microsoft.com/
+  category: Données géographiques
+  tags:
+  - satellite
+  - données
+  created: 2026-10-27
+- label: Copernicus STAC Browser
+  url: https://browser.stac.dataspace.copernicus.eu/?.language=en
+  category: Données géographiques
+  tags:
+  - satellite
+  - données
+  created: 2026-10-27
+- label: Copernicus Marine Viewer
+  url: https://data.marine.copernicus.eu/viewer/expert
+  category: Données géographiques
+  tags:
+  - mer
+  - données
+  - satellite
+  created: 2026-10-27
+- label: Trail Router
+  url: https://trailrouter.com/
+  category: Itinéraires
+  tags:
+  - itinéraire
+  - course-à-pied
+  - plein-air
+  created: 2026-10-27
+- label: Data Center Map
+  url: https://www.datacentermap.com/
+  category: Communication
+  tags:
+  - communication
+  - infrastructure
+  created: 2026-10-27
+- label: Geneanet
+  url: https://geneanet.org/
+  category: Histoire et patrimoine
+  tags:
+  - histoire
+  - généalogie
+  created: 2026-10-27
+- label: LiDAR HD MNS (cartes.gouv.fr)
+  url: https://cartes.gouv.fr/catalogue/dataset/IGNF_MNS-LIDAR-HD
+  category: Données géographiques
+  tags:
+  - données
+  - relief
+  - géoportail
+  created: 2026-10-27
+- label: GoGoCarto
+  url: https://gogocarto.fr/projects
+  category: Outils cartographiques
+  tags:
+  - outil
+  created: 2026-10-27
+- label: ISAS Viewer (Ifremer)
+  url: https://data.umr-lops.fr/app/isasviewer/
+  category: Données géographiques
+  tags:
+  - mer
+  - données
+  created: 2026-10-27
+- label: NASA Worldview
+  url: https://worldview.earthdata.nasa.gov/
+  category: Services cartographiques
+  tags:
+  - satellite
+  - outil
+  created: 2026-10-27
+- label: Sextant (Ifremer)
+  url: https://sextant.ifremer.fr/#/home
+  category: Géoportails
+  tags:
+  - géoportail
+  - mer
+  created: 2026-10-27
+- label: GéoBretagne MapStore
+  url: https://geobretagne.fr/mapstore/
+  category: Géoportails
+  tags:
+  - géoportail
+  created: 2026-10-27
+- label: Welcome to OpenStreetMap
+  url: https://welcome.openstreetmap.org/
+  category: Contribution OSM
+  tags:
+  - contribution
+  - osm
+  created: 2026-10-27
+- label: TreasureGuessr
+  url: https://play.treasureguessr.com/
+  category: Jeux et découvertes
+  tags:
+  - jeux
+  created: 2026-10-27
+- label: OSM Mon Commerce
+  url: https://osm-commerces.cipherbliss.com/
+  category: Contribution OSM
+  tags:
+  - contribution
+  - osm
+  created: 2026-10-27
+- label: Knooppuntnet analyse réseaux
+  url: https://knooppuntnet.nl/fr/analysis/network/15631178/facts
+  category: Contribution OSM
+  tags:
+  - contribution
+  - randonnée
+  - vélo
+  - osm
+  created: 2026-10-27
 edit:
 - label: Load in JOSM
   url: http://127.0.0.1:8111/load_and_zoom?left={xmin}&right={xmax}&top={ymax}&bottom={ymin}
