@@ -2260,11 +2260,11 @@ link:
   - tools
   created: 2025-01-01
 - label: EFFIS - Fires map
-  url: https://effis.jrc.ec.europa.eu/apps/effis_current_situation/
+  url: https://forest-fire.emergency.copernicus.eu/apps/effis.csv/?c={x},{y}
   category: Services
   tags:
   - tools
-  created: 2025-01-01
+  created: 2026-10-27
 - label: IGN LidarHD access portal
   url: https://diffusion-lidarhd.ign.fr/
   category: Services
