@@ -696,14 +696,13 @@ link:
   - photo
   - services
   created: 2025-01-01
-- label: Geoportail IGN
-  url: https://www.geoportail.gouv.fr/carte?c={lon},{lat}&z={z}&l0=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25TOUR.CV::GEOPORTAIL:OGC:WMTS(1)&permalink=yes
+- label: Cartes.gouv.fr
+  url: https://cartes.gouv.fr/explorer-les-cartes/?c={lon},{lat}&z={z}
   category: Geoportails
-  favorite: true
   tags:
   - geoportail
   - favorite
-  created: 2025-01-01
+  created: 2026-10-27
 - label: IGN Geoservices Platform
   url: https://geoservices.ign.fr/services-geoplateforme-diffusion
   category: Data access
