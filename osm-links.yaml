@@ -3130,6 +3130,14 @@ link:
   - satellite
   - outil
   created: 2026-10-27
+- label: Landsat Archive Dashboard
+  url: https://landsat.usgs.gov/landsat-archive-dashboard
+  description: Tableau de bord de l'USGS présentant l'état et la couverture des archives d'images Landsat.
+  category: Données géographiques
+  tags:
+  - satellite
+  - données
+  created: 2026-10-28
 - label: Sextant (Ifremer)
   url: https://sextant.ifremer.fr/#/home
   description: Catalogue de données sur le milieu marin et littoral de l'Ifremer.
