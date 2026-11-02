@@ -1863,6 +1863,17 @@ link:
   created: 2025-01-01
   updated: 2025-01-01
   checked: 2026-10-27
+- label: The Castle Map
+  url: https://thecastlemap.com/fr/
+  description: Carte interactive des châteaux et forteresses du monde entier.
+  category: Histoire et patrimoine
+  tags:
+  - histoire
+  - château
+  - jeux
+  created: 2026-11-02
+  updated: 2026-11-02
+  checked: 2026-11-02
 - label: placemark.io
   url: https://play.placemark.io
   description: Éditeur de données géographiques en ligne pour dessiner et modifier des fichiers GeoJSON.
