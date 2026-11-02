@@ -3585,6 +3585,17 @@ link:
   created: 2025-06-07
   updated: 2025-06-07
   checked: 2026-10-27
+- label: World Beach Map
+  url: https://beachmapworld.com/
+  description: Carte mondiale des plages avec la température de la mer.
+  category: Plein air
+  tags:
+  - plein-air
+  - plage
+  - mer
+  created: 2026-11-02
+  updated: 2026-11-02
+  checked: 2026-11-02
 - label: FloodMap
   url: https://www.floodmap.net/
   description: Carte des zones inondables selon la hausse du niveau de l'eau et l'altitude.
@@ -3616,6 +3627,17 @@ link:
   created: 2025-06-07
   updated: 2025-06-07
   checked: 2026-10-27
+- label: Sunshine Atlas
+  url: https://sunshineatlas.com/
+  description: Climat mois par mois de plusieurs milliers de destinations à travers le monde.
+  category: Météo
+  tags:
+  - météo
+  - climat
+  - soleil
+  created: 2026-11-02
+  updated: 2026-11-02
+  checked: 2026-11-02
 - label: CartoSVG
   url: https://cartosvg.com/app
   description: Éditeur de cartes SVG interactives à partir de données.
@@ -3674,6 +3696,16 @@ link:
   created: 2025-06-18
   updated: 2025-06-18
   checked: 2026-10-27
+- label: World Train Map
+  url: https://worldtrainmap.com/
+  description: Carte interactive mondiale des lignes ferroviaires de voyageurs avec les informations de chaque trajet.
+  category: Transport
+  tags:
+  - transport
+  - train
+  created: 2026-11-02
+  updated: 2026-11-02
+  checked: 2026-11-02
 - label: Panoramax OSM
   url: https://panoramax.openstreetmap.fr/?background=streets&focus=map&map={z}/{lat}/{lon}
   description: Photos de rue libres de Panoramax hébergées par OpenStreetMap France.
@@ -3985,6 +4017,17 @@ link:
   created: 2026-10-27
   updated: 2026-10-27
   checked: 2026-10-27
+- label: Detourmap
+  url: https://detourmap.com/
+  description: Carte mondiale des merveilles naturelles et sites antiques qui valent le détour (cascades, grottes, ruines, épaves…), avec un jeu de géolocalisation.
+  category: Jeux et découvertes
+  tags:
+  - nature
+  - histoire
+  - jeux
+  created: 2026-11-02
+  updated: 2026-11-02
+  checked: 2026-11-02
 - label: OSM Mon Commerce
   url: https://osm-commerces.cipherbliss.com/
   description: Outil pour mettre à jour les informations de son commerce dans OpenStreetMap.
